@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+  font-family: 'Circular';
+  src: '/fonts/circular.otf'
+}
+
+:root{
+  --celeste: #aedcea;
+  --fushia: #9678FF;
+}
+
+.celeste-bg{
+  background-color: var(--celeste);
+}
+.fushia-bg{
+  background-color: var(--fushia);
+}
+
+.celeste-text{
+  color: var(--celeste);
+}
+.fushia-text{
+  color: var(--fushia);
+}
+
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Staatliches', Helvetica, Arial, sans-serif
+}
+
+.staatiliches-font{
+    font-family: 'Staatliches', Helvetica, Arial, sans-serif
+
+}
+
+.tech-back{
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-size: 100%;
+}
+
+.container{
+  max-width: 1000px!important
+}
+
+
+
+@media screen and (min-width: 640px) {
+
+  h1 {
+    font-size:48px;
+    text-transform:uppercase;
+  }
+  h2 {
+    font-size:34px;
+    text-transform:uppercase;
+  }
+  h3{
+    font-size:24px;
+  }
+  h4{
+    font-size:20px;
+  }
+  p{
+    font-size:16px
+  }
+  a{
+    font-size:16px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  h1 {
+  font-size:24px ;
+}
+h2 {
+  font-size:16px;
+}
+h3{
+  font-size:16px;
+}
+h4{
+  font-size:18px;
+}
+p{
+  font-size:14px
+}
+a{
+  font-size:20px;
+}
+}
