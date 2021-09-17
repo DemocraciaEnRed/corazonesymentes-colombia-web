@@ -4,13 +4,15 @@
   import axios from 'axios';
   import Kit from './Kit.svelte';
   let kits = [];
+  
   // CHANGE ME FOR DEV, CHANGE ME FOR BUILD
   let googleSheetApiToken = 'AIzaSyBoSX1oI8uSGr4dXC_Lsz81ilWREuW2VjM'
-  const url = `https://sheets.googleapis.com/v4/spreadsheets/16PA0-OgQxl7a47LhSAnDfSXE6s2jqTGR6LDWBxlWhSM/values/Sheet1?key=${googleSheetApiToken}`;
+ 
+  const url = `https://sheets.googleapis.com/v4/spreadsheets/16PA0-OgQxl7a47LhSAnDfSXE6s2jqTGR6LDWBxlWhSM/values/colombia?key=${googleSheetApiToken}`;
   let newKits=[];
   axios.get(url).then((res)=>{
     kits = formatSpreadsheet(res.data.values);
-    newKits=kits
+    newKits=kits;
   });
 
   const formatSpreadsheet = (data) =>{
@@ -44,35 +46,35 @@
   
   <article class="container mx-auto ">
 
-    <div class="grid md:grid-cols-2 xs:grid-cols-1 sm:grid-cols-1 p-3 gap-8 mb-10 bg-black pb-10 sm:pb-0">
+    <div class="grid md:grid-cols-2 xs:grid-cols-1 sm:grid-cols-1 p-3 gap-8 mb-10 bg-white pb-10 sm:pb-0">
 
       <div class="pt-10 sm:px-3 py-6 lg:p-8 flex ">
-          <img class="mr-4 my-auto w-12 sm:w-14" src="herramientas.png" alt="Logo de herramientas">
-          <h1 class="upercase fushia-text text-left	">Kit de herramientas</h1>        
+          <!-- <img class="mr-4 my-auto w-12 sm:w-14" src="herramientas.png" alt="Logo de herramientas"> -->
+          <h1 class="w-60 upercase text-black text-left	"><span class="celeste-bg">Kit de herramientas</span></h1>        
       </div> 
-      <div class="text-white flex flex-col justify-center text-left">
-        <p class="font-sans pb-3"> Te compartimos este recursero con un poco de todo para habitar internet de forma segura, responsable y empática.</p>
-        <h4 class="uppercase pb-3">ENCONTRÁ ArtÍculos, podcast, reflexiones, videos y más.</h4>
+      <div class="text-black flex flex-col justify-center text-left">
+        <p class="font-sans font-medium pb-3">Queremos que tengas este compilado con un poco de todo para habitar internet de forma segura, responsable y empática.</p>
+        <h4 class="uppercase fushia-text pb-3">ENCONTRÁ ArtÍculos, podcast, reflexiones, videos y más.</h4>
       </div>           
       
     </div>
 
     <div class="flex justify-evenly flex-wrap">
 
-      <button class="w-32 m-3 fushia-text border focus:text-black border-purple-400 border-solid" on:click={()=>changeFilter("ARTÍCULO")}>
+      <button  class="ml-5 px-5 text-2xl border-2 border-black" on:click={()=>changeFilter("ARTÍCULO")}>
         <h4 >Artículo</h4>
       </button>
-      <button class="w-32 m-3 fushia-text border focus:text-black border-purple-400 border-solid" on:click={()=>changeFilter("PLATAFORMA")}>
+      <button  class="ml-5 px-5 text-2xl border-2 border-black" on:click={()=>changeFilter("PLATAFORMA")}>
         <h4 >Plataforma</h4>
       </button>
-      <button class="w-32	m-3 fushia-text border focus:text-black border-purple-400 border-solid" on:click={()=>changeFilter("VIDEO")}>
+      <button  class="ml-5 px-5 text-2xl border-2 border-black" on:click={()=>changeFilter("VIDEO")}>
         <h4 >Video</h4>
       </button>
-      <button class="w-32	m-3 fushia-text border border-purple-400 border-solid focus:text-black" on:click={()=>changeFilter("GUÍA")}>
+      <button  class="ml-5 px-5 text-2xl border-2 border-black" on:click={()=>changeFilter("GUÍA")}>
         <h4 >Guía</h4>
       </button>
-      <button class="w-32	m-3 fushia-text border focus:text-black border-purple-400 border-solid" on:click={()=>changeFilter("JUEGO")}>
-        <h4 >Juego</h4>
+      <button  class="ml-5 px-5 text-2xl border-2 border-black" on:click={()=>changeFilter("JUEGO")}>
+        <h4 >Juegos</h4>
       </button>
     </div>
    

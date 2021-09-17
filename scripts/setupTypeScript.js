@@ -5,7 +5,7 @@
  */
 
 // @ts-check
-const fs = require('fs');
+// const fs = require('fs');
 const path = require('path');
 const { argv } = require('process');
 

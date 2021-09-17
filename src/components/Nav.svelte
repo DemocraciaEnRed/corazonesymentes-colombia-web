@@ -40,10 +40,11 @@
           <div class="flex space-x-4 items-end">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
             <a href="#home" class="{getActive(undefined)}  px-3 py-2 text-sm font-medium">HOME</a>
-            <a href="#toda-la-data" class="{getActive("toda-la-data")} px-3 py-2 text-sm font-medium">#TodaLaData</a>
-            <a href="#libro" class="{getActive("libro")}  px-3 py-2 text-sm font-medium">Libro</a>
+            <!-- <a href="#toda-la-data" class="{getActive("toda-la-data")} px-3 py-2 text-sm font-medium">#TodaLaData</a> -->
+            <a href="#libro" class="{getActive("libro")}  px-3 py-2 text-sm font-medium">Entiende tu mente</a>
+            <a href="#nocomocuento" class="{getActive("nocomocuento")} block px-3 py-2 text-base font-medium">#NocomoCuento</a>
             <a href="#kit-de-herramientas" class="{getActive("kit-de-herramientas")} px-3 py-2 text-sm font-medium">Kit De Herramientas</a>
-            <a href="#sos-docente" class="{getActive("sos-docente")}  px-3 py-2 text-sm font-medium">Soy Docente</a>
+            <!-- <a href="#sos-docente" class="{getActive("sos-docente")}  px-3 py-2 text-sm font-medium">Soy Docente</a> -->
             <a href="#quienes-somos" class="{getActive("quienes-somos")} px-3 py-2 text-sm font-medium">Quiénes Somos</a>
           </div>
         </div>
@@ -55,10 +56,12 @@
   <div class="sm:hidden {opened ? 'block' : 'hidden'}" id="mobile-menu" >
     <div class="px-2 pt-2 pb-3 space-y-1">
       <a href="#home" class="{getActive(undefined)} block px-3 py-2 text-base font-medium">HOME</a>
-      <a href="#toda-la-data" class="{getActive("toda-la-data")} block px-3 py-2 text-base font-medium">#TodaLaData</a>
-      <a href="#libro" class="{getActive("libro")} block px-3 py-2 text-base font-medium">LIBRO</a>
+      <!-- <a href="#toda-la-data" class="{getActive("toda-la-data")} block px-3 py-2 text-base font-medium">#TodaLaData</a> -->
+      <a href="#libro" class="{getActive("libro")} block px-3 py-2 text-base font-medium">Entiende tu mente</a>
+      <a href="#nocomocuento" class="{getActive("nocomocuento")} block px-3 py-2 text-base font-medium">#NocomoCuento</a>
+
       <a href="#kit-de-herramienpmntas" class="{getActive("kit-de-herramientas")} block px-3 py-2 text-base font-medium">Kit De Heramientas</a>
-      <a href="#sos-docente" class="{getActive("sos-docente")} block px-3 py-2 text-base font-medium">Soy Docente</a>
+      <!-- <a href="#sos-docente" class="{getActive("sos-docente")} block px-3 py-2 text-base font-medium">Soy Docente</a> -->
       <a href="#quienes-somos" class="{getActive("quienes-somos")} block px-3 py-2 text-base font-medium">Quiénes Somos</a>
     </div>
   </div>

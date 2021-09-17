@@ -10,6 +10,8 @@
 	import HeroSlider from '../components/HeroSlider.svelte';
 	import { onMount } from 'svelte';
 	import SosDocente from '../components/SosDocente.svelte';
+import Home from '../components/Home.svelte';
+import Nocomocuento from '../components/nocomocuento.svelte';
 	onMount(()=>{
 		//Global site tag (gtag.js) - Google Analytics 
 		window.dataLayer = window.dataLayer || [];
@@ -25,11 +27,14 @@
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-LJWHDC5L57"></script>
 </svelte:head>
 
+<!-- <HeroSlider/> -->
+<Home></Home>
+<!-- <PedagogiaDigital/> -->
 <HeroSlider/>
-<PedagogiaDigital/>
-<TodaLaData/>
+<Nocomocuento></Nocomocuento>
+<!-- <TodaLaData/> -->
 <Articulo/>
 <KitHerramientas/>
-<SosDocente/>
+<!-- <SosDocente/> -->
 <QuienesSomos/>
 <Footer/>

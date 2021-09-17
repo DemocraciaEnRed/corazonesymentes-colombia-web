@@ -1,0 +1,92 @@
+<section>   
+   <article id="nocomocuento" class="sm:px-0 md:p-10 md:px-14 container-fluid w-auto mx-auto  bg-white ">
+        
+        <div class="grid sm:grid-cols-1 md:grid-cols-3 mx-auto">
+            <div class="sm:flex-none md:flex sm:col-span-1 md:col-span-3">
+                <div class="flex-initial">
+                    <img src="nocomocuenta.png" class="max-h-330px max-w-xs  md:object-scale-down " alt="imagen: no como cuenta ">
+
+                </div>
+                <div class="container  pt-1.5">
+                    <p class="parraf pl-5 pb-1 text-2xl">
+                        NO COMO CUENTO es un brazo de DIP - <span class="parraf-bg"> detox information project</span>, que hace pedagogía digital utilizando las ciencias del comportamiento para reducir la vulnerabilidad frente a la desinformación
+                    </p>
+                    <p class="fushia-text pl-5 pb-1 text-2xl" >
+                        Postula a tu colegio para ser un espacio #NoComoCuento
+                    </p>
+                    <a href="#" class="ml-5 px-5 text-2xl border-2 border-black" alt="link registro de mi colegio"> REGISTRO DE MI COLEGIO</a>
+                </div>
+            </div>
+            <div class="md:col-span-3 mx-auto">
+                <p class="mx-auto my-10 px-5 text-black  parraf parrafBG text-3xl ">
+                    pedagogía frente a la desinformación
+                </p>
+            </div>
+
+            <div class=" md:col-span-3 flex flex-wrap  space-x-2 ">
+                <div>
+                    <iframe width="480" height="280" src="https://www.youtube.com/embed/8nXqcugV2Y4?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                </div>
+                <div>
+                    <iframe width="480" height="280" src="https://www.youtube.com/embed/8nXqcugV2Y4?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                </div>
+            </div>
+           
+        </div>
+    </article>
+    <!-- <article class="py-6 px-3 sm:p-10 bg-white ">
+        <div class="container mx-auto flex flex-wrap justify-evenly">
+            <img  class="mx-2 my-3 sm:m-3 sm:my-auto w-8 sm:w-16" src="video.png" alt="Ícono de cámara de videeo">
+            <img  class="m-2 my-auto w-10 sm:w-16" src="play.png" alt="Ícono de play">
+            <img  class="mx-2 my-3 sm:m-3 sm:my-auto w-8 sm:w-16" src="computadora.png" alt="Ícono de monnitor">
+            <img  class="mx-2 my-auto sm:m-3 sm:my-auto w-6 sm:w-12" src="celular.png" alt="Ícono de celular">
+            <img  class="mx-2 my-3 sm:m-3 sm:my-auto w-8 sm:w-16" src="formulario.png" alt="Ícono de formulario">
+            <img  class="mx-2 my-3 sm:m-3 sm:my-auto w-8 sm:w-16" src="puzzle.png" alt="Ícono de rompecabezas">
+
+        </div>
+       
+    </article>
+    <article class="p-10 container mx-auto">
+        <p class="text-white font-sans">
+            Por eso, <span class="uppercase text-2xl staatiliches-font">creamos herramientas</span>, en distintos formatos interactivos y pensadas para trabajar en conjunto con toda la comunidad educativa, que estimulen ese ejercicio. Para que observemos nuestras propias reacciones y nuestras propias tendencias antes de juzgar, decidir y hacer click. 
+
+
+        </p>
+
+    </article> -->
+
+  
+
+
+</section>
+
+
+<style>
+    .parraf {
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--unnamed-color-1d1d1b);
+        text-align: left;
+        letter-spacing: 0px;
+        color: #1D1D1B;
+        text-transform: lowercase;
+        opacity: 1;
+    }
+
+    .parrafBG {
+        background-color: #9678FF ;
+
+    } 
+
+    .contImg{
+        height: 330px;
+        width: 480px;
+    }
+
+    
+
+    .parraf-bg{
+        background-color: #8AE5EE;
+    }
+</style>

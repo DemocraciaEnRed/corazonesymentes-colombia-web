@@ -26,7 +26,7 @@
       icon= "icons/app.png"
     break;
     case "JUEGO":
-      icon = "icons/puzzle.png"
+      icon = "icons/mando.svg"
     break; 
     default:
       icon = "icons/article-icon.png"
