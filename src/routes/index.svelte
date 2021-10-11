@@ -5,7 +5,6 @@
 	import ForoDocente from '../components/ForoDocente.svelte'
 	import KitHerramientas from '../components/KitHerramientas.svelte'
 	import QuienesSomos from '../components/QuienesSomos.svelte'
-	import PedagogiaDigital from '../components/PedagogiaDigital.svelte'
 	import Footer from '../components/Footer.svelte';
 	import HeroSlider from '../components/HeroSlider.svelte';
 	import { onMount } from 'svelte';
@@ -29,7 +28,6 @@ import Nocomocuento from '../components/nocomocuento.svelte';
 
 <!-- <HeroSlider/> -->
 <Home></Home>
-<!-- <PedagogiaDigital/> -->
 <HeroSlider/>
 <Nocomocuento></Nocomocuento>
 <!-- <TodaLaData/> -->

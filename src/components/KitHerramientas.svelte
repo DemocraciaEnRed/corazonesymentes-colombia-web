@@ -6,8 +6,8 @@
   let kits = [];
   
   // CHANGE ME FOR DEV, CHANGE ME FOR BUILD
-  let googleSheetApiToken = 'AIzaSyBoSX1oI8uSGr4dXC_Lsz81ilWREuW2VjM'
- 
+  let googleSheetApiToken = 'AIzaSyBeEb_XfsTcAEh8SGVTnIODCJoEa1Pj56Q'
+
   const url = `https://sheets.googleapis.com/v4/spreadsheets/16PA0-OgQxl7a47LhSAnDfSXE6s2jqTGR6LDWBxlWhSM/values/colombia?key=${googleSheetApiToken}`;
   let newKits=[];
   axios.get(url).then((res)=>{

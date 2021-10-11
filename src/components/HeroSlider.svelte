@@ -4,33 +4,39 @@
   	import SosDocenteHero from './SosDocenteHero.svelte';
   	import Banner from './Banner.svelte'
  	import { ChevronLeftIcon, ChevronRightIcon } from 'svelte-feather-icons'
-import PedagogiaDigital from './PedagogiaDigital.svelte';
+	import PedagogiaDigital  from './pedagogia/PedagogiaDigital.svelte';
+	import Rol from './pedagogia/Rol.svelte';
+	import Ayuda from './pedagogia/Ayuda.svelte'
+	import Comofunciona  from './pedagogia/Comofunciona.svelte'
+	import Sesgos from './pedagogia/Sesgos.svelte'
+	import Vulnerable from './pedagogia/Vulnerable.svelte'
+	import HacerAlgo	from './pedagogia/HacerAlgo.svelte'
 </script>
 
 <Carousel  perPage={{ 800: 1, 500: 1 }} duration={500} >
 	<span class="control arrow" slot="left-control">
 		<ChevronLeftIcon />
 	  </span>
-	<div class="slide-content">
-		<PedagogiaDigital></PedagogiaDigital>
+	<div class="slide-content h-full" >
+		<PedagogiaDigital ></PedagogiaDigital>
 	</div>
 	<div class="slide-content">
-		<PedagogiaDigital></PedagogiaDigital>
+		<Rol></Rol>
 	</div>
 	<div class="slide-content">
-		<PedagogiaDigital></PedagogiaDigital>
+		<HacerAlgo></HacerAlgo>
 	</div>
 	<div class="slide-content">
-		<PedagogiaDigital></PedagogiaDigital>
+		<Comofunciona></Comofunciona>
 	</div>
 	<div class="slide-content">
-		<PedagogiaDigital></PedagogiaDigital>
+		<Sesgos></Sesgos>
 	</div>
 	<div class="slide-content">
-		<PedagogiaDigital></PedagogiaDigital>
+		<Vulnerable></Vulnerable>
 	</div>
 	<div class="slide-content">
-		<PedagogiaDigital></PedagogiaDigital>
+		<Ayuda></Ayuda>
 	</div>
 	
 	<span class="control arrow" slot="right-control">

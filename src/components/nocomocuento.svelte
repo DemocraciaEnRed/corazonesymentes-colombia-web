@@ -1,5 +1,5 @@
 <section>   
-   <article id="nocomocuento" class="sm:px-0 md:p-10 md:px-14 container-fluid w-auto mx-auto  bg-white ">
+   <article id="nocomocuento" class="sm:px-0  md:p-10 md:px-14 md:container-fluid w-auto mx-auto  bg-white ">
         
         <div class="grid sm:grid-cols-1 md:grid-cols-3 mx-auto">
             <div class="sm:flex-none md:flex sm:col-span-1 md:col-span-3">
@@ -12,10 +12,16 @@
                         NO COMO CUENTO es un brazo de DIP - <span class="parraf-bg"> detox information project</span>, que hace pedagogía digital utilizando las ciencias del comportamiento para reducir la vulnerabilidad frente a la desinformación
                     </p>
                     <p class="fushia-text pl-5 pb-1 text-2xl" >
-                        Postula a tu colegio para ser un espacio #NoComoCuento
+                        <!-- Postula a tu colegio para ser un espacio #NoComoCuento -->
+                        Próximamente podrás postular a tu colegio para ser un espacio #NoComoCuento 
+
                     </p>
-                    <a href="#" class="ml-5 px-5 text-2xl border-2 border-black" alt="link registro de mi colegio"> REGISTRO DE MI COLEGIO</a>
+                    <!-- <a href="#" class="ml-5 px-5 text-2xl border-2 border-black" alt="link registro de mi colegio"> REGISTRO DE MI COLEGIO</a> -->
+                    <a href="#" class="ml-5 px-5 text-2xl border-2 border-black  uppercase" alt="link registro de mi colegio"> suscribirme para recibir noticias
+                    </a>
+
                 </div>
+
             </div>
             <div class="md:col-span-3 mx-auto">
                 <p class="mx-auto my-10 px-5 text-black  parraf parrafBG text-3xl ">
@@ -24,13 +30,17 @@
             </div>
 
             <div class=" md:col-span-3 flex flex-wrap  space-x-2 ">
-                <div>
-                    <iframe width="480" height="280" src="https://www.youtube.com/embed/8nXqcugV2Y4?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+                <div class="m-2  "> 
+                    <iframe  height="315" src="https://www.youtube.com/embed/J2kQzLZIukQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div>
-                    <iframe width="480" height="280" src="https://www.youtube.com/embed/8nXqcugV2Y4?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+                <div class="m-2  ">
+                    <iframe height="315" src="https://www.youtube.com/embed/2ghFaoy34vA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="m-2 ">
+                    <iframe  height="315" src="https://www.youtube.com/embed/hkYLH9YBRVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="m-2 ">
+                    <iframe height="315" src="https://www.youtube.com/embed/BO2yLty0jbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
            
@@ -89,4 +99,18 @@
     .parraf-bg{
         background-color: #8AE5EE;
     }
+
+    @media (min-width:530px){
+        iframe{
+            width: 600px;
+        }
+       
+        }
+    @media  (max-width:530px){
+        iframe{
+            width: 360px;
+        }
+       
+        }
+  
 </style>
