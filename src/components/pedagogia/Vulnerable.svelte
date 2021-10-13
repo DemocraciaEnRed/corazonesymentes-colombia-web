@@ -119,7 +119,7 @@
                     <div class="w-1/5"></div>
                     <div class="w-1/5"></div> -->
 
-                    <div class="fushia-bg px-20 text-lg text-white uppercase">
+                    <div class="fushia-bg px-20  text-white uppercase">
                         <button>empatia</button>
                     </div>
                 </div>
@@ -130,18 +130,18 @@
                     
                     click en el sesgo
                 </div>
-                <div class="fushia-bg px-20 text-xl text-center text-white uppercase">
+                <div class="fushia-bg px-20  text-center text-white uppercase">
                     <button>disonancia cognitiva</button>
                 </div>
-                <div class="fushia-bg px-20 text-xl text-center text-white uppercase">
+                <div class="fushia-bg px-20 text-center text-white uppercase">
                     <button>sesgo de confirmación</button>
                 </div>
-                <div class="fushia-bg px-20 text-xl text-center text-white uppercase">
+                <div class="fushia-bg px-20  text-center text-white uppercase">
                     <button>sesgo de atribución</button>
                 </div>
                 
             </div>
-            <div class="" slots="dots"></div>
+            
         </div>
     </article>
 

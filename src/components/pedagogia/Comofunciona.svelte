@@ -102,7 +102,7 @@
                     <!-- <div class="w-1/5 ">
                         <img src="/icons/icon-document.png" alt="Ícono de cambio" class="w-16 p-0 m-0">
                     </div>
-                    <div class="w-3/5">
+                    <div class="w-3/5">\
                         <h3 class="fushia-text">
                             CAPÍTULO 8
                         </h3>
@@ -115,7 +115,7 @@
                     <div class="w-1/5"></div> -->
 
                     <div class=" ">
-                        <button class="fushia-bg px-4 text-lg text-white uppercase">Ver ejemplo</button>
+                        <button class="fushia-bg px-4  text-white uppercase">Ver ejemplo</button>
                     </div>
                 </div>
             </div>

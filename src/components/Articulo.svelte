@@ -8,9 +8,9 @@
 		<div class="grid md:grid-cols-3 xs:grid-cols-1 sm:grid-cols-1 gap-3 mb-10">
             <div class=" p-3 flex items-center justify-center flex-col">                
                 <div class="flex">
-					<h1 class="uppercase">
+					<h1 class="uppercase leading-snug">
 						<span class="text-white">
-							<span class="bg-gris leading-normal">CONOCE TU MENTE FUERA Y DENTRO DE INTERNET</span>  <span class="text-black"> </span></span>
+							<span class="bg-gris ">CONOCE TU MENTE FUERA Y DENTRO DE INTERNET</span>  <span class="text-black"> </span></span>
 					</h1>					
 				</div>
 				       
@@ -28,7 +28,7 @@
 				</div>
 				<div class="pt-10">
 					<a href="/documents/Corazones-y-mentes.pdf" download
-					class="" ><span class="fushia-bg py-2 px-5 text-white text-lg border hover:border-gray-800 border-solid">Descargá el libro</span>
+					class="" ><span class="fushia-bg py-2 px-5 text-white border hover:border-gray-800 border-solid">Descargá el libro</span>
 					</a>
 				</div>
 			</div>

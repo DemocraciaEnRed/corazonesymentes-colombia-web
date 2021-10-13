@@ -50,7 +50,7 @@
 
       <div class="pt-10 sm:px-3 py-6 lg:p-8 flex ">
           <!-- <img class="mr-4 my-auto w-12 sm:w-14" src="herramientas.png" alt="Logo de herramientas"> -->
-          <h1 class="w-60 upercase text-black text-left	"><span class="celeste-bg">Kit de herramientas</span></h1>        
+          <h1 class="w-60 upercase text-black text-left leading-snug	"><span class="celeste-bg">Kit de herramientas</span></h1>        
       </div> 
       <div class="text-black flex flex-col justify-center text-left">
         <p class="font-sans font-medium pb-3">Queremos que tengas este compilado con un poco de todo para habitar internet de forma segura, responsable y empática.</p>
@@ -61,19 +61,19 @@
 
     <div class="flex justify-evenly flex-wrap">
 
-      <button  class="ml-5 px-5 text-2xl border-2 border-black" on:click={()=>changeFilter("ARTÍCULO")}>
+      <button  class="ml-5 mb-5 px-5  border-2 border-black" on:click={()=>changeFilter("ARTÍCULO")}>
         <h4 >Artículo</h4>
       </button>
-      <button  class="ml-5 px-5 text-2xl border-2 border-black" on:click={()=>changeFilter("PLATAFORMA")}>
+      <button  class="ml-5 mb-5 px-5  border-2 border-black" on:click={()=>changeFilter("PLATAFORMA")}>
         <h4 >Plataforma</h4>
       </button>
-      <button  class="ml-5 px-5 text-2xl border-2 border-black" on:click={()=>changeFilter("VIDEO")}>
+      <button  class="ml-5 mb-5 px-5  border-2 border-black" on:click={()=>changeFilter("VIDEO")}>
         <h4 >Video</h4>
       </button>
-      <button  class="ml-5 px-5 text-2xl border-2 border-black" on:click={()=>changeFilter("GUÍA")}>
+      <button  class="ml-5 mb-5 px-5  border-2 border-black" on:click={()=>changeFilter("GUÍA")}>
         <h4 >Guía</h4>
       </button>
-      <button  class="ml-5 px-5 text-2xl border-2 border-black" on:click={()=>changeFilter("JUEGO")}>
+      <button  class="ml-5 mb-5 px-5  border-2 border-black" on:click={()=>changeFilter("JUEGO")}>
         <h4 >Juegos</h4>
       </button>
     </div>

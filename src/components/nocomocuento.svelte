@@ -1,5 +1,5 @@
 <section>   
-   <article id="nocomocuento" class="sm:px-0  md:p-10 md:px-14 md:container-fluid w-auto mx-auto  bg-white ">
+   <article id="nocomocuento" class="sm:px-0  md:p-10 md:px-14 md:container w-auto mx-auto  bg-white ">
         
         <div class="grid sm:grid-cols-1 md:grid-cols-3 mx-auto">
             <div class="sm:flex-none md:flex sm:col-span-1 md:col-span-3">
@@ -17,7 +17,7 @@
 
                     </p>
                     <!-- <a href="#" class="ml-5 px-5 text-2xl border-2 border-black" alt="link registro de mi colegio"> REGISTRO DE MI COLEGIO</a> -->
-                    <a href="#" class="ml-5 px-5 text-2xl border-2 border-black  uppercase" alt="link registro de mi colegio"> suscribirme para recibir noticias
+                    <a href="#" class="ml-5 px-5  border-2 border-black  uppercase" alt="link registro de mi colegio"> suscribirme para recibir noticias
                     </a>
 
                 </div>
@@ -30,17 +30,17 @@
             </div>
 
             <div class=" md:col-span-3 flex flex-wrap  space-x-2 ">
-                <div class="m-2  "> 
-                    <iframe  height="315" src="https://www.youtube.com/embed/J2kQzLZIukQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="m-2  w-auto"> 
+                    <iframe  height="215" src="https://www.youtube.com/embed/J2kQzLZIukQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div class="m-2  ">
-                    <iframe height="315" src="https://www.youtube.com/embed/2ghFaoy34vA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="m-2  w-auto">
+                    <iframe height="215" src="https://www.youtube.com/embed/2ghFaoy34vA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div class="m-2 ">
-                    <iframe  height="315" src="https://www.youtube.com/embed/hkYLH9YBRVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="m-2 w-auto">
+                    <iframe   height="215" src="https://www.youtube.com/embed/hkYLH9YBRVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div class="m-2 ">
-                    <iframe height="315" src="https://www.youtube.com/embed/BO2yLty0jbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="m-2 w-auto">
+                    <iframe  height="215" src="https://www.youtube.com/embed/BO2yLty0jbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
            
@@ -102,13 +102,14 @@
 
     @media (min-width:530px){
         iframe{
-            width: 600px;
+            width: 500px;
         }
        
         }
     @media  (max-width:530px){
         iframe{
             width: 360px;
+            margin-bottom:15px;
         }
        
         }

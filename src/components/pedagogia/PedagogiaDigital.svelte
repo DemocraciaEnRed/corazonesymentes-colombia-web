@@ -34,7 +34,7 @@
             
             <div class="my-auto  relative">
                 
-                <h1 class="verdeClaro-text mb-5"><span class="fushia-text"> </span> 
+                <h1 class="verdeClaro-text mb-5 leading-none"><span class="fushia-text"> </span> 
                     ¿POR QUÉ ES <div class=" relative">
                         <img src="cerebri.png" alt="Ícono de cambio" class="imgPart   mr-3 mt-4">
                     </div> NECESARIO ENTENDER NUESTRA MENTE?

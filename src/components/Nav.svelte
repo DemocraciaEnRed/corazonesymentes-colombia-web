@@ -34,7 +34,7 @@
       </div>
       <div class="flex-1 flex items-center justify-between sm:items-stretch">
         <div class="flex-shrink-0 flex items-center">
-          <img class="block h-8 w-auto ml-10" src="logo-horizontal.png" alt="Logo de Corazones y mentes">
+          <img class="block h-14 w-auto ml-10" src="logo-horizontal.png" alt="Logo de Corazones y mentes">
         </div>
         <div class="hidden sm:block sm:ml-6">
           <div class="flex space-x-4 items-end">

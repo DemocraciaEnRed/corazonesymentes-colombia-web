@@ -7,7 +7,7 @@
                 <img class=" " src="favicon.png" alt="Ícono de una persona" >
             </div>     
             <div class="col-span-2  my-auto flex flex-col sm:items-center md:items-start">
-                <h1 class="upercase white-text">¿Quienes somos? </h1>        
+                <h1 class="upercase white-text">¿Quiénes somos? </h1>        
 
                <!-- <a href="#quienes-somos-der" 
 					class="py-2 px-2 border w-100 text-center border-gray-800 border-solid uppercase text-sm mb-3" >DIP - DETOX IMFORMATION PROJECT
@@ -35,7 +35,7 @@
                     </div>
                     <div class="p-4 justify-self-end">
                         <a href="https://somosdip.com" 
-                        class="py-2 px-2 border w-100 text-center border-gray-800 border-solid uppercase text-sm mb-3" >NUESTRA PAGINA WEB
+                        class="py-2 px-2 border w-100 text-center border-gray-800 border-solid uppercase  mb-3" >NUESTRA PAGINA WEB
                     </a>
                     </div>
                 </div>
@@ -59,7 +59,7 @@
                 </div>
                 <div class="p-4 justify-self-end">
                     <a href="https://www.extituto.org/" 
-                    class="py-2 px-2 border w-100 text-center border-gray-800 border-solid uppercase text-sm mb-3" >NUESTRA PAGINA WEB</a>
+                    class="py-2 px-2 border w-100 text-center border-gray-800 border-solid uppercase mb-3" >NUESTRA PAGINA WEB</a>
                 </div>
             </div>
            
