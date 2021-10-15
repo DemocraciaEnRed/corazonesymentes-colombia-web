@@ -17,13 +17,13 @@
 	<span class="control arrow" slot="left-control">
 		<ChevronLeftIcon />
 	  </span>
-	<div class="slide-content h-full" >
+	<div class="slide-content " >
 		<PedagogiaDigital ></PedagogiaDigital>
 	</div>
 	<div class="slide-content">
 		<Rol></Rol>
 	</div>
-	<div class="slide-content">
+	 <div class="slide-content">
 		<HacerAlgo></HacerAlgo>
 	</div>
 	<div class="slide-content">
@@ -35,9 +35,9 @@
 	<div class="slide-content">
 		<Vulnerable></Vulnerable>
 	</div>
-	<div class="slide-content">
+	<!--<div class="slide-content">
 		<Ayuda></Ayuda>
-	</div>
+	</div> -->
 	
 	<span class="control arrow" slot="right-control">
 		<ChevronRightIcon />

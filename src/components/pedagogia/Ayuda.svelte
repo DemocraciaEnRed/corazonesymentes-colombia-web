@@ -41,7 +41,7 @@
 </style>
 
 <section class="pedagogias-digitales-section bg-gris    ">
-    <article class="container mx-auto py-10 px-2 sm:p-10 ">
+    <article class="container md:h-screen mx-auto py-10 px-2 sm:p-10 ">
         <div class="grid  md:grid-cols-4 grid-cols-1 gap-8 mb-10 mt-14">
             <div class="col-span-4 flex  ">
     

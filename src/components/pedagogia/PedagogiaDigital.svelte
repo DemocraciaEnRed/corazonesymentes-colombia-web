@@ -28,8 +28,8 @@
 </style>
 
 
-<section class="pedagogias-digitales-section bg-gris     ">
-    <article class="container mx-auto py-10 px-2 sm:p-10 ">
+<section class="pedagogias-digitales-section bg-gris   h-full ">
+    <article class="container  sm:h-full m-auto py-10 px-2 sm:p-10 ">
         <div class="grid md:grid-cols-2 grid-cols-1 gap-8 mb-10 mt-14">
             
             <div class="my-auto  relative">

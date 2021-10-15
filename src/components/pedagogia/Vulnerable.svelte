@@ -56,26 +56,33 @@
 </style>
 
 
-<section class="pedagogias-digitales-section bg-gris     ">
-    <article class="container mx-auto py-10 px-2 sm:p-10 ">
-        <div class="grid  md:grid-cols-4 grid-cols-1 gap-8 mb-10 mt-14">
-            <!-- <div class="col-span-4 grid md:grid-cols-6  grid-cols-1 "> -->
-            <div class="col-span-4 flex  ">
-    
-                <div class="  w-1/8 justify-items-center">
-                    <img src="RUTA-17.svg" alt="Ícono de cambio" class=" h-20  ">
-                <span class="text-2xl fushia-text text-center">LA RUTA</span> 
-                </div>
-                
+<section class="pedagogias-digitales-section bg-gris   sm:p-10 sm:mb-10  pb-4 text-2xl 0 ">
+    <article class="container h-auto mx-auto py-10 px-2 sm:p-10 sm:mb-10  ">
+        <div class="flex flex-wrap sm:grid  sm:grid-cols-4  sm:gap-8 mb-10 mt-14">
+            <!-- <div class="col-span-4 grid sm:grid-cols-6  grid-cols-1 "> -->
+            <div class=" sm:col-span-4 flex flex-wrap ">
 
-                <h1 class="w-5/6 pl-4  verdeClaro-text mb-5 uppercase leading-none">
-                    <!-- <span class="fushia-text"> </span>  -->
-                    ¿Cuáles sesgos te hacen vulnerables frente a la desinformación?
-                </h1>
-                <div class="" ></div>
-                <p class="   justify-items-right  fontVacia uppercase">quinto</p>
+                <div class="flex flex-wrap justify-between sm:flex   	 ">
+                    <div class="w-2/5  flex flex-initial order-1  sm:flex-col sm:w-auto sm:flex-grow-0  sm:order-none justify-items-center ">
+                        <img src="RUTA-17.svg" alt="Ícono de cambio" class="w-2/2 h-20  ">
+                        <span class="pl-1 text-4xl text-left fushia-text sm:text-2xl sm:text-center">LA RUTA</span> 
+                    </div>
+                    <div class="flex-1 order-3 sm:order-none  sm:px-4 	">
+                        <h1 class="text-4xl verdeClaro-text text-left pl-0 sm:text-left sm:w-4/4 mt-4  sm:pl-4  sm:verdeClaro-text mb-5 mx-0 uppercase leading-none">
+                            <!-- <span class="fushia-text"> </span>  -->
+                            ¿Cuáles sesgos te hacen vulnerables frente a la desinformación?
+                        </h1>
+                    </div>
+                    <div class="w-auto  sm:order-last p-4 order-2 circle	">
+                        <p class=" text-2xl sm:p-0  justify-items-right text-right fontVacia uppercase circle">
+                            quinto
+                        </p>
+        
+                    </div>
+            
+                </div>
             </div>
-            <div class="col-span-2 my-auto  ">
+            <div class="sm:col-span-2 my-auto  ">
                
                 <p class="fontVacia text-xs">RTA/</p>
                 <p class="font-sans text-white mb-5">
@@ -87,11 +94,11 @@
                     Muchas veces, una de las mejores estrategias para combatir algunos de estos sesgos es desarrollar nuestra
                 </p>
                 <!-- <hr > -->
-                <!-- <div class="grid md:grid-cols-3 gap-0 pt-4 spac-x-0">
+                <!-- <div class="grid sm:grid-cols-3 gap-0 pt-4 spac-x-0">
                     <div class="w-12">
                         <img src="/icons/icon-document.png" alt="Ícono de cambio" class=" ">
                     </div>
-                    <div class="md:col-span-2">
+                    <div class="sm:col-span-2">
                         <h3 class="fushia-text">
                             INTRODUCCIÓN
                         </h3>
@@ -103,7 +110,7 @@
                     </div>
                 </div> -->
 
-                <div class=" md:container flex flex-wrap  pt-4 spac-x-0">
+                <div class=" sm:container flex flex-wrap  pt-4 spac-x-0">
                     <!-- <div class="w-1/5 ">
                         <img src="/icons/icon-document.png" alt="Ícono de cambio" class="w-16 p-0 m-0">
                     </div>
@@ -118,25 +125,31 @@
                     </div>
                     <div class="w-1/5"></div>
                     <div class="w-1/5"></div> -->
-
-                    <div class="fushia-bg px-20  text-white uppercase">
+                    <div class="visible sm:invisible sm:w-1 flex text-white ml-20 pl-10 sm:ml-0 sm:pl-0  mb-5">
+                    
+                        click en el sesgo
+                    </div>
+                    <div class=" invisible sm:visible  sm:mx-0l sm:h-10 fushia-bg px-20  text-white uppercase">
                         <button>empatia</button>
                     </div>
                 </div>
             </div>
 
-            <div class="col-span-2 text-white flex flex-col gap-10 max-h-434px">
-                <div class="flex items-start mb-5">
+            <div class="sm:col-span-2 mx-auto text-white flex flex-col gap-3 sm:gap-10 max-h-434px">
+                <div class="invisible  h-1 sm:visible flex items-start mb-5">
                     
                     click en el sesgo
                 </div>
-                <div class="fushia-bg px-20  text-center text-white uppercase">
+                <div class=" visible sm:invisible text-2xl   fushia-bg px-20 sm:h-1 text-white uppercase">
+                    <button class="px-10 sm:px-0 ">empatia</button>
+                </div>
+                <div class="fushia-bg px-20  text-2xl  text-center text-white uppercase">
                     <button>disonancia cognitiva</button>
                 </div>
-                <div class="fushia-bg px-20 text-center text-white uppercase">
+                <div class="fushia-bg px-20 text-2xl  text-center text-white uppercase">
                     <button>sesgo de confirmación</button>
                 </div>
-                <div class="fushia-bg px-20  text-center text-white uppercase">
+                <div class="fushia-bg px-20  text-2xl  text-center text-white uppercase">
                     <button>sesgo de atribución</button>
                 </div>
                 

@@ -57,23 +57,30 @@
 
 
 <section class="pedagogias-digitales-section bg-gris     ">
-    <article class="container mx-auto py-10 px-2 sm:p-10 ">
-        <div class="grid  md:grid-cols-4 grid-cols-1 gap-8 mb-10 mt-14">
+    <article class="container sm:h-full mx-auto py-10 px-2 sm:p-10 ">
+        <div class="flex flex-wrap sm:grid  sm:grid-cols-4 grid-cols-1 gap-8 mb-10 mt-14">
             <!-- <div class="col-span-4 grid md:grid-cols-6  grid-cols-1 "> -->
-            <div class="col-span-4 flex flex-wrap ">
-    
-                <div class="  w-1/8 justify-items-center">
-                    <img src="RUTA-17.svg" alt="Ícono de cambio" class=" h-20  ">
-                <span class="text-2xl fushia-text text-center">LA RUTA</span> 
+            <div class="col-sppan-1 sm:col-span-4 flex flex-wrap ">
+                <div class="flex flex-wrap justify-between sm:flex   	 ">
+                    <div class="w-2/5  flex flex-initial order-1  sm:flex-col sm:w-auto sm:flex-grow-0  sm:order-none justify-items-center ">
+                        <img src="RUTA-17.svg" alt="Ícono de cambio" class="w-2/2 h-20  ">
+                        <span class="pl-1 text-4xl text-left fushia-text sm:text-2xl sm:text-center">LA RUTA</span> 
+                    </div>
+                    <div class="flex-1 order-3 sm:order-none  sm:px-4 	">
+                        <h1 class="text-4xl verdeClaro-text text-left pl-0 sm:text-left sm:w-4/4 mt-4  sm:pl-4  sm:verdeClaro-text mb-5 mx-0 uppercase leading-none">
+                            <!-- <span class="fushia-text"> </span>  -->
+                            ¿Cómo funciona tu mente: heurísticas o atajos mentales?
+                        </h1>
+                    </div>
+                    <div class="w-auto  sm:order-last p-4 order-2 circle	">
+                        <p class=" text-2xl sm:p-0  justify-items-right text-right fontVacia uppercase circle">
+                            tres
+                        </p>
+        
+                    </div>
+            
                 </div>
-                
-
-                <h1 class="w-4/6 pl-4  verdeClaro-text mb-5 uppercase leading-none">
-                    <!-- <span class="fushia-text"> </span>  -->
-                    ¿Cómo funciona tu mente: heurísticas o atajos mentales?
-                </h1>
-                <div class="w-1/8" ></div>
-                <p class="   justify-items-right  fontVacia uppercase">tres</p>
+              
             </div>
             <div class="col-span-2 my-auto  ">
                
@@ -81,40 +88,11 @@
                 <p class="font-sans text-white mb-5">
                     <span class="fushia-text"></span> 
                     Como tenemos una energía y capacidad mental que es limitada, el cerebro utiliza algunos atajos para ayudarnos a tomar decisiones. Esos atajos, también llamados heurísticas, aparecen más cuando estamos más cansados, tenemos muchas tareas, o cuando ya somos expertos en algo.                </p>
-                <!-- <hr > -->
-                <!-- <div class="grid md:grid-cols-3 gap-0 pt-4 spac-x-0">
-                    <div class="w-12">
-                        <img src="/icons/icon-document.png" alt="Ícono de cambio" class=" ">
-                    </div>
-                    <div class="md:col-span-2">
-                        <h3 class="fushia-text">
-                            INTRODUCCIÓN
-                        </h3>
-    
-                        <h3 class=" verdeClaro-text mb-5 uppercase leading-none">
-                            INTERNET SE HA DESPLEGADO EN NUESTRA VIDA COTIDIANA
-    
-                        </h3>
-                    </div>
-                </div> -->
+               
 
-                <div class=" md:container flex flex-wrap  pt-4 spac-x-0">
-                    <!-- <div class="w-1/5 ">
-                        <img src="/icons/icon-document.png" alt="Ícono de cambio" class="w-16 p-0 m-0">
-                    </div>
-                    <div class="w-3/5">\
-                        <h3 class="fushia-text">
-                            CAPÍTULO 8
-                        </h3>
-    
-                        <h3 class=" verdeClaro-text mb-5 uppercase leading-none">
-                            INFORMACIÓN Y DESINFORMACIÓN EN REDES: NO TODO LO QUE SE VIRALIZA ES VERDADERO    
-                        </h3>
-                    </div>
-                    <div class="w-1/5"></div>
-                    <div class="w-1/5"></div> -->
-
-                    <div class=" ">
+                <div class=" sm:container  pt-4 spac-x-0">
+                    
+                    <div class="justify-center ml-24 sm:ml-0	 ">
                         <button class="fushia-bg px-4  text-white uppercase">Ver ejemplo</button>
                     </div>
                 </div>

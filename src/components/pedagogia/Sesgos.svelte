@@ -57,53 +57,47 @@
 
 
 <section class="pedagogias-digitales-section bg-gris     ">
-    <article class="container mx-auto py-10 px-2 sm:p-10 ">
-        <div class="grid  md:grid-cols-4 grid-cols-1 gap-8 mb-10 mt-14">
-            <div class="col-span-4 flex  ">
-    
-                <div class="  w-1/8 justify-items-center">
-                    <img src="RUTA-17.svg" alt="Ícono de cambio" class=" h-20  ">
-                <span class="text-2xl fushia-text text-center">LA RUTA</span> 
+    <article class="container sm:h-screen mx-auto py-10 px-2 sm:p-10 ">
+        <div class="flex flex-wrap sm:grid   sm:grid-cols-4 gap-8 mb-10 mt-14">
+            <div class="col-span-1 sm:col-span-4   ">
+
+                <div class="flex flex-wrap justify-between sm:flex   	 ">
+                    <div class="w-2/5  flex flex-initial order-1  sm:flex-col sm:w-auto sm:flex-grow-0  sm:order-none justify-items-center ">
+                        <img src="RUTA-17.svg" alt="Ícono de cambio" class="w-2/2 h-20  ">
+                        <span class="pl-1 text-4xl text-left fushia-text sm:text-2xl sm:text-center">LA RUTA</span> 
+                    </div>
+                    <div class="flex-1 order-3 sm:order-none  sm:px-4 	">
+                        <h1 class="text-4xl verdeClaro-text text-left pl-0 sm:text-left sm:w-4/4 mt-4  sm:pl-4  sm:verdeClaro-text mb-5 mx-0 uppercase leading-none">
+                            <!-- <span class="fushia-text"> </span>  -->
+                            ¿Qué son los sesgos y cómo nos hacen vulnerables a la desinformación?                
+                        </h1>
+                    </div>
+                    <div class="w-auto  sm:order-last p-4 order-2 circle	">
+                        <p class=" text-2xl sm:p-0  justify-items-right text-right fontVacia uppercase circle">
+                            cuatro
+                        </p>
+        
+                    </div>
+            
                 </div>
-                
-
-                <h1 class="w-5/6 pl-4  verdeClaro-text mb-5 uppercase leading-none">
-                    <!-- <span class="fushia-text"> </span>  -->
-                    ¿Qué son los sesgos y cómo nos hacen vulnerables a la desinformación?                </h1>
-                <p class="   justify-items-right  fontVacia uppercase">cuatro</p>
             </div>
-            <div class="col-span-4 grid md:grid-cols-4  grid-cols-1 ">
 
-                <div class="col-span-4  ">
+
+            <div class="col-span-1 sm:grid sm:grid-cols-4  sm:col-span-4  ">
+
+                <div class="sm:col-span-4  ">
                 
                     <p class="fontVacia text-xs">RTA/</p>
-                   
-                        <!-- <hr > -->
-                    <!-- <div class="grid md:grid-cols-3 gap-0 pt-4 spac-x-0">
-                        <div class="w-12">
-                            <img src="/icons/icon-document.png" alt="Ícono de cambio" class=" ">
-                        </div>
-                        <div class="md:col-span-2">
-                            <h3 class="fushia-text">
-                                INTRODUCCIÓN
-                            </h3>
-        
-                            <h3 class=" verdeClaro-text mb-5 uppercase leading-none">
-                                INTERNET SE HA DESPLEGADO EN NUESTRA VIDA COTIDIANA
-        
-                            </h3>
-                        </div>
-                    </div> -->
-     
+                        
                 </div>
-                <div class="col-span-2 mr-10">
+                <div class="sm:col-span-2 mr-10">
                     <span class="fushia-text"></span> 
                     <p class="font-sans text-white mb-5">
                         En términos sencillos, un sesgo es cuando aplicamos de forma incorrecta una heurística. Esto no ocurre de manera consciente, los sesgos nos hacen víctimas sin que nos demos cuenta de qué está sucediendo.</p>
                     
                     <p class="font-sans text-white mb-5"> Por esa razón son tan peligrosos, porque aunque creamos que somos seres perfectamente racionales, la evidencia nos muestra que los sesgos afectan de manera constante y, en la mayor parte del tiempo, sin que lo sepamos.</p>
                     </div>
-                <div class="col-span-2 text-white flex flex-col max-h-434px ml-10">
+                <div class="sm:col-span-2 text-white flex flex-col max-h-434px sm:ml-10">
                     <div class="flex items-start mb-5">
                         
                         <div class="flex-col">
