@@ -1,10 +1,10 @@
 <section class="quienes-somos-section sm:p-10 celeste-bg" id="quienes-somos">
     <div class="quienes-somos-container my-10 container mx-auto">
         
-        <div class="grid md:grid-cols-3 pb-10 sm:pb-0 celeste-bg sm:grid-cols-1  mb-10">
+        <div class="flex pb-10 sm:pb-0 celeste-bg sm:grid-cols-1  mb-10">
 
-            <div class="celeste-bg px-10 pb-3 pt-10 gap-10 sm:p-10 md:px-0 flex justify-start sm:justify-center items-center ">
-                <img class=" " src="favicon.png" alt="Ícono de una persona" >
+            <div class="celeste-bg sm:px-10 pb-3 pt-10 gap-10 sm:p-10 md:px-0 flex justify-start sm:justify-center items-center ">
+                <img class="w-28 px-4 " src="favicon.png" alt="Ícono de una persona" >
             </div>     
             <div class="col-span-2  my-auto flex flex-col sm:items-center md:items-start">
                 <h1 class="upercase white-text">¿Quiénes somos? </h1>        

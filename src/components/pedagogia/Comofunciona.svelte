@@ -93,12 +93,16 @@
                 <div class=" sm:container  pt-4 spac-x-0">
                     
                     <div class="justify-center ml-24 sm:ml-0	 ">
-                        <button class="fushia-bg px-4  text-white uppercase">Ver ejemplo</button>
+                        <button class="open-modal fushia-bg px-4  text-white uppercase"
+                        type="button"  data-open="modal1">Ver ejemplo</button>
+
+            
                     </div>
                 </div>
             </div>
 
             <div class="col-span-2 text-white flex flex-col max-h-434px">
+                
                 <div class="flex items-start mb-5">
                     
                     <div class="flex-col">
@@ -116,6 +120,7 @@
     
         </div>
     </article>
+
 
 
 </section>
