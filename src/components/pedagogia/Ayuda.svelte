@@ -41,49 +41,64 @@
 </style>
 
 <section class="pedagogias-digitales-section bg-gris    ">
-    <article class="container md:h-screen mx-auto py-10 px-2 sm:p-10 ">
-        <div class="grid  md:grid-cols-4 grid-cols-1 gap-8 mb-10 mt-14">
-            <div class="col-span-4 flex  ">
+    <article class="container sm:h-auto mx-auto py-10 px-2 sm:p-10 ">
+        <div class="flex flex-wrap sm:grid  sm:grid-cols-4  sm:gap-8 mb-10 mt-14">
+            <div class="sm:col-span-4 flex flex-wrap  ">
     
-                <div class="  w-1/8 justify-items-center">
-                    <img src="RUTA-17.svg" alt="Ícono de cambio" class=" h-20  ">
-                <span class="text-2xl fushia-text text-center">LA RUTA</span> 
+                <div class="flex flex-wrap justify-between sm:flex   	 ">
+                    <div class="w-2/5  flex flex-initial order-1  sm:flex-col sm:w-auto sm:flex-grow-0  sm:order-none justify-items-center ">
+                        <img src="RUTA-17.svg" alt="Ícono de cambio" class="w-2/2 h-20  ">
+                        <span class="pl-1 text-4xl text-left fushia-text sm:text-2xl sm:text-center">LA RUTA</span> 
+                    </div>
+                    <div class="flex-1 order-3 sm:order-none  sm:px-4 	">
+                        <h1 class="text-4xl verdeClaro-text text-left pl-0 sm:text-left sm:w-4/4 mt-4  sm:pl-4  sm:verdeClaro-text mb-5 mx-0 uppercase leading-none">
+                            <!-- <span class="fushia-text"> </span>  -->
+                            ¿CÓMO AYUDAN Las Ciencias del Comportamiento?                        </h1>
+                    </div>
+                    <div class="w-auto  sm:order-last p-4 order-2 circle	">
+                        <p class=" text-2xl sm:p-0  justify-items-right text-right fontVacia uppercase circle">
+                            sexto
+                        </p>
+        
+                    </div>
+            
                 </div>
+               
                 
 
-                <h1 class="w-5/6 pl-4  verdeClaro-text mb-5 uppercase leading-none">
-                    <!-- <span class="fushia-text"> </span>  -->
-                    ¿CÓMO AYUDAN Las Ciencias del Comportamiento?  </h1>              
-                    <p class="   justify-items-right  fontVacia uppercase">sexto</p>
+          
             </div>
-            <div class="col-span-4 grid md:grid-cols-4  grid-cols-1 ">
+           
 
-                <div class="col-span-4  ">
+
+            <div class="col-span-1 sm:grid sm:grid-cols-4  sm:col-span-4  ">
+
+                <div class="sm:col-span-4  ">
                 
                     <p class="fontVacia text-xs">RTA/</p>
-                   
-                        <!-- <hr > -->
-                  
-     
+                        
                 </div>
-                <div class="col-span-2 mr-10">
+                <div class="sm:col-span-2 mr-10">
                     <span class="fushia-text"></span> 
                     <p class="font-sans text-white mb-5">
                         Las ciencias del comportamiento estudian los factores que motivan el comportamiento y brindan herramientas basadas en evidencia para generar cambios de comportamiento que aportan al bienestar de la sociedad.                     
-                    <p class="font-sans text-white mb-5"> Si menos personas creen y comparten desinformación, menor impacto tendrá esta problemática. Por eso abordar la problemática de la desinformación desde el rol que cada individuo tiene</p>
+                    
+                    <p class="font-sans text-white mb-5"> 
+                        Si menos personas creen y comparten desinformación, menor impacto tendrá esta problemática. Por eso abordar la problemática de la desinformación desde el rol que cada individuo tiene</p>
                     </div>
-                <div class="col-span-2 text-white flex flex-col max-h-434px ml-10">
+                <div class="sm:col-span-2 text-white flex flex-col max-h-434px sm:ml-10">
                     <div class="flex items-start mb-5">
                         
                         <div class="flex-col">
                             <p class="font-sans text-white mb-5">
                                 en ella y utilizar la ciencia para ayudarle a cada persona a ser menos vulnerable frente a la desinformación fundamental. 
                             </p>
-                            <p class="font-sans text-white mb-5">
-
-                             Las ciencias del comportamiento permiten entender los factores como los sesgos que inciden en que seamos vulnerables frente a la desinformación y utilizar herramientas basadas en evidencia que nos ayuden a combatir esta problemática.
-                            </p> 
-     
+                            <div class=" w-4/4 ">
+                                <p class="font-sans text-white mb-5">
+                                    Las ciencias del comportamiento permiten entender los factores como los sesgos que inciden en que seamos vulnerables frente a la desinformación y utilizar herramientas basadas en evidencia que nos ayuden a combatir esta problemática.
+                                </p>
+                                
+                            </div>
                             <!-- <p class="font-sans celeste-text">CLICK EN LA FLECHA PARA CONOCER LA RUTA</p> -->
                         </div>
                     </div>

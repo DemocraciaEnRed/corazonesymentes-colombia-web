@@ -85,11 +85,11 @@
             <div class="sm:col-span-2 my-auto  ">
                
                 <p class="fontVacia text-xs">RTA/</p>
-                <p class="font-sans text-white mb-5">
-                    <span class="fushia-text"></span>
+                <p class="font-sans text-white mb-5 leading-none ">
+                    <span class="fushia-text leading-none"></span>
                     Así como las heurísticas existen decenas de sesgos que nos afectan en la vida diaria; Empezaremos con tres de esos sesgos que tienen un efecto sobre ti.
                 </p>
-                <p class="font-sans text-white mb-5">
+                <p class="font-sans text-white mb-5 leading-none">
                     <span class="fushia-text"></span>
                     Muchas veces, una de las mejores estrategias para combatir algunos de estos sesgos es desarrollar nuestra
                 </p>
@@ -125,13 +125,13 @@
                     </div>
                     <div class="w-1/5"></div>
                     <div class="w-1/5"></div> -->
-                    <div class="visible sm:invisible sm:w-1 flex text-white ml-20 pl-10 sm:ml-0 sm:pl-0  mb-5">
+                    <div class="visible sm:invisible sm:w-1 flex text-white ml-20 pl-2 sm:ml-0 sm:pl-0  mb-5 leading-none ">
                     
                         click en el sesgo
                     </div>
-                    <div class=" invisible sm:visible  sm:mx-0l sm:h-10 fushia-bg px-20  text-white uppercase">
-                        <button>empatia</button>
-                    </div>
+                    <a href="/documents/CAPÍTULO_1_C&M.pdf" download
+					class="" ><span class="invisible sm:visible text-2xl  sm:w-18 fushia-bg px-20 py-3 text-white uppercase    ">empatia</span>
+					</a>
                 </div>
             </div>
 
@@ -140,19 +140,21 @@
                     
                     click en el sesgo
                 </div>
-                <div class=" visible sm:invisible text-2xl   fushia-bg px-20 sm:h-1 text-white uppercase">
-                    <button class="px-10 sm:px-0 ">empatia</button>
-                </div>
-                <div class="fushia-bg px-20  text-2xl  text-center text-white uppercase">
-                    <button>disonancia cognitiva</button>
-                </div>
-                <div class="fushia-bg px-20 text-2xl  text-center text-white uppercase">
-                    <button>sesgo de confirmación</button>
-                </div>
-                <div class="fushia-bg px-20  text-2xl  text-center text-white uppercase">
-                    <button>sesgo de atribución</button>
-                </div>
+                <a href="/documents/CAPÍTULO_1_C&M.pdf" download
+					class="" ><span class="visible sm:invisible text-2xl  px-32 sm:w-18 fushia-bg  sm:h-1 text-white uppercase sm:px-0   b">empatia</span>
+					</a>
                 
+                <a href="/documents/CAPÍTULO_3_C&M.pdf" download
+                class="fushia-bg py-2  sm:px-0 fushia-bg px-20  text-2xl sm:w-72 text-center text-white uppercase   " >disonancia cognitiva
+                </a>
+                
+                <a href="/documents/CAPÍTULO_3_C&M.pdf" download
+                class="fushia-bg py-2  sm:px-0 fushia-bg px-20  text-2xl sm:w-72 text-center text-white uppercase   " >sesgo de confirmación
+                </a>
+                
+                <a href="/documents/CAPÍTULO_3_C&M.pdf" download
+                class="fushia-bg py-2  sm:px-0 fushia-bg px-20  text-2xl sm:w-72 text-center text-white uppercase   " >sesgo de atribució
+                </a>
             </div>
             
         </div>

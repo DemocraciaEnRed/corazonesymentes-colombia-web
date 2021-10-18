@@ -35,9 +35,9 @@
 	<div class="slide-content">
 		<Vulnerable></Vulnerable>
 	</div>
-	<!--<div class="slide-content">
+	<div class="slide-content">
 		<Ayuda></Ayuda>
-	</div> -->
+	</div>
 	
 	<span class="control arrow" slot="right-control">
 		<ChevronRightIcon />
