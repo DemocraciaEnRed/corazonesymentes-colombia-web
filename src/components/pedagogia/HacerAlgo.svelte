@@ -89,8 +89,7 @@
                 <p class="fontVacia text-xs">RTA/</p>
                 <p class="font-sans text-white mb-5">
                     <span class="fushia-text"></span> 
-                    <br> Lastimosamente, las noticias falsas y la desinformación no van a desaparecer. 
-                    <br>Por eso es necesario que seamos conscientes de las debilidades que tenemos para poder tener una mejor relación con la web y las redes sociales.
+                    La desinformación tiene un efecto negativo en cómo nos relacionamos con los otros, cómo entendemos nuestra realidad e incluso llevarnos a discriminar, maltratar y ejercer actitudes violentas frente a otros.    
                 </p>
                 <hr >
                 
@@ -100,13 +99,12 @@
                         <img src="/icons/icon-document.png" alt="Ícono de cambio" class="w-16 p-0 m-0">
                     </div>
                     <div class="w-3/5 sm:w-3/5">
-                        <h3 class="fushia-text">
-                            INTRODUCCIÓN
+                        <h3 class="fushia-text uppercase">
+                            capitulo 8
                         </h3>
     
                         <h3 class=" verdeClaro-text mb-5 uppercase leading-none">
-                            INTERNET SE HA DESPLEGADO EN NUESTRA VIDA COTIDIANA
-    
+                            INFORMACIÓN Y DESINFORMACIÓN EN REDES: NO TODO LO QUE SE VIRALIZA ES VERDADERO    
                         </h3>
                     </div>
                     <div class="w-1/5 sm:w-1/5"></div>
@@ -122,8 +120,8 @@
                 <div class="flex items-start mb-5">
                     
                     <div class="flex-row">
-                        <img src="15.svg" alt="Ícono de cambio" class="contImg mb-8 mr-3 mt-4">
-                        <h2 class="pl-10  mb-3 mr-8 fushia-text text-2xl">En tus manos está evitar que se siga <br> propagando sin control.</h2>
+                        <img src="comentarioscorazon16.svg" alt="Ícono de cambio" class="contImg mb-8 mr-3 mt-4">
+                        <h2 class="pl-10  mb-3 mr-8 fushia-text text-2xl">Por eso es necesario que cada uno de nosotros aprenda por qué caemos en las noticias falsas y la desinformación.</h2>
                         <!-- <p class="font-sans celeste-text">CLICK EN LA FLECHA PARA CONOCER LA RUTA</p> -->
                     </div>
                 </div>

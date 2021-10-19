@@ -141,7 +141,7 @@
                     click en el sesgo
                 </div>
                 <a href="/documents/CAPÍTULO_1_C&M.pdf" download
-					class="" ><span class="visible sm:invisible text-2xl  px-32 sm:w-18 fushia-bg  sm:h-1 text-white uppercase sm:px-0   b">empatia</span>
+					class="" ><span class="visible sm:invisible text-2xl  px-36 sm:w-18 fushia-bg  sm:h-1 text-white uppercase sm:px-0   b">empatia</span>
 					</a>
                 
                 <a href="/documents/CAPÍTULO_3_C&M.pdf" download
@@ -149,7 +149,7 @@
                 </a>
                 
                 <a href="/documents/CAPÍTULO_3_C&M.pdf" download
-                class="fushia-bg py-2  sm:px-0 fushia-bg px-20  text-2xl sm:w-72 text-center text-white uppercase   " >sesgo de confirmación
+                class="fushia-bg py-2  sm:px-0 fushia-bg   text-2xl sm:w-72 text-center text-white uppercase   " >sesgo de confirmación
                 </a>
                 
                 <a href="/documents/CAPÍTULO_3_C&M.pdf" download

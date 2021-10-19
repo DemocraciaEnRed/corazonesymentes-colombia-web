@@ -1,10 +1,10 @@
 <section>   
-   <article id="nocomocuento" class="sm:px-0  md:p-10 md:px-14 md:container w-auto mx-auto  bg-white ">
+   <article id="nocomocuento" class="  sm:p-10 sm:px-14 sm:container w-auto mx-auto  bg-white ">
         
-        <div class="grid sm:grid-cols-1 md:grid-cols-3 mx-auto">
-            <div class="sm:flex-none md:flex sm:col-span-1 md:col-span-3">
+        <div class="grid grid-cols-1 sm:grid-cols-3 mx-auto">
+            <div class=" col-span-1 sm:col-span-3">
                 <div class="flex-initial">
-                    <img src="nocomocuenta.png" class="max-h-330px max-w-xs  md:object-scale-down " alt="imagen: no como cuenta ">
+                    <img src="nocomocuenta.png" class="max-h-330px max-w-xs  sm:object-scale-down " alt="imagen: no como cuenta ">
 
                 </div>
                 <div class="container  pt-1.5">
@@ -17,29 +17,38 @@
 
                     </p>
                     <!-- <a href="#" class="ml-5 px-5 text-2xl border-2 border-black" alt="link registro de mi colegio"> REGISTRO DE MI COLEGIO</a> -->
-                    <a href="#" class="ml-5 px-5  border-2 border-black  uppercase" alt="link registro de mi colegio"> suscribirme para recibir noticias
-                    </a>
+                    <!-- <a href="#" class="ml-5 px-5  border-2 border-black  uppercase" alt="link registro de mi colegio"> suscribirme para recibir noticias
+                    </a> -->
 
+                    <div>
+                        <!-- <form enctype="text/plain" action="mailto:devhormiga@democracyos.io" method="post">
+                            <label for="email"  class="">email:</label>
+                            <input type="email" name="email" placeholder="email@ejemplo.com" required>
+                            <input type="submit" value="suscribirme">
+                        </form> -->
+                        <button data-tf-popup="HRArEB7z" style=""
+                        class="ml-5 px-5  border-2 border-black  uppercase">Suscribirme</button><script src="//embed.typeform.com/next/embed.js"></script>
+                    </div>
                 </div>
 
             </div>
-            <div class="md:col-span-3 mx-auto">
+            <div class="sm:col-span-3 mx-auto">
                 <p class="mx-auto my-10 px-5 text-black  parraf parrafBG text-3xl ">
                     pedagogía frente a la desinformación
                 </p>
             </div>
 
-            <div class=" md:col-span-3 flex flex-wrap  space-x-2 ">
-                <div class="m-2  w-auto"> 
+            <div class=" sm:col-span-3 flex flex-wrap  sm:space-x-2 ">
+                <div class="sm:m-2  w-auto"> 
                     <iframe  height="215" src="https://www.youtube.com/embed/J2kQzLZIukQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div class="m-2  w-auto">
+                <div class="sm:m-2  w-auto">
                     <iframe height="215" src="https://www.youtube.com/embed/2ghFaoy34vA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div class="m-2 w-auto">
+                <div class="sm:m-2 w-auto">
                     <iframe   height="215" src="https://www.youtube.com/embed/hkYLH9YBRVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div class="m-2 w-auto">
+                <div class="sm:m-2 w-auto">
                     <iframe  height="215" src="https://www.youtube.com/embed/BO2yLty0jbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>

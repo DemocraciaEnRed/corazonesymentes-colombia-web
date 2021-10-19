@@ -13,7 +13,7 @@
 </style>
 <footer class="bg-gray-200 py-20 px-3 ">
   <div class="container mx-auto flex justify-between align-center flex-wrap">
-      <img class="mt-5 w-32 sm:w-40 my-auto" src="logo-circular.png" alt="Logo de Corazones y mentes" />
+      <img class="mt-5 w-32 sm:w-40 mx-auto my-auto" src="logo-circular.png" alt="Logo de Corazones y mentes" />
       <div class="mt-4 sm:mx-10">
         <div class="w-80 flex flex-col justify-center align-center">
           <small class="text-xs mb-3">Impulsado por:</small>
