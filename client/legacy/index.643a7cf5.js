@@ -1,4 +1,4 @@
-import { i as identity, _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, d as init, s as safe_not_equal, e as _assertThisInitialized, f as dispatch_dev, S as SvelteComponentDev, v as validate_slots, g as element, t as text, h as claim_element, j as children, k as claim_text, l as detach_dev, m as attr_dev, n as add_location, o as insert_dev, p as append_dev, q as listen_dev, r as noop, u as space, w as claim_space, x as _slicedToArray, y as add_render_callback, z as create_bidirectional_transition, A as _createClass, B as set_data_dev, C as validate_each_argument, D as create_component, E as claim_component, F as mount_component, G as transition_in, H as transition_out, I as destroy_component, J as set_style, K as group_outros, L as check_outros, M as destroy_each, N as onMount, O as _typeof, P as assign, Q as get_spread_update, R as get_spread_object, T as run_all, U as createCommonjsModule, V as commonjsGlobal, W as getDefaultExportFromCjs, X as create_slot, Y as createEventDispatcher, Z as update_slot, $ as null_to_empty, a0 as binding_callbacks, a1 as svg_element, a2 as query_selector_all } from './client.e2fd2746.js';
+import { i as identity, _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, d as init, s as safe_not_equal, e as _assertThisInitialized, f as dispatch_dev, S as SvelteComponentDev, v as validate_slots, g as element, t as text, h as claim_element, j as children, k as claim_text, l as detach_dev, m as attr_dev, n as add_location, o as insert_dev, p as append_dev, q as listen_dev, r as noop, u as space, w as claim_space, x as _slicedToArray, y as add_render_callback, z as create_bidirectional_transition, A as _createClass, B as set_data_dev, C as validate_each_argument, D as create_component, E as claim_component, F as mount_component, G as transition_in, H as transition_out, I as destroy_component, J as set_style, K as group_outros, L as check_outros, M as destroy_each, N as onMount, O as _typeof, P as assign, Q as get_spread_update, R as get_spread_object, T as run_all, U as createCommonjsModule, V as commonjsGlobal, W as getDefaultExportFromCjs, X as create_slot, Y as createEventDispatcher, Z as update_slot, $ as null_to_empty, a0 as binding_callbacks, a1 as svg_element, a2 as query_selector_all } from './client.61dcf8d9.js';
 
 function fade(node) {
   var _ref2 = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {},
@@ -5165,60 +5165,60 @@ function create_fragment$h(ctx) {
       this.h();
     },
     h: function hydrate() {
-      attr_dev(img0, "class", "mt-5 w-32 sm:w-40 my-auto");
+      attr_dev(img0, "class", "mt-5 w-32 sm:w-40 mx-auto my-auto");
       if (img0.src !== (img0_src_value = "logo-circular.png")) attr_dev(img0, "src", img0_src_value);
       attr_dev(img0, "alt", "Logo de Corazones y mentes");
       add_location(img0, file$h, 16, 6, 253);
       attr_dev(small, "class", "text-xs mb-3");
-      add_location(small, file$h, 19, 10, 465);
+      add_location(small, file$h, 19, 10, 473);
       attr_dev(img1, "class", "md:w-40 sm:w-72\t");
       if (img1.src !== (img1_src_value = "Logo_DIP_horizontal.png")) attr_dev(img1, "src", img1_src_value);
       attr_dev(img1, "alt", "Logo DIP - detox information project");
-      add_location(img1, file$h, 21, 12, 584);
+      add_location(img1, file$h, 21, 12, 592);
       attr_dev(img2, "class", "md:w-40 sm:w-72\t");
       if (img2.src !== (img2_src_value = "LOGO_EXTITUTO-11.png")) attr_dev(img2, "src", img2_src_value);
       attr_dev(img2, "alt", "Logo de Extituto");
-      add_location(img2, file$h, 22, 12, 702);
+      add_location(img2, file$h, 22, 12, 710);
       attr_dev(img3, "class", "w-40 col-span-2 sm:w-72\t");
       if (img3.src !== (img3_src_value = "developers2.png")) attr_dev(img3, "src", img3_src_value);
       attr_dev(img3, "alt", "Logos de Democracia en Red, Plataforma democrática, Fundacion fhc centro edelstein");
-      add_location(img3, file$h, 23, 12, 797);
+      add_location(img3, file$h, 23, 12, 805);
       attr_dev(div0, "class", "grid grid-cols-2 sm:grid-cols-1");
-      add_location(div0, file$h, 20, 10, 526);
+      add_location(div0, file$h, 20, 10, 534);
       attr_dev(div1, "class", "w-80 flex flex-col justify-center align-center");
-      add_location(div1, file$h, 18, 8, 394);
+      add_location(div1, file$h, 18, 8, 402);
       attr_dev(div2, "class", "mt-4 sm:mx-10");
-      add_location(div2, file$h, 17, 6, 358);
+      add_location(div2, file$h, 17, 6, 366);
       attr_dev(a0, "class", "hover:underline");
       attr_dev(a0, "href", "#home");
-      add_location(a0, file$h, 28, 12, 1085);
-      add_location(li0, file$h, 28, 8, 1081);
+      add_location(a0, file$h, 28, 12, 1093);
+      add_location(li0, file$h, 28, 8, 1089);
       attr_dev(a1, "class", "hover:underline");
       attr_dev(a1, "href", "#libro");
-      add_location(a1, file$h, 29, 12, 1151);
-      add_location(li1, file$h, 29, 8, 1147);
+      add_location(a1, file$h, 29, 12, 1159);
+      add_location(li1, file$h, 29, 8, 1155);
       attr_dev(a2, "class", "hover:underline");
       attr_dev(a2, "href", "#kit-de-herramientas");
-      add_location(a2, file$h, 30, 12, 1231);
-      add_location(li2, file$h, 30, 8, 1227);
+      add_location(a2, file$h, 30, 12, 1239);
+      add_location(li2, file$h, 30, 8, 1235);
       attr_dev(a3, "class", "hover:underline");
       attr_dev(a3, "href", "#nocomocuento");
-      add_location(a3, file$h, 31, 12, 1327);
-      add_location(li3, file$h, 31, 8, 1323);
+      add_location(a3, file$h, 31, 12, 1335);
+      add_location(li3, file$h, 31, 8, 1331);
       attr_dev(a4, "class", "hover:underline");
       attr_dev(a4, "href", "#quienes-somos");
-      add_location(a4, file$h, 32, 12, 1410);
-      add_location(li4, file$h, 32, 8, 1406);
+      add_location(a4, file$h, 32, 12, 1418);
+      add_location(li4, file$h, 32, 8, 1414);
       attr_dev(ul, "class", "uppercase text-bold mt-5   text-center mx-auto sm:text-left");
-      add_location(ul, file$h, 27, 6, 1000);
+      add_location(ul, file$h, 27, 6, 1008);
       attr_dev(div3, "class", "container mx-auto flex justify-between align-center flex-wrap");
       add_location(div3, file$h, 15, 2, 171);
       attr_dev(a5, "class", "text-xs");
       attr_dev(a5, "href", "https://creativecommons.org/licenses/by/4.0/deed.es");
       attr_dev(a5, "target", "_blank");
-      add_location(a5, file$h, 36, 4, 1616);
+      add_location(a5, file$h, 36, 4, 1624);
       attr_dev(p, "class", "text-center text-xs text-bold mt-10");
-      add_location(p, file$h, 35, 2, 1505);
+      add_location(p, file$h, 35, 2, 1513);
       attr_dev(footer, "class", "bg-gray-200 py-20 px-3 ");
       add_location(footer, file$h, 14, 0, 128);
     },
@@ -9953,7 +9953,7 @@ function create_fragment$5(ctx) {
       add_location(div7, file$5, 83, 12, 2847);
       attr_dev(div8, "class", "invisible  h-1 sm:visible flex items-start mb-5");
       add_location(div8, file$5, 137, 16, 5585);
-      attr_dev(span4, "class", "visible sm:invisible text-2xl  px-32 sm:w-18 fushia-bg  sm:h-1 text-white uppercase sm:px-0   b");
+      attr_dev(span4, "class", "visible sm:invisible text-2xl  px-36 sm:w-18 fushia-bg  sm:h-1 text-white uppercase sm:px-0   b");
       add_location(span4, file$5, 142, 15, 5809);
       attr_dev(a1, "href", "/documents/CAPÍTULO_1_C&M.pdf");
       attr_dev(a1, "download", "");
@@ -9965,12 +9965,12 @@ function create_fragment$5(ctx) {
       add_location(a2, file$5, 145, 16, 5977);
       attr_dev(a3, "href", "/documents/CAPÍTULO_3_C&M.pdf");
       attr_dev(a3, "download", "");
-      attr_dev(a3, "class", "fushia-bg py-2  sm:px-0 fushia-bg px-20  text-2xl sm:w-72 text-center text-white uppercase   ");
+      attr_dev(a3, "class", "fushia-bg py-2  sm:px-0 fushia-bg   text-2xl sm:w-72 text-center text-white uppercase   ");
       add_location(a3, file$5, 149, 16, 6220);
       attr_dev(a4, "href", "/documents/CAPÍTULO_3_C&M.pdf");
       attr_dev(a4, "download", "");
       attr_dev(a4, "class", "fushia-bg py-2  sm:px-0 fushia-bg px-20  text-2xl sm:w-72 text-center text-white uppercase   ");
-      add_location(a4, file$5, 153, 16, 6464);
+      add_location(a4, file$5, 153, 16, 6459);
       attr_dev(div9, "class", "sm:col-span-2 mx-auto text-white flex flex-col gap-3 sm:gap-10 max-h-434px");
       add_location(div9, file$5, 136, 12, 5480);
       attr_dev(div10, "class", "flex flex-wrap sm:grid  sm:grid-cols-4  sm:gap-8 mb-10 mt-14");
@@ -10123,43 +10123,37 @@ function create_fragment$4(ctx) {
   var p2;
   var span1;
   var t9;
-  var br0;
   var t10;
-  var br1;
-  var t11;
-  var t12;
   var hr;
-  var t13;
+  var t11;
   var div10;
   var div5;
   var img1;
   var img1_src_value;
-  var t14;
+  var t12;
   var div6;
   var h30;
+  var t13;
+  var t14;
+  var h31;
   var t15;
   var t16;
-  var h31;
-  var t17;
-  var t18;
   var div7;
-  var t19;
+  var t17;
   var div8;
-  var t20;
+  var t18;
   var div9;
   var button;
-  var t21;
-  var t22;
+  var t19;
+  var t20;
   var div14;
   var div13;
   var div12;
   var img2;
   var img2_src_value;
-  var t23;
+  var t21;
   var h2;
-  var t24;
-  var br2;
-  var t25;
+  var t22;
   var block = {
     c: function create() {
       section = element("section");
@@ -10187,42 +10181,36 @@ function create_fragment$4(ctx) {
       t8 = space();
       p2 = element("p");
       span1 = element("span");
-      t9 = space();
-      br0 = element("br");
-      t10 = text(" Lastimosamente, las noticias falsas y la desinformación no van a desaparecer. \n                    ");
-      br1 = element("br");
-      t11 = text("Por eso es necesario que seamos conscientes de las debilidades que tenemos para poder tener una mejor relación con la web y las redes sociales.");
-      t12 = space();
+      t9 = text(" \n                    La desinformación tiene un efecto negativo en cómo nos relacionamos con los otros, cómo entendemos nuestra realidad e incluso llevarnos a discriminar, maltratar y ejercer actitudes violentas frente a otros.");
+      t10 = space();
       hr = element("hr");
-      t13 = space();
+      t11 = space();
       div10 = element("div");
       div5 = element("div");
       img1 = element("img");
-      t14 = space();
+      t12 = space();
       div6 = element("div");
       h30 = element("h3");
-      t15 = text("INTRODUCCIÓN");
-      t16 = space();
+      t13 = text("capitulo 8");
+      t14 = space();
       h31 = element("h3");
-      t17 = text("INTERNET SE HA DESPLEGADO EN NUESTRA VIDA COTIDIANA");
-      t18 = space();
+      t15 = text("INFORMACIÓN Y DESINFORMACIÓN EN REDES: NO TODO LO QUE SE VIRALIZA ES VERDADERO");
+      t16 = space();
       div7 = element("div");
-      t19 = space();
+      t17 = space();
       div8 = element("div");
-      t20 = space();
+      t18 = space();
       div9 = element("div");
       button = element("button");
-      t21 = text("Ver más y descargar");
-      t22 = space();
+      t19 = text("Ver más y descargar");
+      t20 = space();
       div14 = element("div");
       div13 = element("div");
       div12 = element("div");
       img2 = element("img");
-      t23 = space();
+      t21 = space();
       h2 = element("h2");
-      t24 = text("En tus manos está evitar que se siga ");
-      br2 = element("br");
-      t25 = text(" propagando sin control.");
+      t22 = text("Por eso es necesario que cada uno de nosotros aprenda por qué caemos en las noticias falsas y la desinformación.");
       this.h();
     },
     l: function claim(nodes) {
@@ -10309,17 +10297,13 @@ function create_fragment$4(ctx) {
         class: true
       });
       children(span1).forEach(detach_dev);
-      t9 = claim_space(p2_nodes);
-      br0 = claim_element(p2_nodes, "BR", {});
-      t10 = claim_text(p2_nodes, " Lastimosamente, las noticias falsas y la desinformación no van a desaparecer. \n                    ");
-      br1 = claim_element(p2_nodes, "BR", {});
-      t11 = claim_text(p2_nodes, "Por eso es necesario que seamos conscientes de las debilidades que tenemos para poder tener una mejor relación con la web y las redes sociales.");
+      t9 = claim_text(p2_nodes, " \n                    La desinformación tiene un efecto negativo en cómo nos relacionamos con los otros, cómo entendemos nuestra realidad e incluso llevarnos a discriminar, maltratar y ejercer actitudes violentas frente a otros.");
       p2_nodes.forEach(detach_dev);
-      t12 = claim_space(div11_nodes);
+      t10 = claim_space(div11_nodes);
       hr = claim_element(div11_nodes, "HR", {
         class: true
       });
-      t13 = claim_space(div11_nodes);
+      t11 = claim_space(div11_nodes);
       div10 = claim_element(div11_nodes, "DIV", {
         class: true
       });
@@ -10334,7 +10318,7 @@ function create_fragment$4(ctx) {
         class: true
       });
       div5_nodes.forEach(detach_dev);
-      t14 = claim_space(div10_nodes);
+      t12 = claim_space(div10_nodes);
       div6 = claim_element(div10_nodes, "DIV", {
         class: true
       });
@@ -10343,27 +10327,27 @@ function create_fragment$4(ctx) {
         class: true
       });
       var h30_nodes = children(h30);
-      t15 = claim_text(h30_nodes, "INTRODUCCIÓN");
+      t13 = claim_text(h30_nodes, "capitulo 8");
       h30_nodes.forEach(detach_dev);
-      t16 = claim_space(div6_nodes);
+      t14 = claim_space(div6_nodes);
       h31 = claim_element(div6_nodes, "H3", {
         class: true
       });
       var h31_nodes = children(h31);
-      t17 = claim_text(h31_nodes, "INTERNET SE HA DESPLEGADO EN NUESTRA VIDA COTIDIANA");
+      t15 = claim_text(h31_nodes, "INFORMACIÓN Y DESINFORMACIÓN EN REDES: NO TODO LO QUE SE VIRALIZA ES VERDADERO");
       h31_nodes.forEach(detach_dev);
       div6_nodes.forEach(detach_dev);
-      t18 = claim_space(div10_nodes);
+      t16 = claim_space(div10_nodes);
       div7 = claim_element(div10_nodes, "DIV", {
         class: true
       });
       children(div7).forEach(detach_dev);
-      t19 = claim_space(div10_nodes);
+      t17 = claim_space(div10_nodes);
       div8 = claim_element(div10_nodes, "DIV", {
         class: true
       });
       children(div8).forEach(detach_dev);
-      t20 = claim_space(div10_nodes);
+      t18 = claim_space(div10_nodes);
       div9 = claim_element(div10_nodes, "DIV", {
         class: true
       });
@@ -10372,12 +10356,12 @@ function create_fragment$4(ctx) {
         class: true
       });
       var button_nodes = children(button);
-      t21 = claim_text(button_nodes, "Ver más y descargar");
+      t19 = claim_text(button_nodes, "Ver más y descargar");
       button_nodes.forEach(detach_dev);
       div9_nodes.forEach(detach_dev);
       div10_nodes.forEach(detach_dev);
       div11_nodes.forEach(detach_dev);
-      t22 = claim_space(div15_nodes);
+      t20 = claim_space(div15_nodes);
       div14 = claim_element(div15_nodes, "DIV", {
         class: true
       });
@@ -10395,14 +10379,12 @@ function create_fragment$4(ctx) {
         alt: true,
         class: true
       });
-      t23 = claim_space(div12_nodes);
+      t21 = claim_space(div12_nodes);
       h2 = claim_element(div12_nodes, "H2", {
         class: true
       });
       var h2_nodes = children(h2);
-      t24 = claim_text(h2_nodes, "En tus manos está evitar que se siga ");
-      br2 = claim_element(h2_nodes, "BR", {});
-      t25 = claim_text(h2_nodes, " propagando sin control.");
+      t22 = claim_text(h2_nodes, "Por eso es necesario que cada uno de nosotros aprenda por qué caemos en las noticias falsas y la desinformación.");
       h2_nodes.forEach(detach_dev);
       div12_nodes.forEach(detach_dev);
       div13_nodes.forEach(detach_dev);
@@ -10437,49 +10419,46 @@ function create_fragment$4(ctx) {
       add_location(p1, file$4, 88, 16, 2957);
       attr_dev(span1, "class", "fushia-text");
       add_location(span1, file$4, 90, 20, 3069);
-      add_location(br0, file$4, 91, 20, 3124);
-      add_location(br1, file$4, 92, 20, 3228);
       attr_dev(p2, "class", "font-sans text-white mb-5");
       add_location(p2, file$4, 89, 16, 3011);
       attr_dev(hr, "class", "svelte-olilu5");
-      add_location(hr, file$4, 94, 16, 3413);
+      add_location(hr, file$4, 93, 16, 3372);
       if (img1.src !== (img1_src_value = "/icons/icon-document.png")) attr_dev(img1, "src", img1_src_value);
       attr_dev(img1, "alt", "Ícono de cambio");
       attr_dev(img1, "class", "w-16 p-0 m-0");
-      add_location(img1, file$4, 99, 24, 3573);
+      add_location(img1, file$4, 98, 24, 3532);
       attr_dev(div5, "class", "w-1/5 ");
-      add_location(div5, file$4, 98, 20, 3528);
-      attr_dev(h30, "class", "fushia-text");
-      add_location(h30, file$4, 102, 24, 3753);
+      add_location(div5, file$4, 97, 20, 3487);
+      attr_dev(h30, "class", "fushia-text uppercase");
+      add_location(h30, file$4, 101, 24, 3712);
       attr_dev(h31, "class", " verdeClaro-text mb-5 uppercase leading-none");
-      add_location(h31, file$4, 106, 24, 3878);
+      add_location(h31, file$4, 105, 24, 3845);
       attr_dev(div6, "class", "w-3/5 sm:w-3/5");
-      add_location(div6, file$4, 101, 20, 3700);
+      add_location(div6, file$4, 100, 20, 3659);
       attr_dev(div7, "class", "w-1/5 sm:w-1/5");
-      add_location(div7, file$4, 111, 20, 4098);
+      add_location(div7, file$4, 109, 20, 4091);
       attr_dev(div8, "class", "w-1/5 sm:w-1/5");
-      add_location(div8, file$4, 112, 20, 4153);
+      add_location(div8, file$4, 110, 20, 4146);
       attr_dev(button, "class", "fushia-bg px-4  text-white uppercase");
-      add_location(button, file$4, 115, 24, 4263);
+      add_location(button, file$4, 113, 24, 4256);
       attr_dev(div9, "class", "w-3/5 sm:w-4/5 ");
-      add_location(div9, file$4, 114, 20, 4209);
+      add_location(div9, file$4, 112, 20, 4202);
       attr_dev(div10, "class", " container flex flex-wrap  pt-4 spac-x-0");
-      add_location(div10, file$4, 97, 16, 3453);
+      add_location(div10, file$4, 96, 16, 3412);
       attr_dev(div11, "class", "sm:col-span-2 my-auto  ");
       add_location(div11, file$4, 86, 12, 2887);
-      if (img2.src !== (img2_src_value = "15.svg")) attr_dev(img2, "src", img2_src_value);
+      if (img2.src !== (img2_src_value = "comentarioscorazon16.svg")) attr_dev(img2, "src", img2_src_value);
       attr_dev(img2, "alt", "Ícono de cambio");
       attr_dev(img2, "class", "contImg mb-8 mr-3 mt-4 svelte-olilu5");
-      add_location(img2, file$4, 124, 24, 4632);
-      add_location(br2, file$4, 125, 111, 4815);
+      add_location(img2, file$4, 122, 24, 4625);
       attr_dev(h2, "class", "pl-10  mb-3 mr-8 fushia-text text-2xl");
-      add_location(h2, file$4, 125, 24, 4728);
+      add_location(h2, file$4, 123, 24, 4739);
       attr_dev(div12, "class", "flex-row");
-      add_location(div12, file$4, 123, 20, 4585);
+      add_location(div12, file$4, 121, 20, 4578);
       attr_dev(div13, "class", "flex items-start mb-5");
-      add_location(div13, file$4, 121, 16, 4508);
+      add_location(div13, file$4, 119, 16, 4501);
       attr_dev(div14, "class", "sm:col-span-2 text-white flex flex-col max-h-434px");
-      add_location(div14, file$4, 120, 12, 4427);
+      add_location(div14, file$4, 118, 12, 4420);
       attr_dev(div15, "class", "flex flex-wrap sm:grid sm:grid-cols-4  gap-8 mb-10 mt-14");
       add_location(div15, file$4, 63, 8, 1420);
       attr_dev(article, "class", "container sm:h-full mx-auto py-10 px-2 sm:p-10 ");
@@ -10514,41 +10493,35 @@ function create_fragment$4(ctx) {
       append_dev(div11, p2);
       append_dev(p2, span1);
       append_dev(p2, t9);
-      append_dev(p2, br0);
-      append_dev(p2, t10);
-      append_dev(p2, br1);
-      append_dev(p2, t11);
-      append_dev(div11, t12);
+      append_dev(div11, t10);
       append_dev(div11, hr);
-      append_dev(div11, t13);
+      append_dev(div11, t11);
       append_dev(div11, div10);
       append_dev(div10, div5);
       append_dev(div5, img1);
-      append_dev(div10, t14);
+      append_dev(div10, t12);
       append_dev(div10, div6);
       append_dev(div6, h30);
-      append_dev(h30, t15);
-      append_dev(div6, t16);
+      append_dev(h30, t13);
+      append_dev(div6, t14);
       append_dev(div6, h31);
-      append_dev(h31, t17);
-      append_dev(div10, t18);
+      append_dev(h31, t15);
+      append_dev(div10, t16);
       append_dev(div10, div7);
-      append_dev(div10, t19);
+      append_dev(div10, t17);
       append_dev(div10, div8);
-      append_dev(div10, t20);
+      append_dev(div10, t18);
       append_dev(div10, div9);
       append_dev(div9, button);
-      append_dev(button, t21);
-      append_dev(div15, t22);
+      append_dev(button, t19);
+      append_dev(div15, t20);
       append_dev(div15, div14);
       append_dev(div14, div13);
       append_dev(div13, div12);
       append_dev(div12, img2);
-      append_dev(div12, t23);
+      append_dev(div12, t21);
       append_dev(div12, h2);
-      append_dev(h2, t24);
-      append_dev(h2, br2);
-      append_dev(h2, t25);
+      append_dev(h2, t22);
     },
     p: noop,
     i: noop,
@@ -11551,13 +11524,13 @@ var file$1 = "src/components/nocomocuento.svelte";
 function create_fragment$1(ctx) {
   var section;
   var article;
-  var div9;
-  var div2;
+  var div10;
+  var div3;
   var div0;
   var img;
   var img_src_value;
   var t0;
-  var div1;
+  var div2;
   var p0;
   var t1;
   var span;
@@ -11567,39 +11540,42 @@ function create_fragment$1(ctx) {
   var p1;
   var t5;
   var t6;
-  var a;
+  var div1;
+  var button;
   var t7;
+  var script;
+  var script_src_value;
   var t8;
-  var div3;
+  var div4;
   var p2;
   var t9;
   var t10;
-  var div8;
-  var div4;
+  var div9;
+  var div5;
   var iframe0;
   var iframe0_src_value;
   var t11;
-  var div5;
+  var div6;
   var iframe1;
   var iframe1_src_value;
   var t12;
-  var div6;
+  var div7;
   var iframe2;
   var iframe2_src_value;
   var t13;
-  var div7;
+  var div8;
   var iframe3;
   var iframe3_src_value;
   var block = {
     c: function create() {
       section = element("section");
       article = element("article");
-      div9 = element("div");
-      div2 = element("div");
+      div10 = element("div");
+      div3 = element("div");
       div0 = element("div");
       img = element("img");
       t0 = space();
-      div1 = element("div");
+      div2 = element("div");
       p0 = element("p");
       t1 = text("NO COMO CUENTO es un brazo de DIP - ");
       span = element("span");
@@ -11609,24 +11585,26 @@ function create_fragment$1(ctx) {
       p1 = element("p");
       t5 = text("Próximamente podrás postular a tu colegio para ser un espacio #NoComoCuento");
       t6 = space();
-      a = element("a");
-      t7 = text("suscribirme para recibir noticias");
+      div1 = element("div");
+      button = element("button");
+      t7 = text("Suscribirme");
+      script = element("script");
       t8 = space();
-      div3 = element("div");
+      div4 = element("div");
       p2 = element("p");
       t9 = text("pedagogía frente a la desinformación");
       t10 = space();
-      div8 = element("div");
-      div4 = element("div");
+      div9 = element("div");
+      div5 = element("div");
       iframe0 = element("iframe");
       t11 = space();
-      div5 = element("div");
+      div6 = element("div");
       iframe1 = element("iframe");
       t12 = space();
-      div6 = element("div");
+      div7 = element("div");
       iframe2 = element("iframe");
       t13 = space();
-      div7 = element("div");
+      div8 = element("div");
       iframe3 = element("iframe");
       this.h();
     },
@@ -11638,15 +11616,15 @@ function create_fragment$1(ctx) {
         class: true
       });
       var article_nodes = children(article);
-      div9 = claim_element(article_nodes, "DIV", {
+      div10 = claim_element(article_nodes, "DIV", {
         class: true
       });
-      var div9_nodes = children(div9);
-      div2 = claim_element(div9_nodes, "DIV", {
+      var div10_nodes = children(div10);
+      div3 = claim_element(div10_nodes, "DIV", {
         class: true
       });
-      var div2_nodes = children(div2);
-      div0 = claim_element(div2_nodes, "DIV", {
+      var div3_nodes = children(div3);
+      div0 = claim_element(div3_nodes, "DIV", {
         class: true
       });
       var div0_nodes = children(div0);
@@ -11656,12 +11634,12 @@ function create_fragment$1(ctx) {
         alt: true
       });
       div0_nodes.forEach(detach_dev);
-      t0 = claim_space(div2_nodes);
-      div1 = claim_element(div2_nodes, "DIV", {
+      t0 = claim_space(div3_nodes);
+      div2 = claim_element(div3_nodes, "DIV", {
         class: true
       });
-      var div1_nodes = children(div1);
-      p0 = claim_element(div1_nodes, "P", {
+      var div2_nodes = children(div2);
+      p0 = claim_element(div2_nodes, "P", {
         class: true
       });
       var p0_nodes = children(p0);
@@ -11674,46 +11652,54 @@ function create_fragment$1(ctx) {
       span_nodes.forEach(detach_dev);
       t3 = claim_text(p0_nodes, ", que hace pedagogía digital utilizando las ciencias del comportamiento para reducir la vulnerabilidad frente a la desinformación");
       p0_nodes.forEach(detach_dev);
-      t4 = claim_space(div1_nodes);
-      p1 = claim_element(div1_nodes, "P", {
+      t4 = claim_space(div2_nodes);
+      p1 = claim_element(div2_nodes, "P", {
         class: true
       });
       var p1_nodes = children(p1);
       t5 = claim_text(p1_nodes, "Próximamente podrás postular a tu colegio para ser un espacio #NoComoCuento");
       p1_nodes.forEach(detach_dev);
-      t6 = claim_space(div1_nodes);
-      a = claim_element(div1_nodes, "A", {
-        href: true,
-        class: true,
-        alt: true
-      });
-      var a_nodes = children(a);
-      t7 = claim_text(a_nodes, "suscribirme para recibir noticias");
-      a_nodes.forEach(detach_dev);
-      div1_nodes.forEach(detach_dev);
-      div2_nodes.forEach(detach_dev);
-      t8 = claim_space(div9_nodes);
-      div3 = claim_element(div9_nodes, "DIV", {
+      t6 = claim_space(div2_nodes);
+      div1 = claim_element(div2_nodes, "DIV", {});
+      var div1_nodes = children(div1);
+      button = claim_element(div1_nodes, "BUTTON", {
+        "data-tf-popup": true,
+        style: true,
         class: true
       });
-      var div3_nodes = children(div3);
-      p2 = claim_element(div3_nodes, "P", {
+      var button_nodes = children(button);
+      t7 = claim_text(button_nodes, "Suscribirme");
+      button_nodes.forEach(detach_dev);
+      script = claim_element(div1_nodes, "SCRIPT", {
+        src: true
+      });
+      var script_nodes = children(script);
+      script_nodes.forEach(detach_dev);
+      div1_nodes.forEach(detach_dev);
+      div2_nodes.forEach(detach_dev);
+      div3_nodes.forEach(detach_dev);
+      t8 = claim_space(div10_nodes);
+      div4 = claim_element(div10_nodes, "DIV", {
+        class: true
+      });
+      var div4_nodes = children(div4);
+      p2 = claim_element(div4_nodes, "P", {
         class: true
       });
       var p2_nodes = children(p2);
       t9 = claim_text(p2_nodes, "pedagogía frente a la desinformación");
       p2_nodes.forEach(detach_dev);
-      div3_nodes.forEach(detach_dev);
-      t10 = claim_space(div9_nodes);
-      div8 = claim_element(div9_nodes, "DIV", {
+      div4_nodes.forEach(detach_dev);
+      t10 = claim_space(div10_nodes);
+      div9 = claim_element(div10_nodes, "DIV", {
         class: true
       });
-      var div8_nodes = children(div8);
-      div4 = claim_element(div8_nodes, "DIV", {
+      var div9_nodes = children(div9);
+      div5 = claim_element(div9_nodes, "DIV", {
         class: true
       });
-      var div4_nodes = children(div4);
-      iframe0 = claim_element(div4_nodes, "IFRAME", {
+      var div5_nodes = children(div5);
+      iframe0 = claim_element(div5_nodes, "IFRAME", {
         height: true,
         src: true,
         title: true,
@@ -11723,13 +11709,13 @@ function create_fragment$1(ctx) {
         class: true
       });
       children(iframe0).forEach(detach_dev);
-      div4_nodes.forEach(detach_dev);
-      t11 = claim_space(div8_nodes);
-      div5 = claim_element(div8_nodes, "DIV", {
+      div5_nodes.forEach(detach_dev);
+      t11 = claim_space(div9_nodes);
+      div6 = claim_element(div9_nodes, "DIV", {
         class: true
       });
-      var div5_nodes = children(div5);
-      iframe1 = claim_element(div5_nodes, "IFRAME", {
+      var div6_nodes = children(div6);
+      iframe1 = claim_element(div6_nodes, "IFRAME", {
         height: true,
         src: true,
         title: true,
@@ -11739,13 +11725,13 @@ function create_fragment$1(ctx) {
         class: true
       });
       children(iframe1).forEach(detach_dev);
-      div5_nodes.forEach(detach_dev);
-      t12 = claim_space(div8_nodes);
-      div6 = claim_element(div8_nodes, "DIV", {
+      div6_nodes.forEach(detach_dev);
+      t12 = claim_space(div9_nodes);
+      div7 = claim_element(div9_nodes, "DIV", {
         class: true
       });
-      var div6_nodes = children(div6);
-      iframe2 = claim_element(div6_nodes, "IFRAME", {
+      var div7_nodes = children(div7);
+      iframe2 = claim_element(div7_nodes, "IFRAME", {
         height: true,
         src: true,
         title: true,
@@ -11755,13 +11741,13 @@ function create_fragment$1(ctx) {
         class: true
       });
       children(iframe2).forEach(detach_dev);
-      div6_nodes.forEach(detach_dev);
-      t13 = claim_space(div8_nodes);
-      div7 = claim_element(div8_nodes, "DIV", {
+      div7_nodes.forEach(detach_dev);
+      t13 = claim_space(div9_nodes);
+      div8 = claim_element(div9_nodes, "DIV", {
         class: true
       });
-      var div7_nodes = children(div7);
-      iframe3 = claim_element(div7_nodes, "IFRAME", {
+      var div8_nodes = children(div8);
+      iframe3 = claim_element(div8_nodes, "IFRAME", {
         height: true,
         src: true,
         title: true,
@@ -11771,38 +11757,40 @@ function create_fragment$1(ctx) {
         class: true
       });
       children(iframe3).forEach(detach_dev);
-      div7_nodes.forEach(detach_dev);
       div8_nodes.forEach(detach_dev);
       div9_nodes.forEach(detach_dev);
+      div10_nodes.forEach(detach_dev);
       article_nodes.forEach(detach_dev);
       section_nodes.forEach(detach_dev);
       this.h();
     },
     h: function hydrate() {
       if (img.src !== (img_src_value = "nocomocuenta.png")) attr_dev(img, "src", img_src_value);
-      attr_dev(img, "class", "max-h-330px max-w-xs  md:object-scale-down ");
+      attr_dev(img, "class", "max-h-330px max-w-xs  sm:object-scale-down ");
       attr_dev(img, "alt", "imagen: no como cuenta ");
-      add_location(img, file$1, 6, 20, 329);
+      add_location(img, file$1, 6, 20, 296);
       attr_dev(div0, "class", "flex-initial");
-      add_location(div0, file$1, 5, 16, 282);
+      add_location(div0, file$1, 5, 16, 249);
       attr_dev(span, "class", "parraf-bg svelte-4dxiw7");
-      add_location(span, file$1, 11, 60, 630);
+      add_location(span, file$1, 11, 60, 597);
       attr_dev(p0, "class", "parraf pl-5 pb-1 text-2xl svelte-4dxiw7");
-      add_location(p0, file$1, 10, 20, 532);
+      add_location(p0, file$1, 10, 20, 499);
       attr_dev(p1, "class", "fushia-text pl-5 pb-1 text-2xl");
-      add_location(p1, file$1, 13, 20, 862);
-      attr_dev(a, "href", "#");
-      attr_dev(a, "class", "ml-5 px-5  border-2 border-black  uppercase");
-      attr_dev(a, "alt", "link registro de mi colegio");
-      add_location(a, file$1, 19, 20, 1293);
-      attr_dev(div1, "class", "container  pt-1.5");
-      add_location(div1, file$1, 9, 16, 480);
-      attr_dev(div2, "class", "sm:flex-none md:flex sm:col-span-1 md:col-span-3");
-      add_location(div2, file$1, 4, 12, 203);
+      add_location(p1, file$1, 13, 20, 829);
+      attr_dev(button, "data-tf-popup", "HRArEB7z");
+      attr_dev(button, "class", "ml-5 px-5  border-2 border-black  uppercase");
+      add_location(button, file$1, 28, 24, 1872);
+      if (script.src !== (script_src_value = "//embed.typeform.com/next/embed.js")) attr_dev(script, "src", script_src_value);
+      add_location(script, file$1, 29, 96, 2010);
+      add_location(div1, file$1, 22, 20, 1448);
+      attr_dev(div2, "class", "container  pt-1.5");
+      add_location(div2, file$1, 9, 16, 447);
+      attr_dev(div3, "class", " col-span-1 sm:col-span-3");
+      add_location(div3, file$1, 4, 12, 193);
       attr_dev(p2, "class", "mx-auto my-10 px-5 text-black  parraf parrafBG text-3xl  svelte-4dxiw7");
-      add_location(p2, file$1, 26, 16, 1559);
-      attr_dev(div3, "class", "md:col-span-3 mx-auto");
-      add_location(div3, file$1, 25, 12, 1507);
+      add_location(p2, file$1, 35, 16, 2203);
+      attr_dev(div4, "class", "sm:col-span-3 mx-auto");
+      add_location(div4, file$1, 34, 12, 2151);
       attr_dev(iframe0, "height", "215");
       if (iframe0.src !== (iframe0_src_value = "https://www.youtube.com/embed/J2kQzLZIukQ")) attr_dev(iframe0, "src", iframe0_src_value);
       attr_dev(iframe0, "title", "YouTube video player");
@@ -11810,9 +11798,9 @@ function create_fragment$1(ctx) {
       attr_dev(iframe0, "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
       iframe0.allowFullscreen = true;
       attr_dev(iframe0, "class", "svelte-4dxiw7");
-      add_location(iframe0, file$1, 33, 20, 1857);
-      attr_dev(div4, "class", "m-2  w-auto");
-      add_location(div4, file$1, 32, 16, 1810);
+      add_location(iframe0, file$1, 42, 20, 2507);
+      attr_dev(div5, "class", "sm:m-2  w-auto");
+      add_location(div5, file$1, 41, 16, 2457);
       attr_dev(iframe1, "height", "215");
       if (iframe1.src !== (iframe1_src_value = "https://www.youtube.com/embed/2ghFaoy34vA")) attr_dev(iframe1, "src", iframe1_src_value);
       attr_dev(iframe1, "title", "YouTube video player");
@@ -11820,9 +11808,9 @@ function create_fragment$1(ctx) {
       attr_dev(iframe1, "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
       iframe1.allowFullscreen = true;
       attr_dev(iframe1, "class", "svelte-4dxiw7");
-      add_location(iframe1, file$1, 36, 20, 2180);
-      attr_dev(div5, "class", "m-2  w-auto");
-      add_location(div5, file$1, 35, 16, 2134);
+      add_location(iframe1, file$1, 45, 20, 2833);
+      attr_dev(div6, "class", "sm:m-2  w-auto");
+      add_location(div6, file$1, 44, 16, 2784);
       attr_dev(iframe2, "height", "215");
       if (iframe2.src !== (iframe2_src_value = "https://www.youtube.com/embed/hkYLH9YBRVk")) attr_dev(iframe2, "src", iframe2_src_value);
       attr_dev(iframe2, "title", "YouTube video player");
@@ -11830,9 +11818,9 @@ function create_fragment$1(ctx) {
       attr_dev(iframe2, "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
       iframe2.allowFullscreen = true;
       attr_dev(iframe2, "class", "svelte-4dxiw7");
-      add_location(iframe2, file$1, 39, 20, 2501);
-      attr_dev(div6, "class", "m-2 w-auto");
-      add_location(div6, file$1, 38, 16, 2456);
+      add_location(iframe2, file$1, 48, 20, 3157);
+      attr_dev(div7, "class", "sm:m-2 w-auto");
+      add_location(div7, file$1, 47, 16, 3109);
       attr_dev(iframe3, "height", "215");
       if (iframe3.src !== (iframe3_src_value = "https://www.youtube.com/embed/BO2yLty0jbw")) attr_dev(iframe3, "src", iframe3_src_value);
       attr_dev(iframe3, "title", "YouTube video player");
@@ -11840,55 +11828,57 @@ function create_fragment$1(ctx) {
       attr_dev(iframe3, "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
       iframe3.allowFullscreen = true;
       attr_dev(iframe3, "class", "svelte-4dxiw7");
-      add_location(iframe3, file$1, 42, 20, 2824);
-      attr_dev(div7, "class", "m-2 w-auto");
-      add_location(div7, file$1, 41, 16, 2779);
-      attr_dev(div8, "class", " md:col-span-3 flex flex-wrap  space-x-2 ");
-      add_location(div8, file$1, 31, 12, 1738);
-      attr_dev(div9, "class", "grid sm:grid-cols-1 md:grid-cols-3 mx-auto");
-      add_location(div9, file$1, 3, 8, 134);
+      add_location(iframe3, file$1, 51, 20, 3483);
+      attr_dev(div8, "class", "sm:m-2 w-auto");
+      add_location(div8, file$1, 50, 16, 3435);
+      attr_dev(div9, "class", " sm:col-span-3 flex flex-wrap  sm:space-x-2 ");
+      add_location(div9, file$1, 40, 12, 2382);
+      attr_dev(div10, "class", "grid grid-cols-1 sm:grid-cols-3 mx-auto");
+      add_location(div10, file$1, 3, 8, 127);
       attr_dev(article, "id", "nocomocuento");
-      attr_dev(article, "class", "sm:px-0  md:p-10 md:px-14 md:container w-auto mx-auto  bg-white ");
+      attr_dev(article, "class", "  sm:p-10 sm:px-14 sm:container w-auto mx-auto  bg-white ");
       add_location(article, file$1, 1, 3, 16);
       add_location(section, file$1, 0, 0, 0);
     },
     m: function mount(target, anchor) {
       insert_dev(target, section, anchor);
       append_dev(section, article);
-      append_dev(article, div9);
-      append_dev(div9, div2);
-      append_dev(div2, div0);
+      append_dev(article, div10);
+      append_dev(div10, div3);
+      append_dev(div3, div0);
       append_dev(div0, img);
-      append_dev(div2, t0);
-      append_dev(div2, div1);
-      append_dev(div1, p0);
+      append_dev(div3, t0);
+      append_dev(div3, div2);
+      append_dev(div2, p0);
       append_dev(p0, t1);
       append_dev(p0, span);
       append_dev(span, t2);
       append_dev(p0, t3);
-      append_dev(div1, t4);
-      append_dev(div1, p1);
+      append_dev(div2, t4);
+      append_dev(div2, p1);
       append_dev(p1, t5);
-      append_dev(div1, t6);
-      append_dev(div1, a);
-      append_dev(a, t7);
-      append_dev(div9, t8);
-      append_dev(div9, div3);
-      append_dev(div3, p2);
+      append_dev(div2, t6);
+      append_dev(div2, div1);
+      append_dev(div1, button);
+      append_dev(button, t7);
+      append_dev(div1, script);
+      append_dev(div10, t8);
+      append_dev(div10, div4);
+      append_dev(div4, p2);
       append_dev(p2, t9);
-      append_dev(div9, t10);
+      append_dev(div10, t10);
+      append_dev(div10, div9);
+      append_dev(div9, div5);
+      append_dev(div5, iframe0);
+      append_dev(div9, t11);
+      append_dev(div9, div6);
+      append_dev(div6, iframe1);
+      append_dev(div9, t12);
+      append_dev(div9, div7);
+      append_dev(div7, iframe2);
+      append_dev(div9, t13);
       append_dev(div9, div8);
-      append_dev(div8, div4);
-      append_dev(div4, iframe0);
-      append_dev(div8, t11);
-      append_dev(div8, div5);
-      append_dev(div5, iframe1);
-      append_dev(div8, t12);
-      append_dev(div8, div6);
-      append_dev(div6, iframe2);
-      append_dev(div8, t13);
-      append_dev(div8, div7);
-      append_dev(div7, iframe3);
+      append_dev(div8, iframe3);
     },
     p: noop,
     i: noop,
