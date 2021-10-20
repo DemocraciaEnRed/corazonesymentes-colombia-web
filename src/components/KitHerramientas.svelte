@@ -13,6 +13,8 @@
   axios.get(url).then((res)=>{
     kits = formatSpreadsheet(res.data.values);
     newKits=kits;
+    // console.log('kit>', kits);
+
   });
 
   const formatSpreadsheet = (data) =>{
@@ -29,7 +31,14 @@
   }
 
   function changeFilter(newFilter) {
-    newKits= kits.filter(kit=>{return kit.type==newFilter})
+    if (newFilter == 'ALL'){
+      newKits= kits;
+
+    }else{
+      newKits= newKits.filter(kit=>{return kit.type==newFilter})
+
+      
+    }
   }
 
 </script>
@@ -75,6 +84,9 @@
       </button>
       <button  class="ml-5 mb-5 px-5  border-2 border-black" on:click={()=>changeFilter("JUEGO")}>
         <h4 >Juegos</h4>
+      </button>
+      <button  class="ml-5 mb-5 px-5  border-2 border-black" on:click={()=>changeFilter("ALL")}>
+        <h4 >Todas</h4>
       </button>
     </div>
    

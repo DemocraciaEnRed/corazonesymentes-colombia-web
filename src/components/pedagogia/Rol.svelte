@@ -72,8 +72,9 @@
                             El rol de cada uno<br> de nosotros 
                         </h1>
                     </div>
-                    <div class="w-auto  sm:order-last p-4 order-2 	">
-                        <p class=" text-2xl sm:p-0  justify-items-right text-right fontVacia uppercase circle">uno</p>
+                    <div class="w-auto static  sm:order-last p-4 order-2 	">
+                        <div class="absolute bottom-0 left-0 z-0"><img src="circulo.svg" alt=""></div>
+                        <p class=" text-2xl sm:p-0 z-20  justify-items-right text-right fontVacia uppercase circle">uno</p>
         
                     </div>
             

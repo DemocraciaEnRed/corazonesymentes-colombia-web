@@ -25,7 +25,7 @@
                 </div>
 
                 
-                <div class="  grid grid-cols-2 justify-items-stretch">
+                <div class=" flex flex-wrap sm:grid sm:grid-cols-2 justify-items-stretch">
                     <div class="text-2xl flex justify-self-start celeste-bg mt-3 mb-6 h-8 ">
                         <a href="https://www.facebook.com/DetoxDip/" target="_blank" class="mr-3"><img class="w-6 sm:w-8" src="social-media-icons/facebook.svg" alt="Logo de facebook"/> </a>                
                         <a href="https://twitter.com/detoxdip" target="_blank" class="mr-3"> <img class="w-6 sm:w-8" src="social-media-icons/twitter.svg" alt="Logo de twitter"/> </a>               
@@ -33,7 +33,7 @@
                         <a href="https://www.linkedin.com/company/dip-detox-information-project/" target="_blank" class="mr-3"> <img class="w-6 sm:w-8" src="social-media-icons/linkedin.svg" alt="Logo de linkedin"/>
                         </a>
                     </div>
-                    <div class="p-4 justify-self-end">
+                    <div class="p-4 mx-auto justify-self-end">
                         <a href="https://somosdip.com" 
                         class="py-2 px-2 border w-100 text-center border-gray-800 border-solid uppercase  mb-3" >NUESTRA PAGINA WEB
                     </a>
@@ -50,14 +50,14 @@
                 
         
             </div>
-            <div class="  grid grid-cols-2 justify-items-stretch">
+            <div class="  flex flex-wrap sm:grid sm:grid-cols-2 justify-items-stretch">
                 <div class="text-2xl flex justify-self-start celeste-bg mt-3 mb-6 h-8 ">
                     <a href="https://www.facebook.com/Extituto" target="_blank" class="mr-3"><img class="w-6 sm:w-8" src="social-media-icons/facebook.svg" alt="Logo de facebook"/> </a>                
                     <a href="https://twitter.com/extituto" target="_blank" class="mr-3"> <img class="w-6 sm:w-8" src="social-media-icons/twitter.svg" alt="Logo de twitter"/> </a>               
                     <a href="https://instagram.com/extituto" target="_blank" class="mr-3"> <img class="w-6 sm:w-8" src="social-media-icons/instagram.svg" alt="Logo de instagram"/></a>                
                     
                 </div>
-                <div class="p-4 justify-self-end">
+                <div class="p-4 mx-auto justify-self-end">
                     <a href="https://www.extituto.org/" 
                     class="py-2 px-2 border w-100 text-center border-gray-800 border-solid uppercase mb-3" >NUESTRA PAGINA WEB</a>
                 </div>
