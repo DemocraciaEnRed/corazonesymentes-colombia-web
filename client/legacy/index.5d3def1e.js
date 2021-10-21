@@ -1,4 +1,4 @@
-import { i as identity, _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, d as init, s as safe_not_equal, e as _assertThisInitialized, f as dispatch_dev, S as SvelteComponentDev, v as validate_slots, g as element, t as text, h as claim_element, j as children, k as claim_text, l as detach_dev, m as attr_dev, n as add_location, o as insert_dev, p as append_dev, q as listen_dev, r as noop, u as space, w as claim_space, x as _slicedToArray, y as add_render_callback, z as create_bidirectional_transition, A as _createClass, B as set_data_dev, C as validate_each_argument, D as create_component, E as claim_component, F as mount_component, G as transition_in, H as transition_out, I as destroy_component, J as set_style, K as group_outros, L as check_outros, M as destroy_each, N as onMount, O as _typeof, P as assign, Q as get_spread_update, R as get_spread_object, T as run_all, U as createCommonjsModule, V as commonjsGlobal, W as getDefaultExportFromCjs, X as create_slot, Y as createEventDispatcher, Z as update_slot, $ as null_to_empty, a0 as binding_callbacks, a1 as svg_element, a2 as query_selector_all } from './client.9b6bdc0e.js';
+import { i as identity, _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, d as init, s as safe_not_equal, e as _assertThisInitialized, f as dispatch_dev, S as SvelteComponentDev, v as validate_slots, g as element, t as text, h as claim_element, j as children, k as claim_text, l as detach_dev, m as attr_dev, n as add_location, o as insert_dev, p as append_dev, q as listen_dev, r as noop, u as space, w as claim_space, x as _slicedToArray, y as add_render_callback, z as create_bidirectional_transition, A as _createClass, B as set_data_dev, C as validate_each_argument, D as create_component, E as claim_component, F as mount_component, G as transition_in, H as transition_out, I as destroy_component, J as set_style, K as group_outros, L as check_outros, M as destroy_each, N as onMount, O as _typeof, P as globals, Q as assign, R as get_spread_update, T as get_spread_object, U as run_all, V as createCommonjsModule, W as commonjsGlobal, X as getDefaultExportFromCjs, Y as create_slot, Z as createEventDispatcher, $ as update_slot, a0 as null_to_empty, a1 as binding_callbacks, a2 as svg_element, a3 as query_selector_all } from './client.687bcc37.js';
 
 function fade(node) {
   var _ref2 = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {},
@@ -3235,6 +3235,7 @@ var axios = axios_1;
 function _createSuper$k(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$k(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
 function _isNativeReflectConstruct$k() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+var console_1$1 = globals.console;
 var file$k = "src/components/Kit.svelte"; // (59:4) {#if opened}
 
 function create_if_block$1(ctx) {
@@ -3261,7 +3262,7 @@ function create_if_block$1(ctx) {
     },
     h: function hydrate() {
       attr_dev(p, "class", "my-3 text-center font-sans");
-      add_location(p, file$k, 59, 6, 1332);
+      add_location(p, file$k, 59, 6, 1396);
     },
     m: function mount(target, anchor) {
       insert_dev(target, p, anchor);
@@ -3340,6 +3341,8 @@ function create_fragment$k(ctx) {
     },
     l: function claim(nodes) {
       div2 = claim_element(nodes, "DIV", {
+        id: true,
+        name: true,
         class: true
       });
       var div2_nodes = children(div2);
@@ -3402,18 +3405,18 @@ function create_fragment$k(ctx) {
     },
     h: function hydrate() {
       attr_dev(p, "class", "uppercase font-bold font-sans text-sm\t text-gray-400");
-      add_location(p, file$k, 47, 4, 896);
+      add_location(p, file$k, 47, 4, 960);
       attr_dev(img0, "class", " float-right");
       if (img0.src !== (img0_src_value = "open.png")) attr_dev(img0, "src", img0_src_value);
       attr_dev(img0, "alt", "abrir link");
-      add_location(img0, file$k, 49, 6, 1009);
+      add_location(img0, file$k, 49, 6, 1073);
       attr_dev(a, "class", " p-2");
       attr_dev(a, "href",
       /*url*/
       ctx[3]);
-      add_location(a, file$k, 48, 4, 975);
+      add_location(a, file$k, 48, 4, 1039);
       attr_dev(div0, "class", "flex justify-end items-center mb-3");
-      add_location(div0, file$k, 46, 2, 843);
+      add_location(div0, file$k, 46, 2, 907);
       if (img1.src !== (img1_src_value =
       /*icon*/
       ctx[5])) attr_dev(img1, "src", img1_src_value);
@@ -3421,20 +3424,24 @@ function create_fragment$k(ctx) {
       attr_dev(img1, "alt",
       /*type*/
       ctx[1]);
-      add_location(img1, file$k, 53, 4, 1150);
+      add_location(img1, file$k, 53, 4, 1214);
       attr_dev(h3, "class", "uppercase font-bold text-md pb-1 text-center");
-      add_location(h3, file$k, 55, 4, 1223);
+      add_location(h3, file$k, 55, 4, 1287);
       attr_dev(div1, "class", "flex flex-col justify-between items-center");
-      add_location(div1, file$k, 52, 2, 1089);
+      add_location(div1, file$k, 52, 2, 1153);
       attr_dev(img2, "width", "20px");
       attr_dev(img2, "class", "text-right mx-auto font-sans cursor-pointer p-1");
       if (img2.src !== (img2_src_value =
       /*opened*/
       ctx[4] ? "less.png" : "more.png")) attr_dev(img2, "src", img2_src_value);
       attr_dev(img2, "alt", "Ver más");
-      add_location(img2, file$k, 64, 4, 1420);
+      add_location(img2, file$k, 64, 4, 1484);
+      attr_dev(div2, "id", "itemKit");
+      attr_dev(div2, "name",
+      /*type*/
+      ctx[1]);
       attr_dev(div2, "class", "w-3/4 md:w-11/12 mx-auto flex flex-col border justify-start border-gray-400 m-5 p-3 ");
-      add_location(div2, file$k, 44, 0, 739);
+      add_location(div2, file$k, 44, 0, 778);
     },
     m: function mount(target, anchor) {
       insert_dev(target, div2, anchor);
@@ -3524,6 +3531,14 @@ function create_fragment$k(ctx) {
       ctx[4] ? "less.png" : "more.png")) {
         attr_dev(img2, "src", img2_src_value);
       }
+
+      if (dirty &
+      /*type*/
+      2) {
+        attr_dev(div2, "name",
+        /*type*/
+        ctx[1]);
+      }
     },
     i: noop,
     o: noop,
@@ -3560,6 +3575,7 @@ function instance$k($$self, $$props, $$invalidate) {
   };
 
   var icon;
+  console.log("llamada a componente kit");
 
   switch (type) {
     case "GUÍA":
@@ -3591,7 +3607,7 @@ function instance$k($$self, $$props, $$invalidate) {
 
   var writable_props = ["description", "type", "title", "url"];
   Object.keys($$props).forEach(function (key) {
-    if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn("<Kit> was created with unknown prop '".concat(key, "'"));
+    if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console_1$1.warn("<Kit> was created with unknown prop '".concat(key, "'"));
   });
 
   $$self.$$set = function ($$props) {
@@ -3659,25 +3675,25 @@ var Kit = /*#__PURE__*/function (_SvelteComponentDev) {
     if (
     /*description*/
     ctx[0] === undefined && !("description" in props)) {
-      console.warn("<Kit> was created without expected prop 'description'");
+      console_1$1.warn("<Kit> was created without expected prop 'description'");
     }
 
     if (
     /*type*/
     ctx[1] === undefined && !("type" in props)) {
-      console.warn("<Kit> was created without expected prop 'type'");
+      console_1$1.warn("<Kit> was created without expected prop 'type'");
     }
 
     if (
     /*title*/
     ctx[2] === undefined && !("title" in props)) {
-      console.warn("<Kit> was created without expected prop 'title'");
+      console_1$1.warn("<Kit> was created without expected prop 'title'");
     }
 
     if (
     /*url*/
     ctx[3] === undefined && !("url" in props)) {
-      console.warn("<Kit> was created without expected prop 'url'");
+      console_1$1.warn("<Kit> was created without expected prop 'url'");
     }
 
     return _this;
@@ -3723,13 +3739,14 @@ var Kit = /*#__PURE__*/function (_SvelteComponentDev) {
 function _createSuper$j(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$j(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
 function _isNativeReflectConstruct$j() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+var console_1 = globals.console;
 var file$j = "src/components/KitHerramientas.svelte";
 
 function get_each_context$1(ctx, list, i) {
   var child_ctx = ctx.slice();
-  child_ctx[12] = list[i];
+  child_ctx[11] = list[i];
   return child_ctx;
-} // (94:8) {#each newKits as item}
+} // (129:8) {#each newKits as item}
 
 
 function create_each_block$1(ctx) {
@@ -3737,7 +3754,7 @@ function create_each_block$1(ctx) {
   var current;
   var kit_spread_levels = [
   /*item*/
-  ctx[12]];
+  ctx[11]];
   var kit_props = {};
 
   for (var i = 0; i < kit_spread_levels.length; i += 1) {
@@ -3764,7 +3781,7 @@ function create_each_block$1(ctx) {
       /*newKits*/
       1 ? get_spread_update(kit_spread_levels, [get_spread_object(
       /*item*/
-      ctx[12])]) : {};
+      ctx[11])]) : {};
       kit.$set(kit_changes);
     },
     i: function intro(local) {
@@ -3784,7 +3801,7 @@ function create_each_block$1(ctx) {
     block: block,
     id: create_each_block$1.name,
     type: "each",
-    source: "(94:8) {#each newKits as item}",
+    source: "(129:8) {#each newKits as item}",
     ctx: ctx
   });
   return block;
@@ -4018,6 +4035,7 @@ function create_fragment$j(ctx) {
       div3_nodes.forEach(detach_dev);
       t17 = claim_space(article_nodes);
       div4 = claim_element(article_nodes, "DIV", {
+        id: true,
         class: true
       });
       var div4_nodes = children(div4);
@@ -4033,46 +4051,47 @@ function create_fragment$j(ctx) {
     },
     h: function hydrate() {
       attr_dev(span, "class", "celeste-bg");
-      add_location(span, file$j, 60, 71, 1565);
+      add_location(span, file$j, 95, 71, 2625);
       attr_dev(h1, "class", "w-60 upercase text-black text-left leading-snug\t");
-      add_location(h1, file$j, 60, 10, 1504);
+      add_location(h1, file$j, 95, 10, 2564);
       attr_dev(div0, "class", "pt-10 sm:px-3 py-6 lg:p-8 flex ");
-      add_location(div0, file$j, 58, 6, 1339);
+      add_location(div0, file$j, 93, 6, 2399);
       attr_dev(p, "class", "font-sans font-medium pb-3");
-      add_location(p, file$j, 63, 8, 1722);
+      add_location(p, file$j, 98, 8, 2782);
       attr_dev(h40, "class", "uppercase fushia-text pb-3");
-      add_location(h40, file$j, 64, 8, 1890);
+      add_location(h40, file$j, 99, 8, 2950);
       attr_dev(div1, "class", "text-black flex flex-col justify-center text-left");
-      add_location(div1, file$j, 62, 6, 1650);
+      add_location(div1, file$j, 97, 6, 2710);
       attr_dev(div2, "class", "grid md:grid-cols-2 xs:grid-cols-1 sm:grid-cols-1 p-3 gap-8 mb-10 bg-white pb-10 sm:pb-0");
-      add_location(div2, file$j, 56, 4, 1229);
-      add_location(h41, file$j, 72, 8, 2192);
+      add_location(div2, file$j, 91, 4, 2289);
+      add_location(h41, file$j, 107, 8, 3255);
       attr_dev(button0, "class", "ml-5 mb-5 px-5  border-2 border-black");
-      add_location(button0, file$j, 71, 6, 2088);
-      add_location(h42, file$j, 75, 8, 2339);
+      add_location(button0, file$j, 106, 6, 3151);
+      add_location(h42, file$j, 110, 8, 3402);
       attr_dev(button1, "class", "ml-5 mb-5 px-5  border-2 border-black");
-      add_location(button1, file$j, 74, 6, 2233);
-      add_location(h43, file$j, 78, 8, 2483);
+      add_location(button1, file$j, 109, 6, 3296);
+      add_location(h43, file$j, 113, 8, 3546);
       attr_dev(button2, "class", "ml-5 mb-5 px-5  border-2 border-black");
-      add_location(button2, file$j, 77, 6, 2382);
-      add_location(h44, file$j, 81, 8, 2621);
+      add_location(button2, file$j, 112, 6, 3445);
+      add_location(h44, file$j, 116, 8, 3684);
       attr_dev(button3, "class", "ml-5 mb-5 px-5  border-2 border-black");
-      add_location(button3, file$j, 80, 6, 2521);
-      add_location(h45, file$j, 84, 8, 2759);
+      add_location(button3, file$j, 115, 6, 3584);
+      add_location(h45, file$j, 119, 8, 3822);
       attr_dev(button4, "class", "ml-5 mb-5 px-5  border-2 border-black");
-      add_location(button4, file$j, 83, 6, 2658);
-      add_location(h46, file$j, 87, 8, 2897);
+      add_location(button4, file$j, 118, 6, 3721);
+      add_location(h46, file$j, 122, 8, 3960);
       attr_dev(button5, "class", "ml-5 mb-5 px-5  border-2 border-black");
-      add_location(button5, file$j, 86, 6, 2798);
-      attr_dev(div3, "class", "flex justify-evenly flex-wrap");
-      add_location(div3, file$j, 69, 4, 2037);
+      add_location(button5, file$j, 121, 6, 3861);
+      attr_dev(div3, "class", "flex sm:justify-evenly flex-wrap");
+      add_location(div3, file$j, 104, 4, 3097);
+      attr_dev(div4, "id", "contentKit");
       attr_dev(div4, "class", "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-10");
-      add_location(div4, file$j, 91, 4, 2948);
+      add_location(div4, file$j, 126, 4, 4011);
       attr_dev(article, "class", "container mx-auto ");
-      add_location(article, file$j, 54, 2, 1187);
+      add_location(article, file$j, 89, 2, 2247);
       attr_dev(div5, "class", "md:p-10 pt-0 sm:pt-20 bg-white  svelte-fzyaxp");
       attr_dev(div5, "id", "kit-de-herramientas");
-      add_location(div5, file$j, 52, 0, 1111);
+      add_location(div5, file$j, 87, 0, 2171);
     },
     m: function mount(target, anchor) {
       insert_dev(target, div5, anchor);
@@ -4126,17 +4145,17 @@ function create_fragment$j(ctx) {
       if (!mounted) {
         dispose = [listen_dev(button0, "click",
         /*click_handler*/
-        ctx[2], false, false, false), listen_dev(button1, "click",
+        ctx[1], false, false, false), listen_dev(button1, "click",
         /*click_handler_1*/
-        ctx[3], false, false, false), listen_dev(button2, "click",
+        ctx[2], false, false, false), listen_dev(button2, "click",
         /*click_handler_2*/
-        ctx[4], false, false, false), listen_dev(button3, "click",
+        ctx[3], false, false, false), listen_dev(button3, "click",
         /*click_handler_3*/
-        ctx[5], false, false, false), listen_dev(button4, "click",
+        ctx[4], false, false, false), listen_dev(button4, "click",
         /*click_handler_4*/
-        ctx[6], false, false, false), listen_dev(button5, "click",
+        ctx[5], false, false, false), listen_dev(button5, "click",
         /*click_handler_5*/
-        ctx[7], false, false, false)];
+        ctx[6], false, false, false)];
         mounted = true;
       }
     },
@@ -4216,6 +4235,41 @@ function create_fragment$j(ctx) {
   return block;
 }
 
+function changeFilter(newFilter) {
+  if (newFilter == "ALL") {
+    // newKits= kits;
+    var allkit = document.querySelectorAll("[id=\"itemKit\"]");
+
+    for (var i = 0; i < allkit.length; i++) {
+      allkit[i].classList.replace("hidden", "block");
+    }
+  } else {
+    // newKits= kits.filter(kit=>{return kit.type==newFilter})
+    // var allKit = document.getElementById('contentKit');
+    var _allkit = document.querySelectorAll("[id=\"itemKit\"]");
+
+    for (var i = 0; i < _allkit.length; i++) {
+      if (_allkit[i].getAttribute("name") != newFilter) {
+        console.log(newFilter, "Distinto ", _allkit[i].getAttribute("name"));
+
+        if ("hidden" in _allkit[i].classList) {
+          console.log("ya esta hidden");
+        } else {
+          if ("block" in _allkit[i].classList) {
+            _allkit[i].classList.replace("block", "hidden");
+          } else {
+            _allkit[i].className += " hidden";
+          }
+        }
+      } else {
+        console.log(newFilter, "igual ", _allkit[i].getAttribute("name"));
+
+        _allkit[i].classList.replace("hidden", "block");
+      }
+    }
+  }
+}
+
 function instance$j($$self, $$props, $$invalidate) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
@@ -4244,19 +4298,9 @@ function instance$j($$self, $$props, $$invalidate) {
     return input;
   };
 
-  function changeFilter(newFilter) {
-    if (newFilter == "ALL") {
-      $$invalidate(0, newKits = kits);
-    } else {
-      $$invalidate(0, newKits = newKits.filter(function (kit) {
-        return kit.type == newFilter;
-      }));
-    }
-  }
-
   var writable_props = [];
   Object.keys($$props).forEach(function (key) {
-    if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn("<KitHerramientas> was created with unknown prop '".concat(key, "'"));
+    if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console_1.warn("<KitHerramientas> was created with unknown prop '".concat(key, "'"));
   });
 
   var click_handler = function click_handler() {
@@ -4306,7 +4350,7 @@ function instance$j($$self, $$props, $$invalidate) {
     $$self.$inject_state($$props.$$inject);
   }
 
-  return [newKits, changeFilter, click_handler, click_handler_1, click_handler_2, click_handler_3, click_handler_4, click_handler_5];
+  return [newKits, click_handler, click_handler_1, click_handler_2, click_handler_3, click_handler_4, click_handler_5];
 }
 
 var KitHerramientas = /*#__PURE__*/function (_SvelteComponentDev) {
@@ -11834,33 +11878,33 @@ function create_fragment$1(ctx) {
       if (img.src !== (img_src_value = "nocomocuenta.png")) attr_dev(img, "src", img_src_value);
       attr_dev(img, "class", "max-h-330px max-w-xs  sm:object-scale-down ");
       attr_dev(img, "alt", "imagen: no como cuenta ");
-      add_location(img, file$1, 6, 20, 296);
-      attr_dev(div0, "class", "flex-initial");
-      add_location(div0, file$1, 5, 16, 249);
+      add_location(img, file$1, 6, 20, 305);
+      attr_dev(div0, "class", "flex-initial ");
+      add_location(div0, file$1, 5, 16, 257);
       attr_dev(span, "class", "parraf-bg svelte-4dxiw7");
-      add_location(span, file$1, 11, 60, 597);
+      add_location(span, file$1, 11, 60, 614);
       attr_dev(p0, "class", "parraf pl-5 pb-1 text-2xl svelte-4dxiw7");
-      add_location(p0, file$1, 10, 20, 499);
+      add_location(p0, file$1, 10, 20, 516);
       attr_dev(p1, "class", "fushia-text pl-5 pb-1 text-2xl");
-      add_location(p1, file$1, 13, 20, 829);
+      add_location(p1, file$1, 13, 20, 846);
       attr_dev(button, "data-tf-popup", "HRArEB7z");
       attr_dev(button, "data-tf-hide-headers", "");
       attr_dev(button, "data-tf-hide-footer", "");
       attr_dev(button, "data-tf-size", "50");
       attr_dev(button, "data-tf-auto-close", "");
       attr_dev(button, "class", "ml-5 px-5  border-2 border-black  uppercase");
-      add_location(button, file$1, 29, 24, 1896);
+      add_location(button, file$1, 29, 24, 1913);
       if (script.src !== (script_src_value = "//embed.typeform.com/next/embed.js")) attr_dev(script, "src", script_src_value);
-      add_location(script, file$1, 31, 32, 2141);
-      add_location(div1, file$1, 22, 20, 1448);
-      attr_dev(div2, "class", "container  pt-1.5");
-      add_location(div2, file$1, 9, 16, 447);
-      attr_dev(div3, "class", " col-span-1 sm:col-span-3");
+      add_location(script, file$1, 31, 32, 2158);
+      add_location(div1, file$1, 22, 20, 1465);
+      attr_dev(div2, "class", "container  pt-1.5 sm:pt-8");
+      add_location(div2, file$1, 9, 16, 456);
+      attr_dev(div3, "class", " col-span-1 sm:col-span-3 sm:flex");
       add_location(div3, file$1, 4, 12, 193);
       attr_dev(p2, "class", "mx-auto my-10 px-5 text-black  parraf parrafBG text-3xl  svelte-4dxiw7");
-      add_location(p2, file$1, 37, 16, 2334);
+      add_location(p2, file$1, 37, 16, 2351);
       attr_dev(div4, "class", "sm:col-span-3 mx-auto");
-      add_location(div4, file$1, 36, 12, 2282);
+      add_location(div4, file$1, 36, 12, 2299);
       attr_dev(iframe0, "height", "215");
       if (iframe0.src !== (iframe0_src_value = "https://www.youtube.com/embed/J2kQzLZIukQ")) attr_dev(iframe0, "src", iframe0_src_value);
       attr_dev(iframe0, "title", "YouTube video player");
@@ -11868,9 +11912,9 @@ function create_fragment$1(ctx) {
       attr_dev(iframe0, "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
       iframe0.allowFullscreen = true;
       attr_dev(iframe0, "class", "svelte-4dxiw7");
-      add_location(iframe0, file$1, 44, 20, 2638);
+      add_location(iframe0, file$1, 44, 20, 2655);
       attr_dev(div5, "class", "sm:m-2  w-auto");
-      add_location(div5, file$1, 43, 16, 2588);
+      add_location(div5, file$1, 43, 16, 2605);
       attr_dev(iframe1, "height", "215");
       if (iframe1.src !== (iframe1_src_value = "https://www.youtube.com/embed/2ghFaoy34vA")) attr_dev(iframe1, "src", iframe1_src_value);
       attr_dev(iframe1, "title", "YouTube video player");
@@ -11878,9 +11922,9 @@ function create_fragment$1(ctx) {
       attr_dev(iframe1, "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
       iframe1.allowFullscreen = true;
       attr_dev(iframe1, "class", "svelte-4dxiw7");
-      add_location(iframe1, file$1, 47, 20, 2964);
+      add_location(iframe1, file$1, 47, 20, 2981);
       attr_dev(div6, "class", "sm:m-2  w-auto");
-      add_location(div6, file$1, 46, 16, 2915);
+      add_location(div6, file$1, 46, 16, 2932);
       attr_dev(iframe2, "height", "215");
       if (iframe2.src !== (iframe2_src_value = "https://www.youtube.com/embed/hkYLH9YBRVk")) attr_dev(iframe2, "src", iframe2_src_value);
       attr_dev(iframe2, "title", "YouTube video player");
@@ -11888,9 +11932,9 @@ function create_fragment$1(ctx) {
       attr_dev(iframe2, "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
       iframe2.allowFullscreen = true;
       attr_dev(iframe2, "class", "svelte-4dxiw7");
-      add_location(iframe2, file$1, 50, 20, 3288);
+      add_location(iframe2, file$1, 50, 20, 3305);
       attr_dev(div7, "class", "sm:m-2 w-auto");
-      add_location(div7, file$1, 49, 16, 3240);
+      add_location(div7, file$1, 49, 16, 3257);
       attr_dev(iframe3, "height", "215");
       if (iframe3.src !== (iframe3_src_value = "https://www.youtube.com/embed/BO2yLty0jbw")) attr_dev(iframe3, "src", iframe3_src_value);
       attr_dev(iframe3, "title", "YouTube video player");
@@ -11898,11 +11942,11 @@ function create_fragment$1(ctx) {
       attr_dev(iframe3, "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
       iframe3.allowFullscreen = true;
       attr_dev(iframe3, "class", "svelte-4dxiw7");
-      add_location(iframe3, file$1, 53, 20, 3614);
+      add_location(iframe3, file$1, 53, 20, 3631);
       attr_dev(div8, "class", "sm:m-2 w-auto");
-      add_location(div8, file$1, 52, 16, 3566);
+      add_location(div8, file$1, 52, 16, 3583);
       attr_dev(div9, "class", " sm:col-span-3 flex flex-wrap  sm:space-x-2 ");
-      add_location(div9, file$1, 42, 12, 2513);
+      add_location(div9, file$1, 42, 12, 2530);
       attr_dev(div10, "class", "grid grid-cols-1 sm:grid-cols-3 mx-auto");
       add_location(div10, file$1, 3, 8, 127);
       attr_dev(article, "id", "nocomocuento");
