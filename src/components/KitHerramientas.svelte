@@ -32,14 +32,49 @@
 
   function changeFilter(newFilter) {
     if (newFilter == 'ALL'){
-      newKits= kits;
-
-    }else{
-      newKits= newKits.filter(kit=>{return kit.type==newFilter})
-
+      // newKits= kits;
+      let allkit = document.querySelectorAll('[id="itemKit"]');
       
+
+      for(var i = 0 ; i < allkit.length ; i++ )
+         { 
+          allkit[i].classList.replace( 'hidden', 'block' );
+        }
+    }else{
+
+      // newKits= kits.filter(kit=>{return kit.type==newFilter})
+      // var allKit = document.getElementById('contentKit');
+      
+
+      let allkit = document.querySelectorAll('[id="itemKit"]');
+      
+
+      for(var i = 0 ; i < allkit.length ; i++ ){ 
+
+         if (allkit[i].getAttribute('name') != newFilter){
+            console.log(newFilter, 'Distinto ',allkit[i].getAttribute('name'));
+
+            if ('hidden' in allkit[i].classList){
+              console.log('ya esta hidden');
+            }else{
+              if ('block' in allkit[i].classList){
+                allkit[i].classList.replace( 'block', 'hidden' );
+              }else{
+                allkit[i].className += " hidden";
+              }
+
+            }
+     
+         }else{
+          console.log(newFilter, 'igual ',allkit[i].getAttribute('name'))
+          allkit[i].classList.replace( 'hidden', 'block' );
+
+          
+          }
+         }
+      }
     }
-  }
+  
 
 </script>
 
@@ -68,7 +103,7 @@
       
     </div>
 
-    <div class="flex justify-evenly flex-wrap">
+    <div class="flex sm:justify-evenly flex-wrap">
 
       <button  class="ml-5 mb-5 px-5  border-2 border-black" on:click={()=>changeFilter("ARTÍCULO")}>
         <h4 >Artículo</h4>
@@ -90,7 +125,7 @@
       </button>
     </div>
    
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-10">
+    <div id="contentKit" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-10">
 
         {#each newKits as item}
           <Kit {...item}  />

@@ -2,12 +2,12 @@
    <article id="nocomocuento" class="  sm:p-10 sm:px-14 sm:container w-auto mx-auto  bg-white ">
         
         <div class="grid grid-cols-1 sm:grid-cols-3 mx-auto">
-            <div class=" col-span-1 sm:col-span-3">
-                <div class="flex-initial">
+            <div class=" col-span-1 sm:col-span-3 sm:flex">
+                <div class="flex-initial ">
                     <img src="nocomocuenta.png" class="max-h-330px max-w-xs  sm:object-scale-down " alt="imagen: no como cuenta ">
 
                 </div>
-                <div class="container  pt-1.5">
+                <div class="container  pt-1.5 sm:pt-8">
                     <p class="parraf pl-5 pb-1 text-2xl">
                         NO COMO CUENTO es un brazo de DIP - <span class="parraf-bg"> detox information project</span>, que hace pedagogía digital utilizando las ciencias del comportamiento para reducir la vulnerabilidad frente a la desinformación
                     </p>

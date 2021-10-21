@@ -9,7 +9,7 @@
     opened = !opened;
   }
   let icon
-  
+  console.log('llamada a componente kit')
   switch(type){
     case "GUÍA":
     case "ARTÍCULO":
@@ -44,7 +44,7 @@
 
 </style>
 
-<div class="w-3/4 md:w-11/12 mx-auto flex flex-col border justify-start border-gray-400 m-5 p-3 ">
+<div id="itemKit" name={type} class="w-3/4 md:w-11/12 mx-auto flex flex-col border justify-start border-gray-400 m-5 p-3 ">
   
   <div class="flex justify-end items-center mb-3">
     <p class="uppercase font-bold font-sans text-sm	 text-gray-400">{type}</p>
