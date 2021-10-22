@@ -1,4 +1,4 @@
-import { i as identity, _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, d as init, s as safe_not_equal, e as _assertThisInitialized, f as dispatch_dev, S as SvelteComponentDev, v as validate_slots, g as element, t as text, h as claim_element, j as children, k as claim_text, l as detach_dev, m as attr_dev, n as add_location, o as insert_dev, p as append_dev, q as listen_dev, r as noop, u as space, w as claim_space, x as _slicedToArray, y as add_render_callback, z as create_bidirectional_transition, A as _createClass, B as set_data_dev, C as validate_each_argument, D as create_component, E as claim_component, F as mount_component, G as transition_in, H as transition_out, I as destroy_component, J as set_style, K as group_outros, L as check_outros, M as destroy_each, N as onMount, O as _typeof, P as globals, Q as assign, R as get_spread_update, T as get_spread_object, U as run_all, V as createCommonjsModule, W as commonjsGlobal, X as getDefaultExportFromCjs, Y as create_slot, Z as createEventDispatcher, $ as update_slot, a0 as null_to_empty, a1 as binding_callbacks, a2 as svg_element, a3 as query_selector_all } from './client.687bcc37.js';
+import { i as identity, _ as _inherits, a as _getPrototypeOf, b as _possibleConstructorReturn, c as _classCallCheck, d as init, s as safe_not_equal, e as _assertThisInitialized, f as dispatch_dev, S as SvelteComponentDev, v as validate_slots, g as element, t as text, h as claim_element, j as children, k as claim_text, l as detach_dev, m as attr_dev, n as add_location, o as insert_dev, p as append_dev, q as listen_dev, r as noop, u as space, w as claim_space, x as _slicedToArray, y as add_render_callback, z as create_bidirectional_transition, A as _createClass, B as set_data_dev, C as validate_each_argument, D as create_component, E as claim_component, F as mount_component, G as transition_in, H as transition_out, I as destroy_component, J as set_style, K as group_outros, L as check_outros, M as destroy_each, N as onMount, O as _typeof, P as globals, Q as assign, R as get_spread_update, T as get_spread_object, U as run_all, V as createCommonjsModule, W as commonjsGlobal, X as getDefaultExportFromCjs, Y as create_slot, Z as createEventDispatcher, $ as update_slot, a0 as null_to_empty, a1 as binding_callbacks, a2 as svg_element, a3 as query_selector_all } from './client.ea69ba74.js';
 
 function fade(node) {
   var _ref2 = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {},
@@ -3235,8 +3235,7 @@ var axios = axios_1;
 function _createSuper$k(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$k(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
 function _isNativeReflectConstruct$k() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
-var console_1$1 = globals.console;
-var file$k = "src/components/Kit.svelte"; // (59:4) {#if opened}
+var file$k = "src/components/Kit.svelte"; // (58:4) {#if opened}
 
 function create_if_block$1(ctx) {
   var p;
@@ -3262,7 +3261,7 @@ function create_if_block$1(ctx) {
     },
     h: function hydrate() {
       attr_dev(p, "class", "my-3 text-center font-sans");
-      add_location(p, file$k, 59, 6, 1396);
+      add_location(p, file$k, 58, 6, 1354);
     },
     m: function mount(target, anchor) {
       insert_dev(target, p, anchor);
@@ -3283,7 +3282,7 @@ function create_if_block$1(ctx) {
     block: block,
     id: create_if_block$1.name,
     type: "if",
-    source: "(59:4) {#if opened}",
+    source: "(58:4) {#if opened}",
     ctx: ctx
   });
   return block;
@@ -3405,18 +3404,18 @@ function create_fragment$k(ctx) {
     },
     h: function hydrate() {
       attr_dev(p, "class", "uppercase font-bold font-sans text-sm\t text-gray-400");
-      add_location(p, file$k, 47, 4, 960);
+      add_location(p, file$k, 46, 4, 918);
       attr_dev(img0, "class", " float-right");
       if (img0.src !== (img0_src_value = "open.png")) attr_dev(img0, "src", img0_src_value);
       attr_dev(img0, "alt", "abrir link");
-      add_location(img0, file$k, 49, 6, 1073);
+      add_location(img0, file$k, 48, 6, 1031);
       attr_dev(a, "class", " p-2");
       attr_dev(a, "href",
       /*url*/
       ctx[3]);
-      add_location(a, file$k, 48, 4, 1039);
+      add_location(a, file$k, 47, 4, 997);
       attr_dev(div0, "class", "flex justify-end items-center mb-3");
-      add_location(div0, file$k, 46, 2, 907);
+      add_location(div0, file$k, 45, 2, 865);
       if (img1.src !== (img1_src_value =
       /*icon*/
       ctx[5])) attr_dev(img1, "src", img1_src_value);
@@ -3424,24 +3423,24 @@ function create_fragment$k(ctx) {
       attr_dev(img1, "alt",
       /*type*/
       ctx[1]);
-      add_location(img1, file$k, 53, 4, 1214);
+      add_location(img1, file$k, 52, 4, 1172);
       attr_dev(h3, "class", "uppercase font-bold text-md pb-1 text-center");
-      add_location(h3, file$k, 55, 4, 1287);
+      add_location(h3, file$k, 54, 4, 1245);
       attr_dev(div1, "class", "flex flex-col justify-between items-center");
-      add_location(div1, file$k, 52, 2, 1153);
+      add_location(div1, file$k, 51, 2, 1111);
       attr_dev(img2, "width", "20px");
       attr_dev(img2, "class", "text-right mx-auto font-sans cursor-pointer p-1");
       if (img2.src !== (img2_src_value =
       /*opened*/
       ctx[4] ? "less.png" : "more.png")) attr_dev(img2, "src", img2_src_value);
       attr_dev(img2, "alt", "Ver más");
-      add_location(img2, file$k, 64, 4, 1484);
+      add_location(img2, file$k, 63, 4, 1442);
       attr_dev(div2, "id", "itemKit");
       attr_dev(div2, "name",
       /*type*/
       ctx[1]);
       attr_dev(div2, "class", "w-3/4 md:w-11/12 mx-auto flex flex-col border justify-start border-gray-400 m-5 p-3 ");
-      add_location(div2, file$k, 44, 0, 778);
+      add_location(div2, file$k, 43, 0, 736);
     },
     m: function mount(target, anchor) {
       insert_dev(target, div2, anchor);
@@ -3575,7 +3574,6 @@ function instance$k($$self, $$props, $$invalidate) {
   };
 
   var icon;
-  console.log("llamada a componente kit");
 
   switch (type) {
     case "GUÍA":
@@ -3607,7 +3605,7 @@ function instance$k($$self, $$props, $$invalidate) {
 
   var writable_props = ["description", "type", "title", "url"];
   Object.keys($$props).forEach(function (key) {
-    if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console_1$1.warn("<Kit> was created with unknown prop '".concat(key, "'"));
+    if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn("<Kit> was created with unknown prop '".concat(key, "'"));
   });
 
   $$self.$$set = function ($$props) {
@@ -3675,25 +3673,25 @@ var Kit = /*#__PURE__*/function (_SvelteComponentDev) {
     if (
     /*description*/
     ctx[0] === undefined && !("description" in props)) {
-      console_1$1.warn("<Kit> was created without expected prop 'description'");
+      console.warn("<Kit> was created without expected prop 'description'");
     }
 
     if (
     /*type*/
     ctx[1] === undefined && !("type" in props)) {
-      console_1$1.warn("<Kit> was created without expected prop 'type'");
+      console.warn("<Kit> was created without expected prop 'type'");
     }
 
     if (
     /*title*/
     ctx[2] === undefined && !("title" in props)) {
-      console_1$1.warn("<Kit> was created without expected prop 'title'");
+      console.warn("<Kit> was created without expected prop 'title'");
     }
 
     if (
     /*url*/
     ctx[3] === undefined && !("url" in props)) {
-      console_1$1.warn("<Kit> was created without expected prop 'url'");
+      console.warn("<Kit> was created without expected prop 'url'");
     }
 
     return _this;
@@ -7868,35 +7866,35 @@ function create_fragment$a(ctx) {
     h: function hydrate() {
       attr_dev(span0, "class", "fushia-text");
       add_location(span0, file$a, 34, 62, 741);
-      if (img0.src !== (img0_src_value = "cerebri.png")) attr_dev(img0, "src", img0_src_value);
+      if (img0.src !== (img0_src_value = "cerebro_enchufe.svg")) attr_dev(img0, "src", img0_src_value);
       attr_dev(img0, "alt", "Ícono de cambio");
-      attr_dev(img0, "class", "imgPart   mr-3 mt-4 svelte-1je8n9k");
+      attr_dev(img0, "class", "imgPart w-24 sm:w-32  mr-3 mt-4 svelte-1je8n9k");
       add_location(img0, file$a, 36, 24, 857);
       attr_dev(div0, "class", " relative");
       add_location(div0, file$a, 35, 32, 809);
       attr_dev(h1, "class", "verdeClaro-text mb-5 leading-none");
       add_location(h1, file$a, 34, 16, 695);
       attr_dev(span1, "class", "fushia-text");
-      add_location(span1, file$a, 41, 20, 1089);
-      add_location(br, file$a, 42, 20, 1225);
+      add_location(span1, file$a, 41, 20, 1109);
+      add_location(br, file$a, 42, 20, 1245);
       attr_dev(p0, "class", "font-sans text-white mb-5");
-      add_location(p0, file$a, 40, 16, 1031);
+      add_location(p0, file$a, 40, 16, 1051);
       attr_dev(div1, "class", "my-auto  relative");
       add_location(div1, file$a, 32, 12, 630);
       if (img1.src !== (img1_src_value = "RUTA-17.svg")) attr_dev(img1, "src", img1_src_value);
       attr_dev(img1, "alt", "Ícono de cambio");
       attr_dev(img1, "class", "contImg mr-3 mt-4 svelte-1je8n9k");
-      add_location(img1, file$a, 50, 24, 1742);
+      add_location(img1, file$a, 50, 24, 1762);
       attr_dev(h2, "class", "mb-3 fushia-text text-lg");
-      add_location(h2, file$a, 51, 24, 1838);
+      add_location(h2, file$a, 51, 24, 1858);
       attr_dev(p1, "class", "font-sans celeste-text");
-      add_location(p1, file$a, 52, 24, 2017);
+      add_location(p1, file$a, 52, 24, 2037);
       attr_dev(div2, "class", "");
-      add_location(div2, file$a, 49, 20, 1703);
+      add_location(div2, file$a, 49, 20, 1723);
       attr_dev(div3, "class", "flex items-start mb-5");
-      add_location(div3, file$a, 47, 16, 1626);
+      add_location(div3, file$a, 47, 16, 1646);
       attr_dev(div4, "class", "text-white flex flex-col max-h-434px");
-      add_location(div4, file$a, 46, 12, 1559);
+      add_location(div4, file$a, 46, 12, 1579);
       attr_dev(div5, "class", "grid md:grid-cols-2 grid-cols-1 gap-8 mb-10 mt-14");
       add_location(div5, file$a, 30, 8, 541);
       attr_dev(article, "class", "container  sm:h-full m-auto py-10 px-2 sm:p-10 ");
