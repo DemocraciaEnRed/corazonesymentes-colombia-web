@@ -9,7 +9,6 @@
     opened = !opened;
   }
   let icon
-  console.log('llamada a componente kit')
   switch(type){
     case "GUÍA":
     case "ARTÍCULO":

@@ -36,7 +36,7 @@
                 
                 <h1 class="verdeClaro-text mb-5 leading-none"><span class="fushia-text"> </span> 
                     ¿POR QUÉ ES <div class=" relative">
-                        <img src="cerebri.png" alt="Ícono de cambio" class="imgPart   mr-3 mt-4">
+                        <img src="cerebro_enchufe.svg" alt="Ícono de cambio" class="imgPart w-24 sm:w-32  mr-3 mt-4">
                     </div> NECESARIO ENTENDER NUESTRA MENTE?
 
                 </h1>
