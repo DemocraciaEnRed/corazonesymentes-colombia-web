@@ -26,7 +26,7 @@
       </div>
       <ul class="uppercase text-bold mt-5   text-center mx-auto sm:text-left">
         <li><a class="hover:underline" href="#home">Home</a></li>
-        <li><a class="hover:underline" href="#libro">Entinede tu mente</a></li>
+        <li><a class="hover:underline" href="#libro">Entiende tu mente</a></li>
         <li><a class="hover:underline" href="#kit-de-herramientas">kit de herramientas</a></li>
         <li><a class="hover:underline" href="#nocomocuento">#NoComoCuento</a></li>
         <li><a class="hover:underline" href="#quienes-somos">Quiénes Somos</a></li>

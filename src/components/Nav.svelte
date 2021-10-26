@@ -41,7 +41,7 @@
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
             <a href="#home" class="{getActive(undefined)}  px-3 py-2 text-sm font-medium">HOME</a>
             <!-- <a href="#toda-la-data" class="{getActive("toda-la-data")} px-3 py-2 text-sm font-medium">#TodaLaData</a> -->
-            <a href="#libro" class="{getActive("libro")}  px-3 py-2 text-sm font-medium">Entiende tu mente</a>
+            <a href="#calecita" class="{getActive("libro")}  px-3 py-2 text-sm font-medium">Entiende tu mente</a>
             <a href="#nocomocuento" class="{getActive("nocomocuento")} block px-3 py-2 text-base font-medium">#NocomoCuento</a>
             <a href="#kit-de-herramientas" class="{getActive("kit-de-herramientas")} px-3 py-2 text-sm font-medium">Kit De Herramientas</a>
             <!-- <a href="#sos-docente" class="{getActive("sos-docente")}  px-3 py-2 text-sm font-medium">Soy Docente</a> -->

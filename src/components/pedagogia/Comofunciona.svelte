@@ -1,3 +1,10 @@
+<script>
+	import ComoFuncionaModal from './modals/ComoFuncionaModal.svelte';
+    import { modal } from '../stores.js';
+    const showModal = () => {
+        modal.set(ComoFuncionaModal);
+    };
+</script>
 <style>
     .parraf {
         letter-spacing: var(--unnamed-character-spacing-0);
@@ -94,7 +101,7 @@
                     
                     <div class="justify-center ml-24 sm:ml-0	 ">
                         <button class="open-modal fushia-bg px-4  text-white uppercase"
-                        type="button"  data-open="modal1">Ver ejemplo</button>
+                        type="button" on:click={showModal}>Ver ejemplo</button>
 
             
                     </div>
@@ -120,7 +127,4 @@
     
         </div>
     </article>
-
-
-
 </section>

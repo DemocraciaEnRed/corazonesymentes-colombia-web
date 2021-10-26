@@ -1,3 +1,24 @@
+<script>
+	import empatiaModal from './modals/empatiaModal.svelte';
+    import disonanciaModal from './modals/disonanciaModal.svelte';
+	import confirmacionModal from './modals/confirmacionModal.svelte';
+	import atribucionModal from './modals/atribucionModal.svelte';
+
+
+    import { modal } from '../stores.js';
+    const showEmpatia = () => {
+        modal.set(empatiaModal);
+    };
+    const showDisonancia = () => {
+        modal.set(disonanciaModal);
+    };
+    const showConfirmacion = () => {
+        modal.set(confirmacionModal);
+    };
+    const showAtribucion = () => {
+        modal.set(atribucionModal);
+    };
+</script>
 <style>
     .parraf {
         letter-spacing: var(--unnamed-character-spacing-0);
@@ -129,9 +150,9 @@
                     
                         click en el sesgo
                     </div>
-                    <a href="/documents/CAPÍTULO_1_C&M.pdf" download
-					class="" ><span class="invisible sm:visible text-2xl  sm:w-18 fushia-bg px-20 py-3 text-white uppercase    ">empatia</span>
-					</a>
+                    
+                    <button type="button" class="invisible sm:visible text-2xl  h-10 sm:w-18 fushia-bg px-20  text-white uppercase    "  on:click={showEmpatia}>empatia</button>
+
                 </div>
             </div>
 
@@ -140,21 +161,14 @@
                     
                     click en el sesgo
                 </div>
-                <a href="/documents/CAPÍTULO_1_C&M.pdf" download
-					class="" ><span class="visible sm:invisible text-2xl  px-36 sm:w-18 fushia-bg  sm:h-1 text-white uppercase sm:px-0   b">empatia</span>
-					</a>
                 
-                <a href="/documents/CAPÍTULO_3_C&M.pdf" download
-                class="fushia-bg py-2  sm:px-0 fushia-bg px-20  text-2xl sm:w-72 text-center text-white uppercase   " >disonancia cognitiva
-                </a>
+                    <button type="button" class="visible sm:invisible text-2xl  sm:w-18 fushia-bg px-20  text-white uppercase    "  on:click={showEmpatia}>empatia</button>
+                    <button type="button" class=" text-2xl  sm:w-18 fushia-bg px-20  text-white uppercase    "  on:click={showDisonancia}>disonancia cognitiva</button>
+                    <button type="button" class=" text-2xl  sm:w-18 fushia-bg px-20  text-white uppercase    "  on:click={showConfirmacion}>sesgo de confirmación</button>
+                    <button type="button" class=" text-2xl  sm:w-18 fushia-bg px-20  text-white uppercase    "  on:click={showAtribucion}>sesgo de atribución</button>
+
+           
                 
-                <a href="/documents/CAPÍTULO_3_C&M.pdf" download
-                class="fushia-bg py-2  sm:px-0 fushia-bg   text-2xl sm:w-72 text-center text-white uppercase   " >sesgo de confirmación
-                </a>
-                
-                <a href="/documents/CAPÍTULO_3_C&M.pdf" download
-                class="fushia-bg py-2  sm:px-0 fushia-bg px-20  text-2xl sm:w-72 text-center text-white uppercase   " >sesgo de atribució
-                </a>
             </div>
             
         </div>
