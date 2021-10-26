@@ -1,4 +1,4 @@
-import { S as SvelteComponentDev, a as SvelteComponentTyped, b as afterUpdate, c as beforeUpdate, d as createEventDispatcher, g as getContext, h as hasContext, o as onDestroy, e as onMount, s as setContext, t as tick, i as identity, _ as _inherits, f as _getPrototypeOf, j as _possibleConstructorReturn, k as _classCallCheck, l as init, m as safe_not_equal, n as _assertThisInitialized, p as dispatch_dev, v as validate_slots, q as element, r as text, u as claim_element, w as children, x as claim_text, y as detach_dev, z as attr_dev, A as add_location, B as insert_dev, C as append_dev, D as listen_dev, E as noop, F as space, G as claim_space, H as _slicedToArray, I as add_render_callback, J as create_bidirectional_transition, K as _createClass, L as set_data_dev, M as validate_each_argument, N as create_component, O as claim_component, P as mount_component, Q as transition_in, R as transition_out, T as destroy_component, U as set_style, V as group_outros, W as check_outros, X as destroy_each, Y as _typeof, Z as globals, $ as assign, a0 as get_spread_update, a1 as get_spread_object, a2 as run_all, a3 as createCommonjsModule, a4 as commonjsGlobal, a5 as getDefaultExportFromCjs, a6 as create_slot, a7 as update_slot, a8 as null_to_empty, a9 as binding_callbacks, aa as svg_element, ab as writable, ac as is_function, ad as empty, ae as validate_store, af as component_subscribe, ag as query_selector_all } from './client.0c0c1fd6.js';
+import { S as SvelteComponentDev, a as SvelteComponentTyped, b as afterUpdate, c as beforeUpdate, d as createEventDispatcher, g as getContext, h as hasContext, o as onDestroy, e as onMount, s as setContext, t as tick, i as identity, _ as _inherits, f as _getPrototypeOf, j as _possibleConstructorReturn, k as _classCallCheck, l as init, m as safe_not_equal, n as _assertThisInitialized, p as dispatch_dev, v as validate_slots, q as element, r as text, u as claim_element, w as children, x as claim_text, y as detach_dev, z as attr_dev, A as add_location, B as insert_dev, C as append_dev, D as listen_dev, E as noop, F as space, G as claim_space, H as _slicedToArray, I as add_render_callback, J as create_bidirectional_transition, K as _createClass, L as set_data_dev, M as validate_each_argument, N as create_component, O as claim_component, P as mount_component, Q as transition_in, R as transition_out, T as destroy_component, U as set_style, V as group_outros, W as check_outros, X as destroy_each, Y as _typeof, Z as globals, $ as assign, a0 as get_spread_update, a1 as get_spread_object, a2 as run_all, a3 as createCommonjsModule, a4 as commonjsGlobal, a5 as getDefaultExportFromCjs, a6 as create_slot, a7 as update_slot, a8 as null_to_empty, a9 as binding_callbacks, aa as svg_element, ab as writable, ac as is_function, ad as empty, ae as validate_store, af as component_subscribe, ag as query_selector_all } from './client.ebba89a1.js';
 
 var svelte = /*#__PURE__*/Object.freeze({
     __proto__: null,
@@ -10884,21 +10884,22 @@ function create_fragment$7(ctx) {
   var img0;
   var img0_src_value;
   var t3;
-  var div4;
+  var div1;
   var h30;
   var t4;
   var t5;
   var h31;
   var t6;
-  var div1;
   var t7;
   var div2;
   var t8;
   var div3;
+  var t9;
+  var div4;
   var a;
   var span1;
-  var t9;
   var t10;
+  var t11;
   var img1;
   var img1_src_value;
   var block = {
@@ -10911,26 +10912,27 @@ function create_fragment$7(ctx) {
       div6 = element("div");
       p = element("p");
       span0 = element("span");
-      t2 = text(" \n                En tercer lugar, el “sesgo de atribución” nos lleva a pensar que el comportamiento de una persona en un momento específico se debe a la personalidad de esa persona. Por ejemplo, si una persona fue antipática en un momento, pensamos que es porque esa persona ES antipática, y no porque estaba teniendo un mal día.            \n    \n            ");
+      t2 = text(" \n                En tercer lugar, el “sesgo de atribución” nos lleva a pensar que el comportamiento de una persona en un momento específico se debe a la personalidad de esa persona. Por ejemplo, si una persona fue antipática en un momento, pensamos que es porque esa persona ES antipática, y no porque estaba teniendo un mal día.\n            ");
       div5 = element("div");
       div0 = element("div");
       img0 = element("img");
       t3 = space();
-      div4 = element("div");
+      div1 = element("div");
       h30 = element("h3");
       t4 = text("capitulo 4");
       t5 = space();
       h31 = element("h3");
-      t6 = text("SESGO DE ATRIBUCIÓN: SEAMOS CONSCIENTES DE NUESTROS PREJUICIOS                ");
-      div1 = element("div");
+      t6 = text("SESGO DE ATRIBUCIÓN: SEAMOS CONSCIENTES DE NUESTROS PREJUICIOS");
       t7 = space();
       div2 = element("div");
       t8 = space();
       div3 = element("div");
+      t9 = space();
+      div4 = element("div");
       a = element("a");
       span1 = element("span");
-      t9 = text("Ver más y descargar");
-      t10 = space();
+      t10 = text("Ver más y descargar");
+      t11 = space();
       img1 = element("img");
       this.h();
     },
@@ -10962,7 +10964,7 @@ function create_fragment$7(ctx) {
         class: true
       });
       children(span0).forEach(detach_dev);
-      t2 = claim_text(p_nodes, " \n                En tercer lugar, el “sesgo de atribución” nos lleva a pensar que el comportamiento de una persona en un momento específico se debe a la personalidad de esa persona. Por ejemplo, si una persona fue antipática en un momento, pensamos que es porque esa persona ES antipática, y no porque estaba teniendo un mal día.            \n    \n            ");
+      t2 = claim_text(p_nodes, " \n                En tercer lugar, el “sesgo de atribución” nos lleva a pensar que el comportamiento de una persona en un momento específico se debe a la personalidad de esa persona. Por ejemplo, si una persona fue antipática en un momento, pensamos que es porque esa persona ES antipática, y no porque estaba teniendo un mal día.\n            ");
       p_nodes.forEach(detach_dev);
       div5 = claim_element(div6_nodes, "DIV", {
         class: true
@@ -10979,37 +10981,40 @@ function create_fragment$7(ctx) {
       });
       div0_nodes.forEach(detach_dev);
       t3 = claim_space(div5_nodes);
-      div4 = claim_element(div5_nodes, "DIV", {
+      div1 = claim_element(div5_nodes, "DIV", {
         class: true
       });
-      var div4_nodes = children(div4);
-      h30 = claim_element(div4_nodes, "H3", {
+      var div1_nodes = children(div1);
+      h30 = claim_element(div1_nodes, "H3", {
         class: true
       });
       var h30_nodes = children(h30);
       t4 = claim_text(h30_nodes, "capitulo 4");
       h30_nodes.forEach(detach_dev);
-      t5 = claim_space(div4_nodes);
-      h31 = claim_element(div4_nodes, "H3", {
+      t5 = claim_space(div1_nodes);
+      h31 = claim_element(div1_nodes, "H3", {
         class: true
       });
       var h31_nodes = children(h31);
-      t6 = claim_text(h31_nodes, "SESGO DE ATRIBUCIÓN: SEAMOS CONSCIENTES DE NUESTROS PREJUICIOS                ");
-      div1 = claim_element(h31_nodes, "DIV", {
-        class: true
-      });
-      children(div1).forEach(detach_dev);
-      t7 = claim_space(h31_nodes);
-      div2 = claim_element(h31_nodes, "DIV", {
+      t6 = claim_text(h31_nodes, "SESGO DE ATRIBUCIÓN: SEAMOS CONSCIENTES DE NUESTROS PREJUICIOS");
+      h31_nodes.forEach(detach_dev);
+      div1_nodes.forEach(detach_dev);
+      t7 = claim_space(div5_nodes);
+      div2 = claim_element(div5_nodes, "DIV", {
         class: true
       });
       children(div2).forEach(detach_dev);
-      t8 = claim_space(h31_nodes);
-      div3 = claim_element(h31_nodes, "DIV", {
+      t8 = claim_space(div5_nodes);
+      div3 = claim_element(div5_nodes, "DIV", {
         class: true
       });
-      var div3_nodes = children(div3);
-      a = claim_element(div3_nodes, "A", {
+      children(div3).forEach(detach_dev);
+      t9 = claim_space(div5_nodes);
+      div4 = claim_element(div5_nodes, "DIV", {
+        class: true
+      });
+      var div4_nodes = children(div4);
+      a = claim_element(div4_nodes, "A", {
         href: true,
         download: true,
         class: true
@@ -11019,67 +11024,65 @@ function create_fragment$7(ctx) {
         class: true
       });
       var span1_nodes = children(span1);
-      t9 = claim_text(span1_nodes, "Ver más y descargar");
+      t10 = claim_text(span1_nodes, "Ver más y descargar");
       span1_nodes.forEach(detach_dev);
       a_nodes.forEach(detach_dev);
-      div3_nodes.forEach(detach_dev);
-      h31_nodes.forEach(detach_dev);
       div4_nodes.forEach(detach_dev);
       div5_nodes.forEach(detach_dev);
       div6_nodes.forEach(detach_dev);
-      t10 = claim_space(div7_nodes);
-      img1 = claim_element(div7_nodes, "IMG", {
+      div7_nodes.forEach(detach_dev);
+      t11 = claim_space(div8_nodes);
+      img1 = claim_element(div8_nodes, "IMG", {
         class: true,
         src: true,
         alt: true
       });
-      div7_nodes.forEach(detach_dev);
       div8_nodes.forEach(detach_dev);
       this.h();
     },
     h: function hydrate() {
       attr_dev(h2, "class", "svelte-m22dil");
-      add_location(h2, file$7, 9, 8, 210);
+      add_location(h2, file$7, 10, 8, 211);
       attr_dev(span0, "class", "");
-      add_location(span0, file$7, 14, 16, 377);
+      add_location(span0, file$7, 15, 16, 376);
       attr_dev(p, "class", "font-sans text-black bold mb-5");
-      add_location(p, file$7, 13, 12, 318);
+      add_location(p, file$7, 14, 12, 317);
       if (img0.src !== (img0_src_value = "/icons/icon-document.png")) attr_dev(img0, "src", img0_src_value);
       attr_dev(img0, "alt", "Ícono de cambio");
       attr_dev(img0, "class", "w-16 p-0 m-0");
-      add_location(img0, file$7, 19, 20, 871);
+      add_location(img0, file$7, 19, 20, 853);
       attr_dev(div0, "class", "w-1/5 ");
-      add_location(div0, file$7, 18, 16, 830);
+      add_location(div0, file$7, 18, 16, 812);
       attr_dev(h30, "class", " uppercase");
-      add_location(h30, file$7, 22, 20, 1039);
-      attr_dev(div1, "class", "w-1/5 sm:w-1/5");
-      add_location(div1, file$7, 27, 102, 1294);
+      add_location(h30, file$7, 22, 20, 1021);
+      attr_dev(h31, "class", "  mb-5 uppercase leading-none");
+      add_location(h31, file$7, 26, 20, 1127);
+      attr_dev(div1, "class", "w-3/5 sm:w-3/5");
+      add_location(div1, file$7, 21, 16, 972);
       attr_dev(div2, "class", "w-1/5 sm:w-1/5");
-      add_location(div2, file$7, 28, 16, 1345);
+      add_location(div2, file$7, 29, 16, 1301);
+      attr_dev(div3, "class", "w-1/5 sm:w-1/5");
+      add_location(div3, file$7, 30, 16, 1352);
       attr_dev(span1, "class", " text-xl sm:text-2xl  sm:w-18 fushia-bg px-2 sm:px-20 py-3 text-white uppercase    ");
-      add_location(span1, file$7, 32, 30, 1543);
+      add_location(span1, file$7, 34, 15, 1531);
       attr_dev(a, "href", "/documents/CAPÍTULO_4_C&M.pdf");
       attr_dev(a, "download", "");
       attr_dev(a, "class", "");
-      add_location(a, file$7, 31, 20, 1464);
-      attr_dev(div3, "class", "w-5/5 pb-2 sm:w-4/5 sm:pb-0 ");
-      add_location(div3, file$7, 30, 16, 1401);
-      attr_dev(h31, "class", "  mb-5 uppercase leading-none");
-      add_location(h31, file$7, 26, 20, 1149);
-      attr_dev(div4, "class", "w-3/5 sm:w-3/5");
-      add_location(div4, file$7, 21, 16, 990);
+      add_location(a, file$7, 33, 20, 1467);
+      attr_dev(div4, "class", "w-5/5 pb-2 sm:w-4/5 sm:pb-0 ");
+      add_location(div4, file$7, 32, 16, 1404);
       attr_dev(div5, "class", " container flex flex-wrap  pt-4 spac-x-0");
-      add_location(div5, file$7, 17, 12, 759);
+      add_location(div5, file$7, 17, 12, 741);
       attr_dev(div6, "class", "sm:col-span-2 my-auto  ");
-      add_location(div6, file$7, 11, 8, 252);
+      add_location(div6, file$7, 12, 8, 251);
+      attr_dev(div7, "class", "m-auto sm:col-span-1 text-black ");
+      add_location(div7, file$7, 9, 4, 156);
       attr_dev(img1, "class", "sm:col-span-1 m-auto");
       if (img1.src !== (img1_src_value = "xyz20.svg")) attr_dev(img1, "src", img1_src_value);
       attr_dev(img1, "alt", "imagen");
-      add_location(img1, file$7, 40, 4, 1775);
-      attr_dev(div7, "class", "m-auto sm:col-span-1 text-black ");
-      add_location(div7, file$7, 8, 4, 155);
+      add_location(img1, file$7, 42, 4, 1744);
       attr_dev(div8, "class", "container flex flex-wrap sm:grid sm:grid-cols-2 p-2 sm:p-10");
-      add_location(div8, file$7, 7, 0, 77);
+      add_location(div8, file$7, 8, 0, 78);
     },
     m: function mount(target, anchor) {
       insert_dev(target, div8, anchor);
@@ -11095,22 +11098,23 @@ function create_fragment$7(ctx) {
       append_dev(div5, div0);
       append_dev(div0, img0);
       append_dev(div5, t3);
-      append_dev(div5, div4);
-      append_dev(div4, h30);
+      append_dev(div5, div1);
+      append_dev(div1, h30);
       append_dev(h30, t4);
-      append_dev(div4, t5);
-      append_dev(div4, h31);
+      append_dev(div1, t5);
+      append_dev(div1, h31);
       append_dev(h31, t6);
-      append_dev(h31, div1);
-      append_dev(h31, t7);
-      append_dev(h31, div2);
-      append_dev(h31, t8);
-      append_dev(h31, div3);
-      append_dev(div3, a);
+      append_dev(div5, t7);
+      append_dev(div5, div2);
+      append_dev(div5, t8);
+      append_dev(div5, div3);
+      append_dev(div5, t9);
+      append_dev(div5, div4);
+      append_dev(div4, a);
       append_dev(a, span1);
-      append_dev(span1, t9);
-      append_dev(div7, t10);
-      append_dev(div7, img1);
+      append_dev(span1, t10);
+      append_dev(div8, t11);
+      append_dev(div8, img1);
     },
     p: noop,
     i: noop,
