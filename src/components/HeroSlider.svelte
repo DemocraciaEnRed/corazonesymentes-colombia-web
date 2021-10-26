@@ -11,6 +11,9 @@
 	import Sesgos from './pedagogia/Sesgos.svelte'
 	import Vulnerable from './pedagogia/Vulnerable.svelte'
 	import HacerAlgo	from './pedagogia/HacerAlgo.svelte'
+	import Modal from 'svelte-simple-modal';
+    import { modal } from './stores.js';
+	import { fade } from 'svelte/transition';
 </script>
 
 <Carousel  perPage={{ 800: 1, 500: 1 }} duration={500} >
@@ -43,6 +46,19 @@
 		<ChevronRightIcon />
 	  </span>
 </Carousel>
+<Modal 
+	show={$modal}
+	styleContent={{
+		backgroundColor: '#aedcea',
+		borderRadius: 'none',
+		width: '100%',
+	}}
+	styleCloseButton={{
+		background: '#9678FF',
+		boxShadow: 'none',
+	}}
+>
+</Modal>
 
 <style>
 	.arrow{

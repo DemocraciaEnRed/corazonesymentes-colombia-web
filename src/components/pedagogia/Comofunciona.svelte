@@ -1,3 +1,12 @@
+<script>
+	import ComoFuncionaModal from './ComoFuncionaModal.svelte';
+    import { modal } from '../stores.js';
+
+    const showModal = () => {
+        modal.set(ComoFuncionaModal);
+    };
+
+</script>
 <style>
     .parraf {
         letter-spacing: var(--unnamed-character-spacing-0);
@@ -55,7 +64,6 @@
     }
 </style>
 
-
 <section class="pedagogias-digitales-section bg-gris     ">
     <article class="container sm:h-full mx-auto py-10 px-2 sm:p-10 ">
         <div class="flex flex-wrap sm:grid  sm:grid-cols-4 grid-cols-1 gap-8 mb-10 mt-14">
@@ -94,7 +102,7 @@
                     
                     <div class="justify-center ml-24 sm:ml-0	 ">
                         <button class="open-modal fushia-bg px-4  text-white uppercase"
-                        type="button"  data-open="modal1">Ver ejemplo</button>
+                        type="button" on:click={showModal}>Ver ejemplo</button>
 
             
                     </div>
@@ -120,7 +128,4 @@
     
         </div>
     </article>
-
-
-
 </section>
