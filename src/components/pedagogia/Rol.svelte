@@ -69,7 +69,8 @@
                     </div>
                     <div class="flex-1 order-3 sm:order-none  sm:px-4 	">
                         <h1 class="text-4xl verdeClaro-text text-left pl-0 sm:text-left sm:w-4/4 mt-4  sm:pl-4  sm:verdeClaro-text mb-5 mx-0 uppercase leading-none">
-                            class="w-auto static  sm:order-last p-4 order-2 	"l de cada uno<br> de nosotros 
+                            <!-- <span class="fushia-text"> </span>  -->
+                            el ro lde cada uno <br>de nosotros
                         </h1>
                     </div>
                     <div class="w-auto static  sm:order-last p-4 order-2 	">
