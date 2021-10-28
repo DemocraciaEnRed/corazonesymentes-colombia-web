@@ -40,9 +40,10 @@
                 </p>
             </div>
 
-            <div class=" sm:col-span-3  grid grid-cols-1  mt-10 sm:flex sm:flex-wrap  sm:p-0  sm:space-x-2 " style="padding-top: 56.25%">
+            <div class=" sm:col-span-3   grid grid-cols-1     mt-10 sm:flex sm:flex-wrap  sm:p-0  sm:space-x-2 " >
                 <div class="sm:m-2  w-auto"> 
                     <iframe style="" height="215" src="https://www.youtube.com/embed/J2kQzLZIukQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
                 <div class="sm:m-2  w-auto">
                     <iframe height="215" src="https://www.youtube.com/embed/2ghFaoy34vA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
@@ -119,9 +120,8 @@
     @media  (max-width:530px){
         iframe{
             width: 80%;
-            margin: auto ;
-            margin-bottom:15px;
-            
+            margin: auto;
+            margin-bottom: 15px;
         }
        
         }

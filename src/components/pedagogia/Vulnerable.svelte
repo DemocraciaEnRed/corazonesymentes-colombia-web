@@ -158,11 +158,11 @@
                     
                     click en el sesgo
                 </div>
-                <div class="visible sm:invisible sm:w-1 flex text-white ml-20 pl-4 sm:ml-0 sm:pl-0  mb-5 leading-none ">
+                <div class="visible sm:invisible sm:h-0 sm:w-1 flex text-white ml-20 pl-4 sm:ml-0 sm:pl-0  mb-5 leading-none ">
                     
                     click en el sesgo
                 </div>
-                    <button type="button" class="visible sm:invisible text-2xl  sm:w-18 fushia-bg px-20  text-white uppercase    "  on:click={showEmpatia}>empatia</button>
+                    <button type="button" class="visible sm:invisible text-2xl  sm:w-18 sm:h-0 fushia-bg px-20  text-white uppercase    "  on:click={showEmpatia}>empatia</button>
                     <button type="button" class=" text-2xl  sm:w-18 fushia-bg px-20  text-white uppercase    "  on:click={showDisonancia}>disonancia cognitiva</button>
                     <button type="button" class=" text-2xl  sm:w-18 fushia-bg px-20  text-white uppercase    "  on:click={showConfirmacion}>sesgo de confirmación</button>
                     <button type="button" class=" text-2xl  sm:w-18 fushia-bg px-20  text-white uppercase    "  on:click={showAtribucion}>sesgo de atribución</button>
