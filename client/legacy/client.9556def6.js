@@ -3703,7 +3703,7 @@ var App = /*#__PURE__*/function (_SvelteComponentDev) {
 var ignore = [];
 var components = [{
   js: function js() {
-    return Promise.all([import('./index.9f3db320.js'), __inject_styles(["client-53f58bb9.css","index-d2700752.css"])]).then(function(x) { return x[0]; });
+    return Promise.all([import('./index.354ae088.js'), __inject_styles(["client-53f58bb9.css","index-5e3c5501.css"])]).then(function(x) { return x[0]; });
   }
 }];
 var routes = [{

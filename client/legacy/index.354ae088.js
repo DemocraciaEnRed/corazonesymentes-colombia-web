@@ -1,4 +1,4 @@
-import { S as SvelteComponentDev, a as SvelteComponentTyped, b as afterUpdate, c as beforeUpdate, d as createEventDispatcher, g as getContext, h as hasContext, o as onDestroy, e as onMount, s as setContext, t as tick, i as identity, _ as _inherits, f as _getPrototypeOf, j as _possibleConstructorReturn, k as _classCallCheck, l as init, m as safe_not_equal, n as _assertThisInitialized, p as dispatch_dev, v as validate_slots, q as element, r as text, u as claim_element, w as children, x as claim_text, y as detach_dev, z as attr_dev, A as add_location, B as insert_dev, C as append_dev, D as listen_dev, E as noop, F as space, G as claim_space, H as _slicedToArray, I as add_render_callback, J as create_bidirectional_transition, K as _createClass, L as set_data_dev, M as validate_each_argument, N as create_component, O as claim_component, P as mount_component, Q as transition_in, R as transition_out, T as destroy_component, U as set_style, V as group_outros, W as check_outros, X as destroy_each, Y as _typeof, Z as globals, $ as assign, a0 as get_spread_update, a1 as get_spread_object, a2 as run_all, a3 as createCommonjsModule, a4 as commonjsGlobal, a5 as getDefaultExportFromCjs, a6 as create_slot, a7 as update_slot, a8 as null_to_empty, a9 as binding_callbacks, aa as svg_element, ab as writable, ac as is_function, ad as empty, ae as validate_store, af as component_subscribe, ag as query_selector_all } from './client.7158c0ea.js';
+import { S as SvelteComponentDev, a as SvelteComponentTyped, b as afterUpdate, c as beforeUpdate, d as createEventDispatcher, g as getContext, h as hasContext, o as onDestroy, e as onMount, s as setContext, t as tick, i as identity, _ as _inherits, f as _getPrototypeOf, j as _possibleConstructorReturn, k as _classCallCheck, l as init, m as safe_not_equal, n as _assertThisInitialized, p as dispatch_dev, v as validate_slots, q as element, r as text, u as claim_element, w as children, x as claim_text, y as detach_dev, z as attr_dev, A as add_location, B as insert_dev, C as append_dev, D as listen_dev, E as noop, F as space, G as claim_space, H as _slicedToArray, I as add_render_callback, J as create_bidirectional_transition, K as _createClass, L as set_data_dev, M as validate_each_argument, N as create_component, O as claim_component, P as mount_component, Q as transition_in, R as transition_out, T as destroy_component, U as set_style, V as group_outros, W as check_outros, X as destroy_each, Y as _typeof, Z as globals, $ as assign, a0 as get_spread_update, a1 as get_spread_object, a2 as run_all, a3 as createCommonjsModule, a4 as commonjsGlobal, a5 as getDefaultExportFromCjs, a6 as create_slot, a7 as update_slot, a8 as null_to_empty, a9 as binding_callbacks, aa as svg_element, ab as writable, ac as is_function, ad as empty, ae as validate_store, af as component_subscribe, ag as query_selector_all } from './client.9556def6.js';
 
 var svelte = /*#__PURE__*/Object.freeze({
     __proto__: null,
@@ -8063,7 +8063,8 @@ function create_fragment$f(ctx) {
   var div9;
   var t22;
   var div10;
-  var button;
+  var a;
+  var span2;
   var t23;
   var t24;
   var div15;
@@ -8091,7 +8092,7 @@ function create_fragment$f(ctx) {
       t2 = space();
       div1 = element("div");
       h1 = element("h1");
-      t3 = text("El rol de cada uno");
+      t3 = text("class=\"w-auto static  sm:order-last p-4 order-2 \t\"l de cada uno");
       br0 = element("br");
       t4 = text(" de nosotros");
       t5 = space();
@@ -8132,7 +8133,8 @@ function create_fragment$f(ctx) {
       div9 = element("div");
       t22 = space();
       div10 = element("div");
-      button = element("button");
+      a = element("a");
+      span2 = element("span");
       t23 = text("Ver más y descargar");
       t24 = space();
       div15 = element("div");
@@ -8193,7 +8195,7 @@ function create_fragment$f(ctx) {
         class: true
       });
       var h1_nodes = children(h1);
-      t3 = claim_text(h1_nodes, "El rol de cada uno");
+      t3 = claim_text(h1_nodes, "class=\"w-auto static  sm:order-last p-4 order-2 \t\"l de cada uno");
       br0 = claim_element(h1_nodes, "BR", {});
       t4 = claim_text(h1_nodes, " de nosotros");
       h1_nodes.forEach(detach_dev);
@@ -8301,12 +8303,19 @@ function create_fragment$f(ctx) {
         class: true
       });
       var div10_nodes = children(div10);
-      button = claim_element(div10_nodes, "BUTTON", {
+      a = claim_element(div10_nodes, "A", {
+        href: true,
+        download: true,
         class: true
       });
-      var button_nodes = children(button);
-      t23 = claim_text(button_nodes, "Ver más y descargar");
-      button_nodes.forEach(detach_dev);
+      var a_nodes = children(a);
+      span2 = claim_element(a_nodes, "SPAN", {
+        class: true
+      });
+      var span2_nodes = children(span2);
+      t23 = claim_text(span2_nodes, "Ver más y descargar");
+      span2_nodes.forEach(detach_dev);
+      a_nodes.forEach(detach_dev);
       div10_nodes.forEach(detach_dev);
       div11_nodes.forEach(detach_dev);
       div12_nodes.forEach(detach_dev);
@@ -8354,71 +8363,75 @@ function create_fragment$f(ctx) {
       add_location(span0, file$f, 66, 24, 1883);
       attr_dev(div0, "class", "w-2/5  flex flex-initial order-1  sm:flex-col sm:w-auto sm:flex-grow-0  sm:order-none justify-items-center ");
       add_location(div0, file$f, 64, 20, 1646);
-      add_location(br0, file$f, 70, 46, 2289);
+      add_location(br0, file$f, 70, 91, 2334);
       attr_dev(h1, "class", "text-4xl verdeClaro-text text-left pl-0 sm:text-left sm:w-4/4 mt-4  sm:pl-4  sm:verdeClaro-text mb-5 mx-0 uppercase leading-none");
       add_location(h1, file$f, 69, 24, 2101);
       attr_dev(div1, "class", "flex-1 order-3 sm:order-none  sm:px-4 \t");
       add_location(div1, file$f, 68, 20, 2023);
       if (img1.src !== (img1_src_value = "circulo.svg")) attr_dev(img1, "src", img1_src_value);
       attr_dev(img1, "alt", "");
-      add_location(img1, file$f, 74, 66, 2507);
+      add_location(img1, file$f, 74, 66, 2552);
       attr_dev(div2, "class", "absolute bottom-0 left-0 z-0");
-      add_location(div2, file$f, 74, 24, 2465);
+      add_location(div2, file$f, 74, 24, 2510);
       attr_dev(p0, "class", " text-2xl sm:p-0 z-20  justify-items-right text-right fontVacia uppercase circle svelte-vd7u2w");
-      add_location(p0, file$f, 75, 24, 2568);
+      add_location(p0, file$f, 75, 24, 2613);
       attr_dev(div3, "class", "w-auto static  sm:order-last p-4 order-2 \t");
-      add_location(div3, file$f, 73, 20, 2384);
+      add_location(div3, file$f, 73, 20, 2429);
       attr_dev(div4, "class", "flex flex-wrap justify-between sm:flex   \t ");
       add_location(div4, file$f, 63, 16, 1568);
       attr_dev(div5, "class", "col-span-1 sm:col-span-4");
       add_location(div5, file$f, 61, 12, 1496);
       attr_dev(p1, "class", "fontVacia text-xs svelte-vd7u2w");
-      add_location(p1, file$f, 83, 16, 2841);
+      add_location(p1, file$f, 83, 16, 2886);
       attr_dev(span1, "class", "fushia-text");
-      add_location(span1, file$f, 85, 20, 2953);
-      add_location(br1, file$f, 86, 20, 3008);
-      add_location(br2, file$f, 87, 20, 3112);
+      add_location(span1, file$f, 85, 20, 2998);
+      add_location(br1, file$f, 86, 20, 3053);
+      add_location(br2, file$f, 87, 20, 3157);
       attr_dev(p2, "class", "font-sans text-white mb-5");
-      add_location(p2, file$f, 84, 16, 2895);
+      add_location(p2, file$f, 84, 16, 2940);
       attr_dev(hr, "class", "svelte-vd7u2w");
-      add_location(hr, file$f, 89, 16, 3297);
+      add_location(hr, file$f, 89, 16, 3342);
       if (img2.src !== (img2_src_value = "/icons/icon-document.png")) attr_dev(img2, "src", img2_src_value);
       attr_dev(img2, "alt", "Ícono de cambio");
       attr_dev(img2, "class", "w-16 p-0 m-0");
-      add_location(img2, file$f, 108, 24, 4098);
+      add_location(img2, file$f, 108, 24, 4143);
       attr_dev(div6, "class", "w-1/5 ");
-      add_location(div6, file$f, 107, 20, 4053);
+      add_location(div6, file$f, 107, 20, 4098);
       attr_dev(h30, "class", "fushia-text");
-      add_location(h30, file$f, 111, 24, 4278);
+      add_location(h30, file$f, 111, 24, 4323);
       attr_dev(h31, "class", " verdeClaro-text mb-5 uppercase leading-none");
-      add_location(h31, file$f, 115, 24, 4403);
+      add_location(h31, file$f, 115, 24, 4448);
       attr_dev(div7, "class", "w-3/5 sm:w-3/5");
-      add_location(div7, file$f, 110, 20, 4225);
+      add_location(div7, file$f, 110, 20, 4270);
       attr_dev(div8, "class", "w-1/5 sm:w-1/5");
-      add_location(div8, file$f, 120, 20, 4623);
+      add_location(div8, file$f, 120, 20, 4668);
       attr_dev(div9, "class", "w-1/5 sm:w-1/5");
-      add_location(div9, file$f, 121, 20, 4678);
-      attr_dev(button, "class", "fushia-bg px-4  text-white uppercase");
-      add_location(button, file$f, 124, 24, 4788);
+      add_location(div9, file$f, 121, 20, 4723);
+      attr_dev(span2, "class", " text-xl sm:text-1xl  sm:w-18 fushia-bg px-2 sm:px-18 py-3 text-white uppercase    ");
+      add_location(span2, file$f, 125, 34, 4920);
+      attr_dev(a, "href", "/documents/Corazones-y-mentes.pdf");
+      attr_dev(a, "download", "");
+      attr_dev(a, "class", "");
+      add_location(a, file$f, 124, 24, 4833);
       attr_dev(div10, "class", "w-3/5 sm:w-4/5 ");
-      add_location(div10, file$f, 123, 20, 4734);
+      add_location(div10, file$f, 123, 20, 4779);
       attr_dev(div11, "class", " container flex flex-wrap  pt-4 spac-x-0");
-      add_location(div11, file$f, 106, 16, 3978);
+      add_location(div11, file$f, 106, 16, 4023);
       attr_dev(div12, "class", "sm:col-span-2 my-auto  ");
-      add_location(div12, file$f, 81, 12, 2771);
+      add_location(div12, file$f, 81, 12, 2816);
       if (img3.src !== (img3_src_value = "15.svg")) attr_dev(img3, "src", img3_src_value);
       attr_dev(img3, "alt", "Ícono de cambio");
       attr_dev(img3, "class", "contImg mb-8 mr-3 mt-4 svelte-vd7u2w");
-      add_location(img3, file$f, 133, 24, 5157);
-      add_location(br3, file$f, 134, 111, 5340);
+      add_location(img3, file$f, 135, 24, 5361);
+      add_location(br3, file$f, 136, 111, 5544);
       attr_dev(h2, "class", "pl-10  mb-3 mr-8 fushia-text text-2xl");
-      add_location(h2, file$f, 134, 24, 5253);
+      add_location(h2, file$f, 136, 24, 5457);
       attr_dev(div13, "class", "flex-row");
-      add_location(div13, file$f, 132, 20, 5110);
+      add_location(div13, file$f, 134, 20, 5314);
       attr_dev(div14, "class", "flex items-start mb-5");
-      add_location(div14, file$f, 130, 16, 5033);
+      add_location(div14, file$f, 132, 16, 5237);
       attr_dev(div15, "class", "sm:col-span-2 text-white flex flex-col max-h-434px");
-      add_location(div15, file$f, 129, 12, 4952);
+      add_location(div15, file$f, 131, 12, 5156);
       attr_dev(div16, "class", "flex flex-wrap sm:grid sm:grid-cols-4  gap-8 mb-10 mt-14");
       add_location(div16, file$f, 59, 8, 1333);
       attr_dev(article, "class", "container sm:h-full mx-auto py-10 pb-20 px-2 sm:p-10 ");
@@ -8481,8 +8494,9 @@ function create_fragment$f(ctx) {
       append_dev(div11, div9);
       append_dev(div11, t22);
       append_dev(div11, div10);
-      append_dev(div10, button);
-      append_dev(button, t23);
+      append_dev(div10, a);
+      append_dev(a, span2);
+      append_dev(span2, t23);
       append_dev(div16, t24);
       append_dev(div16, div15);
       append_dev(div15, div14);
@@ -11195,7 +11209,7 @@ function create_fragment$6(ctx) {
   var p0;
   var t5;
   var t6;
-  var div7;
+  var div6;
   var p1;
   var t7;
   var t8;
@@ -11207,14 +11221,14 @@ function create_fragment$6(ctx) {
   var span2;
   var t11;
   var t12;
-  var div6;
   var div5;
+  var button0;
   var t13;
   var t14;
-  var button0;
+  var div9;
+  var div7;
   var t15;
   var t16;
-  var div9;
   var div8;
   var t17;
   var t18;
@@ -11252,7 +11266,7 @@ function create_fragment$6(ctx) {
       p0 = element("p");
       t5 = text("quinto");
       t6 = space();
-      div7 = element("div");
+      div6 = element("div");
       p1 = element("p");
       t7 = text("RTA/");
       t8 = space();
@@ -11264,14 +11278,14 @@ function create_fragment$6(ctx) {
       span2 = element("span");
       t11 = text("\n                    Muchas veces, una de las mejores estrategias para combatir algunos de estos sesgos es desarrollar nuestra");
       t12 = space();
-      div6 = element("div");
       div5 = element("div");
-      t13 = text("click en el sesgo");
-      t14 = space();
       button0 = element("button");
-      t15 = text("empatia");
-      t16 = space();
+      t13 = text("empatia");
+      t14 = space();
       div9 = element("div");
+      div7 = element("div");
+      t15 = text("click en el sesgo");
+      t16 = space();
       div8 = element("div");
       t17 = text("click en el sesgo");
       t18 = space();
@@ -11353,18 +11367,18 @@ function create_fragment$6(ctx) {
       div3_nodes.forEach(detach_dev);
       div4_nodes.forEach(detach_dev);
       t6 = claim_space(div10_nodes);
-      div7 = claim_element(div10_nodes, "DIV", {
+      div6 = claim_element(div10_nodes, "DIV", {
         class: true
       });
-      var div7_nodes = children(div7);
-      p1 = claim_element(div7_nodes, "P", {
+      var div6_nodes = children(div6);
+      p1 = claim_element(div6_nodes, "P", {
         class: true
       });
       var p1_nodes = children(p1);
       t7 = claim_text(p1_nodes, "RTA/");
       p1_nodes.forEach(detach_dev);
-      t8 = claim_space(div7_nodes);
-      p2 = claim_element(div7_nodes, "P", {
+      t8 = claim_space(div6_nodes);
+      p2 = claim_element(div6_nodes, "P", {
         class: true
       });
       var p2_nodes = children(p2);
@@ -11374,8 +11388,8 @@ function create_fragment$6(ctx) {
       children(span1).forEach(detach_dev);
       t9 = claim_text(p2_nodes, "\n                    Así como las heurísticas existen decenas de sesgos que nos afectan en la vida diaria; Empezaremos con tres de esos sesgos que tienen un efecto sobre ti.");
       p2_nodes.forEach(detach_dev);
-      t10 = claim_space(div7_nodes);
-      p3 = claim_element(div7_nodes, "P", {
+      t10 = claim_space(div6_nodes);
+      p3 = claim_element(div6_nodes, "P", {
         class: true
       });
       var p3_nodes = children(p3);
@@ -11385,32 +11399,32 @@ function create_fragment$6(ctx) {
       children(span2).forEach(detach_dev);
       t11 = claim_text(p3_nodes, "\n                    Muchas veces, una de las mejores estrategias para combatir algunos de estos sesgos es desarrollar nuestra");
       p3_nodes.forEach(detach_dev);
-      t12 = claim_space(div7_nodes);
-      div6 = claim_element(div7_nodes, "DIV", {
-        class: true
-      });
-      var div6_nodes = children(div6);
+      t12 = claim_space(div6_nodes);
       div5 = claim_element(div6_nodes, "DIV", {
         class: true
       });
       var div5_nodes = children(div5);
-      t13 = claim_text(div5_nodes, "click en el sesgo");
-      div5_nodes.forEach(detach_dev);
-      t14 = claim_space(div6_nodes);
-      button0 = claim_element(div6_nodes, "BUTTON", {
+      button0 = claim_element(div5_nodes, "BUTTON", {
         type: true,
         class: true
       });
       var button0_nodes = children(button0);
-      t15 = claim_text(button0_nodes, "empatia");
+      t13 = claim_text(button0_nodes, "empatia");
       button0_nodes.forEach(detach_dev);
+      div5_nodes.forEach(detach_dev);
       div6_nodes.forEach(detach_dev);
-      div7_nodes.forEach(detach_dev);
-      t16 = claim_space(div10_nodes);
+      t14 = claim_space(div10_nodes);
       div9 = claim_element(div10_nodes, "DIV", {
         class: true
       });
       var div9_nodes = children(div9);
+      div7 = claim_element(div9_nodes, "DIV", {
+        class: true
+      });
+      var div7_nodes = children(div7);
+      t15 = claim_text(div7_nodes, "click en el sesgo");
+      div7_nodes.forEach(detach_dev);
+      t16 = claim_space(div9_nodes);
       div8 = claim_element(div9_nodes, "DIV", {
         class: true
       });
@@ -11486,31 +11500,31 @@ function create_fragment$6(ctx) {
       add_location(span2, file$6, 112, 20, 4001);
       attr_dev(p3, "class", "font-sans text-white mb-5 leading-none");
       add_location(p3, file$6, 111, 16, 3930);
-      attr_dev(div5, "class", "visible sm:invisible sm:w-1 flex text-white ml-20 pl-2 sm:ml-0 sm:pl-0  mb-5 leading-none ");
-      add_location(div5, file$6, 147, 20, 5652);
       attr_dev(button0, "type", "button");
       attr_dev(button0, "class", "invisible sm:visible text-2xl  h-10 sm:w-18 fushia-bg px-20  text-white uppercase    ");
-      add_location(button0, file$6, 152, 20, 5888);
-      attr_dev(div6, "class", " sm:container flex flex-wrap  pt-4 spac-x-0");
-      add_location(div6, file$6, 132, 16, 4888);
-      attr_dev(div7, "class", "sm:col-span-2 my-auto  ");
-      add_location(div7, file$6, 104, 12, 3477);
-      attr_dev(div8, "class", "invisible  h-1 sm:visible flex items-start mb-5");
-      add_location(div8, file$6, 158, 16, 6206);
+      add_location(button0, file$6, 149, 20, 5694);
+      attr_dev(div5, "class", " sm:container flex flex-wrap  pt-4 spac-x-0");
+      add_location(div5, file$6, 132, 16, 4888);
+      attr_dev(div6, "class", "sm:col-span-2 my-auto  ");
+      add_location(div6, file$6, 104, 12, 3477);
+      attr_dev(div7, "class", "invisible  h-1 sm:visible flex items-start mb-5");
+      add_location(div7, file$6, 155, 16, 6012);
+      attr_dev(div8, "class", "visible sm:invisible sm:w-1 flex text-white ml-20 pl-4 sm:ml-0 sm:pl-0  mb-5 leading-none ");
+      add_location(div8, file$6, 159, 16, 6172);
       attr_dev(button1, "type", "button");
       attr_dev(button1, "class", "visible sm:invisible text-2xl  sm:w-18 fushia-bg px-20  text-white uppercase    ");
-      add_location(button1, file$6, 163, 20, 6387);
+      add_location(button1, file$6, 163, 20, 6379);
       attr_dev(button2, "type", "button");
       attr_dev(button2, "class", " text-2xl  sm:w-18 fushia-bg px-20  text-white uppercase    ");
-      add_location(button2, file$6, 164, 20, 6559);
+      add_location(button2, file$6, 164, 20, 6551);
       attr_dev(button3, "type", "button");
       attr_dev(button3, "class", " text-2xl  sm:w-18 fushia-bg px-20  text-white uppercase    ");
-      add_location(button3, file$6, 165, 20, 6727);
+      add_location(button3, file$6, 165, 20, 6719);
       attr_dev(button4, "type", "button");
       attr_dev(button4, "class", " text-2xl  sm:w-18 fushia-bg px-20  text-white uppercase    ");
-      add_location(button4, file$6, 166, 20, 6898);
+      add_location(button4, file$6, 166, 20, 6890);
       attr_dev(div9, "class", "sm:col-span-2 mx-auto text-white flex flex-col gap-3 sm:gap-10 max-h-434px");
-      add_location(div9, file$6, 157, 12, 6101);
+      add_location(div9, file$6, 154, 12, 5907);
       attr_dev(div10, "class", "flex flex-wrap sm:grid  sm:grid-cols-4  sm:gap-8 mb-10 mt-14");
       add_location(div10, file$6, 80, 8, 1996);
       attr_dev(article, "class", "container h-auto mx-auto py-10 px-2 sm:p-10 sm:mb-10  ");
@@ -11538,26 +11552,26 @@ function create_fragment$6(ctx) {
       append_dev(div2, p0);
       append_dev(p0, t5);
       append_dev(div10, t6);
-      append_dev(div10, div7);
-      append_dev(div7, p1);
+      append_dev(div10, div6);
+      append_dev(div6, p1);
       append_dev(p1, t7);
-      append_dev(div7, t8);
-      append_dev(div7, p2);
+      append_dev(div6, t8);
+      append_dev(div6, p2);
       append_dev(p2, span1);
       append_dev(p2, t9);
-      append_dev(div7, t10);
-      append_dev(div7, p3);
+      append_dev(div6, t10);
+      append_dev(div6, p3);
       append_dev(p3, span2);
       append_dev(p3, t11);
-      append_dev(div7, t12);
-      append_dev(div7, div6);
+      append_dev(div6, t12);
       append_dev(div6, div5);
-      append_dev(div5, t13);
-      append_dev(div6, t14);
-      append_dev(div6, button0);
-      append_dev(button0, t15);
-      append_dev(div10, t16);
+      append_dev(div5, button0);
+      append_dev(button0, t13);
+      append_dev(div10, t14);
       append_dev(div10, div9);
+      append_dev(div9, div7);
+      append_dev(div7, t15);
+      append_dev(div9, t16);
       append_dev(div9, div8);
       append_dev(div8, t17);
       append_dev(div9, t18);
@@ -11728,7 +11742,8 @@ function create_fragment$5(ctx) {
   var div8;
   var t18;
   var div9;
-  var button;
+  var a;
+  var span2;
   var t19;
   var t20;
   var div14;
@@ -11786,7 +11801,8 @@ function create_fragment$5(ctx) {
       div8 = element("div");
       t18 = space();
       div9 = element("div");
-      button = element("button");
+      a = element("a");
+      span2 = element("span");
       t19 = text("Ver más y descargar");
       t20 = space();
       div14 = element("div");
@@ -11937,12 +11953,19 @@ function create_fragment$5(ctx) {
         class: true
       });
       var div9_nodes = children(div9);
-      button = claim_element(div9_nodes, "BUTTON", {
+      a = claim_element(div9_nodes, "A", {
+        href: true,
+        download: true,
         class: true
       });
-      var button_nodes = children(button);
-      t19 = claim_text(button_nodes, "Ver más y descargar");
-      button_nodes.forEach(detach_dev);
+      var a_nodes = children(a);
+      span2 = claim_element(a_nodes, "SPAN", {
+        class: true
+      });
+      var span2_nodes = children(span2);
+      t19 = claim_text(span2_nodes, "Ver más y descargar");
+      span2_nodes.forEach(detach_dev);
+      a_nodes.forEach(detach_dev);
       div9_nodes.forEach(detach_dev);
       div10_nodes.forEach(detach_dev);
       div11_nodes.forEach(detach_dev);
@@ -12024,8 +12047,12 @@ function create_fragment$5(ctx) {
       add_location(div7, file$5, 109, 20, 4091);
       attr_dev(div8, "class", "w-1/5 sm:w-1/5");
       add_location(div8, file$5, 110, 20, 4146);
-      attr_dev(button, "class", "fushia-bg px-4  text-white uppercase");
-      add_location(button, file$5, 113, 24, 4256);
+      attr_dev(span2, "class", " text-xl sm:text-1xl  sm:w-18 fushia-bg px-2 sm:px-18 py-3 text-white uppercase    ");
+      add_location(span2, file$5, 114, 34, 4339);
+      attr_dev(a, "href", "/documents/CAPÍTULO_8_C&M.pdf");
+      attr_dev(a, "download", "");
+      attr_dev(a, "class", "");
+      add_location(a, file$5, 113, 24, 4256);
       attr_dev(div9, "class", "w-3/5 sm:w-4/5 ");
       add_location(div9, file$5, 112, 20, 4202);
       attr_dev(div10, "class", " container flex flex-wrap  pt-4 spac-x-0");
@@ -12035,15 +12062,15 @@ function create_fragment$5(ctx) {
       if (img2.src !== (img2_src_value = "comentarioscorazon16.svg")) attr_dev(img2, "src", img2_src_value);
       attr_dev(img2, "alt", "Ícono de cambio");
       attr_dev(img2, "class", "contImg mb-8 mr-3 mt-4 svelte-olilu5");
-      add_location(img2, file$5, 122, 24, 4625);
+      add_location(img2, file$5, 123, 24, 4779);
       attr_dev(h2, "class", "pl-10  mb-3 mr-8 fushia-text text-2xl");
-      add_location(h2, file$5, 123, 24, 4739);
+      add_location(h2, file$5, 124, 24, 4893);
       attr_dev(div12, "class", "flex-row");
-      add_location(div12, file$5, 121, 20, 4578);
+      add_location(div12, file$5, 122, 20, 4732);
       attr_dev(div13, "class", "flex items-start mb-5");
-      add_location(div13, file$5, 119, 16, 4501);
+      add_location(div13, file$5, 120, 16, 4655);
       attr_dev(div14, "class", "sm:col-span-2 text-white flex flex-col max-h-434px");
-      add_location(div14, file$5, 118, 12, 4420);
+      add_location(div14, file$5, 119, 12, 4574);
       attr_dev(div15, "class", "flex flex-wrap sm:grid sm:grid-cols-4  gap-8 mb-10 mt-14");
       add_location(div15, file$5, 63, 8, 1420);
       attr_dev(article, "class", "container sm:h-full mx-auto py-10 px-2 sm:p-10 ");
@@ -12097,8 +12124,9 @@ function create_fragment$5(ctx) {
       append_dev(div10, div8);
       append_dev(div10, t18);
       append_dev(div10, div9);
-      append_dev(div9, button);
-      append_dev(button, t19);
+      append_dev(div9, a);
+      append_dev(a, span2);
+      append_dev(span2, t19);
       append_dev(div15, t20);
       append_dev(div15, div14);
       append_dev(div14, div13);
@@ -14419,19 +14447,19 @@ function create_fragment$1(ctx) {
   var t10;
   var t11;
   var div9;
-  var div5;
+  var div8;
   var iframe0;
   var iframe0_src_value;
   var t12;
-  var div6;
+  var div5;
   var iframe1;
   var iframe1_src_value;
   var t13;
-  var div7;
+  var div6;
   var iframe2;
   var iframe2_src_value;
   var t14;
-  var div8;
+  var div7;
   var iframe3;
   var iframe3_src_value;
   var block = {
@@ -14464,16 +14492,16 @@ function create_fragment$1(ctx) {
       t10 = text("pedagogía frente a la desinformación");
       t11 = space();
       div9 = element("div");
-      div5 = element("div");
+      div8 = element("div");
       iframe0 = element("iframe");
       t12 = space();
-      div6 = element("div");
+      div5 = element("div");
       iframe1 = element("iframe");
       t13 = space();
-      div7 = element("div");
+      div6 = element("div");
       iframe2 = element("iframe");
       t14 = space();
-      div8 = element("div");
+      div7 = element("div");
       iframe3 = element("iframe");
       this.h();
     },
@@ -14565,14 +14593,16 @@ function create_fragment$1(ctx) {
       div4_nodes.forEach(detach_dev);
       t11 = claim_space(div10_nodes);
       div9 = claim_element(div10_nodes, "DIV", {
-        class: true
+        class: true,
+        style: true
       });
       var div9_nodes = children(div9);
-      div5 = claim_element(div9_nodes, "DIV", {
+      div8 = claim_element(div9_nodes, "DIV", {
         class: true
       });
-      var div5_nodes = children(div5);
-      iframe0 = claim_element(div5_nodes, "IFRAME", {
+      var div8_nodes = children(div8);
+      iframe0 = claim_element(div8_nodes, "IFRAME", {
+        style: true,
         height: true,
         src: true,
         title: true,
@@ -14582,13 +14612,12 @@ function create_fragment$1(ctx) {
         class: true
       });
       children(iframe0).forEach(detach_dev);
-      div5_nodes.forEach(detach_dev);
-      t12 = claim_space(div9_nodes);
-      div6 = claim_element(div9_nodes, "DIV", {
+      t12 = claim_space(div8_nodes);
+      div5 = claim_element(div8_nodes, "DIV", {
         class: true
       });
-      var div6_nodes = children(div6);
-      iframe1 = claim_element(div6_nodes, "IFRAME", {
+      var div5_nodes = children(div5);
+      iframe1 = claim_element(div5_nodes, "IFRAME", {
         height: true,
         src: true,
         title: true,
@@ -14598,13 +14627,13 @@ function create_fragment$1(ctx) {
         class: true
       });
       children(iframe1).forEach(detach_dev);
-      div6_nodes.forEach(detach_dev);
-      t13 = claim_space(div9_nodes);
-      div7 = claim_element(div9_nodes, "DIV", {
+      div5_nodes.forEach(detach_dev);
+      t13 = claim_space(div8_nodes);
+      div6 = claim_element(div8_nodes, "DIV", {
         class: true
       });
-      var div7_nodes = children(div7);
-      iframe2 = claim_element(div7_nodes, "IFRAME", {
+      var div6_nodes = children(div6);
+      iframe2 = claim_element(div6_nodes, "IFRAME", {
         height: true,
         src: true,
         title: true,
@@ -14614,13 +14643,13 @@ function create_fragment$1(ctx) {
         class: true
       });
       children(iframe2).forEach(detach_dev);
-      div7_nodes.forEach(detach_dev);
-      t14 = claim_space(div9_nodes);
-      div8 = claim_element(div9_nodes, "DIV", {
+      div6_nodes.forEach(detach_dev);
+      t14 = claim_space(div8_nodes);
+      div7 = claim_element(div8_nodes, "DIV", {
         class: true
       });
-      var div8_nodes = children(div8);
-      iframe3 = claim_element(div8_nodes, "IFRAME", {
+      var div7_nodes = children(div7);
+      iframe3 = claim_element(div7_nodes, "IFRAME", {
         height: true,
         src: true,
         title: true,
@@ -14630,6 +14659,7 @@ function create_fragment$1(ctx) {
         class: true
       });
       children(iframe3).forEach(detach_dev);
+      div7_nodes.forEach(detach_dev);
       div8_nodes.forEach(detach_dev);
       div9_nodes.forEach(detach_dev);
       div10_nodes.forEach(detach_dev);
@@ -14644,9 +14674,9 @@ function create_fragment$1(ctx) {
       add_location(img, file$1, 6, 20, 305);
       attr_dev(div0, "class", "flex-initial ");
       add_location(div0, file$1, 5, 16, 257);
-      attr_dev(span, "class", "parraf-bg svelte-4dxiw7");
+      attr_dev(span, "class", "parraf-bg svelte-1ly1r3");
       add_location(span, file$1, 11, 60, 614);
-      attr_dev(p0, "class", "parraf pl-5 pb-1 text-2xl svelte-4dxiw7");
+      attr_dev(p0, "class", "parraf pl-5 pb-1 text-2xl svelte-1ly1r3");
       add_location(p0, file$1, 10, 20, 516);
       attr_dev(p1, "class", "fushia-text pl-5 pb-1 text-2xl");
       add_location(p1, file$1, 13, 20, 846);
@@ -14664,7 +14694,7 @@ function create_fragment$1(ctx) {
       add_location(div2, file$1, 9, 16, 456);
       attr_dev(div3, "class", " col-span-1 sm:col-span-3 sm:flex");
       add_location(div3, file$1, 4, 12, 193);
-      attr_dev(p2, "class", "mx-auto my-10 px-5 text-black  parraf parrafBG text-3xl  svelte-4dxiw7");
+      attr_dev(p2, "class", "mx-auto my-10 px-5 text-black  parraf parrafBG text-3xl  svelte-1ly1r3");
       add_location(p2, file$1, 37, 16, 2351);
       attr_dev(div4, "class", "sm:col-span-3 mx-auto");
       add_location(div4, file$1, 36, 12, 2299);
@@ -14674,41 +14704,42 @@ function create_fragment$1(ctx) {
       attr_dev(iframe0, "frameborder", "0");
       attr_dev(iframe0, "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
       iframe0.allowFullscreen = true;
-      attr_dev(iframe0, "class", "svelte-4dxiw7");
-      add_location(iframe0, file$1, 44, 20, 2655);
-      attr_dev(div5, "class", "sm:m-2  w-auto");
-      add_location(div5, file$1, 43, 16, 2605);
+      attr_dev(iframe0, "class", "svelte-1ly1r3");
+      add_location(iframe0, file$1, 44, 20, 2722);
       attr_dev(iframe1, "height", "215");
       if (iframe1.src !== (iframe1_src_value = "https://www.youtube.com/embed/2ghFaoy34vA")) attr_dev(iframe1, "src", iframe1_src_value);
       attr_dev(iframe1, "title", "YouTube video player");
       attr_dev(iframe1, "frameborder", "0");
       attr_dev(iframe1, "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
       iframe1.allowFullscreen = true;
-      attr_dev(iframe1, "class", "svelte-4dxiw7");
-      add_location(iframe1, file$1, 47, 20, 2981);
-      attr_dev(div6, "class", "sm:m-2  w-auto");
-      add_location(div6, file$1, 46, 16, 2932);
+      attr_dev(iframe1, "class", "svelte-1ly1r3");
+      add_location(iframe1, file$1, 46, 20, 3033);
+      attr_dev(div5, "class", "sm:m-2  w-auto");
+      add_location(div5, file$1, 45, 16, 2984);
       attr_dev(iframe2, "height", "215");
       if (iframe2.src !== (iframe2_src_value = "https://www.youtube.com/embed/hkYLH9YBRVk")) attr_dev(iframe2, "src", iframe2_src_value);
       attr_dev(iframe2, "title", "YouTube video player");
       attr_dev(iframe2, "frameborder", "0");
       attr_dev(iframe2, "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
       iframe2.allowFullscreen = true;
-      attr_dev(iframe2, "class", "svelte-4dxiw7");
-      add_location(iframe2, file$1, 50, 20, 3305);
-      attr_dev(div7, "class", "sm:m-2 w-auto");
-      add_location(div7, file$1, 49, 16, 3257);
+      attr_dev(iframe2, "class", "svelte-1ly1r3");
+      add_location(iframe2, file$1, 49, 20, 3357);
+      attr_dev(div6, "class", "sm:m-2 w-auto");
+      add_location(div6, file$1, 48, 16, 3309);
       attr_dev(iframe3, "height", "215");
       if (iframe3.src !== (iframe3_src_value = "https://www.youtube.com/embed/BO2yLty0jbw")) attr_dev(iframe3, "src", iframe3_src_value);
       attr_dev(iframe3, "title", "YouTube video player");
       attr_dev(iframe3, "frameborder", "0");
       attr_dev(iframe3, "allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
       iframe3.allowFullscreen = true;
-      attr_dev(iframe3, "class", "svelte-4dxiw7");
-      add_location(iframe3, file$1, 53, 20, 3631);
-      attr_dev(div8, "class", "sm:m-2 w-auto");
-      add_location(div8, file$1, 52, 16, 3583);
-      attr_dev(div9, "class", " sm:col-span-3 flex flex-wrap  sm:space-x-2 ");
+      attr_dev(iframe3, "class", "svelte-1ly1r3");
+      add_location(iframe3, file$1, 52, 20, 3683);
+      attr_dev(div7, "class", "sm:m-2 w-auto");
+      add_location(div7, file$1, 51, 16, 3635);
+      attr_dev(div8, "class", "sm:m-2  w-auto");
+      add_location(div8, file$1, 43, 16, 2672);
+      attr_dev(div9, "class", " sm:col-span-3  grid grid-cols-1  mt-10 sm:flex sm:flex-wrap  sm:p-0  sm:space-x-2 ");
+      set_style(div9, "padding-top", "56.25%");
       add_location(div9, file$1, 42, 12, 2530);
       attr_dev(div10, "class", "grid grid-cols-1 sm:grid-cols-3 mx-auto");
       add_location(div10, file$1, 3, 8, 127);
@@ -14746,17 +14777,17 @@ function create_fragment$1(ctx) {
       append_dev(p2, t10);
       append_dev(div10, t11);
       append_dev(div10, div9);
-      append_dev(div9, div5);
-      append_dev(div5, iframe0);
-      append_dev(div9, t12);
-      append_dev(div9, div6);
-      append_dev(div6, iframe1);
-      append_dev(div9, t13);
-      append_dev(div9, div7);
-      append_dev(div7, iframe2);
-      append_dev(div9, t14);
       append_dev(div9, div8);
-      append_dev(div8, iframe3);
+      append_dev(div8, iframe0);
+      append_dev(div8, t12);
+      append_dev(div8, div5);
+      append_dev(div5, iframe1);
+      append_dev(div8, t13);
+      append_dev(div8, div6);
+      append_dev(div6, iframe2);
+      append_dev(div8, t14);
+      append_dev(div8, div7);
+      append_dev(div7, iframe3);
     },
     p: noop,
     i: noop,
