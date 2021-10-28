@@ -111,8 +111,9 @@
                     <div class="w-1/5 sm:w-1/5"></div>
 
                     <div class="w-3/5 sm:w-4/5 ">
-                        <button class="fushia-bg px-4  text-white uppercase">Ver más y descargar</button>
-                    </div>
+                        <a href="/documents/CAPÍTULO_8_C&M.pdf" download
+                        class="" ><span class=" text-xl sm:text-1xl  sm:w-18 fushia-bg px-2 sm:px-18 py-3 text-white uppercase    ">Ver más y descargar</span>
+                        </a>                    </div>
                 </div>
             </div>
 

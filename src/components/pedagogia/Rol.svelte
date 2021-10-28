@@ -69,7 +69,7 @@
                     </div>
                     <div class="flex-1 order-3 sm:order-none  sm:px-4 	">
                         <h1 class="text-4xl verdeClaro-text text-left pl-0 sm:text-left sm:w-4/4 mt-4  sm:pl-4  sm:verdeClaro-text mb-5 mx-0 uppercase leading-none">
-                            El rol de cada uno<br> de nosotros 
+                            class="w-auto static  sm:order-last p-4 order-2 	"l de cada uno<br> de nosotros 
                         </h1>
                     </div>
                     <div class="w-auto static  sm:order-last p-4 order-2 	">
@@ -123,7 +123,9 @@
                     <div class="w-1/5 sm:w-1/5"></div>
 
                     <div class="w-3/5 sm:w-4/5 ">
-                        <button class="fushia-bg px-4  text-white uppercase">Ver más y descargar</button>
+                        <a href="/documents/Corazones-y-mentes.pdf" download
+                        class="" ><span class=" text-xl sm:text-1xl  sm:w-18 fushia-bg px-2 sm:px-18 py-3 text-white uppercase    ">Ver más y descargar</span>
+                        </a>
                     </div>
                 </div>
             </div>
