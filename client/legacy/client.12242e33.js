@@ -2152,7 +2152,7 @@ function create_fragment$3(ctx) {
       t7 = text("Entiende tu mente");
       t8 = space();
       a2 = element("a");
-      t9 = text("#NocomoCuento");
+      t9 = text("#NoComoCuento");
       t10 = space();
       a3 = element("a");
       t11 = text("Kit De Herramientas");
@@ -2291,7 +2291,7 @@ function create_fragment$3(ctx) {
         class: true
       });
       var a2_nodes = children(a2);
-      t9 = claim_text(a2_nodes, "#NocomoCuento");
+      t9 = claim_text(a2_nodes, "#NoComoCuento");
       a2_nodes.forEach(detach_dev);
       t10 = claim_space(div2_nodes);
       a3 = claim_element(div2_nodes, "A", {
@@ -2425,18 +2425,18 @@ function create_fragment$3(ctx) {
       attr_dev(a2, "href", "#nocomocuento");
       attr_dev(a2, "class", "" + (
       /*getActive*/
-      ctx[2]("nocomocuento") + " block px-3 py-2 text-base font-medium"));
+      ctx[2]("nocomocuento") + " block px-3 py-2 text-sm font-medium"));
       add_location(a2, file$2, 44, 12, 2494);
       attr_dev(a3, "href", "#kit-de-herramientas");
       attr_dev(a3, "class", "" + (
       /*getActive*/
       ctx[2]("kit-de-herramientas") + " px-3 py-2 text-sm font-medium"));
-      add_location(a3, file$2, 45, 12, 2622);
+      add_location(a3, file$2, 45, 12, 2620);
       attr_dev(a4, "href", "#quienes-somos");
       attr_dev(a4, "class", "" + (
       /*getActive*/
       ctx[2]("quienes-somos") + " px-3 py-2 text-sm font-medium"));
-      add_location(a4, file$2, 47, 12, 2888);
+      add_location(a4, file$2, 47, 12, 2886);
       attr_dev(div2, "class", "flex space-x-4 items-end");
       add_location(div2, file$2, 39, 10, 1987);
       attr_dev(div3, "class", "hidden sm:block sm:ml-6");
@@ -2451,34 +2451,34 @@ function create_fragment$3(ctx) {
       attr_dev(a5, "class", "" + (
       /*getActive*/
       ctx[2](undefined) + " block px-3 py-2 text-base font-medium"));
-      add_location(a5, file$2, 57, 6, 3242);
+      add_location(a5, file$2, 57, 6, 3240);
       attr_dev(a6, "href", "#libro");
       attr_dev(a6, "class", "" + (
       /*getActive*/
       ctx[2]("libro") + " block px-3 py-2 text-base font-medium"));
-      add_location(a6, file$2, 59, 6, 3471);
+      add_location(a6, file$2, 59, 6, 3469);
       attr_dev(a7, "href", "#nocomocuento");
       attr_dev(a7, "class", "" + (
       /*getActive*/
       ctx[2]("nocomocuento") + " block px-3 py-2 text-base font-medium"));
-      add_location(a7, file$2, 60, 6, 3583);
+      add_location(a7, file$2, 60, 6, 3581);
       attr_dev(a8, "href", "#kit-de-herramienpmntas");
       attr_dev(a8, "class", "" + (
       /*getActive*/
       ctx[2]("kit-de-herramientas") + " block px-3 py-2 text-base font-medium"));
-      add_location(a8, file$2, 62, 6, 3706);
+      add_location(a8, file$2, 62, 6, 3704);
       attr_dev(a9, "href", "#quienes-somos");
       attr_dev(a9, "class", "" + (
       /*getActive*/
       ctx[2]("quienes-somos") + " block px-3 py-2 text-base font-medium"));
-      add_location(a9, file$2, 64, 6, 3977);
+      add_location(a9, file$2, 64, 6, 3975);
       attr_dev(div7, "class", "px-2 pt-2 pb-3 space-y-1");
-      add_location(div7, file$2, 56, 4, 3197);
+      add_location(div7, file$2, 56, 4, 3195);
       attr_dev(div8, "class", div8_class_value = "sm:hidden " + (
       /*opened*/
       ctx[0] ? "block" : "hidden"));
       attr_dev(div8, "id", "mobile-menu");
-      add_location(div8, file$2, 55, 2, 3121);
+      add_location(div8, file$2, 55, 2, 3119);
       attr_dev(nav, "class", "bg-white shadow font-sans");
       add_location(nav, file$2, 13, 0, 316);
     },
@@ -3703,7 +3703,7 @@ var App = /*#__PURE__*/function (_SvelteComponentDev) {
 var ignore = [];
 var components = [{
   js: function js() {
-    return Promise.all([import('./index.80b5ee51.js'), __inject_styles(["client-53f58bb9.css","index-d0ef459d.css"])]).then(function(x) { return x[0]; });
+    return Promise.all([import('./index.c22c2f96.js'), __inject_styles(["client-53f58bb9.css","index-d0ef459d.css"])]).then(function(x) { return x[0]; });
   }
 }];
 var routes = [{
