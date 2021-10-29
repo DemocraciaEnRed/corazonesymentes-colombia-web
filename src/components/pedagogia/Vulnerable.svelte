@@ -147,25 +147,29 @@
                     <div class="w-1/5"></div>
                     <div class="w-1/5"></div> -->
                     
-                    
-                    <button type="button" class="invisible sm:visible text-2xl  h-10 sm:w-18 fushia-bg px-20  text-white uppercase    "  on:click={showEmpatia}>empatia</button>
+                    <button type="button" class="text-2xl ml-14  sm:ml-0 h-10 sm:w-18 fushia-bg px-20  text-white uppercase    "  on:click={showEmpatia}>empatia</button>
 
                 </div>
             </div>
 
-            <div class="sm:col-span-2 mx-auto text-white flex flex-col gap-3 sm:gap-10 max-h-434px">
-                <div class="invisible  h-1 sm:visible flex items-start mb-5">
-                    
+            <div class="sm:col-span- mx-auto text-white flex flex-col gap-3 sm:gap-10 max-h-434px">
+                <div class=" mx-auto sm:mx-0 h-1  flex items-start mb-5">
                     click en el sesgo
                 </div>
-                <div class="visible sm:invisible sm:h-0 sm:w-1 flex text-white ml-20 pl-4 sm:ml-0 sm:pl-0  mb-5 leading-none ">
+                <!-- <div class="visible sm:invisible sm:h-0 sm:w-1 flex text-white ml-20 pl-4 sm:ml-0 sm:pl-0  mb-5 leading-none ">
                     
                     click en el sesgo
-                </div>
-                    <button type="button" class="visible sm:invisible text-2xl  sm:w-18 sm:h-0 fushia-bg px-20  text-white uppercase    "  on:click={showEmpatia}>empatia</button>
-                    <button type="button" class=" text-2xl  sm:w-18 fushia-bg px-20  text-white uppercase    "  on:click={showDisonancia}>disonancia cognitiva</button>
-                    <button type="button" class=" text-2xl  sm:w-18 fushia-bg px-20  text-white uppercase    "  on:click={showConfirmacion}>sesgo de confirmación</button>
-                    <button type="button" class=" text-2xl  sm:w-18 fushia-bg px-20  text-white uppercase    "  on:click={showAtribucion}>sesgo de atribución</button>
+                </div> -->
+                    <!-- <button type="button" class="visible sm:invisible text-2xl  sm:w-18 sm:h-0 fushia-bg px-20  text-white uppercase    "  on:click={showEmpatia}>empatia</button> -->
+                    <div class=" text-2xl h-10 pt-1 w-56 sm:w-18 fushia-bg  text-center text-white uppercase    " >
+                        <button type="button"  on:click={showDisonancia}>disonancia cognitiva</button>
+                    </div>
+                    <div class=" text-2xl h-10 pt-1 w-56 sm:w-18 fushia-bg  text-center text-white uppercase    " >
+                        <button type="button"   on:click={showConfirmacion}>sesgo de confirmación</button>
+                    </div>
+                    <div class=" text-2xl h-10 pt-1 w-56 sm:w-18 fushia-bg  text-center text-white uppercase    " >
+                        <button type="button"   on:click={showAtribucion}>sesgo de atribución</button>
+                    </div>
 
            
                 

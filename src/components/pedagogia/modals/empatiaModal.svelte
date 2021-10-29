@@ -35,7 +35,7 @@
 
                 <div class="w-5/5 pb-2 sm:w-4/5 sm:pb-0 ">
                     <a href="/documents/CAPÍTULO_1_C&M.pdf" download
-					class="" ><span class=" text-xl sm:text-2xl  sm:w-18 fushia-bg px-2 sm:px-20 py-3 text-white uppercase    ">Ver más y descargar</span>
+					class="" ><span class=" text-xl sm:text-2xl  sm:w-18 fushia-bg px-2 py-3 text-white uppercase    ">Ver más y descargar</span>
 					</a>
                 </div>
             </div>
