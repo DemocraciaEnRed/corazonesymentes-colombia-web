@@ -60,6 +60,11 @@
         height: 1px;
         width: 50%;
     }
+     @media(max-width: 640px){
+        .sm-flex-100 {
+            flex: 1 1 100%;
+        }
+    }
 </style>
 
 
@@ -73,7 +78,7 @@
                         <img src="RUTA-17.svg" alt="Ícono de cambio" class="w-2/2 h-20  ">
                         <span class="pl-1 text-4xl text-left fushia-text sm:text-2xl sm:text-center">LA RUTA</span> 
                     </div>
-                    <div class="flex-1 order-3 sm:order-none  sm:px-4 	">
+                    <div class="flex-1 order-3 sm:order-none  sm:px-4 sm-flex-100">
                         <h1 class="text-4xl verdeClaro-text text-left pl-0 sm:text-left sm:w-4/4 mt-4  sm:pl-4  sm:verdeClaro-text mb-5 mx-0 uppercase leading-none">
                             <!-- <span class="fushia-text"> </span>  -->
                             ¿Cómo funciona tu mente: heurísticas o atajos mentales?
