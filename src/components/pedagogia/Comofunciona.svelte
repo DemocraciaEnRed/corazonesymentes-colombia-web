@@ -24,6 +24,14 @@
     .contImg{
         height: 230px;
         width: 480px;
+        @media (max-width: 640px) {
+            width: 100px;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 1rem;
+            margin-top: 0;
+        }
     }
 
     .imgPart{
