@@ -28,7 +28,7 @@
 				</div>
 				<div class="pt-10">
 					<a href="/documents/Corazones-y-mentes.pdf" download
-					class="" ><span class="fushia-bg py-2 px-5 text-white border hover:border-gray-800 border-solid">Descargá el libro</span>
+					class="" ><span class="fushia-bg py-2 px-5 text-white border rounded-md hover:border-gray-800 border-solid">Descargá el libro</span>
 					</a>
 				</div>
 			</div>

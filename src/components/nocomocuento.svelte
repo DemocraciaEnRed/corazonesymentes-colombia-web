@@ -27,7 +27,7 @@
                             <input type="submit" value="suscribirme">
                         </form> -->
                        
-                        <button data-tf-popup="HRArEB7z" data-tf-hide-headers data-tf-hide-footer data-tf-size="50" data-tf-auto-close class="ml-5 px-5  border-2 border-black  uppercase">
+                        <button data-tf-popup="HRArEB7z" data-tf-hide-headers data-tf-hide-footer data-tf-size="50" data-tf-auto-close class="ml-5 px-5  border-2 rounded-md border-black  uppercase">
                             Suscribirme</button>
                                 <script src="//embed.typeform.com/next/embed.js"></script>
                     </div>

@@ -105,22 +105,22 @@
 
     <div class="flex sm:justify-evenly flex-wrap">
 
-      <button  class="ml-5 mb-5 px-5  border-2 border-black" on:click={()=>changeFilter("ARTÍCULO")}>
+      <button  class="ml-5 mb-5 px-5  border-2 rounded-md border-black" on:click={()=>changeFilter("ARTÍCULO")}>
         <h4 >Artículo</h4>
       </button>
-      <button  class="ml-5 mb-5 px-5  border-2 border-black" on:click={()=>changeFilter("PLATAFORMA")}>
+      <button  class="ml-5 mb-5 px-5  border-2 rounded-md border-black" on:click={()=>changeFilter("PLATAFORMA")}>
         <h4 >Plataforma</h4>
       </button>
-      <button  class="ml-5 mb-5 px-5  border-2 border-black" on:click={()=>changeFilter("VIDEO")}>
+      <button  class="ml-5 mb-5 px-5  border-2 rounded-md border-black" on:click={()=>changeFilter("VIDEO")}>
         <h4 >Video</h4>
       </button>
-      <button  class="ml-5 mb-5 px-5  border-2 border-black" on:click={()=>changeFilter("GUÍA")}>
+      <button  class="ml-5 mb-5 px-5  border-2 rounded-md border-black" on:click={()=>changeFilter("GUÍA")}>
         <h4 >Guía</h4>
       </button>
-      <button  class="ml-5 mb-5 px-5  border-2 border-black" on:click={()=>changeFilter("JUEGO")}>
+      <button  class="ml-5 mb-5 px-5  border-2 rounded-md border-black" on:click={()=>changeFilter("JUEGO")}>
         <h4 >Juegos</h4>
       </button>
-      <button  class="ml-5 mb-5 px-5  border-2 border-black" on:click={()=>changeFilter("ALL")}>
+      <button  class="ml-5 mb-5 px-5  border-2 rounded-md border-black" on:click={()=>changeFilter("ALL")}>
         <h4 >Todas</h4>
       </button>
     </div>

@@ -35,7 +35,7 @@
                     </div>
                     <div class="p-4 mx-auto justify-self-end">
                         <a href="https://somosdip.com" 
-                        class="py-2 px-2 border w-100 text-center border-gray-800 border-solid uppercase  mb-3" >NUESTRA PAGINA WEB
+                        class="py-2 px-2 border w-100 text-center border-gray-800 border-solid rounded-md uppercase  mb-3" >NUESTRA PAGINA WEB
                     </a>
                     </div>
                 </div>
@@ -59,7 +59,7 @@
                 </div>
                 <div class="p-4 mx-auto justify-self-end">
                     <a href="https://www.extituto.org/" 
-                    class="py-2 px-2 border w-100 text-center border-gray-800 border-solid uppercase mb-3" >NUESTRA PAGINA WEB</a>
+                    class="py-2 px-2 border w-100 text-center border-gray-800 border-solid rounded-md uppercase mb-3" >NUESTRA PAGINA WEB</a>
                 </div>
             </div>
            

@@ -33,7 +33,7 @@
 			</p>
 			<div class="flex mx-4">
 				<a href="/documents/Corazones-y-mentes.pdf" download
-				class="py-3 float-left" ><span class="fushia-bg py-2 px-1 border hover:border-gray-800 border-solid w-44 text-center text-white	 ippercase inline-block">DESCARGAR LIBRO</span>
+				class="py-3 float-left" ><span class="fushia-bg py-2 px-1 border hover:border-gray-800 border-solid rounded-md	w-44 text-center text-white	 ippercase inline-block">DESCARGAR LIBRO</span>
 			</a>
 			</div>
 			
