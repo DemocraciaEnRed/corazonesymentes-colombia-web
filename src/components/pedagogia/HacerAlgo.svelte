@@ -17,6 +17,14 @@
     .contImg{
         height: 230px;
         width: 480px;
+        @media (max-width: 640px) {
+            width: 100px;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 1rem;
+            margin-top: 0;
+        }
     }
 
     .imgPart{
@@ -56,6 +64,23 @@
     .circle{
         background: transparent url("./static/circulo.svg") no-repeat scroll 60% -20%;
     }
+
+    @media(max-width: 640px){
+        .sm-flex-100 {
+            flex: 1 1 100%;
+        }
+    }
+     .title-svg {
+        position: relative;
+    }
+    .title-svg svg {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 12px;
+        right: 5px;
+        opacity: 0.8;
+    }
 </style>
 
 
@@ -69,17 +94,21 @@
                         <img src="RUTA-17.svg" alt="Ícono de cambio" class="w-2/2 h-20  ">
                         <span class="pl-1 text-4xl text-left fushia-text sm:text-2xl sm:text-center">LA RUTA</span> 
                     </div>
-                    <div class="flex-1 order-3 sm:order-none  sm:px-4 	">
+                    <div class="flex-1 order-3 sm:order-none  sm:px-4 sm-flex-100	">
                         <h1 class="text-4xl verdeClaro-text text-left pl-0 sm:text-left sm:w-4/4 mt-4  sm:pl-4  sm:verdeClaro-text mb-5 mx-0 uppercase leading-none">
                             <!-- <span class="fushia-text"> </span>  -->
                              ¿Por qué debemos hacer algo al respecto de la desinformación? 
                         </h1>
                     </div>
-                    <div class="w-auto  sm:order-last p-4 order-2 circle	">
+                    <div class="w-auto  sm:order-last p-4 order-2 circle title-svg	">
                         <p class=" text-2xl sm:p-0  justify-items-right text-right fontVacia uppercase circle">
                             dos
                         </p>
-        
+                        <svg x="0px" y="0px" viewBox="0 0 95 93">
+                            <g>
+                                <circle fill="#8AE5EE" cx="46.71" cy="47.57" r="45.5"/>
+                            </g>
+                        </svg>
                     </div>
             
                 </div>

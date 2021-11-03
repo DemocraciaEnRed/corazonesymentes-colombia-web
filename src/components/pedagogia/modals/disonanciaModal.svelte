@@ -3,7 +3,11 @@
           font-size: 2rem;
           text-align: left;
           color: #000;
-      }
+    }
+    .min-width-220 {
+        min-width: 220px;
+    }
+    
   </style>
   
   <div class="container flex flex-wrap sm:grid sm:grid-cols-2 p-2 sm:p-10">
@@ -31,7 +35,7 @@
                 <div class="w-1/5 sm:w-1/5"></div>
                 <div class="w-1/5 sm:w-1/5"></div>
 
-                <div class="w-5/5 pb-2 sm:w-4/5 sm:pb-0 ">
+                <div class="w-5/5 pb-2 sm:w-4/5 sm:pb-0 min-width-220">
                     <a href="/documents/CAPÍTULO_3_C&M.pdf" download
 					class="" ><span class=" text-xl sm:text-2xl  sm:w-18 fushia-bg px-2  py-3 text-white uppercase    ">Ver más y descargar</span>
 					</a>

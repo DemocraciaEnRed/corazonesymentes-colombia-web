@@ -38,6 +38,17 @@
     section{
         min-height:auto;
     }
+     .title-svg {
+        position: relative;
+    }
+    .title-svg svg {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 12px;
+        right: 5px;
+        opacity: 0.8;
+    }
 </style>
 
 <section class="pedagogias-digitales-section bg-gris    ">
@@ -55,11 +66,15 @@
                             <!-- <span class="fushia-text"> </span>  -->
                             ¿CÓMO AYUDAN Las Ciencias del Comportamiento?                        </h1>
                     </div>
-                    <div class="w-auto  sm:order-last p-4 order-2 circle	">
+                    <div class="w-auto  sm:order-last p-4 order-2 circle title-svg	">
                         <p class=" text-2xl sm:p-0  justify-items-right text-right fontVacia uppercase circle">
                             sexto
                         </p>
-        
+                        <svg x="0px" y="0px" viewBox="0 0 95 93">
+                            <g>
+                                <circle fill="#8AE5EE" cx="46.71" cy="47.57" r="45.5"/>
+                            </g>
+                        </svg>
                     </div>
             
                 </div>
