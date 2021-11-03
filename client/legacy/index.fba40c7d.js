@@ -1,4 +1,4 @@
-import { S as SvelteComponentDev, a as SvelteComponentTyped, b as afterUpdate, c as beforeUpdate, d as createEventDispatcher, g as getContext, h as hasContext, o as onDestroy, e as onMount, s as setContext, t as tick, i as identity, _ as _inherits, f as _getPrototypeOf, j as _possibleConstructorReturn, k as _classCallCheck, l as init, m as safe_not_equal, n as _assertThisInitialized, p as dispatch_dev, v as validate_slots, q as element, r as text, u as claim_element, w as children, x as claim_text, y as detach_dev, z as attr_dev, A as add_location, B as insert_dev, C as append_dev, D as listen_dev, E as noop, F as space, G as claim_space, H as _slicedToArray, I as add_render_callback, J as create_bidirectional_transition, K as _createClass, L as set_data_dev, M as validate_each_argument, N as create_component, O as claim_component, P as mount_component, Q as transition_in, R as transition_out, T as destroy_component, U as set_style, V as group_outros, W as check_outros, X as destroy_each, Y as _typeof, Z as globals, $ as assign, a0 as get_spread_update, a1 as get_spread_object, a2 as run_all, a3 as createCommonjsModule, a4 as commonjsGlobal, a5 as getDefaultExportFromCjs, a6 as create_slot, a7 as update_slot, a8 as null_to_empty, a9 as binding_callbacks, aa as svg_element, ab as writable, ac as is_function, ad as empty, ae as validate_store, af as component_subscribe, ag as query_selector_all } from './client.05b3a789.js';
+import { S as SvelteComponentDev, a as SvelteComponentTyped, b as afterUpdate, c as beforeUpdate, d as createEventDispatcher, g as getContext, h as hasContext, o as onDestroy, e as onMount, s as setContext, t as tick, i as identity, _ as _inherits, f as _getPrototypeOf, j as _possibleConstructorReturn, k as _classCallCheck, l as init, m as safe_not_equal, n as _assertThisInitialized, p as dispatch_dev, v as validate_slots, q as element, r as text, u as claim_element, w as children, x as claim_text, y as detach_dev, z as attr_dev, A as add_location, B as insert_dev, C as append_dev, D as listen_dev, E as noop, F as space, G as claim_space, H as _slicedToArray, I as add_render_callback, J as create_bidirectional_transition, K as _createClass, L as set_data_dev, M as validate_each_argument, N as create_component, O as claim_component, P as mount_component, Q as transition_in, R as transition_out, T as destroy_component, U as set_style, V as group_outros, W as check_outros, X as destroy_each, Y as _typeof, Z as globals, $ as assign, a0 as get_spread_update, a1 as get_spread_object, a2 as run_all, a3 as createCommonjsModule, a4 as commonjsGlobal, a5 as getDefaultExportFromCjs, a6 as create_slot, a7 as update_slot, a8 as null_to_empty, a9 as binding_callbacks, aa as svg_element, ab as writable, ac as is_function, ad as empty, ae as validate_store, af as component_subscribe, ag as query_selector_all } from './client.5b263a82.js';
 
 var svelte = /*#__PURE__*/Object.freeze({
     __proto__: null,
@@ -7880,42 +7880,42 @@ function create_fragment$g(ctx) {
     },
     h: function hydrate() {
       attr_dev(span0, "class", "fushia-text");
-      add_location(span0, file$g, 34, 62, 747);
+      add_location(span0, file$g, 51, 62, 923);
       if (img0.src !== (img0_src_value = "cerebro_enchufe.svg")) attr_dev(img0, "src", img0_src_value);
       attr_dev(img0, "alt", "Ícono de cambio");
-      attr_dev(img0, "class", "imgPart w-24 sm:w-32  mr-3 mt-4 svelte-1je8n9k");
-      add_location(img0, file$g, 36, 24, 863);
+      attr_dev(img0, "class", "imgPart w-24 sm:w-32  mr-3 mt-4 svelte-1eefy2m");
+      add_location(img0, file$g, 53, 24, 1039);
       attr_dev(div0, "class", " relative");
-      add_location(div0, file$g, 35, 32, 815);
+      add_location(div0, file$g, 52, 32, 991);
       attr_dev(h1, "class", "verdeClaro-text mb-5 leading-none");
-      add_location(h1, file$g, 34, 16, 701);
+      add_location(h1, file$g, 51, 16, 877);
       attr_dev(span1, "class", "fushia-text");
-      add_location(span1, file$g, 41, 20, 1115);
-      add_location(br, file$g, 42, 20, 1251);
+      add_location(span1, file$g, 58, 20, 1291);
+      add_location(br, file$g, 59, 20, 1427);
       attr_dev(p0, "class", "font-sans text-white mb-5");
-      add_location(p0, file$g, 40, 16, 1057);
+      add_location(p0, file$g, 57, 16, 1233);
       attr_dev(div1, "class", "my-auto  relative");
-      add_location(div1, file$g, 32, 12, 636);
+      add_location(div1, file$g, 49, 12, 812);
       if (img1.src !== (img1_src_value = "RUTA-17.svg")) attr_dev(img1, "src", img1_src_value);
       attr_dev(img1, "alt", "Ícono de cambio");
-      attr_dev(img1, "class", "contImg mr-3 mt-4 svelte-1je8n9k");
-      add_location(img1, file$g, 50, 24, 1768);
+      attr_dev(img1, "class", "contImg mr-3 mt-4 svelte-1eefy2m");
+      add_location(img1, file$g, 67, 24, 1944);
       attr_dev(h2, "class", "mb-3 fushia-text text-lg");
-      add_location(h2, file$g, 51, 24, 1864);
+      add_location(h2, file$g, 68, 24, 2040);
       attr_dev(p1, "class", "font-sans celeste-text");
-      add_location(p1, file$g, 52, 24, 2043);
+      add_location(p1, file$g, 69, 24, 2219);
       attr_dev(div2, "class", "");
-      add_location(div2, file$g, 49, 20, 1729);
+      add_location(div2, file$g, 66, 20, 1905);
       attr_dev(div3, "class", "flex items-start mb-5");
-      add_location(div3, file$g, 47, 16, 1652);
+      add_location(div3, file$g, 64, 16, 1828);
       attr_dev(div4, "class", "text-white flex flex-col max-h-434px");
-      add_location(div4, file$g, 46, 12, 1585);
+      add_location(div4, file$g, 63, 12, 1761);
       attr_dev(div5, "class", "grid md:grid-cols-2 grid-cols-1 gap-8 mb-10 mt-14");
-      add_location(div5, file$g, 30, 8, 547);
+      add_location(div5, file$g, 47, 8, 723);
       attr_dev(article, "class", "container  sm:h-full m-auto py-10 px-2 sm:p-10 ");
-      add_location(article, file$g, 29, 4, 473);
+      add_location(article, file$g, 46, 4, 649);
       attr_dev(section, "class", "pedagogias-digitales-section bg-gris  pt-28  h-full ");
-      add_location(section, file$g, 28, 0, 398);
+      add_location(section, file$g, 45, 0, 574);
     },
     m: function mount(target, anchor) {
       insert_dev(target, section, anchor);
@@ -8008,9 +8008,9 @@ var file$f = "src/components/pedagogia/Rol.svelte";
 function create_fragment$f(ctx) {
   var section;
   var article;
-  var div16;
-  var div5;
+  var div15;
   var div4;
+  var div3;
   var div0;
   var img0;
   var img0_src_value;
@@ -8024,15 +8024,15 @@ function create_fragment$f(ctx) {
   var br0;
   var t4;
   var t5;
-  var div3;
   var div2;
-  var img1;
-  var img1_src_value;
-  var t6;
   var p0;
+  var t6;
   var t7;
+  var svg;
+  var g;
+  var circle;
   var t8;
-  var div12;
+  var div11;
   var p1;
   var t9;
   var t10;
@@ -8046,32 +8046,32 @@ function create_fragment$f(ctx) {
   var t14;
   var hr;
   var t15;
-  var div11;
-  var div6;
-  var img2;
-  var img2_src_value;
+  var div10;
+  var div5;
+  var img1;
+  var img1_src_value;
   var t16;
-  var div7;
+  var div6;
   var h30;
   var t17;
   var t18;
   var h31;
   var t19;
   var t20;
-  var div8;
+  var div7;
   var t21;
-  var div9;
+  var div8;
   var t22;
-  var div10;
+  var div9;
   var a;
   var span2;
   var t23;
   var t24;
-  var div15;
   var div14;
   var div13;
-  var img3;
-  var img3_src_value;
+  var div12;
+  var img2;
+  var img2_src_value;
   var t25;
   var h2;
   var t26;
@@ -8081,9 +8081,9 @@ function create_fragment$f(ctx) {
     c: function create() {
       section = element("section");
       article = element("article");
-      div16 = element("div");
-      div5 = element("div");
+      div15 = element("div");
       div4 = element("div");
+      div3 = element("div");
       div0 = element("div");
       img0 = element("img");
       t0 = space();
@@ -8092,18 +8092,19 @@ function create_fragment$f(ctx) {
       t2 = space();
       div1 = element("div");
       h1 = element("h1");
-      t3 = text("el ro lde cada uno ");
+      t3 = text("el rol de cada uno ");
       br0 = element("br");
       t4 = text("de nosotros");
       t5 = space();
-      div3 = element("div");
       div2 = element("div");
-      img1 = element("img");
-      t6 = space();
       p0 = element("p");
-      t7 = text("uno");
+      t6 = text("uno");
+      t7 = space();
+      svg = svg_element("svg");
+      g = svg_element("g");
+      circle = svg_element("circle");
       t8 = space();
-      div12 = element("div");
+      div11 = element("div");
       p1 = element("p");
       t9 = text("RTA/");
       t10 = space();
@@ -8117,30 +8118,30 @@ function create_fragment$f(ctx) {
       t14 = space();
       hr = element("hr");
       t15 = space();
-      div11 = element("div");
-      div6 = element("div");
-      img2 = element("img");
+      div10 = element("div");
+      div5 = element("div");
+      img1 = element("img");
       t16 = space();
-      div7 = element("div");
+      div6 = element("div");
       h30 = element("h3");
       t17 = text("INTRODUCCIÓN");
       t18 = space();
       h31 = element("h3");
       t19 = text("INTERNET SE HA DESPLEGADO EN NUESTRA VIDA COTIDIANA");
       t20 = space();
-      div8 = element("div");
+      div7 = element("div");
       t21 = space();
-      div9 = element("div");
+      div8 = element("div");
       t22 = space();
-      div10 = element("div");
+      div9 = element("div");
       a = element("a");
       span2 = element("span");
       t23 = text("Ver más y descargar");
       t24 = space();
-      div15 = element("div");
       div14 = element("div");
       div13 = element("div");
-      img3 = element("img");
+      div12 = element("div");
+      img2 = element("img");
       t25 = space();
       h2 = element("h2");
       t26 = text("En tus manos está evitar que se siga ");
@@ -8157,19 +8158,19 @@ function create_fragment$f(ctx) {
         class: true
       });
       var article_nodes = children(article);
-      div16 = claim_element(article_nodes, "DIV", {
+      div15 = claim_element(article_nodes, "DIV", {
         class: true
       });
-      var div16_nodes = children(div16);
-      div5 = claim_element(div16_nodes, "DIV", {
-        class: true
-      });
-      var div5_nodes = children(div5);
-      div4 = claim_element(div5_nodes, "DIV", {
+      var div15_nodes = children(div15);
+      div4 = claim_element(div15_nodes, "DIV", {
         class: true
       });
       var div4_nodes = children(div4);
-      div0 = claim_element(div4_nodes, "DIV", {
+      div3 = claim_element(div4_nodes, "DIV", {
+        class: true
+      });
+      var div3_nodes = children(div3);
+      div0 = claim_element(div3_nodes, "DIV", {
         class: true
       });
       var div0_nodes = children(div0);
@@ -8186,8 +8187,8 @@ function create_fragment$f(ctx) {
       t1 = claim_text(span0_nodes, "LA RUTA");
       span0_nodes.forEach(detach_dev);
       div0_nodes.forEach(detach_dev);
-      t2 = claim_space(div4_nodes);
-      div1 = claim_element(div4_nodes, "DIV", {
+      t2 = claim_space(div3_nodes);
+      div1 = claim_element(div3_nodes, "DIV", {
         class: true
       });
       var div1_nodes = children(div1);
@@ -8195,48 +8196,57 @@ function create_fragment$f(ctx) {
         class: true
       });
       var h1_nodes = children(h1);
-      t3 = claim_text(h1_nodes, "el ro lde cada uno ");
+      t3 = claim_text(h1_nodes, "el rol de cada uno ");
       br0 = claim_element(h1_nodes, "BR", {});
       t4 = claim_text(h1_nodes, "de nosotros");
       h1_nodes.forEach(detach_dev);
       div1_nodes.forEach(detach_dev);
-      t5 = claim_space(div4_nodes);
-      div3 = claim_element(div4_nodes, "DIV", {
-        class: true
-      });
-      var div3_nodes = children(div3);
+      t5 = claim_space(div3_nodes);
       div2 = claim_element(div3_nodes, "DIV", {
         class: true
       });
       var div2_nodes = children(div2);
-      img1 = claim_element(div2_nodes, "IMG", {
-        src: true,
-        alt: true
-      });
-      div2_nodes.forEach(detach_dev);
-      t6 = claim_space(div3_nodes);
-      p0 = claim_element(div3_nodes, "P", {
+      p0 = claim_element(div2_nodes, "P", {
         class: true
       });
       var p0_nodes = children(p0);
-      t7 = claim_text(p0_nodes, "uno");
+      t6 = claim_text(p0_nodes, "uno");
       p0_nodes.forEach(detach_dev);
+      t7 = claim_space(div2_nodes);
+      svg = claim_element(div2_nodes, "svg", {
+        x: true,
+        y: true,
+        viewBox: true,
+        class: true
+      }, 1);
+      var svg_nodes = children(svg);
+      g = claim_element(svg_nodes, "g", {}, 1);
+      var g_nodes = children(g);
+      circle = claim_element(g_nodes, "circle", {
+        fill: true,
+        cx: true,
+        cy: true,
+        r: true
+      }, 1);
+      children(circle).forEach(detach_dev);
+      g_nodes.forEach(detach_dev);
+      svg_nodes.forEach(detach_dev);
+      div2_nodes.forEach(detach_dev);
       div3_nodes.forEach(detach_dev);
       div4_nodes.forEach(detach_dev);
-      div5_nodes.forEach(detach_dev);
-      t8 = claim_space(div16_nodes);
-      div12 = claim_element(div16_nodes, "DIV", {
+      t8 = claim_space(div15_nodes);
+      div11 = claim_element(div15_nodes, "DIV", {
         class: true
       });
-      var div12_nodes = children(div12);
-      p1 = claim_element(div12_nodes, "P", {
+      var div11_nodes = children(div11);
+      p1 = claim_element(div11_nodes, "P", {
         class: true
       });
       var p1_nodes = children(p1);
       t9 = claim_text(p1_nodes, "RTA/");
       p1_nodes.forEach(detach_dev);
-      t10 = claim_space(div12_nodes);
-      p2 = claim_element(div12_nodes, "P", {
+      t10 = claim_space(div11_nodes);
+      p2 = claim_element(div11_nodes, "P", {
         class: true
       });
       var p2_nodes = children(p2);
@@ -8250,60 +8260,60 @@ function create_fragment$f(ctx) {
       br2 = claim_element(p2_nodes, "BR", {});
       t13 = claim_text(p2_nodes, "Por eso es necesario que seamos conscientes de las debilidades que tenemos para poder tener una mejor relación con la web y las redes sociales.");
       p2_nodes.forEach(detach_dev);
-      t14 = claim_space(div12_nodes);
-      hr = claim_element(div12_nodes, "HR", {
+      t14 = claim_space(div11_nodes);
+      hr = claim_element(div11_nodes, "HR", {
         class: true
       });
-      t15 = claim_space(div12_nodes);
-      div11 = claim_element(div12_nodes, "DIV", {
+      t15 = claim_space(div11_nodes);
+      div10 = claim_element(div11_nodes, "DIV", {
         class: true
       });
-      var div11_nodes = children(div11);
-      div6 = claim_element(div11_nodes, "DIV", {
+      var div10_nodes = children(div10);
+      div5 = claim_element(div10_nodes, "DIV", {
         class: true
       });
-      var div6_nodes = children(div6);
-      img2 = claim_element(div6_nodes, "IMG", {
+      var div5_nodes = children(div5);
+      img1 = claim_element(div5_nodes, "IMG", {
         src: true,
         alt: true,
         class: true
       });
-      div6_nodes.forEach(detach_dev);
-      t16 = claim_space(div11_nodes);
-      div7 = claim_element(div11_nodes, "DIV", {
+      div5_nodes.forEach(detach_dev);
+      t16 = claim_space(div10_nodes);
+      div6 = claim_element(div10_nodes, "DIV", {
         class: true
       });
-      var div7_nodes = children(div7);
-      h30 = claim_element(div7_nodes, "H3", {
+      var div6_nodes = children(div6);
+      h30 = claim_element(div6_nodes, "H3", {
         class: true
       });
       var h30_nodes = children(h30);
       t17 = claim_text(h30_nodes, "INTRODUCCIÓN");
       h30_nodes.forEach(detach_dev);
-      t18 = claim_space(div7_nodes);
-      h31 = claim_element(div7_nodes, "H3", {
+      t18 = claim_space(div6_nodes);
+      h31 = claim_element(div6_nodes, "H3", {
         class: true
       });
       var h31_nodes = children(h31);
       t19 = claim_text(h31_nodes, "INTERNET SE HA DESPLEGADO EN NUESTRA VIDA COTIDIANA");
       h31_nodes.forEach(detach_dev);
-      div7_nodes.forEach(detach_dev);
-      t20 = claim_space(div11_nodes);
-      div8 = claim_element(div11_nodes, "DIV", {
+      div6_nodes.forEach(detach_dev);
+      t20 = claim_space(div10_nodes);
+      div7 = claim_element(div10_nodes, "DIV", {
+        class: true
+      });
+      children(div7).forEach(detach_dev);
+      t21 = claim_space(div10_nodes);
+      div8 = claim_element(div10_nodes, "DIV", {
         class: true
       });
       children(div8).forEach(detach_dev);
-      t21 = claim_space(div11_nodes);
-      div9 = claim_element(div11_nodes, "DIV", {
+      t22 = claim_space(div10_nodes);
+      div9 = claim_element(div10_nodes, "DIV", {
         class: true
       });
-      children(div9).forEach(detach_dev);
-      t22 = claim_space(div11_nodes);
-      div10 = claim_element(div11_nodes, "DIV", {
-        class: true
-      });
-      var div10_nodes = children(div10);
-      a = claim_element(div10_nodes, "A", {
+      var div9_nodes = children(div9);
+      a = claim_element(div9_nodes, "A", {
         href: true,
         download: true,
         class: true
@@ -8316,14 +8326,10 @@ function create_fragment$f(ctx) {
       t23 = claim_text(span2_nodes, "Ver más y descargar");
       span2_nodes.forEach(detach_dev);
       a_nodes.forEach(detach_dev);
+      div9_nodes.forEach(detach_dev);
       div10_nodes.forEach(detach_dev);
       div11_nodes.forEach(detach_dev);
-      div12_nodes.forEach(detach_dev);
-      t24 = claim_space(div16_nodes);
-      div15 = claim_element(div16_nodes, "DIV", {
-        class: true
-      });
-      var div15_nodes = children(div15);
+      t24 = claim_space(div15_nodes);
       div14 = claim_element(div15_nodes, "DIV", {
         class: true
       });
@@ -8332,13 +8338,17 @@ function create_fragment$f(ctx) {
         class: true
       });
       var div13_nodes = children(div13);
-      img3 = claim_element(div13_nodes, "IMG", {
+      div12 = claim_element(div13_nodes, "DIV", {
+        class: true
+      });
+      var div12_nodes = children(div12);
+      img2 = claim_element(div12_nodes, "IMG", {
         src: true,
         alt: true,
         class: true
       });
-      t25 = claim_space(div13_nodes);
-      h2 = claim_element(div13_nodes, "H2", {
+      t25 = claim_space(div12_nodes);
+      h2 = claim_element(div12_nodes, "H2", {
         class: true
       });
       var h2_nodes = children(h2);
@@ -8346,10 +8356,10 @@ function create_fragment$f(ctx) {
       br3 = claim_element(h2_nodes, "BR", {});
       t27 = claim_text(h2_nodes, " propagando sin control.");
       h2_nodes.forEach(detach_dev);
+      div12_nodes.forEach(detach_dev);
       div13_nodes.forEach(detach_dev);
       div14_nodes.forEach(detach_dev);
       div15_nodes.forEach(detach_dev);
-      div16_nodes.forEach(detach_dev);
       article_nodes.forEach(detach_dev);
       section_nodes.forEach(detach_dev);
       this.h();
@@ -8358,152 +8368,159 @@ function create_fragment$f(ctx) {
       if (img0.src !== (img0_src_value = "RUTA-17.svg")) attr_dev(img0, "src", img0_src_value);
       attr_dev(img0, "alt", "Ícono de cambio");
       attr_dev(img0, "class", "w-2/2 h-20  ");
-      add_location(img0, file$f, 65, 24, 1792);
+      add_location(img0, file$f, 101, 24, 2192);
       attr_dev(span0, "class", "pl-1 text-4xl text-left fushia-text sm:text-2xl sm:text-center");
-      add_location(span0, file$f, 66, 24, 1883);
+      add_location(span0, file$f, 102, 24, 2283);
       attr_dev(div0, "class", "w-2/5  flex flex-initial order-1  sm:flex-col sm:w-auto sm:flex-grow-0  sm:order-none justify-items-center ");
-      add_location(div0, file$f, 64, 20, 1646);
-      add_location(br0, file$f, 71, 47, 2363);
+      add_location(div0, file$f, 100, 20, 2046);
+      add_location(br0, file$f, 107, 47, 2773);
       attr_dev(h1, "class", "text-4xl verdeClaro-text text-left pl-0 sm:text-left sm:w-4/4 mt-4  sm:pl-4  sm:verdeClaro-text mb-5 mx-0 uppercase leading-none");
-      add_location(h1, file$f, 69, 24, 2101);
-      attr_dev(div1, "class", "flex-1 order-3 sm:order-none  sm:px-4 \t");
-      add_location(div1, file$f, 68, 20, 2023);
-      if (img1.src !== (img1_src_value = "circulo.svg")) attr_dev(img1, "src", img1_src_value);
-      attr_dev(img1, "alt", "");
-      add_location(img1, file$f, 75, 66, 2579);
-      attr_dev(div2, "class", "absolute bottom-0 left-0 z-0");
-      add_location(div2, file$f, 75, 24, 2537);
-      attr_dev(p0, "class", " text-2xl sm:p-0 z-20  justify-items-right text-right fontVacia uppercase circle svelte-vd7u2w");
-      add_location(p0, file$f, 76, 24, 2640);
-      attr_dev(div3, "class", "w-auto static  sm:order-last p-4 order-2 \t");
-      add_location(div3, file$f, 74, 20, 2456);
-      attr_dev(div4, "class", "flex flex-wrap justify-between sm:flex   \t ");
-      add_location(div4, file$f, 63, 16, 1568);
-      attr_dev(div5, "class", "col-span-1 sm:col-span-4");
-      add_location(div5, file$f, 61, 12, 1496);
-      attr_dev(p1, "class", "fontVacia text-xs svelte-vd7u2w");
-      add_location(p1, file$f, 84, 16, 2913);
+      add_location(h1, file$f, 105, 24, 2511);
+      attr_dev(div1, "class", "flex-1 order-3 sm:order-none  sm:px-4 sm-flex-100 svelte-19jt1jd");
+      add_location(div1, file$f, 104, 20, 2423);
+      attr_dev(p0, "class", " text-2xl sm:p-0 z-20  justify-items-right text-right fontVacia uppercase circle svelte-19jt1jd");
+      add_location(p0, file$f, 112, 24, 2981);
+      attr_dev(circle, "fill", "#8AE5EE");
+      attr_dev(circle, "cx", "46.71");
+      attr_dev(circle, "cy", "47.57");
+      attr_dev(circle, "r", "45.5");
+      add_location(circle, file$f, 115, 32, 3211);
+      add_location(g, file$f, 114, 28, 3175);
+      attr_dev(svg, "x", "0px");
+      attr_dev(svg, "y", "0px");
+      attr_dev(svg, "viewBox", "0 0 95 93");
+      attr_dev(svg, "class", "svelte-19jt1jd");
+      add_location(svg, file$f, 113, 24, 3105);
+      attr_dev(div2, "class", "w-auto static  sm:order-last p-4 order-2 \ttitle-svg svelte-19jt1jd");
+      add_location(div2, file$f, 111, 20, 2891);
+      attr_dev(div3, "class", "flex flex-wrap justify-between sm:flex   \t ");
+      add_location(div3, file$f, 99, 16, 1968);
+      attr_dev(div4, "class", "col-span-1 sm:col-span-4");
+      add_location(div4, file$f, 97, 12, 1896);
+      attr_dev(p1, "class", "fontVacia text-xs svelte-19jt1jd");
+      add_location(p1, file$f, 124, 16, 3495);
       attr_dev(span1, "class", "fushia-text");
-      add_location(span1, file$f, 86, 20, 3025);
-      add_location(br1, file$f, 87, 20, 3080);
-      add_location(br2, file$f, 88, 20, 3184);
+      add_location(span1, file$f, 126, 20, 3607);
+      add_location(br1, file$f, 127, 20, 3662);
+      add_location(br2, file$f, 128, 20, 3766);
       attr_dev(p2, "class", "font-sans text-white mb-5");
-      add_location(p2, file$f, 85, 16, 2967);
-      attr_dev(hr, "class", "svelte-vd7u2w");
-      add_location(hr, file$f, 90, 16, 3369);
-      if (img2.src !== (img2_src_value = "/icons/icon-document.png")) attr_dev(img2, "src", img2_src_value);
-      attr_dev(img2, "alt", "Ícono de cambio");
-      attr_dev(img2, "class", "w-16 p-0 m-0");
-      add_location(img2, file$f, 109, 24, 4170);
-      attr_dev(div6, "class", "w-1/5 ");
-      add_location(div6, file$f, 108, 20, 4125);
+      add_location(p2, file$f, 125, 16, 3549);
+      attr_dev(hr, "class", "svelte-19jt1jd");
+      add_location(hr, file$f, 130, 16, 3951);
+      if (img1.src !== (img1_src_value = "/icons/icon-document.png")) attr_dev(img1, "src", img1_src_value);
+      attr_dev(img1, "alt", "Ícono de cambio");
+      attr_dev(img1, "class", "w-16 p-0 m-0");
+      add_location(img1, file$f, 149, 24, 4752);
+      attr_dev(div5, "class", "w-1/5 ");
+      add_location(div5, file$f, 148, 20, 4707);
       attr_dev(h30, "class", "fushia-text");
-      add_location(h30, file$f, 112, 24, 4350);
+      add_location(h30, file$f, 152, 24, 4932);
       attr_dev(h31, "class", " verdeClaro-text mb-5 uppercase leading-none");
-      add_location(h31, file$f, 116, 24, 4475);
-      attr_dev(div7, "class", "w-3/5 sm:w-3/5");
-      add_location(div7, file$f, 111, 20, 4297);
+      add_location(h31, file$f, 156, 24, 5057);
+      attr_dev(div6, "class", "w-3/5 sm:w-3/5");
+      add_location(div6, file$f, 151, 20, 4879);
+      attr_dev(div7, "class", "w-1/5 sm:w-1/5");
+      add_location(div7, file$f, 161, 20, 5277);
       attr_dev(div8, "class", "w-1/5 sm:w-1/5");
-      add_location(div8, file$f, 121, 20, 4695);
-      attr_dev(div9, "class", "w-1/5 sm:w-1/5");
-      add_location(div9, file$f, 122, 20, 4750);
+      add_location(div8, file$f, 162, 20, 5332);
       attr_dev(span2, "class", " text-xl sm:text-1xl  sm:w-18 fushia-bg px-2 sm:px-18 py-3 text-white uppercase    ");
-      add_location(span2, file$f, 126, 34, 4947);
+      add_location(span2, file$f, 166, 34, 5529);
       attr_dev(a, "href", "/documents/Corazones-y-mentes.pdf");
       attr_dev(a, "download", "");
       attr_dev(a, "class", "");
-      add_location(a, file$f, 125, 24, 4860);
-      attr_dev(div10, "class", "w-3/5 sm:w-4/5 ");
-      add_location(div10, file$f, 124, 20, 4806);
-      attr_dev(div11, "class", " container flex flex-wrap  pt-4 spac-x-0");
-      add_location(div11, file$f, 107, 16, 4050);
-      attr_dev(div12, "class", "sm:col-span-2 my-auto  ");
-      add_location(div12, file$f, 82, 12, 2843);
-      if (img3.src !== (img3_src_value = "15.svg")) attr_dev(img3, "src", img3_src_value);
-      attr_dev(img3, "alt", "Ícono de cambio");
-      attr_dev(img3, "class", "contImg mb-8 mr-3 mt-4 svelte-vd7u2w");
-      add_location(img3, file$f, 136, 24, 5388);
-      add_location(br3, file$f, 137, 111, 5571);
+      add_location(a, file$f, 165, 24, 5442);
+      attr_dev(div9, "class", "w-3/5 sm:w-4/5 ");
+      add_location(div9, file$f, 164, 20, 5388);
+      attr_dev(div10, "class", " container flex flex-wrap  pt-4 spac-x-0");
+      add_location(div10, file$f, 147, 16, 4632);
+      attr_dev(div11, "class", "sm:col-span-2 my-auto  ");
+      add_location(div11, file$f, 122, 12, 3425);
+      if (img2.src !== (img2_src_value = "15.svg")) attr_dev(img2, "src", img2_src_value);
+      attr_dev(img2, "alt", "Ícono de cambio");
+      attr_dev(img2, "class", "contImg mb-8 mr-3 mt-4 svelte-19jt1jd");
+      add_location(img2, file$f, 176, 24, 5970);
+      add_location(br3, file$f, 177, 111, 6153);
       attr_dev(h2, "class", "pl-10  mb-3 mr-8 fushia-text text-2xl");
-      add_location(h2, file$f, 137, 24, 5484);
-      attr_dev(div13, "class", "flex-row");
-      add_location(div13, file$f, 135, 20, 5341);
-      attr_dev(div14, "class", "flex items-start mb-5");
-      add_location(div14, file$f, 133, 16, 5264);
-      attr_dev(div15, "class", "sm:col-span-2 text-white flex flex-col max-h-434px");
-      add_location(div15, file$f, 132, 12, 5183);
-      attr_dev(div16, "class", "flex flex-wrap sm:grid sm:grid-cols-4  gap-8 mb-10 mt-14");
-      add_location(div16, file$f, 59, 8, 1333);
+      add_location(h2, file$f, 177, 24, 6066);
+      attr_dev(div12, "class", "flex-row");
+      add_location(div12, file$f, 175, 20, 5923);
+      attr_dev(div13, "class", "flex items-start mb-5");
+      add_location(div13, file$f, 173, 16, 5846);
+      attr_dev(div14, "class", "sm:col-span-2 text-white flex flex-col max-h-434px");
+      add_location(div14, file$f, 172, 12, 5765);
+      attr_dev(div15, "class", "flex flex-wrap sm:grid sm:grid-cols-4  gap-8 mb-10 mt-14");
+      add_location(div15, file$f, 95, 8, 1733);
       attr_dev(article, "class", "container sm:h-full mx-auto py-10 pb-20 px-2 sm:p-10 ");
-      add_location(article, file$f, 58, 4, 1253);
+      add_location(article, file$f, 94, 4, 1653);
       attr_dev(section, "class", "pedagogias-digitales-section bg-gris     ");
-      add_location(section, file$f, 57, 0, 1189);
+      add_location(section, file$f, 93, 0, 1589);
     },
     m: function mount(target, anchor) {
       insert_dev(target, section, anchor);
       append_dev(section, article);
-      append_dev(article, div16);
-      append_dev(div16, div5);
-      append_dev(div5, div4);
-      append_dev(div4, div0);
+      append_dev(article, div15);
+      append_dev(div15, div4);
+      append_dev(div4, div3);
+      append_dev(div3, div0);
       append_dev(div0, img0);
       append_dev(div0, t0);
       append_dev(div0, span0);
       append_dev(span0, t1);
-      append_dev(div4, t2);
-      append_dev(div4, div1);
+      append_dev(div3, t2);
+      append_dev(div3, div1);
       append_dev(div1, h1);
       append_dev(h1, t3);
       append_dev(h1, br0);
       append_dev(h1, t4);
-      append_dev(div4, t5);
-      append_dev(div4, div3);
+      append_dev(div3, t5);
       append_dev(div3, div2);
-      append_dev(div2, img1);
-      append_dev(div3, t6);
-      append_dev(div3, p0);
-      append_dev(p0, t7);
-      append_dev(div16, t8);
-      append_dev(div16, div12);
-      append_dev(div12, p1);
+      append_dev(div2, p0);
+      append_dev(p0, t6);
+      append_dev(div2, t7);
+      append_dev(div2, svg);
+      append_dev(svg, g);
+      append_dev(g, circle);
+      append_dev(div15, t8);
+      append_dev(div15, div11);
+      append_dev(div11, p1);
       append_dev(p1, t9);
-      append_dev(div12, t10);
-      append_dev(div12, p2);
+      append_dev(div11, t10);
+      append_dev(div11, p2);
       append_dev(p2, span1);
       append_dev(p2, t11);
       append_dev(p2, br1);
       append_dev(p2, t12);
       append_dev(p2, br2);
       append_dev(p2, t13);
-      append_dev(div12, t14);
-      append_dev(div12, hr);
-      append_dev(div12, t15);
-      append_dev(div12, div11);
-      append_dev(div11, div6);
-      append_dev(div6, img2);
-      append_dev(div11, t16);
-      append_dev(div11, div7);
-      append_dev(div7, h30);
-      append_dev(h30, t17);
-      append_dev(div7, t18);
-      append_dev(div7, h31);
-      append_dev(h31, t19);
-      append_dev(div11, t20);
-      append_dev(div11, div8);
-      append_dev(div11, t21);
-      append_dev(div11, div9);
-      append_dev(div11, t22);
+      append_dev(div11, t14);
+      append_dev(div11, hr);
+      append_dev(div11, t15);
       append_dev(div11, div10);
-      append_dev(div10, a);
+      append_dev(div10, div5);
+      append_dev(div5, img1);
+      append_dev(div10, t16);
+      append_dev(div10, div6);
+      append_dev(div6, h30);
+      append_dev(h30, t17);
+      append_dev(div6, t18);
+      append_dev(div6, h31);
+      append_dev(h31, t19);
+      append_dev(div10, t20);
+      append_dev(div10, div7);
+      append_dev(div10, t21);
+      append_dev(div10, div8);
+      append_dev(div10, t22);
+      append_dev(div10, div9);
+      append_dev(div9, a);
       append_dev(a, span2);
       append_dev(span2, t23);
-      append_dev(div16, t24);
-      append_dev(div16, div15);
+      append_dev(div15, t24);
       append_dev(div15, div14);
       append_dev(div14, div13);
-      append_dev(div13, img3);
-      append_dev(div13, t25);
-      append_dev(div13, h2);
+      append_dev(div13, div12);
+      append_dev(div12, img2);
+      append_dev(div12, t25);
+      append_dev(div12, h2);
       append_dev(h2, t26);
       append_dev(h2, br3);
       append_dev(h2, t27);
@@ -8587,28 +8604,32 @@ function create_fragment$e(ctx) {
   var p0;
   var t5;
   var t6;
+  var svg;
+  var g;
+  var circle;
+  var t7;
   var div11;
   var div5;
   var p1;
-  var t7;
   var t8;
+  var t9;
   var div6;
   var span1;
-  var t9;
-  var p2;
   var t10;
-  var p3;
+  var p2;
   var t11;
+  var p3;
   var t12;
+  var t13;
   var div10;
   var div9;
   var div8;
   var p4;
-  var t13;
   var t14;
+  var t15;
   var div7;
   var p5;
-  var t15;
+  var t16;
   var block = {
     c: function create() {
       section = element("section");
@@ -8630,28 +8651,32 @@ function create_fragment$e(ctx) {
       p0 = element("p");
       t5 = text("sexto");
       t6 = space();
+      svg = svg_element("svg");
+      g = svg_element("g");
+      circle = svg_element("circle");
+      t7 = space();
       div11 = element("div");
       div5 = element("div");
       p1 = element("p");
-      t7 = text("RTA/");
-      t8 = space();
+      t8 = text("RTA/");
+      t9 = space();
       div6 = element("div");
       span1 = element("span");
-      t9 = space();
+      t10 = space();
       p2 = element("p");
-      t10 = text("Las ciencias del comportamiento estudian los factores que motivan el comportamiento y brindan herramientas basadas en evidencia para generar cambios de comportamiento que aportan al bienestar de la sociedad.                     \n                    \n                    ");
+      t11 = text("Las ciencias del comportamiento estudian los factores que motivan el comportamiento y brindan herramientas basadas en evidencia para generar cambios de comportamiento que aportan al bienestar de la sociedad.                     \n                    \n                    ");
       p3 = element("p");
-      t11 = text("Si menos personas creen y comparten desinformación, menor impacto tendrá esta problemática. Por eso abordar la problemática de la desinformación desde el rol que cada individuo tiene");
-      t12 = space();
+      t12 = text("Si menos personas creen y comparten desinformación, menor impacto tendrá esta problemática. Por eso abordar la problemática de la desinformación desde el rol que cada individuo tiene");
+      t13 = space();
       div10 = element("div");
       div9 = element("div");
       div8 = element("div");
       p4 = element("p");
-      t13 = text("en ella y utilizar la ciencia para ayudarle a cada persona a ser menos vulnerable frente a la desinformación fundamental.");
-      t14 = space();
+      t14 = text("en ella y utilizar la ciencia para ayudarle a cada persona a ser menos vulnerable frente a la desinformación fundamental.");
+      t15 = space();
       div7 = element("div");
       p5 = element("p");
-      t15 = text("Las ciencias del comportamiento permiten entender los factores como los sesgos que inciden en que seamos vulnerables frente a la desinformación y utilizar herramientas basadas en evidencia que nos ayuden a combatir esta problemática.");
+      t16 = text("Las ciencias del comportamiento permiten entender los factores como los sesgos que inciden en que seamos vulnerables frente a la desinformación y utilizar herramientas basadas en evidencia que nos ayuden a combatir esta problemática.");
       this.h();
     },
     l: function claim(nodes) {
@@ -8715,10 +8740,29 @@ function create_fragment$e(ctx) {
       var p0_nodes = children(p0);
       t5 = claim_text(p0_nodes, "sexto");
       p0_nodes.forEach(detach_dev);
+      t6 = claim_space(div2_nodes);
+      svg = claim_element(div2_nodes, "svg", {
+        x: true,
+        y: true,
+        viewBox: true,
+        class: true
+      }, 1);
+      var svg_nodes = children(svg);
+      g = claim_element(svg_nodes, "g", {}, 1);
+      var g_nodes = children(g);
+      circle = claim_element(g_nodes, "circle", {
+        fill: true,
+        cx: true,
+        cy: true,
+        r: true
+      }, 1);
+      children(circle).forEach(detach_dev);
+      g_nodes.forEach(detach_dev);
+      svg_nodes.forEach(detach_dev);
       div2_nodes.forEach(detach_dev);
       div3_nodes.forEach(detach_dev);
       div4_nodes.forEach(detach_dev);
-      t6 = claim_space(div12_nodes);
+      t7 = claim_space(div12_nodes);
       div11 = claim_element(div12_nodes, "DIV", {
         class: true
       });
@@ -8731,10 +8775,10 @@ function create_fragment$e(ctx) {
         class: true
       });
       var p1_nodes = children(p1);
-      t7 = claim_text(p1_nodes, "RTA/");
+      t8 = claim_text(p1_nodes, "RTA/");
       p1_nodes.forEach(detach_dev);
       div5_nodes.forEach(detach_dev);
-      t8 = claim_space(div11_nodes);
+      t9 = claim_space(div11_nodes);
       div6 = claim_element(div11_nodes, "DIV", {
         class: true
       });
@@ -8743,21 +8787,21 @@ function create_fragment$e(ctx) {
         class: true
       });
       children(span1).forEach(detach_dev);
-      t9 = claim_space(div6_nodes);
+      t10 = claim_space(div6_nodes);
       p2 = claim_element(div6_nodes, "P", {
         class: true
       });
       var p2_nodes = children(p2);
-      t10 = claim_text(p2_nodes, "Las ciencias del comportamiento estudian los factores que motivan el comportamiento y brindan herramientas basadas en evidencia para generar cambios de comportamiento que aportan al bienestar de la sociedad.                     \n                    \n                    ");
+      t11 = claim_text(p2_nodes, "Las ciencias del comportamiento estudian los factores que motivan el comportamiento y brindan herramientas basadas en evidencia para generar cambios de comportamiento que aportan al bienestar de la sociedad.                     \n                    \n                    ");
       p2_nodes.forEach(detach_dev);
       p3 = claim_element(div6_nodes, "P", {
         class: true
       });
       var p3_nodes = children(p3);
-      t11 = claim_text(p3_nodes, "Si menos personas creen y comparten desinformación, menor impacto tendrá esta problemática. Por eso abordar la problemática de la desinformación desde el rol que cada individuo tiene");
+      t12 = claim_text(p3_nodes, "Si menos personas creen y comparten desinformación, menor impacto tendrá esta problemática. Por eso abordar la problemática de la desinformación desde el rol que cada individuo tiene");
       p3_nodes.forEach(detach_dev);
       div6_nodes.forEach(detach_dev);
-      t12 = claim_space(div11_nodes);
+      t13 = claim_space(div11_nodes);
       div10 = claim_element(div11_nodes, "DIV", {
         class: true
       });
@@ -8774,9 +8818,9 @@ function create_fragment$e(ctx) {
         class: true
       });
       var p4_nodes = children(p4);
-      t13 = claim_text(p4_nodes, "en ella y utilizar la ciencia para ayudarle a cada persona a ser menos vulnerable frente a la desinformación fundamental.");
+      t14 = claim_text(p4_nodes, "en ella y utilizar la ciencia para ayudarle a cada persona a ser menos vulnerable frente a la desinformación fundamental.");
       p4_nodes.forEach(detach_dev);
-      t14 = claim_space(div8_nodes);
+      t15 = claim_space(div8_nodes);
       div7 = claim_element(div8_nodes, "DIV", {
         class: true
       });
@@ -8785,7 +8829,7 @@ function create_fragment$e(ctx) {
         class: true
       });
       var p5_nodes = children(p5);
-      t15 = claim_text(p5_nodes, "Las ciencias del comportamiento permiten entender los factores como los sesgos que inciden en que seamos vulnerables frente a la desinformación y utilizar herramientas basadas en evidencia que nos ayuden a combatir esta problemática.");
+      t16 = claim_text(p5_nodes, "Las ciencias del comportamiento permiten entender los factores como los sesgos que inciden en que seamos vulnerables frente a la desinformación y utilizar herramientas basadas en evidencia que nos ayuden a combatir esta problemática.");
       p5_nodes.forEach(detach_dev);
       div7_nodes.forEach(detach_dev);
       div8_nodes.forEach(detach_dev);
@@ -8801,55 +8845,66 @@ function create_fragment$e(ctx) {
       if (img.src !== (img_src_value = "RUTA-17.svg")) attr_dev(img, "src", img_src_value);
       attr_dev(img, "alt", "Ícono de cambio");
       attr_dev(img, "class", "w-2/2 h-20  ");
-      add_location(img, file$e, 49, 24, 1304);
+      add_location(img, file$e, 62, 24, 1458);
       attr_dev(span0, "class", "pl-1 text-4xl text-left fushia-text sm:text-2xl sm:text-center");
-      add_location(span0, file$e, 50, 24, 1395);
+      add_location(span0, file$e, 63, 24, 1549);
       attr_dev(div0, "class", "w-2/5  flex flex-initial order-1  sm:flex-col sm:w-auto sm:flex-grow-0  sm:order-none justify-items-center ");
-      add_location(div0, file$e, 48, 20, 1158);
+      add_location(div0, file$e, 61, 20, 1312);
       attr_dev(h1, "class", "text-4xl verdeClaro-text text-left pl-0 sm:text-left sm:w-4/4 mt-4  sm:pl-4  sm:verdeClaro-text mb-5 mx-0 uppercase leading-none");
-      add_location(h1, file$e, 53, 24, 1613);
+      add_location(h1, file$e, 66, 24, 1767);
       attr_dev(div1, "class", "flex-1 order-3 sm:order-none  sm:px-4 \t");
-      add_location(div1, file$e, 52, 20, 1535);
-      attr_dev(p0, "class", " text-2xl sm:p-0  justify-items-right text-right fontVacia uppercase circle svelte-14kg4p6");
-      add_location(p0, file$e, 58, 24, 2058);
-      attr_dev(div2, "class", "w-auto  sm:order-last p-4 order-2 circle\t");
-      add_location(div2, file$e, 57, 20, 1978);
+      add_location(div1, file$e, 65, 20, 1689);
+      attr_dev(p0, "class", " text-2xl sm:p-0  justify-items-right text-right fontVacia uppercase circle svelte-voe5mr");
+      add_location(p0, file$e, 71, 24, 2222);
+      attr_dev(circle, "fill", "#8AE5EE");
+      attr_dev(circle, "cx", "46.71");
+      attr_dev(circle, "cy", "47.57");
+      attr_dev(circle, "r", "45.5");
+      add_location(circle, file$e, 76, 32, 2503);
+      add_location(g, file$e, 75, 28, 2467);
+      attr_dev(svg, "x", "0px");
+      attr_dev(svg, "y", "0px");
+      attr_dev(svg, "viewBox", "0 0 95 93");
+      attr_dev(svg, "class", "svelte-voe5mr");
+      add_location(svg, file$e, 74, 24, 2397);
+      attr_dev(div2, "class", "w-auto  sm:order-last p-4 order-2 circle title-svg\t svelte-voe5mr");
+      add_location(div2, file$e, 70, 20, 2132);
       attr_dev(div3, "class", "flex flex-wrap justify-between sm:flex   \t ");
-      add_location(div3, file$e, 47, 16, 1080);
+      add_location(div3, file$e, 60, 16, 1234);
       attr_dev(div4, "class", "sm:col-span-4 flex flex-wrap  ");
-      add_location(div4, file$e, 45, 12, 1014);
-      attr_dev(p1, "class", "fontVacia text-xs svelte-14kg4p6");
-      add_location(p1, file$e, 77, 20, 2520);
+      add_location(div4, file$e, 58, 12, 1168);
+      attr_dev(p1, "class", "fontVacia text-xs svelte-voe5mr");
+      add_location(p1, file$e, 94, 20, 2925);
       attr_dev(div5, "class", "sm:col-span-4  ");
-      add_location(div5, file$e, 75, 16, 2453);
+      add_location(div5, file$e, 92, 16, 2858);
       attr_dev(span1, "class", "fushia-text");
-      add_location(span1, file$e, 81, 20, 2676);
+      add_location(span1, file$e, 98, 20, 3081);
       attr_dev(p2, "class", "font-sans text-white mb-5");
-      add_location(p2, file$e, 82, 20, 2731);
+      add_location(p2, file$e, 99, 20, 3136);
       attr_dev(p3, "class", "font-sans text-white mb-5");
-      add_location(p3, file$e, 85, 20, 3063);
+      add_location(p3, file$e, 102, 20, 3468);
       attr_dev(div6, "class", "sm:col-span-2 mr-10");
-      add_location(div6, file$e, 80, 16, 2622);
+      add_location(div6, file$e, 97, 16, 3027);
       attr_dev(p4, "class", "font-sans text-white mb-5");
-      add_location(p4, file$e, 92, 28, 3586);
+      add_location(p4, file$e, 109, 28, 3991);
       attr_dev(p5, "class", "font-sans text-white mb-5");
-      add_location(p5, file$e, 96, 32, 3894);
+      add_location(p5, file$e, 113, 32, 4299);
       attr_dev(div7, "class", " w-4/4 ");
-      add_location(div7, file$e, 95, 28, 3840);
+      add_location(div7, file$e, 112, 28, 4245);
       attr_dev(div8, "class", "flex-col");
-      add_location(div8, file$e, 91, 24, 3535);
+      add_location(div8, file$e, 108, 24, 3940);
       attr_dev(div9, "class", "flex items-start mb-5");
-      add_location(div9, file$e, 89, 20, 3450);
+      add_location(div9, file$e, 106, 20, 3855);
       attr_dev(div10, "class", "sm:col-span-2 text-white flex flex-col max-h-434px sm:ml-10");
-      add_location(div10, file$e, 88, 16, 3356);
+      add_location(div10, file$e, 105, 16, 3761);
       attr_dev(div11, "class", "col-span-1 sm:grid sm:grid-cols-4  sm:col-span-4  ");
-      add_location(div11, file$e, 73, 12, 2371);
+      add_location(div11, file$e, 90, 12, 2776);
       attr_dev(div12, "class", "flex flex-wrap sm:grid  sm:grid-cols-4  sm:gap-8 mb-10 mt-14");
-      add_location(div12, file$e, 44, 8, 927);
+      add_location(div12, file$e, 57, 8, 1081);
       attr_dev(article, "class", "container sm:h-auto mx-auto py-10 px-2 sm:p-10 ");
-      add_location(article, file$e, 43, 4, 853);
-      attr_dev(section, "class", "pedagogias-digitales-section bg-gris     svelte-14kg4p6");
-      add_location(section, file$e, 42, 0, 790);
+      add_location(article, file$e, 56, 4, 1007);
+      attr_dev(section, "class", "pedagogias-digitales-section bg-gris     svelte-voe5mr");
+      add_location(section, file$e, 55, 0, 944);
     },
     m: function mount(target, anchor) {
       insert_dev(target, section, anchor);
@@ -8870,29 +8925,33 @@ function create_fragment$e(ctx) {
       append_dev(div3, div2);
       append_dev(div2, p0);
       append_dev(p0, t5);
-      append_dev(div12, t6);
+      append_dev(div2, t6);
+      append_dev(div2, svg);
+      append_dev(svg, g);
+      append_dev(g, circle);
+      append_dev(div12, t7);
       append_dev(div12, div11);
       append_dev(div11, div5);
       append_dev(div5, p1);
-      append_dev(p1, t7);
-      append_dev(div11, t8);
+      append_dev(p1, t8);
+      append_dev(div11, t9);
       append_dev(div11, div6);
       append_dev(div6, span1);
-      append_dev(div6, t9);
+      append_dev(div6, t10);
       append_dev(div6, p2);
-      append_dev(p2, t10);
+      append_dev(p2, t11);
       append_dev(div6, p3);
-      append_dev(p3, t11);
-      append_dev(div11, t12);
+      append_dev(p3, t12);
+      append_dev(div11, t13);
       append_dev(div11, div10);
       append_dev(div10, div9);
       append_dev(div9, div8);
       append_dev(div8, p4);
-      append_dev(p4, t13);
-      append_dev(div8, t14);
+      append_dev(p4, t14);
+      append_dev(div8, t15);
       append_dev(div8, div7);
       append_dev(div7, p5);
-      append_dev(p5, t15);
+      append_dev(p5, t16);
     },
     p: noop,
     i: noop,
@@ -9146,29 +9205,33 @@ function create_fragment$c(ctx) {
   var p0;
   var t5;
   var t6;
+  var svg;
+  var g;
+  var circle;
+  var t7;
   var div7;
   var p1;
-  var t7;
   var t8;
+  var t9;
   var p2;
   var span1;
-  var t9;
   var t10;
+  var t11;
   var div6;
   var div5;
   var button;
-  var t11;
   var t12;
+  var t13;
   var div12;
   var div11;
   var div10;
   var div8;
   var img1;
   var img1_src_value;
-  var t13;
+  var t14;
   var div9;
   var h2;
-  var t14;
+  var t15;
   var mounted;
   var dispose;
   var block = {
@@ -9192,28 +9255,32 @@ function create_fragment$c(ctx) {
       p0 = element("p");
       t5 = text("tres");
       t6 = space();
+      svg = svg_element("svg");
+      g = svg_element("g");
+      circle = svg_element("circle");
+      t7 = space();
       div7 = element("div");
       p1 = element("p");
-      t7 = text("RTA/");
-      t8 = space();
+      t8 = text("RTA/");
+      t9 = space();
       p2 = element("p");
       span1 = element("span");
-      t9 = text(" \n                    Como tenemos una energía y capacidad mental que es limitada, el cerebro utiliza algunos atajos para ayudarnos a tomar decisiones. Esos atajos, también llamados heurísticas, aparecen más cuando estamos más cansados, tenemos muchas tareas, o cuando ya somos expertos en algo.");
-      t10 = space();
+      t10 = text(" \n                    Como tenemos una energía y capacidad mental que es limitada, el cerebro utiliza algunos atajos para ayudarnos a tomar decisiones. Esos atajos, también llamados heurísticas, aparecen más cuando estamos más cansados, tenemos muchas tareas, o cuando ya somos expertos en algo.");
+      t11 = space();
       div6 = element("div");
       div5 = element("div");
       button = element("button");
-      t11 = text("Ver ejemplo");
-      t12 = space();
+      t12 = text("Ver ejemplo");
+      t13 = space();
       div12 = element("div");
       div11 = element("div");
       div10 = element("div");
       div8 = element("div");
       img1 = element("img");
-      t13 = space();
+      t14 = space();
       div9 = element("div");
       h2 = element("h2");
-      t14 = text("Existen varias heurísticas, y qué tanto las utilicemos depende de nosotros, nuestro entorno y nuestras características personales.");
+      t15 = text("Existen varias heurísticas, y qué tanto las utilicemos depende de nosotros, nuestro entorno y nuestras características personales.");
       this.h();
     },
     l: function claim(nodes) {
@@ -9277,10 +9344,29 @@ function create_fragment$c(ctx) {
       var p0_nodes = children(p0);
       t5 = claim_text(p0_nodes, "tres");
       p0_nodes.forEach(detach_dev);
+      t6 = claim_space(div2_nodes);
+      svg = claim_element(div2_nodes, "svg", {
+        x: true,
+        y: true,
+        viewBox: true,
+        class: true
+      }, 1);
+      var svg_nodes = children(svg);
+      g = claim_element(svg_nodes, "g", {}, 1);
+      var g_nodes = children(g);
+      circle = claim_element(g_nodes, "circle", {
+        fill: true,
+        cx: true,
+        cy: true,
+        r: true
+      }, 1);
+      children(circle).forEach(detach_dev);
+      g_nodes.forEach(detach_dev);
+      svg_nodes.forEach(detach_dev);
       div2_nodes.forEach(detach_dev);
       div3_nodes.forEach(detach_dev);
       div4_nodes.forEach(detach_dev);
-      t6 = claim_space(div13_nodes);
+      t7 = claim_space(div13_nodes);
       div7 = claim_element(div13_nodes, "DIV", {
         class: true
       });
@@ -9289,9 +9375,9 @@ function create_fragment$c(ctx) {
         class: true
       });
       var p1_nodes = children(p1);
-      t7 = claim_text(p1_nodes, "RTA/");
+      t8 = claim_text(p1_nodes, "RTA/");
       p1_nodes.forEach(detach_dev);
-      t8 = claim_space(div7_nodes);
+      t9 = claim_space(div7_nodes);
       p2 = claim_element(div7_nodes, "P", {
         class: true
       });
@@ -9300,9 +9386,9 @@ function create_fragment$c(ctx) {
         class: true
       });
       children(span1).forEach(detach_dev);
-      t9 = claim_text(p2_nodes, " \n                    Como tenemos una energía y capacidad mental que es limitada, el cerebro utiliza algunos atajos para ayudarnos a tomar decisiones. Esos atajos, también llamados heurísticas, aparecen más cuando estamos más cansados, tenemos muchas tareas, o cuando ya somos expertos en algo.");
+      t10 = claim_text(p2_nodes, " \n                    Como tenemos una energía y capacidad mental que es limitada, el cerebro utiliza algunos atajos para ayudarnos a tomar decisiones. Esos atajos, también llamados heurísticas, aparecen más cuando estamos más cansados, tenemos muchas tareas, o cuando ya somos expertos en algo.");
       p2_nodes.forEach(detach_dev);
-      t10 = claim_space(div7_nodes);
+      t11 = claim_space(div7_nodes);
       div6 = claim_element(div7_nodes, "DIV", {
         class: true
       });
@@ -9316,12 +9402,12 @@ function create_fragment$c(ctx) {
         type: true
       });
       var button_nodes = children(button);
-      t11 = claim_text(button_nodes, "Ver ejemplo");
+      t12 = claim_text(button_nodes, "Ver ejemplo");
       button_nodes.forEach(detach_dev);
       div5_nodes.forEach(detach_dev);
       div6_nodes.forEach(detach_dev);
       div7_nodes.forEach(detach_dev);
-      t12 = claim_space(div13_nodes);
+      t13 = claim_space(div13_nodes);
       div12 = claim_element(div13_nodes, "DIV", {
         class: true
       });
@@ -9344,7 +9430,7 @@ function create_fragment$c(ctx) {
         class: true
       });
       div8_nodes.forEach(detach_dev);
-      t13 = claim_space(div10_nodes);
+      t14 = claim_space(div10_nodes);
       div9 = claim_element(div10_nodes, "DIV", {
         class: true
       });
@@ -9353,7 +9439,7 @@ function create_fragment$c(ctx) {
         class: true
       });
       var h2_nodes = children(h2);
-      t14 = claim_text(h2_nodes, "Existen varias heurísticas, y qué tanto las utilicemos depende de nosotros, nuestro entorno y nuestras características personales.");
+      t15 = claim_text(h2_nodes, "Existen varias heurísticas, y qué tanto las utilicemos depende de nosotros, nuestro entorno y nuestras características personales.");
       h2_nodes.forEach(detach_dev);
       div9_nodes.forEach(detach_dev);
       div10_nodes.forEach(detach_dev);
@@ -9368,60 +9454,71 @@ function create_fragment$c(ctx) {
       if (img0.src !== (img0_src_value = "RUTA-17.svg")) attr_dev(img0, "src", img0_src_value);
       attr_dev(img0, "alt", "Ícono de cambio");
       attr_dev(img0, "class", "w-2/2 h-20  ");
-      add_location(img0, file$c, 71, 24, 2002);
+      add_location(img0, file$c, 107, 24, 2402);
       attr_dev(span0, "class", "pl-1 text-4xl text-left fushia-text sm:text-2xl sm:text-center");
-      add_location(span0, file$c, 72, 24, 2093);
+      add_location(span0, file$c, 108, 24, 2493);
       attr_dev(div0, "class", "w-2/5  flex flex-initial order-1  sm:flex-col sm:w-auto sm:flex-grow-0  sm:order-none justify-items-center ");
-      add_location(div0, file$c, 70, 20, 1856);
+      add_location(div0, file$c, 106, 20, 2256);
       attr_dev(h1, "class", "text-4xl verdeClaro-text text-left pl-0 sm:text-left sm:w-4/4 mt-4  sm:pl-4  sm:verdeClaro-text mb-5 mx-0 uppercase leading-none");
-      add_location(h1, file$c, 75, 24, 2311);
-      attr_dev(div1, "class", "flex-1 order-3 sm:order-none  sm:px-4 \t");
-      add_location(div1, file$c, 74, 20, 2233);
-      attr_dev(p0, "class", " text-2xl sm:p-0  justify-items-right text-right fontVacia uppercase circle svelte-vd7u2w");
-      add_location(p0, file$c, 81, 24, 2767);
-      attr_dev(div2, "class", "w-auto  sm:order-last p-4 order-2 circle\t");
-      add_location(div2, file$c, 80, 20, 2687);
+      add_location(h1, file$c, 111, 24, 2721);
+      attr_dev(div1, "class", "flex-1 order-3 sm:order-none  sm:px-4 sm-flex-100 svelte-19jt1jd");
+      add_location(div1, file$c, 110, 20, 2633);
+      attr_dev(p0, "class", " text-2xl sm:p-0  justify-items-right text-right fontVacia uppercase circle svelte-19jt1jd");
+      add_location(p0, file$c, 117, 24, 3187);
+      attr_dev(circle, "fill", "#8AE5EE");
+      attr_dev(circle, "cx", "46.71");
+      attr_dev(circle, "cy", "47.57");
+      attr_dev(circle, "r", "45.5");
+      add_location(circle, file$c, 122, 32, 3467);
+      add_location(g, file$c, 121, 28, 3431);
+      attr_dev(svg, "x", "0px");
+      attr_dev(svg, "y", "0px");
+      attr_dev(svg, "viewBox", "0 0 95 93");
+      attr_dev(svg, "class", "svelte-19jt1jd");
+      add_location(svg, file$c, 120, 24, 3361);
+      attr_dev(div2, "class", "w-auto  sm:order-last p-4 order-2 circle title-svg\t svelte-19jt1jd");
+      add_location(div2, file$c, 116, 20, 3097);
       attr_dev(div3, "class", "flex flex-wrap justify-between sm:flex   \t ");
-      add_location(div3, file$c, 69, 16, 1778);
+      add_location(div3, file$c, 105, 16, 2178);
       attr_dev(div4, "class", "col-sppan-1 sm:col-span-4 flex flex-wrap ");
-      add_location(div4, file$c, 68, 12, 1706);
-      attr_dev(p1, "class", "fontVacia text-xs svelte-vd7u2w");
-      add_location(p1, file$c, 92, 16, 3102);
+      add_location(div4, file$c, 104, 12, 2106);
+      attr_dev(p1, "class", "fontVacia text-xs svelte-19jt1jd");
+      add_location(p1, file$c, 132, 16, 3763);
       attr_dev(span1, "class", "fushia-text");
-      add_location(span1, file$c, 94, 20, 3214);
+      add_location(span1, file$c, 134, 20, 3875);
       attr_dev(p2, "class", "font-sans text-white mb-5");
-      add_location(p2, file$c, 93, 16, 3156);
+      add_location(p2, file$c, 133, 16, 3817);
       attr_dev(button, "class", "open-modal fushia-bg px-4  text-white uppercase");
       attr_dev(button, "type", "button");
-      add_location(button, file$c, 101, 24, 3749);
+      add_location(button, file$c, 141, 24, 4410);
       attr_dev(div5, "class", "justify-center ml-24 sm:ml-0\t ");
-      add_location(div5, file$c, 100, 20, 3680);
+      add_location(div5, file$c, 140, 20, 4341);
       attr_dev(div6, "class", " sm:container  pt-4 spac-x-0");
-      add_location(div6, file$c, 98, 16, 3596);
+      add_location(div6, file$c, 138, 16, 4257);
       attr_dev(div7, "class", "col-span-2 my-auto  ");
-      add_location(div7, file$c, 90, 12, 3035);
+      add_location(div7, file$c, 130, 12, 3696);
       if (img1.src !== (img1_src_value = "sesgo17.svg")) attr_dev(img1, "src", img1_src_value);
       attr_dev(img1, "alt", "Ícono de cambio");
-      attr_dev(img1, "class", "contImg mb-8 mr-3 mt-4 svelte-vd7u2w");
-      add_location(img1, file$c, 115, 28, 4256);
+      attr_dev(img1, "class", "contImg mb-8 mr-3 mt-4 svelte-19jt1jd");
+      add_location(img1, file$c, 155, 28, 4917);
       attr_dev(div8, "class", "w-4/4");
-      add_location(div8, file$c, 114, 24, 4208);
+      add_location(div8, file$c, 154, 24, 4869);
       attr_dev(h2, "class", "pl-10  mb-3 mr-8 fushia-text text-2xl");
-      add_location(h2, file$c, 118, 28, 4436);
+      add_location(h2, file$c, 158, 28, 5097);
       attr_dev(div9, "class", "w-4/4");
-      add_location(div9, file$c, 117, 24, 4388);
+      add_location(div9, file$c, 157, 24, 5049);
       attr_dev(div10, "class", "flex-col");
-      add_location(div10, file$c, 113, 20, 4161);
+      add_location(div10, file$c, 153, 20, 4822);
       attr_dev(div11, "class", "flex items-start mb-5");
-      add_location(div11, file$c, 111, 16, 4084);
+      add_location(div11, file$c, 151, 16, 4745);
       attr_dev(div12, "class", "col-span-2 text-white flex flex-col max-h-434px");
-      add_location(div12, file$c, 109, 12, 3989);
+      add_location(div12, file$c, 149, 12, 4650);
       attr_dev(div13, "class", "flex flex-wrap sm:grid  sm:grid-cols-4 grid-cols-1 gap-8 mb-10 mt-14");
-      add_location(div13, file$c, 66, 8, 1531);
+      add_location(div13, file$c, 102, 8, 1931);
       attr_dev(article, "class", "container sm:h-full mx-auto py-10 px-2 sm:p-10 ");
-      add_location(article, file$c, 65, 4, 1457);
+      add_location(article, file$c, 101, 4, 1857);
       attr_dev(section, "class", "pedagogias-digitales-section bg-gris     ");
-      add_location(section, file$c, 64, 0, 1393);
+      add_location(section, file$c, 100, 0, 1793);
     },
     m: function mount(target, anchor) {
       insert_dev(target, section, anchor);
@@ -9442,29 +9539,33 @@ function create_fragment$c(ctx) {
       append_dev(div3, div2);
       append_dev(div2, p0);
       append_dev(p0, t5);
-      append_dev(div13, t6);
+      append_dev(div2, t6);
+      append_dev(div2, svg);
+      append_dev(svg, g);
+      append_dev(g, circle);
+      append_dev(div13, t7);
       append_dev(div13, div7);
       append_dev(div7, p1);
-      append_dev(p1, t7);
-      append_dev(div7, t8);
+      append_dev(p1, t8);
+      append_dev(div7, t9);
       append_dev(div7, p2);
       append_dev(p2, span1);
-      append_dev(p2, t9);
-      append_dev(div7, t10);
+      append_dev(p2, t10);
+      append_dev(div7, t11);
       append_dev(div7, div6);
       append_dev(div6, div5);
       append_dev(div5, button);
-      append_dev(button, t11);
-      append_dev(div13, t12);
+      append_dev(button, t12);
+      append_dev(div13, t13);
       append_dev(div13, div12);
       append_dev(div12, div11);
       append_dev(div11, div10);
       append_dev(div10, div8);
       append_dev(div8, img1);
-      append_dev(div10, t13);
+      append_dev(div10, t14);
       append_dev(div10, div9);
       append_dev(div9, h2);
-      append_dev(h2, t14);
+      append_dev(h2, t15);
 
       if (!mounted) {
         dispose = listen_dev(button, "click",
@@ -9568,29 +9669,33 @@ function create_fragment$b(ctx) {
   var p0;
   var t5;
   var t6;
+  var svg;
+  var g;
+  var circle;
+  var t7;
   var div11;
   var div5;
   var p1;
-  var t7;
   var t8;
+  var t9;
   var div6;
   var span1;
-  var t9;
-  var p2;
   var t10;
+  var p2;
   var t11;
-  var p3;
   var t12;
+  var p3;
   var t13;
+  var t14;
   var div10;
   var div9;
   var div8;
   var p4;
-  var t14;
   var t15;
+  var t16;
   var div7;
   var h2;
-  var t16;
+  var t17;
   var block = {
     c: function create() {
       section = element("section");
@@ -9612,29 +9717,33 @@ function create_fragment$b(ctx) {
       p0 = element("p");
       t5 = text("cuatro");
       t6 = space();
+      svg = svg_element("svg");
+      g = svg_element("g");
+      circle = svg_element("circle");
+      t7 = space();
       div11 = element("div");
       div5 = element("div");
       p1 = element("p");
-      t7 = text("RTA/");
-      t8 = space();
+      t8 = text("RTA/");
+      t9 = space();
       div6 = element("div");
       span1 = element("span");
-      t9 = space();
+      t10 = space();
       p2 = element("p");
-      t10 = text("En términos sencillos, un sesgo es cuando aplicamos de forma incorrecta una heurística. Esto no ocurre de manera consciente, los sesgos nos hacen víctimas sin que nos demos cuenta de qué está sucediendo.");
-      t11 = space();
+      t11 = text("En términos sencillos, un sesgo es cuando aplicamos de forma incorrecta una heurística. Esto no ocurre de manera consciente, los sesgos nos hacen víctimas sin que nos demos cuenta de qué está sucediendo.");
+      t12 = space();
       p3 = element("p");
-      t12 = text("Por esa razón son tan peligrosos, porque aunque creamos que somos seres perfectamente racionales, la evidencia nos muestra que los sesgos afectan de manera constante y, en la mayor parte del tiempo, sin que lo sepamos.");
-      t13 = space();
+      t13 = text("Por esa razón son tan peligrosos, porque aunque creamos que somos seres perfectamente racionales, la evidencia nos muestra que los sesgos afectan de manera constante y, en la mayor parte del tiempo, sin que lo sepamos.");
+      t14 = space();
       div10 = element("div");
       div9 = element("div");
       div8 = element("div");
       p4 = element("p");
-      t14 = text("Estos sesgos explican por qué creemos noticias falsas, por qué discriminamos a alguien por su sexo, su raza e incluso por el equipo de fútbol que apoya o por qué llegamos a conclusiones equovocadas que no tienen mucho sustento.");
-      t15 = space();
+      t15 = text("Estos sesgos explican por qué creemos noticias falsas, por qué discriminamos a alguien por su sexo, su raza e incluso por el equipo de fútbol que apoya o por qué llegamos a conclusiones equovocadas que no tienen mucho sustento.");
+      t16 = space();
       div7 = element("div");
       h2 = element("h2");
-      t16 = text("En nuestro libro te mostramos algunas características de la mente que te pueden afectar sin que seas consciente.");
+      t17 = text("En nuestro libro te mostramos algunas características de la mente que te pueden afectar sin que seas consciente.");
       this.h();
     },
     l: function claim(nodes) {
@@ -9698,10 +9807,29 @@ function create_fragment$b(ctx) {
       var p0_nodes = children(p0);
       t5 = claim_text(p0_nodes, "cuatro");
       p0_nodes.forEach(detach_dev);
+      t6 = claim_space(div2_nodes);
+      svg = claim_element(div2_nodes, "svg", {
+        x: true,
+        y: true,
+        viewBox: true,
+        class: true
+      }, 1);
+      var svg_nodes = children(svg);
+      g = claim_element(svg_nodes, "g", {}, 1);
+      var g_nodes = children(g);
+      circle = claim_element(g_nodes, "circle", {
+        fill: true,
+        cx: true,
+        cy: true,
+        r: true
+      }, 1);
+      children(circle).forEach(detach_dev);
+      g_nodes.forEach(detach_dev);
+      svg_nodes.forEach(detach_dev);
       div2_nodes.forEach(detach_dev);
       div3_nodes.forEach(detach_dev);
       div4_nodes.forEach(detach_dev);
-      t6 = claim_space(div12_nodes);
+      t7 = claim_space(div12_nodes);
       div11 = claim_element(div12_nodes, "DIV", {
         class: true
       });
@@ -9714,10 +9842,10 @@ function create_fragment$b(ctx) {
         class: true
       });
       var p1_nodes = children(p1);
-      t7 = claim_text(p1_nodes, "RTA/");
+      t8 = claim_text(p1_nodes, "RTA/");
       p1_nodes.forEach(detach_dev);
       div5_nodes.forEach(detach_dev);
-      t8 = claim_space(div11_nodes);
+      t9 = claim_space(div11_nodes);
       div6 = claim_element(div11_nodes, "DIV", {
         class: true
       });
@@ -9726,22 +9854,22 @@ function create_fragment$b(ctx) {
         class: true
       });
       children(span1).forEach(detach_dev);
-      t9 = claim_space(div6_nodes);
+      t10 = claim_space(div6_nodes);
       p2 = claim_element(div6_nodes, "P", {
         class: true
       });
       var p2_nodes = children(p2);
-      t10 = claim_text(p2_nodes, "En términos sencillos, un sesgo es cuando aplicamos de forma incorrecta una heurística. Esto no ocurre de manera consciente, los sesgos nos hacen víctimas sin que nos demos cuenta de qué está sucediendo.");
+      t11 = claim_text(p2_nodes, "En términos sencillos, un sesgo es cuando aplicamos de forma incorrecta una heurística. Esto no ocurre de manera consciente, los sesgos nos hacen víctimas sin que nos demos cuenta de qué está sucediendo.");
       p2_nodes.forEach(detach_dev);
-      t11 = claim_space(div6_nodes);
+      t12 = claim_space(div6_nodes);
       p3 = claim_element(div6_nodes, "P", {
         class: true
       });
       var p3_nodes = children(p3);
-      t12 = claim_text(p3_nodes, "Por esa razón son tan peligrosos, porque aunque creamos que somos seres perfectamente racionales, la evidencia nos muestra que los sesgos afectan de manera constante y, en la mayor parte del tiempo, sin que lo sepamos.");
+      t13 = claim_text(p3_nodes, "Por esa razón son tan peligrosos, porque aunque creamos que somos seres perfectamente racionales, la evidencia nos muestra que los sesgos afectan de manera constante y, en la mayor parte del tiempo, sin que lo sepamos.");
       p3_nodes.forEach(detach_dev);
       div6_nodes.forEach(detach_dev);
-      t13 = claim_space(div11_nodes);
+      t14 = claim_space(div11_nodes);
       div10 = claim_element(div11_nodes, "DIV", {
         class: true
       });
@@ -9758,9 +9886,9 @@ function create_fragment$b(ctx) {
         class: true
       });
       var p4_nodes = children(p4);
-      t14 = claim_text(p4_nodes, "Estos sesgos explican por qué creemos noticias falsas, por qué discriminamos a alguien por su sexo, su raza e incluso por el equipo de fútbol que apoya o por qué llegamos a conclusiones equovocadas que no tienen mucho sustento.");
+      t15 = claim_text(p4_nodes, "Estos sesgos explican por qué creemos noticias falsas, por qué discriminamos a alguien por su sexo, su raza e incluso por el equipo de fútbol que apoya o por qué llegamos a conclusiones equovocadas que no tienen mucho sustento.");
       p4_nodes.forEach(detach_dev);
-      t15 = claim_space(div8_nodes);
+      t16 = claim_space(div8_nodes);
       div7 = claim_element(div8_nodes, "DIV", {
         class: true
       });
@@ -9769,7 +9897,7 @@ function create_fragment$b(ctx) {
         class: true
       });
       var h2_nodes = children(h2);
-      t16 = claim_text(h2_nodes, "En nuestro libro te mostramos algunas características de la mente que te pueden afectar sin que seas consciente.");
+      t17 = claim_text(h2_nodes, "En nuestro libro te mostramos algunas características de la mente que te pueden afectar sin que seas consciente.");
       h2_nodes.forEach(detach_dev);
       div7_nodes.forEach(detach_dev);
       div8_nodes.forEach(detach_dev);
@@ -9785,55 +9913,66 @@ function create_fragment$b(ctx) {
       if (img.src !== (img_src_value = "RUTA-17.svg")) attr_dev(img, "src", img_src_value);
       attr_dev(img, "alt", "Ícono de cambio");
       attr_dev(img, "class", "w-2/2 h-20  ");
-      add_location(img, file$b, 64, 24, 1696);
+      add_location(img, file$b, 77, 24, 1850);
       attr_dev(span0, "class", "pl-1 text-4xl text-left fushia-text sm:text-2xl sm:text-center");
-      add_location(span0, file$b, 65, 24, 1787);
+      add_location(span0, file$b, 78, 24, 1941);
       attr_dev(div0, "class", "w-2/5  flex flex-initial order-1  sm:flex-col sm:w-auto sm:flex-grow-0  sm:order-none justify-items-center ");
-      add_location(div0, file$b, 63, 20, 1550);
+      add_location(div0, file$b, 76, 20, 1704);
       attr_dev(h1, "class", "text-4xl verdeClaro-text text-left pl-0 sm:text-left sm:w-4/4 mt-4  sm:pl-4  sm:verdeClaro-text mb-5 mx-0 uppercase leading-none");
-      add_location(h1, file$b, 68, 24, 2005);
+      add_location(h1, file$b, 81, 24, 2159);
       attr_dev(div1, "class", "flex-1 order-3 sm:order-none  sm:px-4 \t");
-      add_location(div1, file$b, 67, 20, 1927);
-      attr_dev(p0, "class", " text-2xl sm:p-0  justify-items-right text-right fontVacia uppercase circle svelte-vd7u2w");
-      add_location(p0, file$b, 74, 24, 2491);
-      attr_dev(div2, "class", "w-auto  sm:order-last p-4 order-2 circle\t");
-      add_location(div2, file$b, 73, 20, 2411);
+      add_location(div1, file$b, 80, 20, 2081);
+      attr_dev(p0, "class", " text-2xl sm:p-0  justify-items-right text-right fontVacia uppercase circle svelte-17vhrx9");
+      add_location(p0, file$b, 87, 24, 2654);
+      attr_dev(circle, "fill", "#8AE5EE");
+      attr_dev(circle, "cx", "46.71");
+      attr_dev(circle, "cy", "47.57");
+      attr_dev(circle, "r", "45.5");
+      add_location(circle, file$b, 92, 32, 2936);
+      add_location(g, file$b, 91, 28, 2900);
+      attr_dev(svg, "x", "0px");
+      attr_dev(svg, "y", "0px");
+      attr_dev(svg, "viewBox", "0 0 95 93");
+      attr_dev(svg, "class", "svelte-17vhrx9");
+      add_location(svg, file$b, 90, 24, 2830);
+      attr_dev(div2, "class", "w-auto  sm:order-last p-4 order-2 circle\ttitle-svg svelte-17vhrx9");
+      add_location(div2, file$b, 86, 20, 2565);
       attr_dev(div3, "class", "flex flex-wrap justify-between sm:flex   \t ");
-      add_location(div3, file$b, 62, 16, 1472);
+      add_location(div3, file$b, 75, 16, 1626);
       attr_dev(div4, "class", "col-span-1 sm:col-span-4   ");
-      add_location(div4, file$b, 60, 12, 1413);
-      attr_dev(p1, "class", "fontVacia text-xs svelte-vd7u2w");
-      add_location(p1, file$b, 88, 20, 2897);
+      add_location(div4, file$b, 73, 12, 1567);
+      attr_dev(p1, "class", "fontVacia text-xs svelte-17vhrx9");
+      add_location(p1, file$b, 106, 20, 3310);
       attr_dev(div5, "class", "sm:col-span-4  ");
-      add_location(div5, file$b, 86, 16, 2830);
+      add_location(div5, file$b, 104, 16, 3243);
       attr_dev(span1, "class", "fushia-text");
-      add_location(span1, file$b, 92, 20, 3053);
+      add_location(span1, file$b, 110, 20, 3466);
       attr_dev(p2, "class", "font-sans text-white mb-5");
-      add_location(p2, file$b, 93, 20, 3108);
+      add_location(p2, file$b, 111, 20, 3521);
       attr_dev(p3, "class", "font-sans text-white mb-5");
-      add_location(p3, file$b, 96, 20, 3419);
+      add_location(p3, file$b, 114, 20, 3832);
       attr_dev(div6, "class", "sm:col-span-2 mr-10");
-      add_location(div6, file$b, 91, 16, 2999);
+      add_location(div6, file$b, 109, 16, 3412);
       attr_dev(p4, "class", "font-sans text-white mb-5");
-      add_location(p4, file$b, 102, 28, 3953);
+      add_location(p4, file$b, 120, 28, 4366);
       attr_dev(h2, "class", "  mb-3  fushia-text text-2xl");
-      add_location(h2, file$b, 106, 32, 4366);
+      add_location(h2, file$b, 124, 32, 4779);
       attr_dev(div7, "class", " w-4/4 ");
-      add_location(div7, file$b, 105, 28, 4312);
+      add_location(div7, file$b, 123, 28, 4725);
       attr_dev(div8, "class", "flex-col");
-      add_location(div8, file$b, 101, 24, 3902);
+      add_location(div8, file$b, 119, 24, 4315);
       attr_dev(div9, "class", "flex items-start mb-5");
-      add_location(div9, file$b, 99, 20, 3817);
+      add_location(div9, file$b, 117, 20, 4230);
       attr_dev(div10, "class", "sm:col-span-2 text-white flex flex-col max-h-434px sm:ml-10");
-      add_location(div10, file$b, 98, 16, 3723);
+      add_location(div10, file$b, 116, 16, 4136);
       attr_dev(div11, "class", "col-span-1 sm:grid sm:grid-cols-4  sm:col-span-4  ");
-      add_location(div11, file$b, 84, 12, 2748);
+      add_location(div11, file$b, 102, 12, 3161);
       attr_dev(div12, "class", "flex flex-wrap sm:grid   sm:grid-cols-4 gap-8 mb-10 mt-14");
-      add_location(div12, file$b, 59, 8, 1329);
+      add_location(div12, file$b, 72, 8, 1483);
       attr_dev(article, "class", "container sm:h-screen mx-auto py-10 px-2 sm:p-10 ");
-      add_location(article, file$b, 58, 4, 1253);
+      add_location(article, file$b, 71, 4, 1407);
       attr_dev(section, "class", "pedagogias-digitales-section bg-gris     ");
-      add_location(section, file$b, 57, 0, 1189);
+      add_location(section, file$b, 70, 0, 1343);
     },
     m: function mount(target, anchor) {
       insert_dev(target, section, anchor);
@@ -9854,30 +9993,34 @@ function create_fragment$b(ctx) {
       append_dev(div3, div2);
       append_dev(div2, p0);
       append_dev(p0, t5);
-      append_dev(div12, t6);
+      append_dev(div2, t6);
+      append_dev(div2, svg);
+      append_dev(svg, g);
+      append_dev(g, circle);
+      append_dev(div12, t7);
       append_dev(div12, div11);
       append_dev(div11, div5);
       append_dev(div5, p1);
-      append_dev(p1, t7);
-      append_dev(div11, t8);
+      append_dev(p1, t8);
+      append_dev(div11, t9);
       append_dev(div11, div6);
       append_dev(div6, span1);
-      append_dev(div6, t9);
+      append_dev(div6, t10);
       append_dev(div6, p2);
-      append_dev(p2, t10);
-      append_dev(div6, t11);
+      append_dev(p2, t11);
+      append_dev(div6, t12);
       append_dev(div6, p3);
-      append_dev(p3, t12);
-      append_dev(div11, t13);
+      append_dev(p3, t13);
+      append_dev(div11, t14);
       append_dev(div11, div10);
       append_dev(div10, div9);
       append_dev(div9, div8);
       append_dev(div8, p4);
-      append_dev(p4, t14);
-      append_dev(div8, t15);
+      append_dev(p4, t15);
+      append_dev(div8, t16);
       append_dev(div8, div7);
       append_dev(div7, h2);
-      append_dev(h2, t16);
+      append_dev(h2, t17);
     },
     p: noop,
     i: noop,
@@ -10118,49 +10261,49 @@ function create_fragment$a(ctx) {
       this.h();
     },
     h: function hydrate() {
-      attr_dev(h2, "class", "svelte-m22dil");
-      add_location(h2, file$a, 9, 8, 214);
+      attr_dev(h2, "class", "svelte-1wx59c3");
+      add_location(h2, file$a, 13, 8, 254);
       attr_dev(span0, "class", "");
-      add_location(span0, file$a, 14, 16, 367);
+      add_location(span0, file$a, 18, 16, 407);
       attr_dev(p, "class", "font-sans text-black bold mb-5");
-      add_location(p, file$a, 13, 12, 308);
-      add_location(hr, file$a, 16, 12, 621);
+      add_location(p, file$a, 17, 12, 348);
+      add_location(hr, file$a, 20, 12, 661);
       if (img0.src !== (img0_src_value = "/icons/icon-document.png")) attr_dev(img0, "src", img0_src_value);
       attr_dev(img0, "alt", "Ícono de cambio");
       attr_dev(img0, "class", "w-16 p-0 m-0");
-      add_location(img0, file$a, 21, 20, 765);
+      add_location(img0, file$a, 25, 20, 805);
       attr_dev(div0, "class", "w-1/5 ");
-      add_location(div0, file$a, 20, 16, 724);
+      add_location(div0, file$a, 24, 16, 764);
       attr_dev(h30, "class", " uppercase");
-      add_location(h30, file$a, 24, 20, 933);
+      add_location(h30, file$a, 28, 20, 973);
       attr_dev(h31, "class", "  mb-5 uppercase leading-none");
-      add_location(h31, file$a, 28, 20, 1039);
+      add_location(h31, file$a, 32, 20, 1079);
       attr_dev(div1, "class", "w-3/5 sm:w-3/5");
-      add_location(div1, file$a, 23, 16, 884);
+      add_location(div1, file$a, 27, 16, 924);
       attr_dev(div2, "class", "w-1/5 sm:w-1/5");
-      add_location(div2, file$a, 31, 16, 1206);
+      add_location(div2, file$a, 35, 16, 1246);
       attr_dev(div3, "class", "w-1/5 sm:w-1/5");
-      add_location(div3, file$a, 32, 16, 1257);
+      add_location(div3, file$a, 36, 16, 1297);
       attr_dev(span1, "class", " text-xl sm:text-2xl  sm:w-18 fushia-bg px-2 py-3 text-white uppercase    ");
-      add_location(span1, file$a, 36, 15, 1436);
+      add_location(span1, file$a, 40, 15, 1489);
       attr_dev(a, "href", "/documents/CAPÍTULO_1_C&M.pdf");
       attr_dev(a, "download", "");
       attr_dev(a, "class", "");
-      add_location(a, file$a, 35, 20, 1372);
-      attr_dev(div4, "class", "w-5/5 pb-2 sm:w-4/5 sm:pb-0 ");
-      add_location(div4, file$a, 34, 16, 1309);
+      add_location(a, file$a, 39, 20, 1425);
+      attr_dev(div4, "class", "w-5/5 pb-2 sm:w-4/5 sm:pb-0 min-width-220 svelte-1wx59c3");
+      add_location(div4, file$a, 38, 16, 1349);
       attr_dev(div5, "class", " container flex flex-wrap  pt-4 spac-x-0");
-      add_location(div5, file$a, 19, 12, 653);
+      add_location(div5, file$a, 23, 12, 693);
       attr_dev(div6, "class", "sm:col-span-2 my-auto  ");
-      add_location(div6, file$a, 11, 8, 242);
+      add_location(div6, file$a, 15, 8, 282);
       attr_dev(div7, "class", "m-auto sm:col-span-1 text-black ");
-      add_location(div7, file$a, 8, 4, 159);
+      add_location(div7, file$a, 12, 4, 199);
       attr_dev(img1, "class", "sm:col-span-1 m-auto");
       if (img1.src !== (img1_src_value = "manos21.svg")) attr_dev(img1, "src", img1_src_value);
       attr_dev(img1, "alt", "imagen");
-      add_location(img1, file$a, 44, 4, 1640);
+      add_location(img1, file$a, 48, 4, 1693);
       attr_dev(div8, "class", "container flex flex-wrap sm:grid sm:grid-cols-2 p-2 sm:p-10");
-      add_location(div8, file$a, 7, 2, 81);
+      add_location(div8, file$a, 11, 2, 121);
     },
     m: function mount(target, anchor) {
       insert_dev(target, div8, anchor);
@@ -10433,49 +10576,49 @@ function create_fragment$9(ctx) {
       this.h();
     },
     h: function hydrate() {
-      attr_dev(h2, "class", "svelte-m22dil");
-      add_location(h2, file$9, 9, 8, 214);
+      attr_dev(h2, "class", "svelte-1wx59c3");
+      add_location(h2, file$9, 13, 8, 254);
       attr_dev(span0, "class", "");
-      add_location(span0, file$9, 14, 16, 380);
+      add_location(span0, file$9, 18, 16, 420);
       attr_dev(p, "class", "font-sans text-black bold mb-5");
-      add_location(p, file$9, 13, 12, 321);
-      add_location(hr, file$9, 15, 248, 652);
+      add_location(p, file$9, 17, 12, 361);
+      add_location(hr, file$9, 19, 248, 692);
       if (img0.src !== (img0_src_value = "/icons/icon-document.png")) attr_dev(img0, "src", img0_src_value);
       attr_dev(img0, "alt", "Ícono de cambio");
       attr_dev(img0, "class", "w-16 p-0 m-0");
-      add_location(img0, file$9, 20, 20, 796);
+      add_location(img0, file$9, 24, 20, 836);
       attr_dev(div0, "class", "w-1/5 ");
-      add_location(div0, file$9, 19, 16, 755);
+      add_location(div0, file$9, 23, 16, 795);
       attr_dev(h30, "class", " uppercase");
-      add_location(h30, file$9, 23, 20, 964);
+      add_location(h30, file$9, 27, 20, 1004);
       attr_dev(h31, "class", "  mb-5 uppercase leading-none");
-      add_location(h31, file$9, 27, 20, 1070);
+      add_location(h31, file$9, 31, 20, 1110);
       attr_dev(div1, "class", "w-3/5 sm:w-3/5");
-      add_location(div1, file$9, 22, 16, 915);
+      add_location(div1, file$9, 26, 16, 955);
       attr_dev(div2, "class", "w-1/5 sm:w-1/5");
-      add_location(div2, file$9, 29, 16, 1234);
+      add_location(div2, file$9, 33, 16, 1274);
       attr_dev(div3, "class", "w-1/5 sm:w-1/5");
-      add_location(div3, file$9, 30, 16, 1285);
+      add_location(div3, file$9, 34, 16, 1325);
       attr_dev(span1, "class", " text-xl sm:text-2xl  sm:w-18 fushia-bg px-2  py-3 text-white uppercase    ");
-      add_location(span1, file$9, 34, 15, 1464);
+      add_location(span1, file$9, 38, 15, 1517);
       attr_dev(a, "href", "/documents/CAPÍTULO_3_C&M.pdf");
       attr_dev(a, "download", "");
       attr_dev(a, "class", "");
-      add_location(a, file$9, 33, 20, 1400);
-      attr_dev(div4, "class", "w-5/5 pb-2 sm:w-4/5 sm:pb-0 ");
-      add_location(div4, file$9, 32, 16, 1337);
+      add_location(a, file$9, 37, 20, 1453);
+      attr_dev(div4, "class", "w-5/5 pb-2 sm:w-4/5 sm:pb-0 min-width-220 svelte-1wx59c3");
+      add_location(div4, file$9, 36, 16, 1377);
       attr_dev(div5, "class", " container flex flex-wrap  pt-4 spac-x-0");
-      add_location(div5, file$9, 18, 12, 684);
+      add_location(div5, file$9, 22, 12, 724);
       attr_dev(div6, "class", "sm:col-span-2 my-auto  ");
-      add_location(div6, file$9, 11, 8, 255);
+      add_location(div6, file$9, 15, 8, 295);
       attr_dev(div7, "class", "m-auto sm:col-span-1 text-black ");
-      add_location(div7, file$9, 8, 4, 159);
+      add_location(div7, file$9, 12, 4, 199);
       attr_dev(img1, "class", "sm:col-span-1 m-auto");
       if (img1.src !== (img1_src_value = "comentarios18.svg")) attr_dev(img1, "src", img1_src_value);
       attr_dev(img1, "alt", "imagen");
-      add_location(img1, file$9, 43, 4, 1690);
+      add_location(img1, file$9, 47, 4, 1743);
       attr_dev(div8, "class", "container flex flex-wrap sm:grid sm:grid-cols-2 p-2 sm:p-10");
-      add_location(div8, file$9, 7, 2, 81);
+      add_location(div8, file$9, 11, 2, 121);
     },
     m: function mount(target, anchor) {
       insert_dev(target, div8, anchor);
@@ -10747,49 +10890,49 @@ function create_fragment$8(ctx) {
       this.h();
     },
     h: function hydrate() {
-      attr_dev(h2, "class", "svelte-m22dil");
-      add_location(h2, file$8, 9, 8, 214);
+      attr_dev(h2, "class", "svelte-1wx59c3");
+      add_location(h2, file$8, 13, 8, 254);
       attr_dev(span0, "class", "");
-      add_location(span0, file$8, 14, 16, 381);
+      add_location(span0, file$8, 18, 16, 421);
       attr_dev(p, "class", "font-sans text-black bold mb-5");
-      add_location(p, file$8, 13, 12, 322);
-      add_location(hr, file$8, 15, 248, 653);
+      add_location(p, file$8, 17, 12, 362);
+      add_location(hr, file$8, 19, 248, 693);
       if (img0.src !== (img0_src_value = "/icons/icon-document.png")) attr_dev(img0, "src", img0_src_value);
       attr_dev(img0, "alt", "Ícono de cambio");
       attr_dev(img0, "class", "w-16 p-0 m-0");
-      add_location(img0, file$8, 20, 20, 797);
+      add_location(img0, file$8, 24, 20, 837);
       attr_dev(div0, "class", "w-1/5 ");
-      add_location(div0, file$8, 19, 16, 756);
+      add_location(div0, file$8, 23, 16, 796);
       attr_dev(h30, "class", " uppercase");
-      add_location(h30, file$8, 23, 20, 965);
+      add_location(h30, file$8, 27, 20, 1005);
       attr_dev(h31, "class", "  mb-5 uppercase leading-none");
-      add_location(h31, file$8, 27, 20, 1071);
+      add_location(h31, file$8, 31, 20, 1111);
       attr_dev(div1, "class", "w-3/5 sm:w-3/5");
-      add_location(div1, file$8, 22, 16, 916);
+      add_location(div1, file$8, 26, 16, 956);
       attr_dev(div2, "class", "w-1/5 sm:w-1/5");
-      add_location(div2, file$8, 30, 16, 1238);
+      add_location(div2, file$8, 34, 16, 1278);
       attr_dev(div3, "class", "w-1/5 sm:w-1/5");
-      add_location(div3, file$8, 31, 16, 1289);
+      add_location(div3, file$8, 35, 16, 1329);
       attr_dev(span1, "class", " text-xl sm:text-2xl  sm:w-18 fushia-bg px-2  py-3 text-white uppercase    ");
-      add_location(span1, file$8, 35, 15, 1468);
+      add_location(span1, file$8, 39, 15, 1521);
       attr_dev(a, "href", "/documents/CAPÍTULO_2_C&M.pdf");
       attr_dev(a, "download", "");
       attr_dev(a, "class", "");
-      add_location(a, file$8, 34, 20, 1404);
-      attr_dev(div4, "class", "w-5/5 pb-2 sm:w-4/5 sm:pb-0 ");
-      add_location(div4, file$8, 33, 16, 1341);
+      add_location(a, file$8, 38, 20, 1457);
+      attr_dev(div4, "class", "w-5/5 pb-2 sm:w-4/5 sm:pb-0 min-width-220 svelte-1wx59c3");
+      add_location(div4, file$8, 37, 16, 1381);
       attr_dev(div5, "class", " container flex flex-wrap  pt-4 spac-x-0");
-      add_location(div5, file$8, 18, 12, 685);
+      add_location(div5, file$8, 22, 12, 725);
       attr_dev(div6, "class", "sm:col-span-2 my-auto  ");
-      add_location(div6, file$8, 11, 8, 256);
+      add_location(div6, file$8, 15, 8, 296);
       attr_dev(div7, "class", "m-auto sm:col-span-1 text-black ");
-      add_location(div7, file$8, 8, 4, 159);
+      add_location(div7, file$8, 12, 4, 199);
       attr_dev(img1, "class", "sm:col-span-1 m-auto");
       if (img1.src !== (img1_src_value = "triangulook19.svg")) attr_dev(img1, "src", img1_src_value);
       attr_dev(img1, "alt", "imagen");
-      add_location(img1, file$8, 43, 4, 1673);
+      add_location(img1, file$8, 47, 4, 1726);
       attr_dev(div8, "class", "container flex flex-wrap sm:grid sm:grid-cols-2 p-2 sm:p-10");
-      add_location(div8, file$8, 7, 2, 81);
+      add_location(div8, file$8, 11, 2, 121);
     },
     m: function mount(target, anchor) {
       insert_dev(target, div8, anchor);
@@ -11055,48 +11198,48 @@ function create_fragment$7(ctx) {
       this.h();
     },
     h: function hydrate() {
-      attr_dev(h2, "class", "svelte-m22dil");
-      add_location(h2, file$7, 10, 8, 211);
+      attr_dev(h2, "class", "svelte-1wx59c3");
+      add_location(h2, file$7, 14, 8, 251);
       attr_dev(span0, "class", "");
-      add_location(span0, file$7, 15, 16, 376);
+      add_location(span0, file$7, 19, 16, 416);
       attr_dev(p, "class", "font-sans text-black bold mb-5");
-      add_location(p, file$7, 14, 12, 317);
+      add_location(p, file$7, 18, 12, 357);
       if (img0.src !== (img0_src_value = "/icons/icon-document.png")) attr_dev(img0, "src", img0_src_value);
       attr_dev(img0, "alt", "Ícono de cambio");
       attr_dev(img0, "class", "w-16 p-0 m-0");
-      add_location(img0, file$7, 19, 20, 853);
+      add_location(img0, file$7, 23, 20, 893);
       attr_dev(div0, "class", "w-1/5 ");
-      add_location(div0, file$7, 18, 16, 812);
+      add_location(div0, file$7, 22, 16, 852);
       attr_dev(h30, "class", " uppercase");
-      add_location(h30, file$7, 22, 20, 1021);
+      add_location(h30, file$7, 26, 20, 1061);
       attr_dev(h31, "class", "  mb-5 uppercase leading-none");
-      add_location(h31, file$7, 26, 20, 1127);
+      add_location(h31, file$7, 30, 20, 1167);
       attr_dev(div1, "class", "w-3/5 sm:w-3/5");
-      add_location(div1, file$7, 21, 16, 972);
+      add_location(div1, file$7, 25, 16, 1012);
       attr_dev(div2, "class", "w-1/5 sm:w-1/5");
-      add_location(div2, file$7, 29, 16, 1301);
+      add_location(div2, file$7, 33, 16, 1341);
       attr_dev(div3, "class", "w-1/5 sm:w-1/5");
-      add_location(div3, file$7, 30, 16, 1352);
+      add_location(div3, file$7, 34, 16, 1392);
       attr_dev(span1, "class", " text-xl sm:text-2xl  sm:w-18 fushia-bg px-2  py-3 text-white uppercase    ");
-      add_location(span1, file$7, 34, 15, 1531);
+      add_location(span1, file$7, 38, 15, 1584);
       attr_dev(a, "href", "/documents/CAPÍTULO_4_C&M.pdf");
       attr_dev(a, "download", "");
       attr_dev(a, "class", "");
-      add_location(a, file$7, 33, 20, 1467);
-      attr_dev(div4, "class", "w-5/5 pb-2 sm:w-4/5 sm:pb-0 ");
-      add_location(div4, file$7, 32, 16, 1404);
+      add_location(a, file$7, 37, 20, 1520);
+      attr_dev(div4, "class", "w-5/5 pb-2 sm:w-4/5 sm:pb-0 min-width-220 svelte-1wx59c3");
+      add_location(div4, file$7, 36, 16, 1444);
       attr_dev(div5, "class", " container flex flex-wrap  pt-4 spac-x-0");
-      add_location(div5, file$7, 17, 12, 741);
+      add_location(div5, file$7, 21, 12, 781);
       attr_dev(div6, "class", "sm:col-span-2 my-auto  ");
-      add_location(div6, file$7, 12, 8, 251);
+      add_location(div6, file$7, 16, 8, 291);
       attr_dev(div7, "class", "m-auto sm:col-span-1 text-black ");
-      add_location(div7, file$7, 9, 4, 156);
+      add_location(div7, file$7, 13, 4, 196);
       attr_dev(img1, "class", "sm:col-span-1 m-auto");
       if (img1.src !== (img1_src_value = "xyz20.svg")) attr_dev(img1, "src", img1_src_value);
       attr_dev(img1, "alt", "imagen");
-      add_location(img1, file$7, 42, 4, 1736);
+      add_location(img1, file$7, 46, 4, 1789);
       attr_dev(div8, "class", "container flex flex-wrap sm:grid sm:grid-cols-2 p-2 sm:p-10");
-      add_location(div8, file$7, 8, 0, 78);
+      add_location(div8, file$7, 12, 0, 118);
     },
     m: function mount(target, anchor) {
       insert_dev(target, div8, anchor);
@@ -11209,37 +11352,41 @@ function create_fragment$6(ctx) {
   var p0;
   var t5;
   var t6;
+  var svg;
+  var g;
+  var circle;
+  var t7;
   var div6;
   var p1;
-  var t7;
   var t8;
+  var t9;
   var p2;
   var span1;
-  var t9;
   var t10;
+  var t11;
   var p3;
   var span2;
-  var t11;
   var t12;
+  var t13;
   var div5;
   var button0;
-  var t13;
   var t14;
+  var t15;
   var div11;
   var div7;
-  var t15;
   var t16;
+  var t17;
   var div8;
   var button1;
-  var t17;
   var t18;
+  var t19;
   var div9;
   var button2;
-  var t19;
   var t20;
+  var t21;
   var div10;
   var button3;
-  var t21;
+  var t22;
   var mounted;
   var dispose;
   var block = {
@@ -11263,37 +11410,41 @@ function create_fragment$6(ctx) {
       p0 = element("p");
       t5 = text("quinto");
       t6 = space();
+      svg = svg_element("svg");
+      g = svg_element("g");
+      circle = svg_element("circle");
+      t7 = space();
       div6 = element("div");
       p1 = element("p");
-      t7 = text("RTA/");
-      t8 = space();
+      t8 = text("RTA/");
+      t9 = space();
       p2 = element("p");
       span1 = element("span");
-      t9 = text("\n                    Así como las heurísticas existen decenas de sesgos que nos afectan en la vida diaria; Empezaremos con tres de esos sesgos que tienen un efecto sobre ti.");
-      t10 = space();
+      t10 = text("\n                    Así como las heurísticas existen decenas de sesgos que nos afectan en la vida diaria; Empezaremos con tres de esos sesgos que tienen un efecto sobre ti.");
+      t11 = space();
       p3 = element("p");
       span2 = element("span");
-      t11 = text("\n                    Muchas veces, una de las mejores estrategias para combatir algunos de estos sesgos es desarrollar nuestra");
-      t12 = space();
+      t12 = text("\n                    Muchas veces, una de las mejores estrategias para combatir algunos de estos sesgos es desarrollar nuestra");
+      t13 = space();
       div5 = element("div");
       button0 = element("button");
-      t13 = text("empatia");
-      t14 = space();
+      t14 = text("empatia");
+      t15 = space();
       div11 = element("div");
       div7 = element("div");
-      t15 = text("click en el sesgo");
-      t16 = space();
+      t16 = text("click en el sesgo");
+      t17 = space();
       div8 = element("div");
       button1 = element("button");
-      t17 = text("disonancia cognitiva");
-      t18 = space();
+      t18 = text("disonancia cognitiva");
+      t19 = space();
       div9 = element("div");
       button2 = element("button");
-      t19 = text("sesgo de confirmación");
-      t20 = space();
+      t20 = text("sesgo de confirmación");
+      t21 = space();
       div10 = element("div");
       button3 = element("button");
-      t21 = text("sesgo de atribución");
+      t22 = text("sesgo de atribución");
       this.h();
     },
     l: function claim(nodes) {
@@ -11357,10 +11508,29 @@ function create_fragment$6(ctx) {
       var p0_nodes = children(p0);
       t5 = claim_text(p0_nodes, "quinto");
       p0_nodes.forEach(detach_dev);
+      t6 = claim_space(div2_nodes);
+      svg = claim_element(div2_nodes, "svg", {
+        x: true,
+        y: true,
+        viewBox: true,
+        class: true
+      }, 1);
+      var svg_nodes = children(svg);
+      g = claim_element(svg_nodes, "g", {}, 1);
+      var g_nodes = children(g);
+      circle = claim_element(g_nodes, "circle", {
+        fill: true,
+        cx: true,
+        cy: true,
+        r: true
+      }, 1);
+      children(circle).forEach(detach_dev);
+      g_nodes.forEach(detach_dev);
+      svg_nodes.forEach(detach_dev);
       div2_nodes.forEach(detach_dev);
       div3_nodes.forEach(detach_dev);
       div4_nodes.forEach(detach_dev);
-      t6 = claim_space(div12_nodes);
+      t7 = claim_space(div12_nodes);
       div6 = claim_element(div12_nodes, "DIV", {
         class: true
       });
@@ -11369,9 +11539,9 @@ function create_fragment$6(ctx) {
         class: true
       });
       var p1_nodes = children(p1);
-      t7 = claim_text(p1_nodes, "RTA/");
+      t8 = claim_text(p1_nodes, "RTA/");
       p1_nodes.forEach(detach_dev);
-      t8 = claim_space(div6_nodes);
+      t9 = claim_space(div6_nodes);
       p2 = claim_element(div6_nodes, "P", {
         class: true
       });
@@ -11380,9 +11550,9 @@ function create_fragment$6(ctx) {
         class: true
       });
       children(span1).forEach(detach_dev);
-      t9 = claim_text(p2_nodes, "\n                    Así como las heurísticas existen decenas de sesgos que nos afectan en la vida diaria; Empezaremos con tres de esos sesgos que tienen un efecto sobre ti.");
+      t10 = claim_text(p2_nodes, "\n                    Así como las heurísticas existen decenas de sesgos que nos afectan en la vida diaria; Empezaremos con tres de esos sesgos que tienen un efecto sobre ti.");
       p2_nodes.forEach(detach_dev);
-      t10 = claim_space(div6_nodes);
+      t11 = claim_space(div6_nodes);
       p3 = claim_element(div6_nodes, "P", {
         class: true
       });
@@ -11391,9 +11561,9 @@ function create_fragment$6(ctx) {
         class: true
       });
       children(span2).forEach(detach_dev);
-      t11 = claim_text(p3_nodes, "\n                    Muchas veces, una de las mejores estrategias para combatir algunos de estos sesgos es desarrollar nuestra");
+      t12 = claim_text(p3_nodes, "\n                    Muchas veces, una de las mejores estrategias para combatir algunos de estos sesgos es desarrollar nuestra");
       p3_nodes.forEach(detach_dev);
-      t12 = claim_space(div6_nodes);
+      t13 = claim_space(div6_nodes);
       div5 = claim_element(div6_nodes, "DIV", {
         class: true
       });
@@ -11403,11 +11573,11 @@ function create_fragment$6(ctx) {
         class: true
       });
       var button0_nodes = children(button0);
-      t13 = claim_text(button0_nodes, "empatia");
+      t14 = claim_text(button0_nodes, "empatia");
       button0_nodes.forEach(detach_dev);
       div5_nodes.forEach(detach_dev);
       div6_nodes.forEach(detach_dev);
-      t14 = claim_space(div12_nodes);
+      t15 = claim_space(div12_nodes);
       div11 = claim_element(div12_nodes, "DIV", {
         class: true
       });
@@ -11416,9 +11586,9 @@ function create_fragment$6(ctx) {
         class: true
       });
       var div7_nodes = children(div7);
-      t15 = claim_text(div7_nodes, "click en el sesgo");
+      t16 = claim_text(div7_nodes, "click en el sesgo");
       div7_nodes.forEach(detach_dev);
-      t16 = claim_space(div11_nodes);
+      t17 = claim_space(div11_nodes);
       div8 = claim_element(div11_nodes, "DIV", {
         class: true
       });
@@ -11427,10 +11597,10 @@ function create_fragment$6(ctx) {
         type: true
       });
       var button1_nodes = children(button1);
-      t17 = claim_text(button1_nodes, "disonancia cognitiva");
+      t18 = claim_text(button1_nodes, "disonancia cognitiva");
       button1_nodes.forEach(detach_dev);
       div8_nodes.forEach(detach_dev);
-      t18 = claim_space(div11_nodes);
+      t19 = claim_space(div11_nodes);
       div9 = claim_element(div11_nodes, "DIV", {
         class: true
       });
@@ -11439,10 +11609,10 @@ function create_fragment$6(ctx) {
         type: true
       });
       var button2_nodes = children(button2);
-      t19 = claim_text(button2_nodes, "sesgo de confirmación");
+      t20 = claim_text(button2_nodes, "sesgo de confirmación");
       button2_nodes.forEach(detach_dev);
       div9_nodes.forEach(detach_dev);
-      t20 = claim_space(div11_nodes);
+      t21 = claim_space(div11_nodes);
       div10 = claim_element(div11_nodes, "DIV", {
         class: true
       });
@@ -11451,7 +11621,7 @@ function create_fragment$6(ctx) {
         type: true
       });
       var button3_nodes = children(button3);
-      t21 = claim_text(button3_nodes, "sesgo de atribución");
+      t22 = claim_text(button3_nodes, "sesgo de atribución");
       button3_nodes.forEach(detach_dev);
       div10_nodes.forEach(detach_dev);
       div11_nodes.forEach(detach_dev);
@@ -11464,62 +11634,73 @@ function create_fragment$6(ctx) {
       if (img.src !== (img_src_value = "RUTA-17.svg")) attr_dev(img, "src", img_src_value);
       attr_dev(img, "alt", "Ícono de cambio");
       attr_dev(img, "class", "w-2/2 h-20  ");
-      add_location(img, file$6, 86, 24, 2449);
+      add_location(img, file$6, 110, 24, 2748);
       attr_dev(span0, "class", "pl-1 text-4xl text-left fushia-text sm:text-2xl sm:text-center");
-      add_location(span0, file$6, 87, 24, 2540);
+      add_location(span0, file$6, 111, 24, 2839);
       attr_dev(div0, "class", "w-2/5  flex flex-initial order-1  sm:flex-col sm:w-auto sm:flex-grow-0  sm:order-none justify-items-center ");
-      add_location(div0, file$6, 85, 20, 2303);
+      add_location(div0, file$6, 109, 20, 2602);
       attr_dev(h1, "class", "text-4xl verdeClaro-text text-left pl-0 sm:text-left sm:w-4/4 mt-4  sm:pl-4  sm:verdeClaro-text mb-5 mx-0 uppercase leading-none");
-      add_location(h1, file$6, 90, 24, 2758);
+      add_location(h1, file$6, 114, 24, 3057);
       attr_dev(div1, "class", "flex-1 order-3 sm:order-none  sm:px-4 \t");
-      add_location(div1, file$6, 89, 20, 2680);
-      attr_dev(p0, "class", " text-2xl sm:p-0  justify-items-right text-right fontVacia uppercase circle svelte-vd7u2w");
-      add_location(p0, file$6, 96, 24, 3222);
-      attr_dev(div2, "class", "w-auto  sm:order-last p-4 order-2 circle\t");
-      add_location(div2, file$6, 95, 20, 3142);
+      add_location(div1, file$6, 113, 20, 2979);
+      attr_dev(p0, "class", " text-2xl sm:p-0  justify-items-right text-right fontVacia uppercase circle svelte-159km2h");
+      add_location(p0, file$6, 120, 24, 3530);
+      attr_dev(circle, "fill", "#8AE5EE");
+      attr_dev(circle, "cx", "46.71");
+      attr_dev(circle, "cy", "47.57");
+      attr_dev(circle, "r", "45.5");
+      add_location(circle, file$6, 125, 32, 3812);
+      add_location(g, file$6, 124, 28, 3776);
+      attr_dev(svg, "x", "0px");
+      attr_dev(svg, "y", "0px");
+      attr_dev(svg, "viewBox", "0 0 95 93");
+      attr_dev(svg, "class", "svelte-159km2h");
+      add_location(svg, file$6, 123, 24, 3706);
+      attr_dev(div2, "class", "w-auto  sm:order-last p-4 order-2 circle\ttitle-svg svelte-159km2h");
+      add_location(div2, file$6, 119, 20, 3441);
       attr_dev(div3, "class", "flex flex-wrap justify-between sm:flex   \t ");
-      add_location(div3, file$6, 84, 16, 2225);
+      add_location(div3, file$6, 108, 16, 2524);
       attr_dev(div4, "class", " sm:col-span-4 flex flex-wrap ");
-      add_location(div4, file$6, 82, 12, 2163);
-      attr_dev(p1, "class", "fontVacia text-xs svelte-vd7u2w");
-      add_location(p1, file$6, 106, 16, 3547);
+      add_location(div4, file$6, 106, 12, 2462);
+      attr_dev(p1, "class", "fontVacia text-xs svelte-159km2h");
+      add_location(p1, file$6, 135, 16, 4105);
       attr_dev(span1, "class", "fushia-text leading-none");
-      add_location(span1, file$6, 108, 20, 3673);
+      add_location(span1, file$6, 137, 20, 4231);
       attr_dev(p2, "class", "font-sans text-white mb-5 leading-none ");
-      add_location(p2, file$6, 107, 16, 3601);
+      add_location(p2, file$6, 136, 16, 4159);
       attr_dev(span2, "class", "fushia-text");
-      add_location(span2, file$6, 112, 20, 4001);
+      add_location(span2, file$6, 141, 20, 4559);
       attr_dev(p3, "class", "font-sans text-white mb-5 leading-none");
-      add_location(p3, file$6, 111, 16, 3930);
+      add_location(p3, file$6, 140, 16, 4488);
       attr_dev(button0, "type", "button");
-      attr_dev(button0, "class", "text-2xl ml-14  sm:ml-0 h-10 sm:w-18 fushia-bg px-20  text-white uppercase    ");
-      add_location(button0, file$6, 148, 20, 5673);
+      attr_dev(button0, "class", "text-2xl ml-14  sm:ml-0 h-10 sm:w-18 fushia-bg px-20  text-white uppercase empatia-button    svelte-159km2h");
+      add_location(button0, file$6, 177, 20, 6231);
       attr_dev(div5, "class", " sm:container flex flex-wrap  pt-4 spac-x-0");
-      add_location(div5, file$6, 132, 16, 4888);
+      add_location(div5, file$6, 161, 16, 5446);
       attr_dev(div6, "class", "sm:col-span-2 my-auto  ");
-      add_location(div6, file$6, 104, 12, 3477);
-      attr_dev(div7, "class", " mx-auto sm:mx-0 h-1  flex items-start mb-5");
-      add_location(div7, file$6, 154, 16, 5983);
+      add_location(div6, file$6, 133, 12, 4035);
+      attr_dev(div7, "class", " mx-auto sm:mx-0 h-1  flex items-start mb-5 click-sesgo svelte-159km2h");
+      add_location(div7, file$6, 183, 16, 6555);
       attr_dev(button1, "type", "button");
-      add_location(button1, file$6, 163, 24, 6649);
+      add_location(button1, file$6, 192, 24, 7233);
       attr_dev(div8, "class", " text-2xl h-10 pt-1 w-56 sm:w-18 fushia-bg  text-center text-white uppercase    ");
-      add_location(div8, file$6, 162, 20, 6529);
+      add_location(div8, file$6, 191, 20, 7113);
       attr_dev(button2, "type", "button");
-      add_location(button2, file$6, 166, 24, 6895);
+      add_location(button2, file$6, 195, 24, 7479);
       attr_dev(div9, "class", " text-2xl h-10 pt-1 w-56 sm:w-18 fushia-bg  text-center text-white uppercase    ");
-      add_location(div9, file$6, 165, 20, 6775);
+      add_location(div9, file$6, 194, 20, 7359);
       attr_dev(button3, "type", "button");
-      add_location(button3, file$6, 169, 24, 7145);
+      add_location(button3, file$6, 198, 24, 7729);
       attr_dev(div10, "class", " text-2xl h-10 pt-1 w-56 sm:w-18 fushia-bg  text-center text-white uppercase    ");
-      add_location(div10, file$6, 168, 20, 7025);
+      add_location(div10, file$6, 197, 20, 7609);
       attr_dev(div11, "class", "sm:col-span- mx-auto text-white flex flex-col gap-3 sm:gap-10 max-h-434px");
-      add_location(div11, file$6, 153, 12, 5879);
+      add_location(div11, file$6, 182, 12, 6451);
       attr_dev(div12, "class", "flex flex-wrap sm:grid  sm:grid-cols-4  sm:gap-8 mb-10 mt-14");
-      add_location(div12, file$6, 80, 8, 1996);
+      add_location(div12, file$6, 104, 8, 2295);
       attr_dev(article, "class", "container h-auto mx-auto py-10 px-2 sm:p-10 sm:mb-10  ");
-      add_location(article, file$6, 79, 4, 1915);
+      add_location(article, file$6, 103, 4, 2214);
       attr_dev(section, "class", "pedagogias-digitales-section bg-gris   sm:p-10 sm:mb-10  pb-4 text-2xl 0 ");
-      add_location(section, file$6, 78, 0, 1819);
+      add_location(section, file$6, 102, 0, 2118);
     },
     m: function mount(target, anchor) {
       insert_dev(target, section, anchor);
@@ -11540,38 +11721,42 @@ function create_fragment$6(ctx) {
       append_dev(div3, div2);
       append_dev(div2, p0);
       append_dev(p0, t5);
-      append_dev(div12, t6);
+      append_dev(div2, t6);
+      append_dev(div2, svg);
+      append_dev(svg, g);
+      append_dev(g, circle);
+      append_dev(div12, t7);
       append_dev(div12, div6);
       append_dev(div6, p1);
-      append_dev(p1, t7);
-      append_dev(div6, t8);
+      append_dev(p1, t8);
+      append_dev(div6, t9);
       append_dev(div6, p2);
       append_dev(p2, span1);
-      append_dev(p2, t9);
-      append_dev(div6, t10);
+      append_dev(p2, t10);
+      append_dev(div6, t11);
       append_dev(div6, p3);
       append_dev(p3, span2);
-      append_dev(p3, t11);
-      append_dev(div6, t12);
+      append_dev(p3, t12);
+      append_dev(div6, t13);
       append_dev(div6, div5);
       append_dev(div5, button0);
-      append_dev(button0, t13);
-      append_dev(div12, t14);
+      append_dev(button0, t14);
+      append_dev(div12, t15);
       append_dev(div12, div11);
       append_dev(div11, div7);
-      append_dev(div7, t15);
-      append_dev(div11, t16);
+      append_dev(div7, t16);
+      append_dev(div11, t17);
       append_dev(div11, div8);
       append_dev(div8, button1);
-      append_dev(button1, t17);
-      append_dev(div11, t18);
+      append_dev(button1, t18);
+      append_dev(div11, t19);
       append_dev(div11, div9);
       append_dev(div9, button2);
-      append_dev(button2, t19);
-      append_dev(div11, t20);
+      append_dev(button2, t20);
+      append_dev(div11, t21);
       append_dev(div11, div10);
       append_dev(div10, button3);
-      append_dev(button3, t21);
+      append_dev(button3, t22);
 
       if (!mounted) {
         dispose = [listen_dev(button0, "click",
@@ -11699,45 +11884,49 @@ function create_fragment$5(ctx) {
   var p0;
   var t5;
   var t6;
+  var svg;
+  var g;
+  var circle;
+  var t7;
   var div11;
   var p1;
-  var t7;
   var t8;
+  var t9;
   var p2;
   var span1;
-  var t9;
   var t10;
-  var hr;
   var t11;
+  var hr;
+  var t12;
   var div10;
   var div5;
   var img1;
   var img1_src_value;
-  var t12;
+  var t13;
   var div6;
   var h30;
-  var t13;
   var t14;
-  var h31;
   var t15;
+  var h31;
   var t16;
-  var div7;
   var t17;
-  var div8;
+  var div7;
   var t18;
+  var div8;
+  var t19;
   var div9;
   var a;
   var span2;
-  var t19;
   var t20;
+  var t21;
   var div14;
   var div13;
   var div12;
   var img2;
   var img2_src_value;
-  var t21;
-  var h2;
   var t22;
+  var h2;
+  var t23;
   var block = {
     c: function create() {
       section = element("section");
@@ -11759,43 +11948,47 @@ function create_fragment$5(ctx) {
       p0 = element("p");
       t5 = text("dos");
       t6 = space();
+      svg = svg_element("svg");
+      g = svg_element("g");
+      circle = svg_element("circle");
+      t7 = space();
       div11 = element("div");
       p1 = element("p");
-      t7 = text("RTA/");
-      t8 = space();
+      t8 = text("RTA/");
+      t9 = space();
       p2 = element("p");
       span1 = element("span");
-      t9 = text(" \n                    La desinformación tiene un efecto negativo en cómo nos relacionamos con los otros, cómo entendemos nuestra realidad e incluso llevarnos a discriminar, maltratar y ejercer actitudes violentas frente a otros.");
-      t10 = space();
-      hr = element("hr");
+      t10 = text(" \n                    La desinformación tiene un efecto negativo en cómo nos relacionamos con los otros, cómo entendemos nuestra realidad e incluso llevarnos a discriminar, maltratar y ejercer actitudes violentas frente a otros.");
       t11 = space();
+      hr = element("hr");
+      t12 = space();
       div10 = element("div");
       div5 = element("div");
       img1 = element("img");
-      t12 = space();
+      t13 = space();
       div6 = element("div");
       h30 = element("h3");
-      t13 = text("capitulo 8");
-      t14 = space();
+      t14 = text("capitulo 8");
+      t15 = space();
       h31 = element("h3");
-      t15 = text("INFORMACIÓN Y DESINFORMACIÓN EN REDES: NO TODO LO QUE SE VIRALIZA ES VERDADERO");
-      t16 = space();
-      div7 = element("div");
+      t16 = text("INFORMACIÓN Y DESINFORMACIÓN EN REDES: NO TODO LO QUE SE VIRALIZA ES VERDADERO");
       t17 = space();
-      div8 = element("div");
+      div7 = element("div");
       t18 = space();
+      div8 = element("div");
+      t19 = space();
       div9 = element("div");
       a = element("a");
       span2 = element("span");
-      t19 = text("Ver más y descargar");
-      t20 = space();
+      t20 = text("Ver más y descargar");
+      t21 = space();
       div14 = element("div");
       div13 = element("div");
       div12 = element("div");
       img2 = element("img");
-      t21 = space();
+      t22 = space();
       h2 = element("h2");
-      t22 = text("Por eso es necesario que cada uno de nosotros aprenda por qué caemos en las noticias falsas y la desinformación.");
+      t23 = text("Por eso es necesario que cada uno de nosotros aprenda por qué caemos en las noticias falsas y la desinformación.");
       this.h();
     },
     l: function claim(nodes) {
@@ -11859,10 +12052,29 @@ function create_fragment$5(ctx) {
       var p0_nodes = children(p0);
       t5 = claim_text(p0_nodes, "dos");
       p0_nodes.forEach(detach_dev);
+      t6 = claim_space(div2_nodes);
+      svg = claim_element(div2_nodes, "svg", {
+        x: true,
+        y: true,
+        viewBox: true,
+        class: true
+      }, 1);
+      var svg_nodes = children(svg);
+      g = claim_element(svg_nodes, "g", {}, 1);
+      var g_nodes = children(g);
+      circle = claim_element(g_nodes, "circle", {
+        fill: true,
+        cx: true,
+        cy: true,
+        r: true
+      }, 1);
+      children(circle).forEach(detach_dev);
+      g_nodes.forEach(detach_dev);
+      svg_nodes.forEach(detach_dev);
       div2_nodes.forEach(detach_dev);
       div3_nodes.forEach(detach_dev);
       div4_nodes.forEach(detach_dev);
-      t6 = claim_space(div15_nodes);
+      t7 = claim_space(div15_nodes);
       div11 = claim_element(div15_nodes, "DIV", {
         class: true
       });
@@ -11871,9 +12083,9 @@ function create_fragment$5(ctx) {
         class: true
       });
       var p1_nodes = children(p1);
-      t7 = claim_text(p1_nodes, "RTA/");
+      t8 = claim_text(p1_nodes, "RTA/");
       p1_nodes.forEach(detach_dev);
-      t8 = claim_space(div11_nodes);
+      t9 = claim_space(div11_nodes);
       p2 = claim_element(div11_nodes, "P", {
         class: true
       });
@@ -11882,13 +12094,13 @@ function create_fragment$5(ctx) {
         class: true
       });
       children(span1).forEach(detach_dev);
-      t9 = claim_text(p2_nodes, " \n                    La desinformación tiene un efecto negativo en cómo nos relacionamos con los otros, cómo entendemos nuestra realidad e incluso llevarnos a discriminar, maltratar y ejercer actitudes violentas frente a otros.");
+      t10 = claim_text(p2_nodes, " \n                    La desinformación tiene un efecto negativo en cómo nos relacionamos con los otros, cómo entendemos nuestra realidad e incluso llevarnos a discriminar, maltratar y ejercer actitudes violentas frente a otros.");
       p2_nodes.forEach(detach_dev);
-      t10 = claim_space(div11_nodes);
+      t11 = claim_space(div11_nodes);
       hr = claim_element(div11_nodes, "HR", {
         class: true
       });
-      t11 = claim_space(div11_nodes);
+      t12 = claim_space(div11_nodes);
       div10 = claim_element(div11_nodes, "DIV", {
         class: true
       });
@@ -11903,7 +12115,7 @@ function create_fragment$5(ctx) {
         class: true
       });
       div5_nodes.forEach(detach_dev);
-      t12 = claim_space(div10_nodes);
+      t13 = claim_space(div10_nodes);
       div6 = claim_element(div10_nodes, "DIV", {
         class: true
       });
@@ -11912,27 +12124,27 @@ function create_fragment$5(ctx) {
         class: true
       });
       var h30_nodes = children(h30);
-      t13 = claim_text(h30_nodes, "capitulo 8");
+      t14 = claim_text(h30_nodes, "capitulo 8");
       h30_nodes.forEach(detach_dev);
-      t14 = claim_space(div6_nodes);
+      t15 = claim_space(div6_nodes);
       h31 = claim_element(div6_nodes, "H3", {
         class: true
       });
       var h31_nodes = children(h31);
-      t15 = claim_text(h31_nodes, "INFORMACIÓN Y DESINFORMACIÓN EN REDES: NO TODO LO QUE SE VIRALIZA ES VERDADERO");
+      t16 = claim_text(h31_nodes, "INFORMACIÓN Y DESINFORMACIÓN EN REDES: NO TODO LO QUE SE VIRALIZA ES VERDADERO");
       h31_nodes.forEach(detach_dev);
       div6_nodes.forEach(detach_dev);
-      t16 = claim_space(div10_nodes);
+      t17 = claim_space(div10_nodes);
       div7 = claim_element(div10_nodes, "DIV", {
         class: true
       });
       children(div7).forEach(detach_dev);
-      t17 = claim_space(div10_nodes);
+      t18 = claim_space(div10_nodes);
       div8 = claim_element(div10_nodes, "DIV", {
         class: true
       });
       children(div8).forEach(detach_dev);
-      t18 = claim_space(div10_nodes);
+      t19 = claim_space(div10_nodes);
       div9 = claim_element(div10_nodes, "DIV", {
         class: true
       });
@@ -11947,13 +12159,13 @@ function create_fragment$5(ctx) {
         class: true
       });
       var span2_nodes = children(span2);
-      t19 = claim_text(span2_nodes, "Ver más y descargar");
+      t20 = claim_text(span2_nodes, "Ver más y descargar");
       span2_nodes.forEach(detach_dev);
       a_nodes.forEach(detach_dev);
       div9_nodes.forEach(detach_dev);
       div10_nodes.forEach(detach_dev);
       div11_nodes.forEach(detach_dev);
-      t20 = claim_space(div15_nodes);
+      t21 = claim_space(div15_nodes);
       div14 = claim_element(div15_nodes, "DIV", {
         class: true
       });
@@ -11971,12 +12183,12 @@ function create_fragment$5(ctx) {
         alt: true,
         class: true
       });
-      t21 = claim_space(div12_nodes);
+      t22 = claim_space(div12_nodes);
       h2 = claim_element(div12_nodes, "H2", {
         class: true
       });
       var h2_nodes = children(h2);
-      t22 = claim_text(h2_nodes, "Por eso es necesario que cada uno de nosotros aprenda por qué caemos en las noticias falsas y la desinformación.");
+      t23 = claim_text(h2_nodes, "Por eso es necesario que cada uno de nosotros aprenda por qué caemos en las noticias falsas y la desinformación.");
       h2_nodes.forEach(detach_dev);
       div12_nodes.forEach(detach_dev);
       div13_nodes.forEach(detach_dev);
@@ -11990,77 +12202,88 @@ function create_fragment$5(ctx) {
       if (img0.src !== (img0_src_value = "RUTA-17.svg")) attr_dev(img0, "src", img0_src_value);
       attr_dev(img0, "alt", "Ícono de cambio");
       attr_dev(img0, "class", "w-2/2 h-20  ");
-      add_location(img0, file$5, 68, 24, 1862);
+      add_location(img0, file$5, 104, 24, 2262);
       attr_dev(span0, "class", "pl-1 text-4xl text-left fushia-text sm:text-2xl sm:text-center");
-      add_location(span0, file$5, 69, 24, 1953);
+      add_location(span0, file$5, 105, 24, 2353);
       attr_dev(div0, "class", "w-2/5  flex flex-initial order-1  sm:flex-col sm:w-auto sm:flex-grow-0  sm:order-none justify-items-center ");
-      add_location(div0, file$5, 67, 20, 1716);
+      add_location(div0, file$5, 103, 20, 2116);
       attr_dev(h1, "class", "text-4xl verdeClaro-text text-left pl-0 sm:text-left sm:w-4/4 mt-4  sm:pl-4  sm:verdeClaro-text mb-5 mx-0 uppercase leading-none");
-      add_location(h1, file$5, 72, 24, 2171);
-      attr_dev(div1, "class", "flex-1 order-3 sm:order-none  sm:px-4 \t");
-      add_location(div1, file$5, 71, 20, 2093);
-      attr_dev(p0, "class", " text-2xl sm:p-0  justify-items-right text-right fontVacia uppercase circle svelte-olilu5");
-      add_location(p0, file$5, 78, 24, 2635);
-      attr_dev(div2, "class", "w-auto  sm:order-last p-4 order-2 circle\t svelte-olilu5");
-      add_location(div2, file$5, 77, 20, 2555);
+      add_location(h1, file$5, 108, 24, 2582);
+      attr_dev(div1, "class", "flex-1 order-3 sm:order-none  sm:px-4 sm-flex-100\t svelte-1y1vqjq");
+      add_location(div1, file$5, 107, 20, 2493);
+      attr_dev(p0, "class", " text-2xl sm:p-0  justify-items-right text-right fontVacia uppercase circle svelte-1y1vqjq");
+      add_location(p0, file$5, 114, 24, 3056);
+      attr_dev(circle, "fill", "#8AE5EE");
+      attr_dev(circle, "cx", "46.71");
+      attr_dev(circle, "cy", "47.57");
+      attr_dev(circle, "r", "45.5");
+      add_location(circle, file$5, 119, 32, 3335);
+      add_location(g, file$5, 118, 28, 3299);
+      attr_dev(svg, "x", "0px");
+      attr_dev(svg, "y", "0px");
+      attr_dev(svg, "viewBox", "0 0 95 93");
+      attr_dev(svg, "class", "svelte-1y1vqjq");
+      add_location(svg, file$5, 117, 24, 3229);
+      attr_dev(div2, "class", "w-auto  sm:order-last p-4 order-2 circle title-svg\t svelte-1y1vqjq");
+      add_location(div2, file$5, 113, 20, 2966);
       attr_dev(div3, "class", "flex flex-wrap justify-between sm:flex   \t ");
-      add_location(div3, file$5, 66, 16, 1638);
+      add_location(div3, file$5, 102, 16, 2038);
       attr_dev(div4, "class", "col-span-1 sm:col-span-4");
-      add_location(div4, file$5, 65, 12, 1583);
-      attr_dev(p1, "class", "fontVacia text-xs svelte-olilu5");
-      add_location(p1, file$5, 88, 16, 2957);
+      add_location(div4, file$5, 101, 12, 1983);
+      attr_dev(p1, "class", "fontVacia text-xs svelte-1y1vqjq");
+      add_location(p1, file$5, 128, 16, 3619);
       attr_dev(span1, "class", "fushia-text");
-      add_location(span1, file$5, 90, 20, 3069);
+      add_location(span1, file$5, 130, 20, 3731);
       attr_dev(p2, "class", "font-sans text-white mb-5");
-      add_location(p2, file$5, 89, 16, 3011);
-      attr_dev(hr, "class", "svelte-olilu5");
-      add_location(hr, file$5, 93, 16, 3372);
+      add_location(p2, file$5, 129, 16, 3673);
+      attr_dev(hr, "class", "svelte-1y1vqjq");
+      add_location(hr, file$5, 133, 16, 4034);
       if (img1.src !== (img1_src_value = "/icons/icon-document.png")) attr_dev(img1, "src", img1_src_value);
       attr_dev(img1, "alt", "Ícono de cambio");
       attr_dev(img1, "class", "w-16 p-0 m-0");
-      add_location(img1, file$5, 98, 24, 3532);
+      add_location(img1, file$5, 138, 24, 4194);
       attr_dev(div5, "class", "w-1/5 ");
-      add_location(div5, file$5, 97, 20, 3487);
+      add_location(div5, file$5, 137, 20, 4149);
       attr_dev(h30, "class", "fushia-text uppercase");
-      add_location(h30, file$5, 101, 24, 3712);
+      add_location(h30, file$5, 141, 24, 4374);
       attr_dev(h31, "class", " verdeClaro-text mb-5 uppercase leading-none");
-      add_location(h31, file$5, 105, 24, 3845);
+      add_location(h31, file$5, 145, 24, 4507);
       attr_dev(div6, "class", "w-3/5 sm:w-3/5");
-      add_location(div6, file$5, 100, 20, 3659);
+      add_location(div6, file$5, 140, 20, 4321);
       attr_dev(div7, "class", "w-1/5 sm:w-1/5");
-      add_location(div7, file$5, 109, 20, 4091);
+      add_location(div7, file$5, 149, 20, 4753);
       attr_dev(div8, "class", "w-1/5 sm:w-1/5");
-      add_location(div8, file$5, 110, 20, 4146);
+      add_location(div8, file$5, 150, 20, 4808);
       attr_dev(span2, "class", " text-xl sm:text-1xl  sm:w-18 fushia-bg px-2 sm:px-18 py-3 text-white uppercase    ");
-      add_location(span2, file$5, 114, 34, 4339);
+      add_location(span2, file$5, 154, 34, 5001);
       attr_dev(a, "href", "/documents/CAPÍTULO_8_C&M.pdf");
       attr_dev(a, "download", "");
       attr_dev(a, "class", "");
-      add_location(a, file$5, 113, 24, 4256);
+      add_location(a, file$5, 153, 24, 4918);
       attr_dev(div9, "class", "w-3/5 sm:w-4/5 ");
-      add_location(div9, file$5, 112, 20, 4202);
+      add_location(div9, file$5, 152, 20, 4864);
       attr_dev(div10, "class", " container flex flex-wrap  pt-4 spac-x-0");
-      add_location(div10, file$5, 96, 16, 3412);
+      add_location(div10, file$5, 136, 16, 4074);
       attr_dev(div11, "class", "sm:col-span-2 my-auto  ");
-      add_location(div11, file$5, 86, 12, 2887);
+      add_location(div11, file$5, 126, 12, 3549);
       if (img2.src !== (img2_src_value = "comentarioscorazon16.svg")) attr_dev(img2, "src", img2_src_value);
       attr_dev(img2, "alt", "Ícono de cambio");
-      attr_dev(img2, "class", "contImg mb-8 mr-3 mt-4 svelte-olilu5");
-      add_location(img2, file$5, 123, 24, 4779);
+      attr_dev(img2, "class", "contImg mb-8 mr-3 mt-4 svelte-1y1vqjq");
+      add_location(img2, file$5, 163, 24, 5441);
       attr_dev(h2, "class", "pl-10  mb-3 mr-8 fushia-text text-2xl");
-      add_location(h2, file$5, 124, 24, 4893);
+      add_location(h2, file$5, 164, 24, 5555);
       attr_dev(div12, "class", "flex-row");
-      add_location(div12, file$5, 122, 20, 4732);
+      add_location(div12, file$5, 162, 20, 5394);
       attr_dev(div13, "class", "flex items-start mb-5");
-      add_location(div13, file$5, 120, 16, 4655);
+      add_location(div13, file$5, 160, 16, 5317);
       attr_dev(div14, "class", "sm:col-span-2 text-white flex flex-col max-h-434px");
-      add_location(div14, file$5, 119, 12, 4574);
+      add_location(div14, file$5, 159, 12, 5236);
       attr_dev(div15, "class", "flex flex-wrap sm:grid sm:grid-cols-4  gap-8 mb-10 mt-14");
-      add_location(div15, file$5, 63, 8, 1420);
+      add_location(div15, file$5, 99, 8, 1820);
       attr_dev(article, "class", "container sm:h-full mx-auto py-10 px-2 sm:p-10 ");
-      add_location(article, file$5, 62, 4, 1346);
+      add_location(article, file$5, 98, 4, 1746);
       attr_dev(section, "class", "pedagogias-digitales-section bg-gris     ");
-      add_location(section, file$5, 61, 0, 1282);
+      add_location(section, file$5, 97, 0, 1682);
     },
     m: function mount(target, anchor) {
       insert_dev(target, section, anchor);
@@ -12081,44 +12304,48 @@ function create_fragment$5(ctx) {
       append_dev(div3, div2);
       append_dev(div2, p0);
       append_dev(p0, t5);
-      append_dev(div15, t6);
+      append_dev(div2, t6);
+      append_dev(div2, svg);
+      append_dev(svg, g);
+      append_dev(g, circle);
+      append_dev(div15, t7);
       append_dev(div15, div11);
       append_dev(div11, p1);
-      append_dev(p1, t7);
-      append_dev(div11, t8);
+      append_dev(p1, t8);
+      append_dev(div11, t9);
       append_dev(div11, p2);
       append_dev(p2, span1);
-      append_dev(p2, t9);
-      append_dev(div11, t10);
-      append_dev(div11, hr);
+      append_dev(p2, t10);
       append_dev(div11, t11);
+      append_dev(div11, hr);
+      append_dev(div11, t12);
       append_dev(div11, div10);
       append_dev(div10, div5);
       append_dev(div5, img1);
-      append_dev(div10, t12);
+      append_dev(div10, t13);
       append_dev(div10, div6);
       append_dev(div6, h30);
-      append_dev(h30, t13);
-      append_dev(div6, t14);
+      append_dev(h30, t14);
+      append_dev(div6, t15);
       append_dev(div6, h31);
-      append_dev(h31, t15);
-      append_dev(div10, t16);
-      append_dev(div10, div7);
+      append_dev(h31, t16);
       append_dev(div10, t17);
-      append_dev(div10, div8);
+      append_dev(div10, div7);
       append_dev(div10, t18);
+      append_dev(div10, div8);
+      append_dev(div10, t19);
       append_dev(div10, div9);
       append_dev(div9, a);
       append_dev(a, span2);
-      append_dev(span2, t19);
-      append_dev(div15, t20);
+      append_dev(span2, t20);
+      append_dev(div15, t21);
       append_dev(div15, div14);
       append_dev(div14, div13);
       append_dev(div13, div12);
       append_dev(div12, img2);
-      append_dev(div12, t21);
+      append_dev(div12, t22);
       append_dev(div12, h2);
-      append_dev(h2, t22);
+      append_dev(h2, t23);
     },
     p: noop,
     i: noop,
