@@ -74,6 +74,26 @@
         height: 1px;
         width: 50%;
     }
+    @media(max-width: 640px) {
+        .empatia-button {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .click-sesgo {
+            margin-top: 20px;
+        }
+    }
+     .title-svg {
+        position: relative;
+    }
+    .title-svg svg {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 12px;
+        right: 5px;
+        opacity: 0.8;
+    }
 </style>
 
 
@@ -94,10 +114,15 @@
                             ¿Cuáles sesgos te hacen vulnerables frente a la desinformación?
                         </h1>
                     </div>
-                    <div class="w-auto  sm:order-last p-4 order-2 circle	">
+                    <div class="w-auto  sm:order-last p-4 order-2 circle	title-svg">
                         <p class=" text-2xl sm:p-0  justify-items-right text-right fontVacia uppercase circle">
                             quinto
                         </p>
+                        <svg x="0px" y="0px" viewBox="0 0 95 93">
+                            <g>
+                                <circle fill="#8AE5EE" cx="46.71" cy="47.57" r="45.5"/>
+                            </g>
+                        </svg>
         
                     </div>
             
@@ -147,13 +172,13 @@
                     <div class="w-1/5"></div>
                     <div class="w-1/5"></div> -->
                     
-                    <button type="button" class="text-2xl ml-14  sm:ml-0 h-10 sm:w-18 fushia-bg px-20  text-white uppercase    "  on:click={showEmpatia}>empatia</button>
+                    <button type="button" class="text-2xl ml-14  sm:ml-0 h-10 sm:w-18 fushia-bg px-20  text-white uppercase empatia-button   "  on:click={showEmpatia}>empatia</button>
 
                 </div>
             </div>
 
             <div class="sm:col-span- mx-auto text-white flex flex-col gap-3 sm:gap-10 max-h-434px">
-                <div class=" mx-auto sm:mx-0 h-1  flex items-start mb-5">
+                <div class=" mx-auto sm:mx-0 h-1  flex items-start mb-5 click-sesgo">
                     click en el sesgo
                 </div>
                 <!-- <div class="visible sm:invisible sm:h-0 sm:w-1 flex text-white ml-20 pl-4 sm:ml-0 sm:pl-0  mb-5 leading-none ">
