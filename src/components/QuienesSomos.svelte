@@ -41,7 +41,7 @@
                 </div>
             </div>
         
-            <div id="quienes-somos-plataforma" class=" ">
+            <div id="quienes-somos-extituto" class=" ">
         
                 <h2 class="fushia-text pb-3"><span class=" fushia-bg text-black px-8">Extituto de política abierta</span> </h2>
                 <div class="font-sans text-left">
@@ -63,8 +63,24 @@
                 </div>
             </div>
            
-            
-           
+            <div id="quienes-somos-plataforma" class=" mb-10">
+        
+                <h2 class="fushia-text pb-3"><span class=" fushia-bg text-black px-8">PLATAFORMA DEMOCRÁTICA</span></h2>
+                <div class="font-sans text-left">
+                    <p class="pb-3 "><b>Creada en 2007 por la Fundación Fernando Henrique Cardoso y el Centro Edelstein de Investigaciones Sociales, con el objetivo de fortalecer la cultura y las instituciones democráticas en Brasil y América Latina.</b></p>
+                    <p class="pb-3 "><b>Desarrollamos nuestro trabajo a través de investigaciones, publicaciones y seminarios sobre las transformaciones de la sociedad y la política en la región y en el sistema internacional, con un enfoque en los desafíos para la convivencia y la gobernabilidad democrática.</b></p>
+                    <p class="pb-6"><b>También desarrollamos proyectos aplicados que promueven el aprendizaje democrático de la ciudadanía, particularmente en el espacio público virtual, fomentando una cultura cívica que valora la argumentación y el pluralismo de puntos de vista.</b></p>
+                </div>
+                
+            </div>
+            <div class="  flex flex-wrap sm:grid sm:grid-cols-2 justify-items-stretch">
+                <div class="text-2xl flex justify-self-start celeste-bg mt-3 mb-6 h-8 ">
+                </div>
+                <div class="p-4 mx-auto justify-self-end">
+                    <a href="http://www.plataformademocratica.org/espanol/ " target="_blank "
+                    class="py-2 px-2 border w-100 text-center border-gray-800 border-solid rounded-md uppercase mb-3" >web plataforma democrática</a>
+                </div>
+            </div>
         </div>
 
         
