@@ -18,6 +18,8 @@ import Nocomocuento from '../components/nocomocuento.svelte';
   	gtag('js', new Date());
   	gtag('config', 'G-LJWHDC5L57');
 	})
+	import { GoogleAnalytics } from '@beyonk/svelte-google-analytics'
+
 </script>
 <svelte:head>
 	<title>Corazones Y Mentes</title>
@@ -25,6 +27,8 @@ import Nocomocuento from '../components/nocomocuento.svelte';
 	<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-LJWHDC5L57"></script>
 </svelte:head>
+
+<GoogleAnalytics properties={[ 'UA-215403556-1']} />
 
 <!-- <HeroSlider/> -->
 <Home></Home>

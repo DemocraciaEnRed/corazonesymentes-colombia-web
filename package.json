@@ -34,6 +34,7 @@
     "@babel/preset-env": "^7.13.10",
     "@babel/runtime": "^7.13.10",
     "@beyonk/svelte-carousel": "^2.8.0",
+    "@beyonk/svelte-google-analytics": "^2.2.0",
     "@rollup/plugin-babel": "^5.0.0",
     "@rollup/plugin-commonjs": "^17.1.0",
     "@rollup/plugin-node-resolve": "^11.2.0",
