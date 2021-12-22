@@ -1,4 +1,4 @@
-import { S as SvelteComponentDev, a as SvelteComponentTyped, b as afterUpdate, c as beforeUpdate, d as createEventDispatcher, g as getContext, h as hasContext, o as onDestroy, e as onMount, s as setContext, t as tick, i as identity, _ as _inherits, f as _getPrototypeOf, j as _possibleConstructorReturn, k as _classCallCheck, l as init, m as safe_not_equal, n as _assertThisInitialized, p as dispatch_dev, v as validate_slots, q as element, r as text, u as claim_element, w as children, x as claim_text, y as detach_dev, z as attr_dev, A as add_location, B as insert_dev, C as append_dev, D as listen_dev, E as noop, F as space, G as claim_space, H as _slicedToArray, I as add_render_callback, J as create_bidirectional_transition, K as _createClass, L as set_data_dev, M as validate_each_argument, N as create_component, O as claim_component, P as mount_component, Q as transition_in, R as transition_out, T as destroy_component, U as set_style, V as group_outros, W as check_outros, X as destroy_each, Y as _typeof, Z as globals, $ as assign, a0 as get_spread_update, a1 as get_spread_object, a2 as run_all, a3 as createCommonjsModule, a4 as commonjsGlobal, a5 as getDefaultExportFromCjs, a6 as create_slot, a7 as update_slot, a8 as null_to_empty, a9 as binding_callbacks, aa as svg_element, ab as writable, ac as is_function, ad as empty, ae as validate_store, af as component_subscribe, ag as query_selector_all } from './client.06a9653a.js';
+import { S as SvelteComponentDev, a as SvelteComponentTyped, b as afterUpdate, c as beforeUpdate, d as createEventDispatcher, g as getContext, h as hasContext, o as onDestroy, e as onMount, s as setContext, t as tick, i as identity, _ as _inherits, f as _getPrototypeOf, j as _possibleConstructorReturn, k as _classCallCheck, l as init, m as safe_not_equal, n as _assertThisInitialized, p as dispatch_dev, v as validate_slots, q as element, r as text, u as claim_element, w as children, x as claim_text, y as detach_dev, z as attr_dev, A as add_location, B as insert_dev, C as append_dev, D as listen_dev, E as noop, F as space, G as claim_space, H as _slicedToArray, I as add_render_callback, J as create_bidirectional_transition, K as _createClass, L as set_data_dev, M as validate_each_argument, N as create_component, O as claim_component, P as mount_component, Q as transition_in, R as transition_out, T as destroy_component, U as set_style, V as group_outros, W as check_outros, X as destroy_each, Y as _typeof, Z as globals, $ as assign, a0 as get_spread_update, a1 as get_spread_object, a2 as run_all, a3 as createCommonjsModule, a4 as commonjsGlobal, a5 as getDefaultExportFromCjs, a6 as create_slot, a7 as update_slot, a8 as null_to_empty, a9 as binding_callbacks, aa as svg_element, ab as writable, ac as is_function, ad as empty, ae as validate_store, af as component_subscribe, ag as query_selector_all } from './client.59d8851f.js';
 
 var svelte = /*#__PURE__*/Object.freeze({
     __proto__: null,
@@ -35,9 +35,9 @@ function fade(node) {
   };
 }
 
-function _createSuper$v(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$v(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$u(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$u(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$v() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _isNativeReflectConstruct$u() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 var file$u = "src/components/Todaladata.svelte"; // (51:2) {#if !showAll}
 
 function create_if_block$3(ctx) {
@@ -104,7 +104,7 @@ function create_if_block$3(ctx) {
   return block;
 }
 
-function create_fragment$v(ctx) {
+function create_fragment$u(ctx) {
   var div5;
   var article;
   var div2;
@@ -601,7 +601,7 @@ function create_fragment$v(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$v.name,
+    id: create_fragment$u.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -609,7 +609,7 @@ function create_fragment$v(ctx) {
   return block;
 }
 
-function instance$v($$self, $$props, $$invalidate) {
+function instance$u($$self, $$props, $$invalidate) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -645,7 +645,7 @@ function instance$v($$self, $$props, $$invalidate) {
 var Todaladata = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(Todaladata, _SvelteComponentDev);
 
-  var _super = _createSuper$v(Todaladata);
+  var _super = _createSuper$u(Todaladata);
 
   function Todaladata(options) {
     var _this;
@@ -653,12 +653,12 @@ var Todaladata = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, Todaladata);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$v, create_fragment$v, safe_not_equal, {});
+    init(_assertThisInitialized(_this), options, instance$u, create_fragment$u, safe_not_equal, {});
     dispatch_dev("SvelteRegisterComponent", {
       component: _assertThisInitialized(_this),
       tagName: "Todaladata",
       options: options,
-      id: create_fragment$v.name
+      id: create_fragment$u.name
     });
     return _this;
   }
@@ -666,12 +666,12 @@ var Todaladata = /*#__PURE__*/function (_SvelteComponentDev) {
   return Todaladata;
 }(SvelteComponentDev);
 
-function _createSuper$u(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$u(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$t(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$t(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$u() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _isNativeReflectConstruct$t() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 var file$t = "src/components/DocumentDownload.svelte";
 
-function create_fragment$u(ctx) {
+function create_fragment$t(ctx) {
   var div1;
   var img;
   var img_src_value;
@@ -798,7 +798,7 @@ function create_fragment$u(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$u.name,
+    id: create_fragment$t.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -806,7 +806,7 @@ function create_fragment$u(ctx) {
   return block;
 }
 
-function instance$u($$self, $$props, $$invalidate) {
+function instance$t($$self, $$props, $$invalidate) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -856,7 +856,7 @@ function instance$u($$self, $$props, $$invalidate) {
 var DocumentDownload = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(DocumentDownload, _SvelteComponentDev);
 
-  var _super = _createSuper$u(DocumentDownload);
+  var _super = _createSuper$t(DocumentDownload);
 
   function DocumentDownload(options) {
     var _this;
@@ -864,7 +864,7 @@ var DocumentDownload = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, DocumentDownload);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$u, create_fragment$u, safe_not_equal, {
+    init(_assertThisInitialized(_this), options, instance$t, create_fragment$t, safe_not_equal, {
       chapter: 0,
       title: 1,
       url: 3
@@ -873,7 +873,7 @@ var DocumentDownload = /*#__PURE__*/function (_SvelteComponentDev) {
       component: _assertThisInitialized(_this),
       tagName: "DocumentDownload",
       options: options,
-      id: create_fragment$u.name
+      id: create_fragment$t.name
     });
     var ctx = _this.$$.ctx;
     var props = options.props || {};
@@ -954,9 +954,9 @@ var documents = [{
   url: "/documents/CAPÍTULO_8_C&M.pdf"
 }];
 
-function _createSuper$t(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$t(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$s(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$s(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$t() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _isNativeReflectConstruct$s() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 var file$s = "src/components/Articulo.svelte";
 
 function get_each_context$2(ctx, list, i) {
@@ -1019,7 +1019,7 @@ function create_each_block$2(ctx) {
   return block;
 }
 
-function create_fragment$t(ctx) {
+function create_fragment$s(ctx) {
   var div7;
   var article;
   var div5;
@@ -1349,7 +1349,7 @@ function create_fragment$t(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$t.name,
+    id: create_fragment$s.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -1357,7 +1357,7 @@ function create_fragment$t(ctx) {
   return block;
 }
 
-function instance$t($$self, $$props, $$invalidate) {
+function instance$s($$self, $$props, $$invalidate) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -1380,7 +1380,7 @@ function instance$t($$self, $$props, $$invalidate) {
 var Articulo = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(Articulo, _SvelteComponentDev);
 
-  var _super = _createSuper$t(Articulo);
+  var _super = _createSuper$s(Articulo);
 
   function Articulo(options) {
     var _this;
@@ -1388,12 +1388,12 @@ var Articulo = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, Articulo);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$t, create_fragment$t, safe_not_equal, {});
+    init(_assertThisInitialized(_this), options, instance$s, create_fragment$s, safe_not_equal, {});
     dispatch_dev("SvelteRegisterComponent", {
       component: _assertThisInitialized(_this),
       tagName: "Articulo",
       options: options,
-      id: create_fragment$t.name
+      id: create_fragment$s.name
     });
     return _this;
   }
@@ -1401,12 +1401,12 @@ var Articulo = /*#__PURE__*/function (_SvelteComponentDev) {
   return Articulo;
 }(SvelteComponentDev);
 
-function _createSuper$s(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$s(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$r(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$r(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$s() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _isNativeReflectConstruct$r() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 var file$r = "src/components/ForoDocente.svelte";
 
-function create_fragment$s(ctx) {
+function create_fragment$r(ctx) {
   var div5;
   var article;
   var div2;
@@ -1773,7 +1773,7 @@ function create_fragment$s(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$s.name,
+    id: create_fragment$r.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -1781,7 +1781,7 @@ function create_fragment$s(ctx) {
   return block;
 }
 
-function instance$s($$self, $$props, $$invalidate) {
+function instance$r($$self, $$props, $$invalidate) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -1823,7 +1823,7 @@ function instance$s($$self, $$props, $$invalidate) {
 var ForoDocente = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(ForoDocente, _SvelteComponentDev);
 
-  var _super = _createSuper$s(ForoDocente);
+  var _super = _createSuper$r(ForoDocente);
 
   function ForoDocente(options) {
     var _this;
@@ -1831,12 +1831,12 @@ var ForoDocente = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, ForoDocente);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$s, create_fragment$s, safe_not_equal, {});
+    init(_assertThisInitialized(_this), options, instance$r, create_fragment$r, safe_not_equal, {});
     dispatch_dev("SvelteRegisterComponent", {
       component: _assertThisInitialized(_this),
       tagName: "ForoDocente",
       options: options,
-      id: create_fragment$s.name
+      id: create_fragment$r.name
     });
     return _this;
   }
@@ -3247,9 +3247,9 @@ axios_1.default = _default;
 
 var axios = axios_1;
 
-function _createSuper$r(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$r(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$q(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$q(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$r() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _isNativeReflectConstruct$q() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 var file$q = "src/components/Kit.svelte"; // (58:4) {#if opened}
 
 function create_if_block$2(ctx) {
@@ -3303,7 +3303,7 @@ function create_if_block$2(ctx) {
   return block;
 }
 
-function create_fragment$r(ctx) {
+function create_fragment$q(ctx) {
   var div2;
   var div0;
   var p;
@@ -3565,7 +3565,7 @@ function create_fragment$r(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$r.name,
+    id: create_fragment$q.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -3573,7 +3573,7 @@ function create_fragment$r(ctx) {
   return block;
 }
 
-function instance$r($$self, $$props, $$invalidate) {
+function instance$q($$self, $$props, $$invalidate) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -3662,7 +3662,7 @@ function instance$r($$self, $$props, $$invalidate) {
 var Kit = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(Kit, _SvelteComponentDev);
 
-  var _super = _createSuper$r(Kit);
+  var _super = _createSuper$q(Kit);
 
   function Kit(options) {
     var _this;
@@ -3670,7 +3670,7 @@ var Kit = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, Kit);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$r, create_fragment$r, safe_not_equal, {
+    init(_assertThisInitialized(_this), options, instance$q, create_fragment$q, safe_not_equal, {
       description: 0,
       type: 1,
       title: 2,
@@ -3680,7 +3680,7 @@ var Kit = /*#__PURE__*/function (_SvelteComponentDev) {
       component: _assertThisInitialized(_this),
       tagName: "Kit",
       options: options,
-      id: create_fragment$r.name
+      id: create_fragment$q.name
     });
     var ctx = _this.$$.ctx;
     var props = options.props || {};
@@ -3749,10 +3749,10 @@ var Kit = /*#__PURE__*/function (_SvelteComponentDev) {
   return Kit;
 }(SvelteComponentDev);
 
-function _createSuper$q(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$q(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$p(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$p(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$q() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
-var console_1 = globals.console;
+function _isNativeReflectConstruct$p() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+var console_1$1 = globals.console;
 var file$p = "src/components/KitHerramientas.svelte";
 
 function get_each_context$1(ctx, list, i) {
@@ -3820,7 +3820,7 @@ function create_each_block$1(ctx) {
   return block;
 }
 
-function create_fragment$q(ctx) {
+function create_fragment$p(ctx) {
   var div5;
   var article;
   var div2;
@@ -4240,7 +4240,7 @@ function create_fragment$q(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$q.name,
+    id: create_fragment$p.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -4283,7 +4283,7 @@ function changeFilter(newFilter) {
   }
 }
 
-function instance$q($$self, $$props, $$invalidate) {
+function instance$p($$self, $$props, $$invalidate) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -4313,7 +4313,7 @@ function instance$q($$self, $$props, $$invalidate) {
 
   var writable_props = [];
   Object.keys($$props).forEach(function (key) {
-    if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console_1.warn("<KitHerramientas> was created with unknown prop '".concat(key, "'"));
+    if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console_1$1.warn("<KitHerramientas> was created with unknown prop '".concat(key, "'"));
   });
 
   var click_handler = function click_handler() {
@@ -4369,7 +4369,7 @@ function instance$q($$self, $$props, $$invalidate) {
 var KitHerramientas = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(KitHerramientas, _SvelteComponentDev);
 
-  var _super = _createSuper$q(KitHerramientas);
+  var _super = _createSuper$p(KitHerramientas);
 
   function KitHerramientas(options) {
     var _this;
@@ -4377,12 +4377,12 @@ var KitHerramientas = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, KitHerramientas);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$q, create_fragment$q, safe_not_equal, {});
+    init(_assertThisInitialized(_this), options, instance$p, create_fragment$p, safe_not_equal, {});
     dispatch_dev("SvelteRegisterComponent", {
       component: _assertThisInitialized(_this),
       tagName: "KitHerramientas",
       options: options,
-      id: create_fragment$q.name
+      id: create_fragment$p.name
     });
     return _this;
   }
@@ -4390,12 +4390,12 @@ var KitHerramientas = /*#__PURE__*/function (_SvelteComponentDev) {
   return KitHerramientas;
 }(SvelteComponentDev);
 
-function _createSuper$p(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$p(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$o(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$o(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$p() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _isNativeReflectConstruct$o() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 var file$o = "src/components/QuienesSomos.svelte";
 
-function create_fragment$p(ctx) {
+function create_fragment$o(ctx) {
   var section;
   var div20;
   var div2;
@@ -5164,7 +5164,7 @@ function create_fragment$p(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$p.name,
+    id: create_fragment$o.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -5172,7 +5172,7 @@ function create_fragment$p(ctx) {
   return block;
 }
 
-function instance$p($$self, $$props) {
+function instance$o($$self, $$props) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -5187,7 +5187,7 @@ function instance$p($$self, $$props) {
 var QuienesSomos = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(QuienesSomos, _SvelteComponentDev);
 
-  var _super = _createSuper$p(QuienesSomos);
+  var _super = _createSuper$o(QuienesSomos);
 
   function QuienesSomos(options) {
     var _this;
@@ -5195,12 +5195,12 @@ var QuienesSomos = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, QuienesSomos);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$p, create_fragment$p, safe_not_equal, {});
+    init(_assertThisInitialized(_this), options, instance$o, create_fragment$o, safe_not_equal, {});
     dispatch_dev("SvelteRegisterComponent", {
       component: _assertThisInitialized(_this),
       tagName: "QuienesSomos",
       options: options,
-      id: create_fragment$p.name
+      id: create_fragment$o.name
     });
     return _this;
   }
@@ -5208,12 +5208,12 @@ var QuienesSomos = /*#__PURE__*/function (_SvelteComponentDev) {
   return QuienesSomos;
 }(SvelteComponentDev);
 
-function _createSuper$o(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$o(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$n(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$n(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$o() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _isNativeReflectConstruct$n() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 var file$n = "src/components/Footer.svelte";
 
-function create_fragment$o(ctx) {
+function create_fragment$n(ctx) {
   var footer;
   var div3;
   var img0;
@@ -5547,7 +5547,7 @@ function create_fragment$o(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$o.name,
+    id: create_fragment$n.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -5555,7 +5555,7 @@ function create_fragment$o(ctx) {
   return block;
 }
 
-function instance$o($$self, $$props) {
+function instance$n($$self, $$props) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -5570,7 +5570,7 @@ function instance$o($$self, $$props) {
 var Footer = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(Footer, _SvelteComponentDev);
 
-  var _super = _createSuper$o(Footer);
+  var _super = _createSuper$n(Footer);
 
   function Footer(options) {
     var _this;
@@ -5578,12 +5578,12 @@ var Footer = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, Footer);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$o, create_fragment$o, safe_not_equal, {});
+    init(_assertThisInitialized(_this), options, instance$n, create_fragment$n, safe_not_equal, {});
     dispatch_dev("SvelteRegisterComponent", {
       component: _assertThisInitialized(_this),
       tagName: "Footer",
       options: options,
-      id: create_fragment$o.name
+      id: create_fragment$n.name
     });
     return _this;
   }
@@ -5591,12 +5591,12 @@ var Footer = /*#__PURE__*/function (_SvelteComponentDev) {
   return Footer;
 }(SvelteComponentDev);
 
-function _createSuper$n(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$n(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$m(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$m(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$n() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _isNativeReflectConstruct$m() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 var file$m = "src/components/Home.svelte";
 
-function create_fragment$n(ctx) {
+function create_fragment$m(ctx) {
   var div3;
   var article;
   var img;
@@ -5771,7 +5771,7 @@ function create_fragment$n(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$n.name,
+    id: create_fragment$m.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -5779,7 +5779,7 @@ function create_fragment$n(ctx) {
   return block;
 }
 
-function instance$n($$self, $$props) {
+function instance$m($$self, $$props) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -5794,7 +5794,7 @@ function instance$n($$self, $$props) {
 var Home = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(Home, _SvelteComponentDev);
 
-  var _super = _createSuper$n(Home);
+  var _super = _createSuper$m(Home);
 
   function Home(options) {
     var _this;
@@ -5802,12 +5802,12 @@ var Home = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, Home);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$n, create_fragment$n, safe_not_equal, {});
+    init(_assertThisInitialized(_this), options, instance$m, create_fragment$m, safe_not_equal, {});
     dispatch_dev("SvelteRegisterComponent", {
       component: _assertThisInitialized(_this),
       tagName: "Home",
       options: options,
-      id: create_fragment$n.name
+      id: create_fragment$m.name
     });
     return _this;
   }
@@ -6183,9 +6183,9 @@ var siema_min = createCommonjsModule(function (module, exports) {
 });
 var Siema = /*@__PURE__*/getDefaultExportFromCjs(siema_min);
 
-function _createSuper$m(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$m(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$l(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$l(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$m() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _isNativeReflectConstruct$l() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 var file$l = "node_modules/@beyonk/svelte-carousel/src/Carousel.svelte";
 
 function get_each_context(ctx, list, i) {
@@ -6518,7 +6518,7 @@ function create_each_block(ctx) {
   return block;
 }
 
-function create_fragment$m(ctx) {
+function create_fragment$l(ctx) {
   var div1;
   var div0;
   var t0;
@@ -6662,7 +6662,7 @@ function create_fragment$m(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$m.name,
+    id: create_fragment$l.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -6670,7 +6670,7 @@ function create_fragment$m(ctx) {
   return block;
 }
 
-function instance$m($$self, $$props, $$invalidate) {
+function instance$l($$self, $$props, $$invalidate) {
   var pips;
   var currentPerPage;
   var totalDots;
@@ -6886,7 +6886,7 @@ function instance$m($$self, $$props, $$invalidate) {
 var Carousel = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(Carousel, _SvelteComponentDev);
 
-  var _super = _createSuper$m(Carousel);
+  var _super = _createSuper$l(Carousel);
 
   function Carousel(options) {
     var _this;
@@ -6894,7 +6894,7 @@ var Carousel = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, Carousel);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$m, create_fragment$m, safe_not_equal, {
+    init(_assertThisInitialized(_this), options, instance$l, create_fragment$l, safe_not_equal, {
       perPage: 10,
       loop: 11,
       autoplay: 12,
@@ -6918,7 +6918,7 @@ var Carousel = /*#__PURE__*/function (_SvelteComponentDev) {
       component: _assertThisInitialized(_this),
       tagName: "Carousel",
       options: options,
-      id: create_fragment$m.name
+      id: create_fragment$l.name
     });
     return _this;
   }
@@ -7072,12 +7072,12 @@ var Carousel = /*#__PURE__*/function (_SvelteComponentDev) {
   return Carousel;
 }(SvelteComponentDev);
 
-function _createSuper$l(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$l(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$k(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$k(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$l() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _isNativeReflectConstruct$k() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 var file$k = "src/components/SosDocenteHero.svelte";
 
-function create_fragment$l(ctx) {
+function create_fragment$k(ctx) {
   var div4;
   var article;
   var img;
@@ -7269,7 +7269,7 @@ function create_fragment$l(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$l.name,
+    id: create_fragment$k.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -7277,7 +7277,7 @@ function create_fragment$l(ctx) {
   return block;
 }
 
-function instance$l($$self, $$props) {
+function instance$k($$self, $$props) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -7292,7 +7292,7 @@ function instance$l($$self, $$props) {
 var SosDocenteHero = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(SosDocenteHero, _SvelteComponentDev);
 
-  var _super = _createSuper$l(SosDocenteHero);
+  var _super = _createSuper$k(SosDocenteHero);
 
   function SosDocenteHero(options) {
     var _this;
@@ -7300,12 +7300,12 @@ var SosDocenteHero = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, SosDocenteHero);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$l, create_fragment$l, safe_not_equal, {});
+    init(_assertThisInitialized(_this), options, instance$k, create_fragment$k, safe_not_equal, {});
     dispatch_dev("SvelteRegisterComponent", {
       component: _assertThisInitialized(_this),
       tagName: "SosDocenteHero",
       options: options,
-      id: create_fragment$l.name
+      id: create_fragment$k.name
     });
     return _this;
   }
@@ -7313,12 +7313,12 @@ var SosDocenteHero = /*#__PURE__*/function (_SvelteComponentDev) {
   return SosDocenteHero;
 }(SvelteComponentDev);
 
-function _createSuper$k(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$k(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$j(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$j(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$k() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _isNativeReflectConstruct$j() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 var file$j = "src/components/Banner.svelte";
 
-function create_fragment$k(ctx) {
+function create_fragment$j(ctx) {
   var div;
   var img0;
   var img0_src_value;
@@ -7418,7 +7418,7 @@ function create_fragment$k(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$k.name,
+    id: create_fragment$j.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -7426,7 +7426,7 @@ function create_fragment$k(ctx) {
   return block;
 }
 
-function instance$k($$self, $$props) {
+function instance$j($$self, $$props) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -7441,7 +7441,7 @@ function instance$k($$self, $$props) {
 var Banner = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(Banner, _SvelteComponentDev);
 
-  var _super = _createSuper$k(Banner);
+  var _super = _createSuper$j(Banner);
 
   function Banner(options) {
     var _this;
@@ -7449,12 +7449,12 @@ var Banner = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, Banner);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$k, create_fragment$k, safe_not_equal, {});
+    init(_assertThisInitialized(_this), options, instance$j, create_fragment$j, safe_not_equal, {});
     dispatch_dev("SvelteRegisterComponent", {
       component: _assertThisInitialized(_this),
       tagName: "Banner",
       options: options,
-      id: create_fragment$k.name
+      id: create_fragment$j.name
     });
     return _this;
   }
@@ -7462,12 +7462,12 @@ var Banner = /*#__PURE__*/function (_SvelteComponentDev) {
   return Banner;
 }(SvelteComponentDev);
 
-function _createSuper$j(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$j(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$i(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$i(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$j() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _isNativeReflectConstruct$i() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 var file$i = "node_modules/svelte-feather-icons/src/icons/ChevronLeftIcon.svelte";
 
-function create_fragment$j(ctx) {
+function create_fragment$i(ctx) {
   var svg;
   var polyline;
   var svg_class_value;
@@ -7569,7 +7569,7 @@ function create_fragment$j(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$j.name,
+    id: create_fragment$i.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -7577,7 +7577,7 @@ function create_fragment$j(ctx) {
   return block;
 }
 
-function instance$j($$self, $$props, $$invalidate) {
+function instance$i($$self, $$props, $$invalidate) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -7628,7 +7628,7 @@ function instance$j($$self, $$props, $$invalidate) {
 var ChevronLeftIcon = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(ChevronLeftIcon, _SvelteComponentDev);
 
-  var _super = _createSuper$j(ChevronLeftIcon);
+  var _super = _createSuper$i(ChevronLeftIcon);
 
   function ChevronLeftIcon(options) {
     var _this;
@@ -7636,7 +7636,7 @@ var ChevronLeftIcon = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, ChevronLeftIcon);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$j, create_fragment$j, safe_not_equal, {
+    init(_assertThisInitialized(_this), options, instance$i, create_fragment$i, safe_not_equal, {
       size: 0,
       strokeWidth: 1,
       class: 2
@@ -7645,7 +7645,7 @@ var ChevronLeftIcon = /*#__PURE__*/function (_SvelteComponentDev) {
       component: _assertThisInitialized(_this),
       tagName: "ChevronLeftIcon",
       options: options,
-      id: create_fragment$j.name
+      id: create_fragment$i.name
     });
     return _this;
   }
@@ -7679,12 +7679,12 @@ var ChevronLeftIcon = /*#__PURE__*/function (_SvelteComponentDev) {
   return ChevronLeftIcon;
 }(SvelteComponentDev);
 
-function _createSuper$i(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$i(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$h(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$h(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$i() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _isNativeReflectConstruct$h() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 var file$h = "node_modules/svelte-feather-icons/src/icons/ChevronRightIcon.svelte";
 
-function create_fragment$i(ctx) {
+function create_fragment$h(ctx) {
   var svg;
   var polyline;
   var svg_class_value;
@@ -7786,7 +7786,7 @@ function create_fragment$i(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$i.name,
+    id: create_fragment$h.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -7794,7 +7794,7 @@ function create_fragment$i(ctx) {
   return block;
 }
 
-function instance$i($$self, $$props, $$invalidate) {
+function instance$h($$self, $$props, $$invalidate) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -7845,7 +7845,7 @@ function instance$i($$self, $$props, $$invalidate) {
 var ChevronRightIcon = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(ChevronRightIcon, _SvelteComponentDev);
 
-  var _super = _createSuper$i(ChevronRightIcon);
+  var _super = _createSuper$h(ChevronRightIcon);
 
   function ChevronRightIcon(options) {
     var _this;
@@ -7853,7 +7853,7 @@ var ChevronRightIcon = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, ChevronRightIcon);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$i, create_fragment$i, safe_not_equal, {
+    init(_assertThisInitialized(_this), options, instance$h, create_fragment$h, safe_not_equal, {
       size: 0,
       strokeWidth: 1,
       class: 2
@@ -7862,7 +7862,7 @@ var ChevronRightIcon = /*#__PURE__*/function (_SvelteComponentDev) {
       component: _assertThisInitialized(_this),
       tagName: "ChevronRightIcon",
       options: options,
-      id: create_fragment$i.name
+      id: create_fragment$h.name
     });
     return _this;
   }
@@ -7896,12 +7896,12 @@ var ChevronRightIcon = /*#__PURE__*/function (_SvelteComponentDev) {
   return ChevronRightIcon;
 }(SvelteComponentDev);
 
-function _createSuper$h(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$h(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$g(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$g(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$h() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _isNativeReflectConstruct$g() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 var file$g = "src/components/pedagogia/PedagogiaDigital.svelte";
 
-function create_fragment$h(ctx) {
+function create_fragment$g(ctx) {
   var section;
   var article;
   var div5;
@@ -8137,7 +8137,7 @@ function create_fragment$h(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$h.name,
+    id: create_fragment$g.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -8145,7 +8145,7 @@ function create_fragment$h(ctx) {
   return block;
 }
 
-function instance$h($$self, $$props) {
+function instance$g($$self, $$props) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -8160,7 +8160,7 @@ function instance$h($$self, $$props) {
 var PedagogiaDigital = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(PedagogiaDigital, _SvelteComponentDev);
 
-  var _super = _createSuper$h(PedagogiaDigital);
+  var _super = _createSuper$g(PedagogiaDigital);
 
   function PedagogiaDigital(options) {
     var _this;
@@ -8168,12 +8168,12 @@ var PedagogiaDigital = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, PedagogiaDigital);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$h, create_fragment$h, safe_not_equal, {});
+    init(_assertThisInitialized(_this), options, instance$g, create_fragment$g, safe_not_equal, {});
     dispatch_dev("SvelteRegisterComponent", {
       component: _assertThisInitialized(_this),
       tagName: "PedagogiaDigital",
       options: options,
-      id: create_fragment$h.name
+      id: create_fragment$g.name
     });
     return _this;
   }
@@ -8181,12 +8181,12 @@ var PedagogiaDigital = /*#__PURE__*/function (_SvelteComponentDev) {
   return PedagogiaDigital;
 }(SvelteComponentDev);
 
-function _createSuper$g(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$g(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$f(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$f(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$g() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _isNativeReflectConstruct$f() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 var file$f = "src/components/pedagogia/Rol.svelte";
 
-function create_fragment$g(ctx) {
+function create_fragment$f(ctx) {
   var section;
   var article;
   var div15;
@@ -8715,7 +8715,7 @@ function create_fragment$g(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$g.name,
+    id: create_fragment$f.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -8723,7 +8723,7 @@ function create_fragment$g(ctx) {
   return block;
 }
 
-function instance$g($$self, $$props) {
+function instance$f($$self, $$props) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -8738,7 +8738,7 @@ function instance$g($$self, $$props) {
 var Rol = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(Rol, _SvelteComponentDev);
 
-  var _super = _createSuper$g(Rol);
+  var _super = _createSuper$f(Rol);
 
   function Rol(options) {
     var _this;
@@ -8746,12 +8746,12 @@ var Rol = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, Rol);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$g, create_fragment$g, safe_not_equal, {});
+    init(_assertThisInitialized(_this), options, instance$f, create_fragment$f, safe_not_equal, {});
     dispatch_dev("SvelteRegisterComponent", {
       component: _assertThisInitialized(_this),
       tagName: "Rol",
       options: options,
-      id: create_fragment$g.name
+      id: create_fragment$f.name
     });
     return _this;
   }
@@ -8759,12 +8759,12 @@ var Rol = /*#__PURE__*/function (_SvelteComponentDev) {
   return Rol;
 }(SvelteComponentDev);
 
-function _createSuper$f(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$f(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$e(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$e(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$f() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _isNativeReflectConstruct$e() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 var file$e = "src/components/pedagogia/Ayuda.svelte";
 
-function create_fragment$f(ctx) {
+function create_fragment$e(ctx) {
   var section;
   var article;
   var div12;
@@ -9143,7 +9143,7 @@ function create_fragment$f(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$f.name,
+    id: create_fragment$e.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -9151,7 +9151,7 @@ function create_fragment$f(ctx) {
   return block;
 }
 
-function instance$f($$self, $$props) {
+function instance$e($$self, $$props) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -9166,7 +9166,7 @@ function instance$f($$self, $$props) {
 var Ayuda = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(Ayuda, _SvelteComponentDev);
 
-  var _super = _createSuper$f(Ayuda);
+  var _super = _createSuper$e(Ayuda);
 
   function Ayuda(options) {
     var _this;
@@ -9174,12 +9174,12 @@ var Ayuda = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, Ayuda);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$f, create_fragment$f, safe_not_equal, {});
+    init(_assertThisInitialized(_this), options, instance$e, create_fragment$e, safe_not_equal, {});
     dispatch_dev("SvelteRegisterComponent", {
       component: _assertThisInitialized(_this),
       tagName: "Ayuda",
       options: options,
-      id: create_fragment$f.name
+      id: create_fragment$e.name
     });
     return _this;
   }
@@ -9187,12 +9187,12 @@ var Ayuda = /*#__PURE__*/function (_SvelteComponentDev) {
   return Ayuda;
 }(SvelteComponentDev);
 
-function _createSuper$e(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$e(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$d(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$d(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$e() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _isNativeReflectConstruct$d() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 var file$d = "src/components/pedagogia/modals/ComoFuncionaModal.svelte";
 
-function create_fragment$e(ctx) {
+function create_fragment$d(ctx) {
   var div1;
   var div0;
   var h2;
@@ -9314,7 +9314,7 @@ function create_fragment$e(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$e.name,
+    id: create_fragment$d.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -9322,7 +9322,7 @@ function create_fragment$e(ctx) {
   return block;
 }
 
-function instance$e($$self, $$props) {
+function instance$d($$self, $$props) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -9337,7 +9337,7 @@ function instance$e($$self, $$props) {
 var ComoFuncionaModal = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(ComoFuncionaModal, _SvelteComponentDev);
 
-  var _super = _createSuper$e(ComoFuncionaModal);
+  var _super = _createSuper$d(ComoFuncionaModal);
 
   function ComoFuncionaModal(options) {
     var _this;
@@ -9345,12 +9345,12 @@ var ComoFuncionaModal = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, ComoFuncionaModal);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$e, create_fragment$e, safe_not_equal, {});
+    init(_assertThisInitialized(_this), options, instance$d, create_fragment$d, safe_not_equal, {});
     dispatch_dev("SvelteRegisterComponent", {
       component: _assertThisInitialized(_this),
       tagName: "ComoFuncionaModal",
       options: options,
-      id: create_fragment$e.name
+      id: create_fragment$d.name
     });
     return _this;
   }
@@ -9360,12 +9360,12 @@ var ComoFuncionaModal = /*#__PURE__*/function (_SvelteComponentDev) {
 
 var modal = writable(null);
 
-function _createSuper$d(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$d(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$c(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$c(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$d() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _isNativeReflectConstruct$c() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 var file$c = "src/components/pedagogia/Comofunciona.svelte";
 
-function create_fragment$d(ctx) {
+function create_fragment$c(ctx) {
   var section;
   var article;
   var div13;
@@ -9766,7 +9766,7 @@ function create_fragment$d(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$d.name,
+    id: create_fragment$c.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -9774,7 +9774,7 @@ function create_fragment$d(ctx) {
   return block;
 }
 
-function instance$d($$self, $$props, $$invalidate) {
+function instance$c($$self, $$props, $$invalidate) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -9803,7 +9803,7 @@ function instance$d($$self, $$props, $$invalidate) {
 var Comofunciona = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(Comofunciona, _SvelteComponentDev);
 
-  var _super = _createSuper$d(Comofunciona);
+  var _super = _createSuper$c(Comofunciona);
 
   function Comofunciona(options) {
     var _this;
@@ -9811,12 +9811,12 @@ var Comofunciona = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, Comofunciona);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$d, create_fragment$d, safe_not_equal, {});
+    init(_assertThisInitialized(_this), options, instance$c, create_fragment$c, safe_not_equal, {});
     dispatch_dev("SvelteRegisterComponent", {
       component: _assertThisInitialized(_this),
       tagName: "Comofunciona",
       options: options,
-      id: create_fragment$d.name
+      id: create_fragment$c.name
     });
     return _this;
   }
@@ -9824,12 +9824,12 @@ var Comofunciona = /*#__PURE__*/function (_SvelteComponentDev) {
   return Comofunciona;
 }(SvelteComponentDev);
 
-function _createSuper$c(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$c(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$b(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$b(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$c() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _isNativeReflectConstruct$b() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 var file$b = "src/components/pedagogia/Sesgos.svelte";
 
-function create_fragment$c(ctx) {
+function create_fragment$b(ctx) {
   var section;
   var article;
   var div12;
@@ -10212,7 +10212,7 @@ function create_fragment$c(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$c.name,
+    id: create_fragment$b.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -10220,7 +10220,7 @@ function create_fragment$c(ctx) {
   return block;
 }
 
-function instance$c($$self, $$props) {
+function instance$b($$self, $$props) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -10235,7 +10235,7 @@ function instance$c($$self, $$props) {
 var Sesgos = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(Sesgos, _SvelteComponentDev);
 
-  var _super = _createSuper$c(Sesgos);
+  var _super = _createSuper$b(Sesgos);
 
   function Sesgos(options) {
     var _this;
@@ -10243,12 +10243,12 @@ var Sesgos = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, Sesgos);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$c, create_fragment$c, safe_not_equal, {});
+    init(_assertThisInitialized(_this), options, instance$b, create_fragment$b, safe_not_equal, {});
     dispatch_dev("SvelteRegisterComponent", {
       component: _assertThisInitialized(_this),
       tagName: "Sesgos",
       options: options,
-      id: create_fragment$c.name
+      id: create_fragment$b.name
     });
     return _this;
   }
@@ -10256,12 +10256,12 @@ var Sesgos = /*#__PURE__*/function (_SvelteComponentDev) {
   return Sesgos;
 }(SvelteComponentDev);
 
-function _createSuper$b(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$b(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$a(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$a(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$b() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _isNativeReflectConstruct$a() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 var file$a = "src/components/pedagogia/modals/empatiaModal.svelte";
 
-function create_fragment$b(ctx) {
+function create_fragment$a(ctx) {
   var div8;
   var div7;
   var h2;
@@ -10530,7 +10530,7 @@ function create_fragment$b(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$b.name,
+    id: create_fragment$a.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -10538,7 +10538,7 @@ function create_fragment$b(ctx) {
   return block;
 }
 
-function instance$b($$self, $$props) {
+function instance$a($$self, $$props) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -10553,7 +10553,7 @@ function instance$b($$self, $$props) {
 var EmpatiaModal = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(EmpatiaModal, _SvelteComponentDev);
 
-  var _super = _createSuper$b(EmpatiaModal);
+  var _super = _createSuper$a(EmpatiaModal);
 
   function EmpatiaModal(options) {
     var _this;
@@ -10561,12 +10561,12 @@ var EmpatiaModal = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, EmpatiaModal);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$b, create_fragment$b, safe_not_equal, {});
+    init(_assertThisInitialized(_this), options, instance$a, create_fragment$a, safe_not_equal, {});
     dispatch_dev("SvelteRegisterComponent", {
       component: _assertThisInitialized(_this),
       tagName: "EmpatiaModal",
       options: options,
-      id: create_fragment$b.name
+      id: create_fragment$a.name
     });
     return _this;
   }
@@ -10574,12 +10574,12 @@ var EmpatiaModal = /*#__PURE__*/function (_SvelteComponentDev) {
   return EmpatiaModal;
 }(SvelteComponentDev);
 
-function _createSuper$a(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$a(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$9(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$9(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$a() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _isNativeReflectConstruct$9() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 var file$9 = "src/components/pedagogia/modals/disonanciaModal.svelte";
 
-function create_fragment$a(ctx) {
+function create_fragment$9(ctx) {
   var div8;
   var div7;
   var h2;
@@ -10844,7 +10844,7 @@ function create_fragment$a(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$a.name,
+    id: create_fragment$9.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -10852,7 +10852,7 @@ function create_fragment$a(ctx) {
   return block;
 }
 
-function instance$a($$self, $$props) {
+function instance$9($$self, $$props) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -10867,7 +10867,7 @@ function instance$a($$self, $$props) {
 var DisonanciaModal = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(DisonanciaModal, _SvelteComponentDev);
 
-  var _super = _createSuper$a(DisonanciaModal);
+  var _super = _createSuper$9(DisonanciaModal);
 
   function DisonanciaModal(options) {
     var _this;
@@ -10875,12 +10875,12 @@ var DisonanciaModal = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, DisonanciaModal);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$a, create_fragment$a, safe_not_equal, {});
+    init(_assertThisInitialized(_this), options, instance$9, create_fragment$9, safe_not_equal, {});
     dispatch_dev("SvelteRegisterComponent", {
       component: _assertThisInitialized(_this),
       tagName: "DisonanciaModal",
       options: options,
-      id: create_fragment$a.name
+      id: create_fragment$9.name
     });
     return _this;
   }
@@ -10888,12 +10888,12 @@ var DisonanciaModal = /*#__PURE__*/function (_SvelteComponentDev) {
   return DisonanciaModal;
 }(SvelteComponentDev);
 
-function _createSuper$9(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$9(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$8(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$8(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$9() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _isNativeReflectConstruct$8() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 var file$8 = "src/components/pedagogia/modals/confirmacionModal.svelte";
 
-function create_fragment$9(ctx) {
+function create_fragment$8(ctx) {
   var div8;
   var div7;
   var h2;
@@ -11158,7 +11158,7 @@ function create_fragment$9(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$9.name,
+    id: create_fragment$8.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -11166,7 +11166,7 @@ function create_fragment$9(ctx) {
   return block;
 }
 
-function instance$9($$self, $$props) {
+function instance$8($$self, $$props) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -11181,7 +11181,7 @@ function instance$9($$self, $$props) {
 var ConfirmacionModal = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(ConfirmacionModal, _SvelteComponentDev);
 
-  var _super = _createSuper$9(ConfirmacionModal);
+  var _super = _createSuper$8(ConfirmacionModal);
 
   function ConfirmacionModal(options) {
     var _this;
@@ -11189,12 +11189,12 @@ var ConfirmacionModal = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, ConfirmacionModal);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$9, create_fragment$9, safe_not_equal, {});
+    init(_assertThisInitialized(_this), options, instance$8, create_fragment$8, safe_not_equal, {});
     dispatch_dev("SvelteRegisterComponent", {
       component: _assertThisInitialized(_this),
       tagName: "ConfirmacionModal",
       options: options,
-      id: create_fragment$9.name
+      id: create_fragment$8.name
     });
     return _this;
   }
@@ -11202,12 +11202,12 @@ var ConfirmacionModal = /*#__PURE__*/function (_SvelteComponentDev) {
   return ConfirmacionModal;
 }(SvelteComponentDev);
 
-function _createSuper$8(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$8(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$7(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$7(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$8() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _isNativeReflectConstruct$7() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 var file$7 = "src/components/pedagogia/modals/atribucionModal.svelte";
 
-function create_fragment$8(ctx) {
+function create_fragment$7(ctx) {
   var div8;
   var div7;
   var h2;
@@ -11463,7 +11463,7 @@ function create_fragment$8(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$8.name,
+    id: create_fragment$7.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -11471,7 +11471,7 @@ function create_fragment$8(ctx) {
   return block;
 }
 
-function instance$8($$self, $$props) {
+function instance$7($$self, $$props) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -11486,7 +11486,7 @@ function instance$8($$self, $$props) {
 var AtribucionModal = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(AtribucionModal, _SvelteComponentDev);
 
-  var _super = _createSuper$8(AtribucionModal);
+  var _super = _createSuper$7(AtribucionModal);
 
   function AtribucionModal(options) {
     var _this;
@@ -11494,12 +11494,12 @@ var AtribucionModal = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, AtribucionModal);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$8, create_fragment$8, safe_not_equal, {});
+    init(_assertThisInitialized(_this), options, instance$7, create_fragment$7, safe_not_equal, {});
     dispatch_dev("SvelteRegisterComponent", {
       component: _assertThisInitialized(_this),
       tagName: "AtribucionModal",
       options: options,
-      id: create_fragment$8.name
+      id: create_fragment$7.name
     });
     return _this;
   }
@@ -11507,12 +11507,12 @@ var AtribucionModal = /*#__PURE__*/function (_SvelteComponentDev) {
   return AtribucionModal;
 }(SvelteComponentDev);
 
-function _createSuper$7(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$7(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$6(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$6(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$7() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _isNativeReflectConstruct$6() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 var file$6 = "src/components/pedagogia/Vulnerable.svelte";
 
-function create_fragment$7(ctx) {
+function create_fragment$6(ctx) {
   var section;
   var article;
   var div12;
@@ -11963,7 +11963,7 @@ function create_fragment$7(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$7.name,
+    id: create_fragment$6.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -11971,7 +11971,7 @@ function create_fragment$7(ctx) {
   return block;
 }
 
-function instance$7($$self, $$props, $$invalidate) {
+function instance$6($$self, $$props, $$invalidate) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -12018,7 +12018,7 @@ function instance$7($$self, $$props, $$invalidate) {
 var Vulnerable = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(Vulnerable, _SvelteComponentDev);
 
-  var _super = _createSuper$7(Vulnerable);
+  var _super = _createSuper$6(Vulnerable);
 
   function Vulnerable(options) {
     var _this;
@@ -12026,12 +12026,12 @@ var Vulnerable = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, Vulnerable);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$7, create_fragment$7, safe_not_equal, {});
+    init(_assertThisInitialized(_this), options, instance$6, create_fragment$6, safe_not_equal, {});
     dispatch_dev("SvelteRegisterComponent", {
       component: _assertThisInitialized(_this),
       tagName: "Vulnerable",
       options: options,
-      id: create_fragment$7.name
+      id: create_fragment$6.name
     });
     return _this;
   }
@@ -12039,12 +12039,12 @@ var Vulnerable = /*#__PURE__*/function (_SvelteComponentDev) {
   return Vulnerable;
 }(SvelteComponentDev);
 
-function _createSuper$6(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$6(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$5(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$5(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$6() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _isNativeReflectConstruct$5() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 var file$5 = "src/components/pedagogia/HacerAlgo.svelte";
 
-function create_fragment$6(ctx) {
+function create_fragment$5(ctx) {
   var section;
   var article;
   var div15;
@@ -12537,7 +12537,7 @@ function create_fragment$6(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$6.name,
+    id: create_fragment$5.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -12545,7 +12545,7 @@ function create_fragment$6(ctx) {
   return block;
 }
 
-function instance$6($$self, $$props) {
+function instance$5($$self, $$props) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -12560,7 +12560,7 @@ function instance$6($$self, $$props) {
 var HacerAlgo = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(HacerAlgo, _SvelteComponentDev);
 
-  var _super = _createSuper$6(HacerAlgo);
+  var _super = _createSuper$5(HacerAlgo);
 
   function HacerAlgo(options) {
     var _this;
@@ -12568,12 +12568,12 @@ var HacerAlgo = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, HacerAlgo);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$6, create_fragment$6, safe_not_equal, {});
+    init(_assertThisInitialized(_this), options, instance$5, create_fragment$5, safe_not_equal, {});
     dispatch_dev("SvelteRegisterComponent", {
       component: _assertThisInitialized(_this),
       tagName: "HacerAlgo",
       options: options,
-      id: create_fragment$6.name
+      id: create_fragment$5.name
     });
     return _this;
   }
@@ -12596,9 +12596,9 @@ function _defineProperty(obj, key, value) {
   return obj;
 }
 
-function _createSuper$5(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$5(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$4(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$4(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$5() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _isNativeReflectConstruct$4() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
@@ -13146,7 +13146,7 @@ function create_if_block_2(ctx) {
   return block;
 }
 
-function create_fragment$5(ctx) {
+function create_fragment$4(ctx) {
   var t;
   var current;
   var mounted;
@@ -13245,7 +13245,7 @@ function create_fragment$5(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$5.name,
+    id: create_fragment$4.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -13262,7 +13262,7 @@ function bind(Component) {
   };
 }
 
-function instance$5($$self, $$props, $$invalidate) {
+function instance$4($$self, $$props, $$invalidate) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots,
       $$scope = $$props.$$scope;
@@ -13639,7 +13639,7 @@ function instance$5($$self, $$props, $$invalidate) {
 var Modal = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(Modal, _SvelteComponentDev);
 
-  var _super = _createSuper$5(Modal);
+  var _super = _createSuper$4(Modal);
 
   function Modal(options) {
     var _this;
@@ -13647,7 +13647,7 @@ var Modal = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, Modal);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$5, create_fragment$5, safe_not_equal, {
+    init(_assertThisInitialized(_this), options, instance$4, create_fragment$4, safe_not_equal, {
       show: 21,
       key: 22,
       closeButton: 23,
@@ -13668,7 +13668,7 @@ var Modal = /*#__PURE__*/function (_SvelteComponentDev) {
       component: _assertThisInitialized(_this),
       tagName: "Modal",
       options: options,
-      id: create_fragment$5.name
+      id: create_fragment$4.name
     });
     return _this;
   }
@@ -13798,9 +13798,9 @@ var Modal = /*#__PURE__*/function (_SvelteComponentDev) {
   return Modal;
 }(SvelteComponentDev);
 
-function _createSuper$4(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$4(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$3(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$3(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$4() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _isNativeReflectConstruct$3() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 var file$3 = "src/components/HeroSlider.svelte"; // (20:1) <Carousel  perPage={{ 800: 1, 500: 1 }} duration={500} >
 
 function create_default_slot(ctx) {
@@ -14130,7 +14130,7 @@ function create_right_control_slot(ctx) {
   return block;
 }
 
-function create_fragment$4(ctx) {
+function create_fragment$3(ctx) {
   var div;
   var carousel;
   var t;
@@ -14250,7 +14250,7 @@ function create_fragment$4(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$4.name,
+    id: create_fragment$3.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -14258,7 +14258,7 @@ function create_fragment$4(ctx) {
   return block;
 }
 
-function instance$4($$self, $$props, $$invalidate) {
+function instance$3($$self, $$props, $$invalidate) {
   var $modal;
   validate_store(modal, "modal");
   component_subscribe($$self, modal, function ($$value) {
@@ -14301,7 +14301,7 @@ function instance$4($$self, $$props, $$invalidate) {
 var HeroSlider = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(HeroSlider, _SvelteComponentDev);
 
-  var _super = _createSuper$4(HeroSlider);
+  var _super = _createSuper$3(HeroSlider);
 
   function HeroSlider(options) {
     var _this;
@@ -14309,12 +14309,12 @@ var HeroSlider = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, HeroSlider);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$4, create_fragment$4, safe_not_equal, {});
+    init(_assertThisInitialized(_this), options, instance$3, create_fragment$3, safe_not_equal, {});
     dispatch_dev("SvelteRegisterComponent", {
       component: _assertThisInitialized(_this),
       tagName: "HeroSlider",
       options: options,
-      id: create_fragment$4.name
+      id: create_fragment$3.name
     });
     return _this;
   }
@@ -14322,12 +14322,12 @@ var HeroSlider = /*#__PURE__*/function (_SvelteComponentDev) {
   return HeroSlider;
 }(SvelteComponentDev);
 
-function _createSuper$3(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$3(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$2(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$2(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$3() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _isNativeReflectConstruct$2() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 var file$2 = "src/components/SosDocente.svelte";
 
-function create_fragment$3(ctx) {
+function create_fragment$2(ctx) {
   var section;
   var div9;
   var div1;
@@ -14759,7 +14759,7 @@ function create_fragment$3(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$3.name,
+    id: create_fragment$2.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -14767,7 +14767,7 @@ function create_fragment$3(ctx) {
   return block;
 }
 
-function instance$3($$self, $$props) {
+function instance$2($$self, $$props) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -14782,7 +14782,7 @@ function instance$3($$self, $$props) {
 var SosDocente = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(SosDocente, _SvelteComponentDev);
 
-  var _super = _createSuper$3(SosDocente);
+  var _super = _createSuper$2(SosDocente);
 
   function SosDocente(options) {
     var _this;
@@ -14790,12 +14790,12 @@ var SosDocente = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, SosDocente);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$3, create_fragment$3, safe_not_equal, {});
+    init(_assertThisInitialized(_this), options, instance$2, create_fragment$2, safe_not_equal, {});
     dispatch_dev("SvelteRegisterComponent", {
       component: _assertThisInitialized(_this),
       tagName: "SosDocente",
       options: options,
-      id: create_fragment$3.name
+      id: create_fragment$2.name
     });
     return _this;
   }
@@ -14803,12 +14803,12 @@ var SosDocente = /*#__PURE__*/function (_SvelteComponentDev) {
   return SosDocente;
 }(SvelteComponentDev);
 
-function _createSuper$2(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$2(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _createSuper$1(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$1(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
-function _isNativeReflectConstruct$2() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+function _isNativeReflectConstruct$1() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 var file$1 = "src/components/nocomocuento.svelte";
 
-function create_fragment$2(ctx) {
+function create_fragment$1(ctx) {
   var section;
   var article;
   var div10;
@@ -15188,7 +15188,7 @@ function create_fragment$2(ctx) {
   };
   dispatch_dev("SvelteRegisterBlock", {
     block: block,
-    id: create_fragment$2.name,
+    id: create_fragment$1.name,
     type: "component",
     source: "",
     ctx: ctx
@@ -15196,7 +15196,7 @@ function create_fragment$2(ctx) {
   return block;
 }
 
-function instance$2($$self, $$props) {
+function instance$1($$self, $$props) {
   var _$$props$$$slots = $$props.$$slots,
       slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
       $$props.$$scope;
@@ -15211,7 +15211,7 @@ function instance$2($$self, $$props) {
 var Nocomocuento = /*#__PURE__*/function (_SvelteComponentDev) {
   _inherits(Nocomocuento, _SvelteComponentDev);
 
-  var _super = _createSuper$2(Nocomocuento);
+  var _super = _createSuper$1(Nocomocuento);
 
   function Nocomocuento(options) {
     var _this;
@@ -15219,12 +15219,12 @@ var Nocomocuento = /*#__PURE__*/function (_SvelteComponentDev) {
     _classCallCheck(this, Nocomocuento);
 
     _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$2, create_fragment$2, safe_not_equal, {});
+    init(_assertThisInitialized(_this), options, instance$1, create_fragment$1, safe_not_equal, {});
     dispatch_dev("SvelteRegisterComponent", {
       component: _assertThisInitialized(_this),
       tagName: "Nocomocuento",
       options: options,
-      id: create_fragment$2.name
+      id: create_fragment$1.name
     });
     return _this;
   }
@@ -15232,239 +15232,10 @@ var Nocomocuento = /*#__PURE__*/function (_SvelteComponentDev) {
   return Nocomocuento;
 }(SvelteComponentDev);
 
-function loader (urls, test, callback) {
-  var remaining = urls.length;
-
-  function maybeCallback() {
-    remaining = --remaining;
-
-    if (remaining < 1) {
-      callback();
-    }
-  }
-
-  if (!test()) {
-    urls.forEach(function (_ref) {
-      var type = _ref.type,
-          url = _ref.url,
-          _ref$options = _ref.options,
-          options = _ref$options === void 0 ? {
-        async: true,
-        defer: true
-      } : _ref$options;
-      var isScript = type === 'script';
-      var tag = document.createElement(isScript ? 'script' : 'link');
-
-      if (isScript) {
-        tag.src = url;
-        tag.async = options.async;
-        tag.defer = options.defer;
-      } else {
-        tag.rel = 'stylesheet';
-        tag.href = url;
-      }
-
-      tag.onload = maybeCallback;
-      document.body.appendChild(tag);
-    });
-  } else {
-    callback();
-  }
-}
-
-var gaStore = writable([]);
-
-function _createSuper$1(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct$1(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
-
-function _isNativeReflectConstruct$1() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
-
-function create_fragment$1(ctx) {
-  var block = {
-    c: noop,
-    l: noop,
-    m: noop,
-    p: noop,
-    i: noop,
-    o: noop,
-    d: noop
-  };
-  dispatch_dev("SvelteRegisterBlock", {
-    block: block,
-    id: create_fragment$1.name,
-    type: "component",
-    source: "",
-    ctx: ctx
-  });
-  return block;
-}
-
-function test() {
-  return Boolean(window.dataLayer).valueOf() && Array.isArray(window.dataLayer);
-}
-
-function gtag() {
-  window.dataLayer.push(arguments);
-}
-
-function instance$1($$self, $$props, $$invalidate) {
-  var _$$props$$$slots = $$props.$$slots,
-      slots = _$$props$$$slots === void 0 ? {} : _$$props$$$slots;
-      $$props.$$scope;
-  validate_slots("GoogleAnalytics", slots, []);
-  var properties = $$props.properties;
-  var _$$props$configuratio = $$props.configurations,
-      configurations = _$$props$configuratio === void 0 ? {} : _$$props$configuratio;
-  var _$$props$enabled = $$props.enabled,
-      enabled = _$$props$enabled === void 0 ? true : _$$props$enabled;
-  onMount(function () {
-    if (!enabled) {
-      return;
-    }
-
-    init();
-  });
-
-  function init() {
-    var mainProperty = properties[0];
-    loader([{
-      type: "script",
-      url: "//www.googletagmanager.com/gtag/js?id=".concat(mainProperty)
-    }], test, callback);
-  }
-
-  function callback() {
-    window.dataLayer = window.dataLayer || [];
-    gtag("js", new Date());
-    properties.forEach(function (p) {
-      gtag("config", p, configurations[p] || {});
-    });
-    return gaStore.subscribe(function (queue) {
-      var next = queue.length && queue.shift();
-
-      while (next) {
-        var _next = next,
-            event = _next.event,
-            data = _next.data;
-        gtag("event", event, data);
-        next = queue.shift();
-      }
-    });
-  }
-
-  var writable_props = ["properties", "configurations", "enabled"];
-  Object.keys($$props).forEach(function (key) {
-    if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn("<GoogleAnalytics> was created with unknown prop '".concat(key, "'"));
-  });
-
-  $$self.$$set = function ($$props) {
-    if ("properties" in $$props) $$invalidate(0, properties = $$props.properties);
-    if ("configurations" in $$props) $$invalidate(1, configurations = $$props.configurations);
-    if ("enabled" in $$props) $$invalidate(2, enabled = $$props.enabled);
-  };
-
-  $$self.$capture_state = function () {
-    return {
-      onMount: onMount,
-      loader: loader,
-      gaStore: gaStore,
-      properties: properties,
-      configurations: configurations,
-      enabled: enabled,
-      init: init,
-      test: test,
-      gtag: gtag,
-      callback: callback
-    };
-  };
-
-  $$self.$inject_state = function ($$props) {
-    if ("properties" in $$props) $$invalidate(0, properties = $$props.properties);
-    if ("configurations" in $$props) $$invalidate(1, configurations = $$props.configurations);
-    if ("enabled" in $$props) $$invalidate(2, enabled = $$props.enabled);
-  };
-
-  if ($$props && "$$inject" in $$props) {
-    $$self.$inject_state($$props.$$inject);
-  }
-
-  return [properties, configurations, enabled, init];
-}
-
-var GoogleAnalytics = /*#__PURE__*/function (_SvelteComponentDev) {
-  _inherits(GoogleAnalytics, _SvelteComponentDev);
-
-  var _super = _createSuper$1(GoogleAnalytics);
-
-  function GoogleAnalytics(options) {
-    var _this;
-
-    _classCallCheck(this, GoogleAnalytics);
-
-    _this = _super.call(this, options);
-    init(_assertThisInitialized(_this), options, instance$1, create_fragment$1, safe_not_equal, {
-      properties: 0,
-      configurations: 1,
-      enabled: 2,
-      init: 3
-    });
-    dispatch_dev("SvelteRegisterComponent", {
-      component: _assertThisInitialized(_this),
-      tagName: "GoogleAnalytics",
-      options: options,
-      id: create_fragment$1.name
-    });
-    var ctx = _this.$$.ctx;
-    var props = options.props || {};
-
-    if (
-    /*properties*/
-    ctx[0] === undefined && !("properties" in props)) {
-      console.warn("<GoogleAnalytics> was created without expected prop 'properties'");
-    }
-
-    return _this;
-  }
-
-  _createClass(GoogleAnalytics, [{
-    key: "properties",
-    get: function get() {
-      throw new Error("<GoogleAnalytics>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
-    },
-    set: function set(value) {
-      throw new Error("<GoogleAnalytics>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
-    }
-  }, {
-    key: "configurations",
-    get: function get() {
-      throw new Error("<GoogleAnalytics>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
-    },
-    set: function set(value) {
-      throw new Error("<GoogleAnalytics>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
-    }
-  }, {
-    key: "enabled",
-    get: function get() {
-      throw new Error("<GoogleAnalytics>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
-    },
-    set: function set(value) {
-      throw new Error("<GoogleAnalytics>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
-    }
-  }, {
-    key: "init",
-    get: function get() {
-      return this.$$.ctx[3];
-    },
-    set: function set(value) {
-      throw new Error("<GoogleAnalytics>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
-    }
-  }]);
-
-  return GoogleAnalytics;
-}(SvelteComponentDev);
-
 function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
 
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+var console_1 = globals.console;
 var file = "src/routes/index.svelte";
 
 function create_fragment(ctx) {
@@ -15473,28 +15244,20 @@ function create_fragment(ctx) {
   var script;
   var script_src_value;
   var t0;
-  var googleanalytics;
-  var t1;
   var home;
-  var t2;
+  var t1;
   var heroslider;
-  var t3;
+  var t2;
   var nocomocuento;
-  var t4;
+  var t3;
   var articulo;
-  var t5;
+  var t4;
   var kitherramientas;
-  var t6;
+  var t5;
   var quienessomos;
-  var t7;
+  var t6;
   var footer;
   var current;
-  googleanalytics = new GoogleAnalytics({
-    props: {
-      properties: ["UA-215403556-1"]
-    },
-    $$inline: true
-  });
   home = new Home({
     $$inline: true
   });
@@ -15522,25 +15285,23 @@ function create_fragment(ctx) {
       link1 = element("link");
       script = element("script");
       t0 = space();
-      create_component(googleanalytics.$$.fragment);
-      t1 = space();
       create_component(home.$$.fragment);
-      t2 = space();
+      t1 = space();
       create_component(heroslider.$$.fragment);
-      t3 = space();
+      t2 = space();
       create_component(nocomocuento.$$.fragment);
-      t4 = space();
+      t3 = space();
       create_component(articulo.$$.fragment);
-      t5 = space();
+      t4 = space();
       create_component(kitherramientas.$$.fragment);
-      t6 = space();
+      t5 = space();
       create_component(quienessomos.$$.fragment);
-      t7 = space();
+      t6 = space();
       create_component(footer.$$.fragment);
       this.h();
     },
     l: function claim(nodes) {
-      var head_nodes = query_selector_all("[data-svelte=\"svelte-1oxs1s6\"]", document.head);
+      var head_nodes = query_selector_all("[data-svelte=\"svelte-1d4prbz\"]", document.head);
       link0 = claim_element(head_nodes, "LINK", {
         rel: true,
         href: true
@@ -15557,20 +15318,18 @@ function create_fragment(ctx) {
       script_nodes.forEach(detach_dev);
       head_nodes.forEach(detach_dev);
       t0 = claim_space(nodes);
-      claim_component(googleanalytics.$$.fragment, nodes);
-      t1 = claim_space(nodes);
       claim_component(home.$$.fragment, nodes);
-      t2 = claim_space(nodes);
+      t1 = claim_space(nodes);
       claim_component(heroslider.$$.fragment, nodes);
-      t3 = claim_space(nodes);
+      t2 = claim_space(nodes);
       claim_component(nocomocuento.$$.fragment, nodes);
-      t4 = claim_space(nodes);
+      t3 = claim_space(nodes);
       claim_component(articulo.$$.fragment, nodes);
-      t5 = claim_space(nodes);
+      t4 = claim_space(nodes);
       claim_component(kitherramientas.$$.fragment, nodes);
-      t6 = claim_space(nodes);
+      t5 = claim_space(nodes);
       claim_component(quienessomos.$$.fragment, nodes);
-      t7 = claim_space(nodes);
+      t6 = claim_space(nodes);
       claim_component(footer.$$.fragment, nodes);
       this.h();
     },
@@ -15578,40 +15337,37 @@ function create_fragment(ctx) {
       document.title = "Corazones Y Mentes";
       attr_dev(link0, "rel", "preconnect");
       attr_dev(link0, "href", "https://fonts.gstatic.com");
-      add_location(link0, file, 25, 1, 988);
+      add_location(link0, file, 28, 1, 962);
       attr_dev(link1, "href", "https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
       attr_dev(link1, "rel", "stylesheet");
-      add_location(link1, file, 26, 1, 1046);
+      add_location(link1, file, 29, 1, 1020);
       script.async = true;
-      if (script.src !== (script_src_value = "https://www.googletagmanager.com/gtag/js?id=G-LJWHDC5L57")) attr_dev(script, "src", script_src_value);
-      add_location(script, file, 27, 1, 1144);
+      if (script.src !== (script_src_value = "https://www.googletagmanager.com/gtag/js?id=UA-215403556-1")) attr_dev(script, "src", script_src_value);
+      add_location(script, file, 30, 1, 1118);
     },
     m: function mount(target, anchor) {
       append_dev(document.head, link0);
       append_dev(document.head, link1);
       append_dev(document.head, script);
       insert_dev(target, t0, anchor);
-      mount_component(googleanalytics, target, anchor);
-      insert_dev(target, t1, anchor);
       mount_component(home, target, anchor);
-      insert_dev(target, t2, anchor);
+      insert_dev(target, t1, anchor);
       mount_component(heroslider, target, anchor);
-      insert_dev(target, t3, anchor);
+      insert_dev(target, t2, anchor);
       mount_component(nocomocuento, target, anchor);
-      insert_dev(target, t4, anchor);
+      insert_dev(target, t3, anchor);
       mount_component(articulo, target, anchor);
-      insert_dev(target, t5, anchor);
+      insert_dev(target, t4, anchor);
       mount_component(kitherramientas, target, anchor);
-      insert_dev(target, t6, anchor);
+      insert_dev(target, t5, anchor);
       mount_component(quienessomos, target, anchor);
-      insert_dev(target, t7, anchor);
+      insert_dev(target, t6, anchor);
       mount_component(footer, target, anchor);
       current = true;
     },
     p: noop,
     i: function intro(local) {
       if (current) return;
-      transition_in(googleanalytics.$$.fragment, local);
       transition_in(home.$$.fragment, local);
       transition_in(heroslider.$$.fragment, local);
       transition_in(nocomocuento.$$.fragment, local);
@@ -15622,7 +15378,6 @@ function create_fragment(ctx) {
       current = true;
     },
     o: function outro(local) {
-      transition_out(googleanalytics.$$.fragment, local);
       transition_out(home.$$.fragment, local);
       transition_out(heroslider.$$.fragment, local);
       transition_out(nocomocuento.$$.fragment, local);
@@ -15637,20 +15392,18 @@ function create_fragment(ctx) {
       detach_dev(link1);
       detach_dev(script);
       if (detaching) detach_dev(t0);
-      destroy_component(googleanalytics, detaching);
-      if (detaching) detach_dev(t1);
       destroy_component(home, detaching);
-      if (detaching) detach_dev(t2);
+      if (detaching) detach_dev(t1);
       destroy_component(heroslider, detaching);
-      if (detaching) detach_dev(t3);
+      if (detaching) detach_dev(t2);
       destroy_component(nocomocuento, detaching);
-      if (detaching) detach_dev(t4);
+      if (detaching) detach_dev(t3);
       destroy_component(articulo, detaching);
-      if (detaching) detach_dev(t5);
+      if (detaching) detach_dev(t4);
       destroy_component(kitherramientas, detaching);
-      if (detaching) detach_dev(t6);
+      if (detaching) detach_dev(t5);
       destroy_component(quienessomos, detaching);
-      if (detaching) detach_dev(t7);
+      if (detaching) detach_dev(t6);
       destroy_component(footer, detaching);
     }
   };
@@ -15670,7 +15423,7 @@ function instance($$self, $$props, $$invalidate) {
       $$props.$$scope;
   validate_slots("Routes", slots, []);
   onMount(function () {
-    //Global site tag (gtag.js) - Google Analytics 
+    //  Global site tag (gtag.js) - Google Analytics 
     window.dataLayer = window.dataLayer || [];
 
     function gtag() {
@@ -15678,11 +15431,12 @@ function instance($$self, $$props, $$invalidate) {
     }
 
     gtag("js", new Date());
-    gtag("config", "G-LJWHDC5L57");
+    gtag("config", "UA-215403556-1");
+    console.log("luego de analitycs");
   });
   var writable_props = [];
   Object.keys($$props).forEach(function (key) {
-    if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn("<Routes> was created with unknown prop '".concat(key, "'"));
+    if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console_1.warn("<Routes> was created with unknown prop '".concat(key, "'"));
   });
 
   $$self.$capture_state = function () {
@@ -15697,8 +15451,7 @@ function instance($$self, $$props, $$invalidate) {
       onMount: onMount,
       SosDocente: SosDocente,
       Home: Home,
-      Nocomocuento: Nocomocuento,
-      GoogleAnalytics: GoogleAnalytics
+      Nocomocuento: Nocomocuento
     };
   };
 
