@@ -1,4 +1,4 @@
-import { S as SvelteComponentDev, a as SvelteComponentTyped, b as afterUpdate, c as beforeUpdate, d as createEventDispatcher, g as getContext, h as hasContext, o as onDestroy, e as onMount, s as setContext, t as tick, i as identity, _ as _inherits, f as _getPrototypeOf, j as _possibleConstructorReturn, k as _classCallCheck, l as init, m as safe_not_equal, n as _assertThisInitialized, p as dispatch_dev, v as validate_slots, q as element, r as text, u as claim_element, w as children, x as claim_text, y as detach_dev, z as attr_dev, A as add_location, B as insert_dev, C as append_dev, D as listen_dev, E as noop, F as space, G as claim_space, H as _slicedToArray, I as add_render_callback, J as create_bidirectional_transition, K as _createClass, L as set_data_dev, M as validate_each_argument, N as create_component, O as claim_component, P as mount_component, Q as transition_in, R as transition_out, T as destroy_component, U as set_style, V as group_outros, W as check_outros, X as destroy_each, Y as _typeof, Z as globals, $ as assign, a0 as get_spread_update, a1 as get_spread_object, a2 as run_all, a3 as createCommonjsModule, a4 as commonjsGlobal, a5 as getDefaultExportFromCjs, a6 as create_slot, a7 as update_slot, a8 as null_to_empty, a9 as binding_callbacks, aa as svg_element, ab as writable, ac as is_function, ad as empty, ae as validate_store, af as component_subscribe, ag as query_selector_all } from './client.244a0893.js';
+import { S as SvelteComponentDev, a as SvelteComponentTyped, b as afterUpdate, c as beforeUpdate, d as createEventDispatcher, g as getContext, h as hasContext, o as onDestroy, e as onMount, s as setContext, t as tick, i as identity, _ as _inherits, f as _getPrototypeOf, j as _possibleConstructorReturn, k as _classCallCheck, l as init, m as safe_not_equal, n as _assertThisInitialized, p as dispatch_dev, v as validate_slots, q as element, r as text, u as claim_element, w as children, x as claim_text, y as detach_dev, z as attr_dev, A as add_location, B as insert_dev, C as append_dev, D as listen_dev, E as noop, F as space, G as claim_space, H as _slicedToArray, I as add_render_callback, J as create_bidirectional_transition, K as _createClass, L as set_data_dev, M as validate_each_argument, N as create_component, O as claim_component, P as mount_component, Q as transition_in, R as transition_out, T as destroy_component, U as set_style, V as group_outros, W as check_outros, X as destroy_each, Y as _typeof, Z as globals, $ as assign, a0 as get_spread_update, a1 as get_spread_object, a2 as run_all, a3 as createCommonjsModule, a4 as commonjsGlobal, a5 as getDefaultExportFromCjs, a6 as create_slot, a7 as update_slot, a8 as null_to_empty, a9 as binding_callbacks, aa as svg_element, ab as writable, ac as is_function, ad as empty, ae as validate_store, af as component_subscribe, ag as query_selector_all } from './client.91b9af99.js';
 
 var svelte = /*#__PURE__*/Object.freeze({
     __proto__: null,
@@ -15324,7 +15324,7 @@ function create_fragment(ctx) {
       this.h();
     },
     l: function claim(nodes) {
-      var head_nodes = query_selector_all("[data-svelte=\"svelte-jua0t3\"]", document.head);
+      var head_nodes = query_selector_all("[data-svelte=\"svelte-drvwqc\"]", document.head);
       meta0 = claim_element(head_nodes, "META", {
         name: true,
         content: true
@@ -15416,41 +15416,41 @@ function create_fragment(ctx) {
       attr_dev(meta2, "content", "website");
       add_location(meta2, file, 32, 1, 1216);
       attr_dev(meta3, "property", "og:url");
-      attr_dev(meta3, "content", "https://metatags.io/");
+      attr_dev(meta3, "content", "https://corazonesymentes.co/");
       add_location(meta3, file, 33, 1, 1261);
       attr_dev(meta4, "property", "og:title");
       attr_dev(meta4, "content", "Corazones y Mentes - Colombia");
-      add_location(meta4, file, 34, 1, 1318);
+      add_location(meta4, file, 34, 1, 1326);
       attr_dev(meta5, "property", "og:description");
       attr_dev(meta5, "content", "EL INTERNET ES ÚTIL PARA TODOS, PERO QUEREMOS QUE APRENDAS A USARLO PARA QUE SAQUES LO MEJOR DE ÉL Y NO LO PEOR DE TI.");
-      add_location(meta5, file, 35, 1, 1386);
+      add_location(meta5, file, 35, 1, 1394);
       attr_dev(meta6, "property", "og:image");
-      attr_dev(meta6, "content", "https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png");
-      add_location(meta6, file, 36, 1, 1549);
+      attr_dev(meta6, "content", "logo-horizontal-peque.png");
+      add_location(meta6, file, 36, 1, 1557);
       attr_dev(meta7, "property", "twitter:card");
       attr_dev(meta7, "content", "summary_large_image");
-      add_location(meta7, file, 39, 1, 1712);
+      add_location(meta7, file, 39, 1, 1640);
       attr_dev(meta8, "property", "twitter:url");
-      attr_dev(meta8, "content", "https://metatags.io/");
-      add_location(meta8, file, 40, 1, 1774);
+      attr_dev(meta8, "content", "https://corazonesymentes.co/");
+      add_location(meta8, file, 40, 1, 1702);
       attr_dev(meta9, "property", "twitter:title");
       attr_dev(meta9, "content", "Corazones y Mentes - Colombia");
-      add_location(meta9, file, 41, 1, 1836);
+      add_location(meta9, file, 41, 1, 1772);
       attr_dev(meta10, "property", "twitter:description");
       attr_dev(meta10, "content", "EL INTERNET ES ÚTIL PARA TODOS, PERO QUEREMOS QUE APRENDAS A USARLO PARA QUE SAQUES LO MEJOR DE ÉL Y NO LO PEOR DE TI.");
-      add_location(meta10, file, 42, 1, 1909);
+      add_location(meta10, file, 42, 1, 1845);
       attr_dev(meta11, "property", "twitter:image");
-      attr_dev(meta11, "content", "https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png");
-      add_location(meta11, file, 43, 1, 2077);
+      attr_dev(meta11, "content", "logo-horizonta-twetterl.png");
+      add_location(meta11, file, 43, 1, 2013);
       attr_dev(link0, "rel", "preconnect");
       attr_dev(link0, "href", "https://fonts.gstatic.com");
-      add_location(link0, file, 43, 149, 2225);
+      add_location(link0, file, 43, 71, 2083);
       attr_dev(link1, "href", "https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
       attr_dev(link1, "rel", "stylesheet");
-      add_location(link1, file, 44, 1, 2283);
+      add_location(link1, file, 44, 1, 2141);
       script.async = true;
       if (script.src !== (script_src_value = "https://www.googletagmanager.com/gtag/js?id=UA-215403556-1")) attr_dev(script, "src", script_src_value);
-      add_location(script, file, 45, 1, 2381);
+      add_location(script, file, 45, 1, 2239);
     },
     m: function mount(target, anchor) {
       append_dev(document.head, meta0);
