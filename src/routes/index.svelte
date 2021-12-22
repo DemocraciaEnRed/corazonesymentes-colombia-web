@@ -12,23 +12,26 @@
 import Home from '../components/Home.svelte';
 import Nocomocuento from '../components/nocomocuento.svelte';
 	onMount(()=>{
-		//Global site tag (gtag.js) - Google Analytics 
+			//  Global site tag (gtag.js) - Google Analytics 
 		window.dataLayer = window.dataLayer || [];
-  	function gtag(){dataLayer.push(arguments);}
-  	gtag('js', new Date());
-  	gtag('config', 'G-LJWHDC5L57');
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-215403556-1');
+		console.log('luego de analitycs')
 	})
-	import { GoogleAnalytics } from '@beyonk/svelte-google-analytics'
+
+
 
 </script>
 <svelte:head>
 	<title>Corazones Y Mentes</title>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-LJWHDC5L57"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-215403556-1"></script>
 </svelte:head>
 
-<GoogleAnalytics properties={[ 'UA-215403556-1']} />
+<!-- <GoogleAnalytics properties={[ 'UA-215403556-1']} /> -->
 
 <!-- <HeroSlider/> -->
 <Home></Home>
