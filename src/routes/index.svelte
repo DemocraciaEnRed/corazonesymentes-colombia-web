@@ -18,7 +18,6 @@ import Nocomocuento from '../components/nocomocuento.svelte';
 		gtag('js', new Date());
 
 		gtag('config', 'UA-215403556-1');
-		console.log('luego de analitycs')
 	})
 
 
